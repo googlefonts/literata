@@ -1,6 +1,6 @@
 {
 .appVersion = "1026";
-copyright = "Copyright 2014 Google Inc. All Rights Reserved.";
+copyright = "Copyright 2017 The Literata Project Authors (https://github.com/googlefonts/LiterataFont)";
 customParameters = (
 {
 name = trademark;
@@ -219869,5 +219869,5 @@ UUID0 = {
 };
 };
 versionMajor = 2;
-versionMinor = 4;
+versionMinor = 5;
 }
