@@ -1,5 +1,8 @@
 {
 .appVersion = "1141";
+DisplayStrings = (
+"/dacasiavaria/Alphadasiavariaprosgegrammeni"
+);
 classes = (
 {
 automatic = 1;
@@ -111,15 +114,14 @@ feature lnum;
 feature pnum;
 feature tnum;
 feature onum;
-feature sinf;
-feature sups;
 feature ordn;
 feature ccmp;
 feature subs;
 feature c2sc;
 feature smcp;
 feature case;
-feature ss01;
+feature sinf;
+feature sups;
 ";
 name = aalt;
 },
@@ -268,18 +270,6 @@ sub nine.lf by nine;
 name = onum;
 },
 {
-code = " # Inferior Figures
- # Latin
-    sub @inf1 by @inf2;";
-name = sinf;
-},
-{
-code = " # Superior Figures
- # Latin
-    sub @sup1 by @sup2;";
-name = sups;
-},
-{
 code = " # Ordinals
  # Latin
     sub [A O N a o n parenleft parenright] by [ordfeminine ordmasculine n.superior ordfeminine ordmasculine n.superior parenleft.superior parenright.superior];";
@@ -311,6 +301,36 @@ sub eight by eightinferior;
 sub nine by nineinferior;
 ";
 name = subs;
+},
+{
+automatic = 1;
+code = "sub zero by zero.subs;
+sub one by one.subs;
+sub two by two.subs;
+sub three by three.subs;
+sub four by four.subs;
+sub five by five.subs;
+sub six by six.subs;
+sub seven by seven.subs;
+sub eight by eight.subs;
+sub nine by nine.subs;
+";
+name = sinf;
+},
+{
+automatic = 1;
+code = "sub zero by zerosuperior;
+sub one by onesuperior;
+sub two by twosuperior;
+sub three by threesuperior;
+sub four by foursuperior;
+sub five by fivesuperior;
+sub six by sixsuperior;
+sub seven by sevensuperior;
+sub eight by eightsuperior;
+sub nine by ninesuperior;
+";
+name = sups;
 },
 {
 automatic = 1;
@@ -631,8 +651,6 @@ sub Ghestroke-cy by ghestroke-cy.sc;
 sub Zhedescender-cy by zhedescender-cy.sc;
 sub Kadescender-cy by kadescender-cy.sc;
 sub Endescender-cy by endescender-cy.sc;
-sub Ustrait-cy by ustrait-cy.sc;
-sub Ustraitstroke-cy by ustraitstroke-cy.sc;
 sub Shha-cy by shha-cy.sc;
 sub Schwa-cy by schwa-cy.sc;
 sub Obarred-cy by obarred-cy.sc;
@@ -669,17 +687,17 @@ sub Upsilontonos by upsilontonos.sc;
 sub Omegatonos by omegatonos.sc;
 sub Iotadieresis by iotadieresis.sc;
 sub Upsilondieresis by upsilondieresis.sc;
-sub periodcentered by periodcentered.sc;
 sub exclam by exclam.sc;
 sub exclamdown by exclamdown.sc;
-sub periodcentered.loclCAT by periodcentered.loclCAT.sc;
 sub question by question.sc;
 sub questiondown by questiondown.sc;
-sub quotedbl by quotedbl.sc;
+sub periodcentered by periodcentered.sc;
 sub quotedblleft by quotedblleft.sc;
 sub quotedblright by quotedblright.sc;
 sub quoteleft by quoteleft.sc;
 sub quoteright by quoteright.sc;
+sub periodcentered.loclCAT by periodcentered.loclCAT.sc;
+sub quotedbl by quotedbl.sc;
 sub quotesingle by quotesingle.sc;
 sub ampersand by ampersand.sc;
 ";
@@ -1061,20 +1079,20 @@ name = smcp;
 },
 {
 automatic = 1;
-code = "sub periodcentered by periodcentered.case;
-sub bullet by bullet.case;
-sub exclamdown by exclamdown.case;
+code = "sub exclamdown by exclamdown.case;
 sub questiondown by questiondown.case;
+sub periodcentered by periodcentered.case;
+sub bullet by bullet.case;
+sub parenleft by parenleft.case;
+sub parenright by parenright.case;
 sub braceleft by braceleft.case;
 sub braceright by braceright.case;
 sub bracketleft by bracketleft.case;
 sub bracketright by bracketright.case;
-sub parenleft by parenleft.case;
-sub parenright by parenright.case;
-sub emdash by emdash.case;
-sub endash by endash.case;
-sub figuredash by figuredash.case;
 sub hyphen by hyphen.case;
+sub endash by endash.case;
+sub emdash by emdash.case;
+sub figuredash by figuredash.case;
 sub guillemetleft by guillemetleft.case;
 sub guillemetright by guillemetright.case;
 sub guilsinglleft by guilsinglleft.case;
@@ -1116,17 +1134,13 @@ name = dlig;
 },
 {
 automatic = 1;
-code = "sub f f l by f_f_l;
-sub f f i by f_f_i;
-sub f i by fi;
+code = "sub f f i by f_f_i;
+sub f f l by f_f_l;
 sub f f by f_f;
+sub f i by fi;
 sub f l by fl;
 ";
 name = liga;
-},
-{
-code = "sub @ss01a by @ss01b;";
-name = ss01;
 }
 );
 fontMaster = (
@@ -1144,15 +1158,15 @@ capHeight = 700;
 customParameters = (
 {
 name = typoDescender;
-value = -230;
+value = -250;
 },
 {
 name = typoLineGap;
-value = 190;
+value = 0;
 },
 {
 name = typoAscender;
-value = 780;
+value = 950;
 },
 {
 name = hheaLineGap;
@@ -1216,15 +1230,15 @@ capHeight = 700;
 customParameters = (
 {
 name = typoDescender;
-value = -230;
+value = -250;
 },
 {
 name = typoLineGap;
-value = 190;
+value = 0;
 },
 {
 name = typoAscender;
-value = 780;
+value = 950;
 },
 {
 name = hheaLineGap;
@@ -215456,10 +215470,6 @@ naira.bold,
 hbar.bold,
 peso.bold
 );
-},
-{
-name = fileName;
-value = "LiterataBook-Italic";
 }
 );
 interpolationWeight = 400;
@@ -215505,10 +215515,6 @@ naira.bold,
 hbar.bold,
 peso.bold
 );
-},
-{
-name = fileName;
-value = "LiterataBook-SemiboldItalic";
 }
 );
 interpolationWeight = 585;
