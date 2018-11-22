@@ -1,0 +1,2862 @@
+@_A_left=[A  Agrave Aacute Acircumflex Atilde Adieresis Amacron Abreve Aring Aogonek AE];
+@_A_right=[A  Agrave Aacute Acircumflex Atilde Adieresis Amacron Abreve Aring Aogonek];
+@_C_right=[C  Cacute Ccircumflex Ccaron Cdotaccent Ccedilla];
+@_E_right=[E  Egrave Eacute Ecircumflex Ecaron Edieresis Emacron Ebreve Edotaccent Eogonek AE OE];
+@_G_right=[G  Gcircumflex Gbreve Gdotaccent];
+@_H=[H  Hcircumflex Hbar I Igrave Iacute Icircumflex Itilde Idieresis Imacron Idotaccent Iogonek];
+@_K=[K ];
+@_J_left=[J  Jcircumflex];
+@_J_right=[J  Jcircumflex];
+@_L_right=[L  Lacute Lcaron Ldot Lslash];
+@_N=[N  Nacute Ncaron Ntilde];
+@_O_left=[O  G OE C Q Cacute Ccircumflex Ccaron Cdotaccent Ccedilla Gcircumflex Gbreve Gdotaccent Ograve Oacute Ocircumflex Otilde Odieresis Omacron Ohungarumlaut Oslash];
+@_O_right=[O  Oslash Q Ograve Oacute Ocircumflex Otilde Odieresis Omacron Ohungarumlaut D Dcroat Dcaron Eth];
+@_P=[P  Thorn];
+@_R_right=[R  Racute Rcaron];
+@_S=[S  Sacute Scircumflex Scaron];
+@_T_left=[T  Tcaron uni0162 uni021A];
+@_T_right=[T  Tcaron uni0162 uni021A];
+@_U_left=[U  Ugrave Uacute Ucircumflex Utilde Udieresis Umacron Ubreve Uring Uhungarumlaut Uogonek];
+@_U_right=[U  Ugrave Uacute Ucircumflex Utilde Udieresis Umacron Ubreve Uring Uhungarumlaut Uogonek];
+@_V=[V ];
+@_W=[W  Wgrave Wacute Wcircumflex Wdieresis];
+@_Y=[Y  Ygrave Yacute Ycircumflex Ydieresis];
+@_Z=[Z  Zacute Zcaron Zdotaccent];
+@_a_left=[a  agrave aacute acircumflex atilde adieresis amacron abreve aring aogonek ae];
+@_c_right=[c  cacute ccircumflex ccaron cdotaccent ccedilla];
+@_f_left=[f  fi fl];
+@_g_left=[g  gcircumflex gbreve gdotaccent];
+@_g_right=[g  gcircumflex gbreve gdotaccent];
+@_i_left=[i  dotlessi igrave iacute icircumflex itilde idieresis imacron iogonek];
+@_i_right=[i  dotlessi igrave iacute icircumflex itilde idieresis imacron iogonek];
+@_j_left=[j  jcircumflex dotlessj];
+@_j_right=[j  jcircumflex dotlessj];
+@_k_right=[k  kgreenlandic];
+@_l_right=[l  lacute lcaron ldot d dcroat dcaron];
+@_n_left=[n  m p r nacute ncaron ntilde racute rcaron kgreenlandic napostrophe];
+@_n_right=[n  m nacute ncaron ntilde napostrophe h hcircumflex hbar a agrave aacute acircumflex atilde adieresis amacron abreve aring aogonek];
+@_o_left=[o  c d e q oe oslash cacute ccircumflex ccaron cdotaccent ccedilla dcaron dcroat egrave eacute ecircumflex ecaron edieresis emacron ebreve edotaccent eogonek ograve oacute ocircumflex otilde odieresis omacron ohungarumlaut eth];
+@_o_right=[o  b p thorn oslash ograve oacute ocircumflex otilde odieresis omacron ohungarumlaut e egrave eacute ecircumflex ecaron edieresis emacron ebreve edotaccent eogonek ae oe];
+@_r_right=[r  racute rcaron];
+@_s_left=[s  sacute scircumflex scaron];
+@_s_right=[s  sacute scircumflex scaron];
+@_t_left=[t  tcaron uni0163 uni021B];
+@_t_right=[t  tcaron uni0163 uni021B];
+@_u_left=[u  ugrave uacute ucircumflex utilde udieresis umacron ubreve uring uhungarumlaut uogonek];
+@_u_right=[u  ugrave uacute ucircumflex utilde udieresis umacron ubreve uring uhungarumlaut uogonek];
+@_v_left=[v  y ygrave yacute ycircumflex ydieresis];
+@_v_right=[v  y ygrave yacute ycircumflex ydieresis];
+@_w=[w  wgrave wacute wcircumflex wdieresis];
+@_z=[z  zacute zcaron zdotaccent];
+@_period=[period  comma];
+@_quoteright=[quoteright  quotedblright];
+@_quoteleft=[quoteleft  quotedblleft];
+@_quotesinglbase=[quotesinglbase  quotedblbase];
+@_quotesingle=[quotesingle  quotedbl];
+@_hyphen=[hyphen ];
+@_parenleft=[parenleft ];
+@_parenright=[parenright ];
+@_colon=[colon  semicolon];
+@_guill=[guillemotleft  guilsinglleft];
+@_guilr=[guillemotright  guilsinglright];
+@_h_k_l_left=[h k  l thorn lacute lcaron ldot  hcircumflex hbar];
+@_cyr_uni0411_left=[uni0411  uni0401 uni0403 uni0406 uni0407 uni040A uni040C uni040F uni0412 uni0415 uni0418 uni0419 uni041A uni041D uni041F uni0420 uni0426 uni0428 uni0429 uni042B uni042C uni042E uni0490 uni0492 uni049A uni04A2 uni04BA uni0400 uni0415_acute uni0418_acute uni042B_acute uni042E_acute];
+@_cyr_uni0415_right=[uni0415  uni0401 uni0400 uni0415_acute];
+@_cyr_uni0402_left=[uni0402  uni040B uni042A uni042A_grave uni0462];
+@_cyr_uni0421_left=[uni041E  uni0421 uni0404 uni04E8 uni04D8 uni041E_acute uni0404_acute uni041E_grave];
+@_cyr_uni041D_right=[uni041D  uni0406 uni0407 uni040F uni0418 uni0419 uni041B uni041F uni0427 uni0428 uni042B uni042F uni040D uni042F_grave uni0418_acute uni042F_acute uni042B_acute];
+@_cyr_uni042C_right=[uni042C  uni0409 uni040A uni042A uni042A_grave uni0462];
+@_cyr_uni041B_left=[uni041B  uni0409];
+@_cyr_uni041A_right=[uni041A  uni040C uni049A uni0496 uni046A uni0416];
+@_cyr_uni0423=[uni0423  uni040E uni0423_acute uni0423_grave uni04AE uni04B0];
+@_cyr_uni0426_right=[uni0426  uni0429 uni04A2];
+@_cyr_uni042D_right=[uni041E uni042D  uni042E uni041E_acute uni042D_acute uni042E_acute uni04D8 uni04E8 uni041E_grave uni042E_grave];
+@_cyr_lc_uni0432_left=[uni0432  uni0433 uni0438 uni0439 uni043A uni043D uni043F uni0446 uni0448 uni0449 uni044B uni044C uni044E uni0453 uni0456 uni0457 uni045A uni045C uni045F uni0491 uni0438_acute uni044B_acute uni044E_acute uni0456_acute uni0493 uni049B uni04A3 uni045D uni044E_grave uni043C];
+@_cyr_lc_uni0433_right=[uni0433  uni0453 uni0491 uni0493];
+@_cyr_lc_uni0446_right=[uni0446  uni0449 uni04A3];
+@_cyr_lc_uni043B_left=[uni043B  uni0459];
+@_cyr_lc_uni043E_left=[uni043E  uni0435 uni0441 uni0444 uni0451 uni0454 uni0435_acute uni043E_acute uni0454_acute uni04D9 uni04E9 uni0450 uni043E_grave];
+@_cyr_lc_uni0435_right=[uni0435  uni0451 uni0435_acute uni0450];
+@_cyr_lc_uni0436_right=[uni0436  uni043A uni045C uni049B uni0497 uni046B];
+@_cyr_lc_uni0438_right=[uni0438  uni0439 uni043B uni043D uni043F uni0447 uni0448 uni044B uni044F uni0456 uni0457 uni045F uni0438_acute uni044B_acute uni044F_acute uni045D uni044F_grave uni043C];
+@_cyr_lc_uni0452_right=[uni0452 uni045B uni04BB ];
+@_cyr_lc_uni0443=[uni0443  uni045E uni0443_acute uni0443_grave];
+@_cyr_lc_uni044C_right=[uni044C  uni044A uni0459 uni045A uni044A_grave uni0463];
+@_cyr_lc_h_left=[uni04BB  uni0452 uni045B];
+@_cyr_lc_uni04AF=[uni04AF  uni04B1];
+@_cyr_uni0413_right=[uni0413  uni0403 uni0492 uni0490];
+@_cyr_lc_uni0437_left=[uni0437  uni044D uni044D_acute];
+@_cyr_A=[uni0410  uni0410_acute uni0410_grave];
+@_cyr_a=[uni0430  uni0430_acute uni0430_grave];
+@_cyr_lc_uni044F_left=[uni044F  uni044F_acute uni044F_grave];
+@_cyr_uni042F_left=[uni042F  uni042F_acute uni042F_grave];
+@_cyr_lc_uni043E_2_right=[uni043E  uni0444 uni044D uni04E9 uni043E_grave uni043E_acute uni044D_acute uni04D9 uni0440 uni044E uni044E_acute];
+@_cyr_uni0416_left=[uni0416  uni0496 uni046A ];
+@_cyr_lc_uni0436_left=[uni0436  uni0497 uni046B];
+@_alpha_right=[alpha  iota uni03BC mu alphatonos iotatonos iotadieresis iotadieresistonos uni1F00 uni1F04 uni1F02 uni1F06 uni1F01 uni1F05 uni1F03 uni1F07 uni1F71 uni1F70 uni1FB6 uni1FB1 uni1FB0 uni1FB3 uni1F80 uni1F84 uni1F82 uni1F86 uni1F81 uni1F85 uni1F83 uni1F87 uni1FB4 uni1FB2 uni1FB7 uni1F30 uni1F34 uni1F32 uni1F36 uni1F31 uni1F35 uni1F33 uni1F37 uni1FD3 uni1FD2 uni1FD7 uni1F77 uni1F76 uni1FD6 uni1FD1 uni1FD0];
+@_alpha_left=[alpha  delta omicron sigma phi omega alphatonos omicrontonos omegatonos uni1F00 uni1F04 uni1F02 uni1F06 uni1F01 uni1F05 uni1F03 uni1F07 uni1F71 uni1F70 uni1FB6 uni1FB1 uni1FB0 uni1FB3 uni1F80 uni1F84 uni1F82 uni1F86 uni1F81 uni1F85 uni1F83 uni1F87 uni1FB4 uni1FB2 uni1FB7 uni1F40 uni1F44 uni1F42 uni1F41 uni1F45 uni1F43 uni1F79 uni1F78 uni1F60 uni1F64 uni1F62 uni1F66 uni1F61 uni1F65 uni1F63 uni1F67 uni1F7D uni1F7C uni1FF6 uni1FF3 uni1FA0 uni1FA4 uni1FA2 uni1FA6 uni1FA1 uni1FA5 uni1FA3 uni1FA7 uni1FF4 uni1FF2 uni1FF7 uni03C2];
+@_gamma=[gamma  nu];
+@_lambda=[lambda ];
+@_epsilon=[epsilon  epsilontonos uni1F10 uni1F14 uni1F12 uni1F11 uni1F15 uni1F13 uni1F73 uni1F72];
+@_eta=[eta  etatonos uni1F20 uni1F24 uni1F22 uni1F26 uni1F21 uni1F25 uni1F23 uni1F27 uni1F75 uni1F74 uni1FC6 uni1FC3 uni1F90 uni1F94 uni1F92 uni1F96 uni1F91 uni1F95 uni1F93 uni1F97 uni1FC4 uni1FC2 uni1FC7];
+@_iota=[iota  iotatonos iotadieresis iotadieresistonos uni1F30 uni1F34 uni1F32 uni1F36 uni1F31 uni1F35 uni1F33 uni1F37 uni1FD3 uni1FD2 uni1FD7 uni1F77 uni1F76 uni1FD6 uni1FD1 uni1FD0];
+@_mu_left=[uni03BC  mu];
+@_omicron_right=[omicron  delta rho phi omega omicrontonos omegatonos uni1F40 uni1F44 uni1F42 uni1F41 uni1F45 uni1F43 uni1F79 uni1F78 uni1FE4 uni1FE5 uni1F60 uni1F64 uni1F62 uni1F66 uni1F61 uni1F65 uni1F63 uni1F67 uni1F7D uni1F7C uni1FF6 uni1FF3 uni1FA0 uni1FA4 uni1FA2 uni1FA6 uni1FA1 uni1FA5 uni1FA3 uni1FA7 uni1FF4 uni1FF2 uni1FF7];
+@_rho_left=[rho  uni1FE4 uni1FE5];
+@_upsilon=[upsilon  psi upsilontonos upsilondieresis upsilondieresistonos uni1F50 uni1F54 uni1F52 uni1F56 uni1F51 uni1F55 uni1F53 uni1F57 uni1FE3 uni1FE2 uni1FE7 uni1F7B uni1F7A uni1FE6 uni1FE1 uni1FE0];
+@_Alpha_right=[Alpha  uni0394 Delta Lambda Alphatonos uni1F08 uni1F0C uni1F0A uni1F0E uni1F09 uni1F0D uni1F0B uni1F0F uni1FBB uni1FBA uni1FB9 uni1FB8 uni1FBC uni1F88 uni1F8C uni1F8A uni1F8E uni1F89 uni1F8D uni1F8B uni1F8F];
+@_Alpha_left=[Alpha  Delta uni0394 Lambda uni1FB9 uni1FB8 uni1FBC uni1FBC.ad];
+@_Alpha_sngl=[Alphatonos  uni1F08 uni1F09 uni1FBB uni1FBA uni1F88 uni1F89 uni1F88.ad uni1F89.ad];
+@_Alpha_dbl=[uni1F0D  uni1F0C uni1F0A uni1F0E uni1F0B uni1F0F uni1F8C uni1F8A uni1F8E uni1F8D uni1F8B uni1F8F uni1F8C.ad uni1F8A.ad uni1F8E.ad uni1F8D.ad uni1F8B.ad uni1F8F.ad];
+@_Epsilon_right=[Epsilon  Xi Epsilontonos uni1F18 uni1F1C uni1F1A uni1F19 uni1F1D uni1F1B uni1FC9 uni1FC8];
+@_Epsilon_left=[Eta  Beta Gamma Epsilon Iota Kappa Nu Pi uni1FCC uni1FD9 uni1FD8 uni1FCC.ad Rho Iotadieresis];
+@_Epsilon_sngl=[Epsilontonos  Etatonos Iotatonos uni1F18 uni1F19 uni1FC9 uni1FC8 uni1F28 uni1F29 uni1FCB uni1FCA uni1F98 uni1F99 uni1F98.ad uni1F99.ad uni1F38 uni1F39 uni1FDB uni1FDA uni1FEC];
+@_Epsilon_dbl=[uni1F1D  uni1F1C uni1F1A uni1F1B uni1F2C uni1F2A uni1F2E uni1F2D uni1F2B uni1F2F uni1F9C uni1F9A uni1F9E uni1F9D uni1F9B uni1F9F uni1F9C.ad uni1F9A.ad uni1F9E.ad uni1F9D.ad uni1F9B.ad uni1F9F.ad uni1F3C uni1F3A uni1F3E uni1F3D uni1F3B uni1F3F];
+@_Eta_right=[Eta  Iota Pi Etatonos Iotatonos Iotadieresis uni1F28 uni1F2C uni1F2A uni1F2E uni1F29 uni1F2D uni1F2B uni1F2F uni1FCB uni1FCA uni1FCC uni1F98 uni1F9C uni1F9A uni1F9E uni1F99 uni1F9D uni1F9B uni1F9F uni1F38 uni1F3C uni1F3A uni1F3E uni1F39 uni1F3D uni1F3B uni1F3F uni1FDB uni1FDA uni1FD9 uni1FD8];
+@_Kappa_right=[Kappa ];
+@_Omicron_left=[Omicron  Theta Phi Omicrontonos uni1F48 uni1F4C uni1F4A uni1F49 uni1F4D uni1F4B uni1FF9 uni1FF8];
+@_Rho=[Rho  uni1FEC];
+@_Omicron_right=[Omicron  Theta Phi];
+@_Omicron_sngl=[Omicrontonos  Omegatonos uni1F48 uni1F49 uni1FF9 uni1FF8 uni1F68 uni1F69 uni1FFB uni1FFA uni1FA8 uni1FA9 uni1FA8.ad uni1FA9.ad];
+@_Omicron_dbl=[uni1F4D  uni1F4C uni1F4A uni1F4B uni1F6C uni1F6A uni1F6E uni1F6D uni1F6B uni1F6F uni1FAC uni1FAA uni1FAE uni1FAD uni1FAB uni1FAF uni1FAC.ad uni1FAA.ad uni1FAE.ad uni1FAD.ad uni1FAB.ad uni1FAF.ad];
+@_Upsilon_left=[Upsilon  Upsilontonos Upsilondieresis uni1F59 uni1F5D uni1F5B uni1F5F uni1FEB uni1FEA uni1FE9 uni1FE8];
+@_Upsilon_right=[Upsilon  Upsilondieresis uni1FE9 uni1FE8];
+@_Upsilon_sngl=[Upsilontonos  uni1F59 uni1FEB uni1FEA];
+@_Upsilon_dbl=[uni1F5B uni1F5D  uni1F5F];
+@_Omega_right=[Omega uni03A9  Omegatonos uni1F68 uni1F6C uni1F6A uni1F6E uni1F69 uni1F6D uni1F6B uni1F6F uni1FFB uni1FFA uni1FFC uni1FA8 uni1FAC uni1FAA uni1FAE uni1FA9 uni1FAD uni1FAB uni1FAF];
+@_Omega_left=[Omega uni03A9  uni1FFC uni1FFC.ad];
+@_uni1FBE=[uni1FBC.ad  uni1F88.ad uni1F8C.ad uni1F8A.ad uni1F8E.ad uni1F89.ad uni1F8D.ad uni1F8B.ad uni1F8F.ad uni1FCC.ad uni1F98.ad uni1F9C.ad uni1F9A.ad uni1F9E.ad uni1F99.ad uni1F9D.ad uni1F9B.ad uni1F9F.ad uni1FFC.ad uni1FA8.ad uni1FAC.ad uni1FAA.ad uni1FAE.ad uni1FA9.ad uni1FAD.ad uni1FAB.ad uni1FAF.ad];
+@case4=[Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos uni1F0A uni1F0B uni1F0C uni1F0D uni1FBA uni1FBB uni1F1A uni1F1B uni1F1C uni1F1D uni1FC8 uni1FC9 uni1F2A uni1F2B uni1F2C uni1F2D uni1FCA uni1FCB uni1F3A uni1F3B uni1F3C uni1F3D uni1FDA uni1FDB uni1F4A uni1F4B uni1F4C uni1F4D uni1FF8 uni1FF9 uni1F5B uni1F5D uni1FEA uni1FEB uni1F6A uni1F6B uni1F6C uni1F6D uni1FFA uni1FFB];
+@case5=[Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos uni1F08 uni1F09 uni1F0A uni1F0B uni1F0C uni1F0D uni1F0E uni1F0F uni1F18 uni1F19 uni1F1A uni1F1B uni1F1C uni1F1D uni1F28 uni1F29 uni1F2A uni1F2B uni1F2C uni1F2D uni1F2E uni1F2F uni1F38 uni1F39 uni1F3A uni1F3B uni1F3C uni1F3D uni1F3E uni1F3F uni1F48 uni1F49 uni1F4A uni1F4B uni1F4C uni1F4D uni1F59 uni1F5B uni1F5D uni1F5F uni1F68 uni1F69 uni1F6A uni1F6B uni1F6C uni1F6D uni1F6E uni1F6F uni1F88 uni1F89 uni1F8A uni1F8B uni1F8C uni1F8D uni1F8E uni1F8F uni1F98 uni1F99 uni1F9A uni1F9B uni1F9C uni1F9D uni1F9E uni1F9F uni1FA8 uni1FA9 uni1FAA uni1FAB uni1FAC uni1FAD uni1FAE uni1FAF uni1FB8 uni1FB9 uni1FBA uni1FBB uni1FBC uni1FC8 uni1FC9 uni1FCA uni1FCB uni1FCC uni1FD8 uni1FD9 uni1FDA uni1FDB uni1FE8 uni1FE9 uni1FEA uni1FEB uni1FEC uni1FF8 uni1FF9 uni1FFA uni1FFB uni1FFC uni1FBC.ad uni1F88.ad uni1F89.ad uni1F8A.ad uni1F8B.ad uni1F8C.ad uni1F8D.ad uni1F8E.ad uni1F8F.ad uni1FCC.ad uni1F98.ad uni1F99.ad uni1F9A.ad uni1F9B.ad uni1F9C.ad uni1F9D.ad uni1F9E.ad uni1F9F.ad uni1FFC.ad uni1FA8.ad uni1FA9.ad uni1FAA.ad uni1FAB.ad uni1FAC.ad uni1FAD.ad uni1FAE.ad uni1FAF.ad];
+@case6=[Alpha Epsilon Eta Iota Omicron Upsilon Omega Alpha Alpha Alpha Alpha Alpha Alpha Alpha Alpha Epsilon Epsilon Epsilon Epsilon Epsilon Epsilon Eta Eta Eta Eta Eta Eta Eta Eta Iota Iota Iota Iota Iota Iota Iota Iota Omicron Omicron Omicron Omicron Omicron Omicron Upsilon Upsilon Upsilon Upsilon Omega Omega Omega Omega Omega Omega Omega Omega uni1FBC uni1FBC uni1FBC uni1FBC uni1FBC uni1FBC uni1FBC uni1FBC uni1FCC uni1FCC uni1FCC uni1FCC uni1FCC uni1FCC uni1FCC uni1FCC uni1FFC uni1FFC uni1FFC uni1FFC uni1FFC uni1FFC uni1FFC uni1FFC Alpha Alpha Alpha Alpha uni1FBC Epsilon Epsilon Eta Eta uni1FCC Iota Iota Iota Iota Upsilon Upsilon Upsilon Upsilon Rho Omicron Omicron Omega Omega uni1FFC uni1FBC.ad uni1FBC.ad uni1FBC.ad uni1FBC.ad uni1FBC.ad uni1FBC.ad uni1FBC.ad uni1FBC.ad uni1FBC.ad uni1FCC.ad uni1FCC.ad uni1FCC.ad uni1FCC.ad uni1FCC.ad uni1FCC.ad uni1FCC.ad uni1FCC.ad uni1FFC.ad uni1FFC.ad uni1FFC.ad uni1FFC.ad uni1FFC.ad uni1FFC.ad uni1FFC.ad uni1FFC.ad uni1FFC.ad uni1FFC.ad];
+@ss02A=[uni1FBC uni1F88 uni1F89 uni1F8A uni1F8B uni1F8C uni1F8D uni1F8E uni1F8F uni1FCC uni1F98 uni1F99 uni1F9A uni1F9B uni1F9C uni1F9D uni1F9E uni1F9F uni1FFC uni1FA8 uni1FA9 uni1FAA uni1FAB uni1FAC uni1FAD uni1FAE uni1FAF];
+@ss02B=[uni1FBC.ad uni1F88.ad uni1F89.ad uni1F8A.ad uni1F8B.ad uni1F8C.ad uni1F8D.ad uni1F8E.ad uni1F8F.ad uni1FCC.ad uni1F98.ad uni1F99.ad uni1F9A.ad uni1F9B.ad uni1F9C.ad uni1F9D.ad uni1F9E.ad uni1F9F.ad uni1FFC.ad uni1FA8.ad uni1FA9.ad uni1FAA.ad uni1FAB.ad uni1FAC.ad uni1FAD.ad uni1FAE.ad uni1FAF.ad];
+@_cyr_uni0421_right=[uni0421 uni0404_acute uni0404];
+@_cyr_uni044A=[uni044A  uni044A_grave];
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem latn MOL;
+languagesystem latn ROM;
+
+
+@figures = [
+   zero
+   one
+   two
+   three
+   four
+   five
+   six
+   seven
+   eight
+   nine
+];
+
+@figosf = [
+   zero
+   one
+   two
+   three
+   four
+   five
+   six
+   seven
+   eight
+   nine
+];
+
+@figtab = [
+   zero.tf
+   one.tf
+   two.tf
+   three.tf
+   four.tf
+   five.tf
+   six.tf
+   seven.tf
+   eight.tf
+   nine.tf
+];
+
+@numerators = [
+   zero.num
+   one.num
+   two.num
+   three.num
+   four.num
+   five.num
+   six.num
+   seven.num
+   eight.num
+   nine.num
+];
+
+@denominators = [
+   zero.denom
+   one.denom
+   two.denom
+   three.denom
+   four.denom
+   five.denom
+   six.denom
+   seven.denom
+   eight.denom
+   nine.denom
+];
+
+@inf1 = [
+   zero
+   one
+   two
+   three
+   four
+   five
+   six
+   seven
+   eight
+   nine
+   parenright
+   parenleft
+];
+
+@inf2 = [
+   zero.inferior
+   one.inferior
+   two.inferior
+   three.inferior
+   four.inferior
+   five.inferior
+   six.inferior
+   seven.inferior
+   eight.inferior
+   nine.inferior
+   parenright.inferior
+   parenleft.inferior
+];
+
+@sup1 = [
+   zero
+   one
+   two
+   three
+   four
+   five
+   six
+   seven
+   eight
+   nine
+   parenright
+   parenleft
+];
+
+@sup2 = [
+   zero.superior
+   onesuperior
+   twosuperior
+   threesuperior
+   four.superior
+   five.superior
+   six.superior
+   seven.superior
+   eight.superior
+   nine.superior
+   parenright.superior
+   parenleft.superior
+];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+feature locl { # Localized Forms
+	# Latin
+	language MOL  exclude_dflt; # Moldavian
+		sub [uni015E uni015F] by [uni0218 uni0219];
+		sub [uni021A uni021B] by [uni0162 uni0163];
+	language ROM  exclude_dflt; # Romanian
+		sub [uni015E uni015F] by [uni0218 uni0219];
+		sub [uni021A uni021B] by [uni0162 uni0163];
+
+} locl;
+feature tnum { # Tabular Figures
+ # Latin
+    sub @figosf by @figtab;
+} tnum;
+feature pnum { # Proportional Figures
+ # Latin
+    sub @figtab by @figosf;
+} pnum;
+feature frac {
+  lookup FractionBar {
+       ignore sub slash
+           @figures
+           @figures
+           @figures
+           @figures
+           @figures
+           @figures
+           @figures
+           @figures
+           @figures
+           @figures
+           slash';
+       ignore sub slash'
+           @figures
+           @figures
+           @figures
+           @figures
+           @figures
+           @figures
+           @figures
+           @figures
+           @figures
+           @figures
+           slash;
+       ignore sub slash
+           @figures
+           @figures
+           @figures
+           @figures
+           @figures
+           @figures
+           @figures
+           @figures
+           @figures
+           slash';
+       ignore sub slash'
+           @figures
+           @figures
+           @figures
+           @figures
+           @figures
+           @figures
+           @figures
+           @figures
+           @figures
+           slash;
+       ignore sub slash
+           @figures
+           @figures
+           @figures
+           @figures
+           @figures
+           @figures
+           @figures
+           @figures
+           slash';
+       ignore sub slash'
+           @figures
+           @figures
+           @figures
+           @figures
+           @figures
+           @figures
+           @figures
+           @figures
+           slash;
+       ignore sub slash
+           @figures
+           @figures
+           @figures
+           @figures
+           @figures
+           @figures
+           @figures
+           slash';
+       ignore sub slash'
+           @figures
+           @figures
+           @figures
+           @figures
+           @figures
+           @figures
+           @figures
+           slash;
+       ignore sub slash
+           @figures
+           @figures
+           @figures
+           @figures
+           @figures
+           @figures
+           slash';
+       ignore sub slash'
+           @figures
+           @figures
+           @figures
+           @figures
+           @figures
+           @figures
+           slash;
+       ignore sub slash
+           @figures
+           @figures
+           @figures
+           @figures
+           @figures
+           slash';
+       ignore sub slash'
+           @figures
+           @figures
+           @figures
+           @figures
+           @figures
+           slash;
+       ignore sub slash
+           @figures
+           @figures
+           @figures
+           @figures
+           slash';
+       ignore sub slash'
+           @figures
+           @figures
+           @figures
+           @figures
+           slash;
+       ignore sub slash
+           @figures
+           @figures
+           @figures
+           slash';
+       ignore sub slash'
+           @figures
+           @figures
+           @figures
+           slash;
+       ignore sub slash
+           @figures
+           @figures
+           slash';
+       ignore sub slash'
+           @figures
+           @figures
+           slash;
+       ignore sub slash
+           @figures
+           slash';
+       ignore sub slash'
+           @figures
+           slash;
+       sub @figures slash' @figures by fraction;
+  } FractionBar;
+
+  lookup Numerator1 {
+       sub @figures'
+       fraction by @numerators;
+  } Numerator1;
+
+  lookup Numerator2 {
+       sub @figures'
+       @numerators
+       fraction by @numerators;
+  } Numerator2;
+
+  lookup Numerator3 {
+       sub @figures'
+       @numerators
+       @numerators
+       fraction by @numerators;
+  } Numerator3;
+
+  lookup Numerator4 {
+       sub @figures'
+       @numerators
+       @numerators
+       @numerators
+       fraction by @numerators;
+  } Numerator4;
+
+  lookup Numerator5 {
+       sub @figures'
+       @numerators
+       @numerators
+       @numerators
+       @numerators
+       fraction by @numerators;
+  } Numerator5;
+
+  lookup Numerator6 {
+       sub @figures'
+       @numerators
+       @numerators
+       @numerators
+       @numerators
+       @numerators
+       fraction by @numerators;
+  } Numerator6;
+
+  lookup Numerator7 {
+       sub @figures'
+       @numerators
+       @numerators
+       @numerators
+       @numerators
+       @numerators
+       @numerators
+       fraction by @numerators;
+  } Numerator7;
+
+  lookup Numerator8 {
+       sub @figures'
+       @numerators
+       @numerators
+       @numerators
+       @numerators
+       @numerators
+       @numerators
+       @numerators
+       fraction by @numerators;
+  } Numerator8;
+
+  lookup Numerator9 {
+       sub @figures'
+       @numerators
+       @numerators
+       @numerators
+       @numerators
+       @numerators
+       @numerators
+       @numerators
+       @numerators
+       fraction by @numerators;
+  } Numerator9;
+
+  lookup Numerator10 {
+       sub @figures'
+       @numerators
+       @numerators
+       @numerators
+       @numerators
+       @numerators
+       @numerators
+       @numerators
+       @numerators
+       @numerators
+       fraction by @numerators;
+  } Numerator10;
+
+  lookup Denominator {
+       sub [fraction @denominators]
+       @figures' by @denominators;
+  } Denominator;
+
+} frac;
+feature sinf { # Inferior Figures
+ # Latin
+    sub @inf1 by @inf2;
+} sinf;
+feature sups { # Superior Figures
+ # Latin
+    sub @sup1 by @sup2;
+} sups;
+feature numr { # Numerators
+# Latin
+sub @figures by @numerators;
+} numr;
+feature dnom { # Denominators
+# Latin
+sub @figures by @denominators;
+} dnom;
+feature ordn { # Ordinals
+ # Latin
+    sub [A O N a o n parenleft parenright] by [ordfeminine ordmasculine n.superior ordfeminine ordmasculine n.superior parenleft.superior parenright.superior];
+} ordn;
+feature liga { # Standard Ligatures
+ # Latin
+    sub f i by fi;
+    sub f l by fl;
+   
+} liga;
+feature kern {
+   pos ampersand M -20;
+   pos ampersand Tau -30;
+   pos ampersand chi -25;
+   pos asterisk four -80;
+   pos asterisk zero -20;
+   pos slash zero -40;
+   pos slash four -100;
+   pos slash five -31;
+   pos slash six -40;
+   pos slash nine -20;
+   pos slash three -20;
+   pos slash two -30;
+   pos slash x -20;
+   pos slash slash -200;
+   pos slash at -90;
+   pos slash uni0414 -26;
+   pos slash uni041C -39;
+   pos slash uni0424 -30;
+   pos slash uni0408 -99;
+   pos slash uni0405 -26;
+   pos slash uni046A -90;
+   pos slash uni046B -81;
+   pos slash uni0455 -68;
+   pos slash uni0447 -34;
+   pos slash uni0445 -34;
+   pos slash uni0442 -60;
+   pos slash uni0440 -47;
+   pos slash uni0451 -60;
+   pos slash uni0434 -73;
+   pos slash uni0431 -43;
+   pos slash tau -20;
+   pos slash pi -20;
+   pos zero backslash -50;
+   pos zero asterisk -20;
+   pos one five -30;
+   pos one three -30;
+   pos one seven -41;
+   pos one nine -10;
+   pos one degree -50;
+   pos one asterisk -50;
+   pos two seven -40;
+   pos two backslash -30;
+   pos two degree -20;
+   pos two three -20;
+   pos two five -30;
+   pos two two -10;
+   pos three backslash -41;
+   pos three seven -15;
+   pos four seven -40;
+   pos four five -20;
+   pos four backslash -50;
+   pos four degree -50;
+   pos four asterisk -60;
+   pos four three -15;
+   pos four nine -20;
+   pos four six -10;
+   pos five seven -20;
+   pos six three -20;
+   pos six seven -14;
+   pos six five -10;
+   pos six two -10;
+   pos seven four -50;
+   pos seven slash -40;
+   pos seven five -20;
+   pos seven nine -10;
+   pos eight five -20;
+   pos eight three -10;
+   pos eight seven -20;
+   pos nine seven -20;
+   pos nine backslash -52;
+   pos nine asterisk -40;
+   pos nine five -20;
+   pos at slash -40;
+   pos at backslash -70;
+   pos at Zeta -30;
+   pos at Tau -50;
+   pos at Sigma -30;
+   pos at Psi -40;
+   pos D X -26;
+   pos F idieresis 10;
+   pos F slash -80;
+   pos F at -51;
+   pos F AE -110;
+   pos M thorn -10;
+   pos M question -30;
+   pos Q thorn 20;
+   pos Q slash 120;
+   pos Q bracketright 60;
+   pos e x -1;
+   pos f question 30;
+   pos f exclam 40;
+   pos f backslash 90;
+   pos f asterisk 90;
+   pos f bracketright 60;
+   pos f odieresis -2;
+   pos f adieresis 23;
+   pos q b -30;
+   pos q question -11;
+   pos q backslash -41;
+   pos q asterisk -21;
+   pos x backslash -40;
+   pos x b -10;
+   pos y d -20;
+   pos backslash backslash -200;
+   pos backslash six -21;
+   pos backslash uni0431 -26;
+   pos backslash uni0442 -30;
+   pos backslash uni0447 -43;
+   pos backslash uni0422 -73;
+   pos backslash uni0424 -35;
+   pos backslash uni0427 -73;
+   pos backslash uni042A -47;
+   pos backslash Tau -90;
+   pos backslash chi -25;
+   pos backslash Psi -60;
+   pos multiply four -40;
+   pos multiply three -20;
+   pos Dcaron Aacute -50;
+   pos Dcroat Aacute -50;
+   pos dcaron semicolon -64;
+   pos dcaron periodcentered -64;
+   pos dcaron plus -64;
+   pos dcaron equal -64;
+   pos dcaron guilsinglleft -64;
+   pos dcaron guilsinglright -44;
+   pos dcaron c -64;
+   pos dcaron d -64;
+   pos dcaron e -64;
+   pos dcaron m -64;
+   pos dcaron p -64;
+   pos dcaron q -64;
+   pos dcaron r -64;
+   pos dcaron x -64;
+   pos dcaron y -64;
+   pos dcaron bullet -64;
+   pos lcaron semicolon -56;
+   pos lcaron periodcentered -56;
+   pos lcaron plus -56;
+   pos lcaron equal -56;
+   pos lcaron guilsinglleft -56;
+   pos lcaron guilsinglright -26;
+   pos lcaron c -56;
+   pos lcaron d -56;
+   pos lcaron e -56;
+   pos lcaron m -56;
+   pos lcaron p -56;
+   pos lcaron q -56;
+   pos lcaron r -56;
+   pos lcaron x -36;
+   pos lcaron y -46;
+   pos lcaron bullet -56;
+   pos fraction four.denom -50;
+   pos four.num seven.num -10;
+   pos seven.num fraction -40;
+   pos seven.num four.num -30;
+   pos minus two -20;
+   pos Beta Zeta -10;
+   pos Beta Tau -20;
+   pos Beta Chi -15;
+   pos Beta Sigma -10;
+   pos Beta Psi -10;
+   pos Gamma chi -80;
+   pos Gamma beta -20;
+   pos Gamma delta -50;
+   pos Gamma zeta -30;
+   pos Gamma theta -20;
+   pos Gamma kappa -70;
+   pos Gamma xi -20;
+   pos Gamma pi -70;
+   pos Gamma tau -70;
+   pos Gamma iotatonos -60;
+   pos Gamma uni037E -50;
+   pos Zeta chi -35;
+   pos Zeta tau -15;
+   pos Zeta pi -15;
+   pos uni0394 quotedblright -62;
+   pos Mu question -30;
+   pos Mu chi -40;
+   pos Mu tau -30;
+   pos Mu pi -30;
+   pos Mu Psi -20;
+   pos Mu Tau -20;
+   pos Mu zeta -10;
+   pos Mu theta -10;
+   pos Mu kappa -10;
+   pos Mu xi -10;
+   pos Nu slash -21;
+   pos Nu at -31;
+   pos Nu chi -25;
+   pos Nu tau -20;
+   pos Nu pi -20;
+   pos Nu kappa -20;
+   pos Nu xi -20;
+   pos Nu uni037E -30;
+   pos Sigma chi -35;
+   pos Sigma tau -35;
+   pos Sigma pi -15;
+   pos Sigma theta -10;
+   pos Tau slash -80;
+   pos Tau at -60;
+   pos Tau ampersand -50;
+   pos Tau chi -40;
+   pos Tau delta -10;
+   pos Tau zeta -20;
+   pos Tau kappa -50;
+   pos Tau xi -10;
+   pos Tau pi -30;
+   pos Tau tau -70;
+   pos Tau Mu -15;
+   pos Tau Xi -30;
+   pos Tau uni037E -20;
+   pos Chi chi -60;
+   pos Chi tau -45;
+   pos Chi pi -25;
+   pos Psi slash -50;
+   pos Psi at -30;
+   pos Psi beta -20;
+   pos Psi zeta -10;
+   pos Psi theta -10;
+   pos Psi kappa -50;
+   pos Psi xi -10;
+   pos Psi pi -40;
+   pos Psi tau -30;
+   pos Psi chi -40;
+   pos Psi Mu -20;
+   pos Psi uni037E -60;
+   pos beta pi -10;
+   pos beta chi -10;
+   pos beta tau -10;
+   pos zeta tau -30;
+   pos zeta pi -20;
+   pos zeta chi -20;
+   pos kappa ampersand -25;
+   pos kappa at -20;
+   pos kappa backslash -40;
+   pos kappa zeta -10;
+   pos uni03BC quotedblright -28;
+   pos mu quotedblright -28;
+   pos pi endash -8;
+   pos pi emdash -8;
+   pos pi backslash -30;
+   pos pi quotedblbase -23;
+   pos pi chi -3;
+   pos pi xi -10;
+   pos pi zeta -10;
+   pos pi uni037E -18;
+   pos sigma xi -10;
+   pos sigma zeta -20;
+   pos sigma theta -10;
+   pos tau backslash -30;
+   pos tau quotedblbase -23;
+   pos tau chi -3;
+   pos tau zeta -10;
+   pos tau xi -10;
+   pos tau uni037E -18;
+   pos chi ampersand -40;
+   pos chi at -25;
+   pos chi backslash -55;
+   pos chi slash -15;
+   pos chi quotedblbase -79;
+   pos chi kappa -10;
+   pos chi tau -10;
+   pos chi xi -20;
+   pos chi zeta -10;
+   pos chi uni037E -22;
+   pos uni0411 uni0408 -30;
+   pos uni0411 uni041C -10;
+   pos uni0411 uni0427 -10;
+   pos uni0411 uni0434 -10;
+   pos uni0411 uni0422 -20;
+   pos uni0411 uni04AE -30;
+   pos uni0411 uni0447 -10;
+   pos uni0411 backslash -43;
+   pos uni0412 uni0408 -10;
+   pos uni0412 uni0422 -20;
+   pos uni0412 uni041C -10;
+   pos uni0412 uni0442 -10;
+   pos uni0412 uni0427 -10;
+   pos uni0412 backslash -38;
+   pos uni0414 uni0431 -30;
+   pos uni0414 uni0424 -10;
+   pos uni0414 uni0442 -30;
+   pos uni0414 uni0447 -40;
+   pos uni0414 uni041C -10;
+   pos uni0414 uni0422 -5;
+   pos uni0414 uni0408 -20;
+   pos uni0414 uni0405 -10;
+   pos uni0416 uni0422 -10;
+   pos uni0416 uni0424 -10;
+   pos uni0416 uni0442 -40;
+   pos uni0416 uni0447 -40;
+   pos uni0417 uni04AE -20;
+   pos uni041C uni0424 -20;
+   pos uni041C uni042A -15;
+   pos uni041C uni042D -20;
+   pos uni041C uni0408 -40;
+   pos uni041C uni0422 -20;
+   pos uni041C uni0427 -40;
+   pos uni041C uni0447 -30;
+   pos uni041E uni0422 -20;
+   pos uni041E uni0425 -16;
+   pos uni041E slash -43;
+   pos uni041E backslash -34;
+   pos uni0420 uni041C -10;
+   pos uni0420 uni0434 -20;
+   pos uni0420 uni0408 -90;
+   pos uni0420 comma -70;
+   pos uni0420 uni0414 -10;
+   pos uni0420 slash -47;
+   pos uni0420 uni046A -47;
+   pos uni0422 uni041C -20;
+   pos uni0422 uni0414 -20;
+   pos uni0422 uni0431 -30;
+   pos uni0422 uni0434 -60;
+   pos uni0422 uni043C -50;
+   pos uni0422 uni0442 -50;
+   pos uni0422 uni0447 -40;
+   pos uni0422 uni0408 -100;
+   pos uni0422 uni0405 -20;
+   pos uni0422 uni0440 -40;
+   pos uni0422 uni0455 -50;
+   pos uni0422 uni0445 -30;
+   pos uni0422 uni0425 -20;
+   pos uni0422 comma -100;
+   pos uni0422 uni046A -50;
+   pos uni0422 uni0424 -10;
+   pos uni0422 slash -81;
+   pos uni0424 uni041C -20;
+   pos uni0424 uni0408 -50;
+   pos uni0424 uni0422 -10;
+   pos uni0424 uni0425 -15;
+   pos uni0424 uni0427 -10;
+   pos uni0424 uni0434 -20;
+   pos uni0424 uni046A -30;
+   pos uni0424 uni04AE -30;
+   pos uni0424 uni04B0 -30;
+   pos uni0424 slash -35;
+   pos uni0424 backslash -34;
+   pos uni0425 uni0424 -20;
+   pos uni0425 uni0427 -20;
+   pos uni0425 uni0431 -30;
+   pos uni0425 uni0442 -60;
+   pos uni0425 uni0447 -60;
+   pos uni0425 uni0422 -20;
+   pos uni0402 uni0422 -50;
+   pos uni0402 uni0427 -40;
+   pos uni0402 backslash -51;
+   pos uni0408 uni0414 -20;
+   pos uni0408 slash -30;
+   pos uni040B uni0422 -50;
+   pos uni040B uni0427 -60;
+   pos uni040B backslash -94;
+   pos uni0490 uni0404 -40;
+   pos uni0490 uni0424 -30;
+   pos uni0490 uni0431 -70;
+   pos uni0490 uni0435 -90;
+   pos uni0490 uni0447 -50;
+   pos uni0490 uni0456_acute -50;
+   pos uni0490 uni0457_acute 10;
+   pos uni04BA uni0422 -90;
+   pos uni04BA uni0427 -70;
+   pos uni04BA uni042A -30;
+   pos uni04BA backslash -82;
+   pos uni0403 uni044E -60;
+   pos uni046A uni0424 -30;
+   pos uni046A uni0427 -60;
+   pos uni046A uni042A -30;
+   pos uni046A backslash -103;
+   pos uni0462 uni0422 -30;
+   pos uni0462 uni0427 -30;
+   pos uni0462 uni042A -20;
+   pos uni0432 uni0442 -10;
+   pos uni0432 uni0447 -15;
+   pos uni0432 backslash -81;
+   pos uni0434 backslash -73;
+   pos uni0437 backslash -77;
+   pos uni0440 comma -60;
+   pos uni0441 uni0445 10;
+   pos uni0441 uni0447 -10;
+   pos uni0441 backslash -47;
+   pos uni0442 uni046B -70;
+   pos uni0442 comma -110;
+   pos uni0442 slash -61;
+   pos uni0442 backslash -35;
+   pos uni0445 uni0431 -5;
+   pos uni0445 backslash -56;
+   pos uni0491 uni0455 -20;
+   pos uni0454 backslash -56;
+   pos uni0457 backslash 13;
+   pos uni0455 backslash -52;
+   pos uni046B uni0442 -70;
+   pos uni046B uni0447 -70;
+   pos uni046B uni0435 -20;
+   pos uni046B uni0463 -30;
+   pos uni046B backslash -124;
+   enum pos @_A_right b -20;
+   enum pos @_A_right question -60;
+   enum pos @_A_right backslash -100;
+   enum pos @_A_right asterisk -100;
+   enum pos @_C_right b -10;
+   enum pos @_C_right AE -20;
+   enum pos @_G_right asterisk -20;
+   enum pos @_G_right AE -30;
+   enum pos @_K question -30;
+   enum pos @_J_right x -20;
+   enum pos @_J_right slash -41;
+   enum pos @_J_right ampersand -20;
+   enum pos @_L_right M -15;
+   enum pos @_L_right thorn -20;
+   enum pos @_L_right question -50;
+   enum pos @_L_right backslash -90;
+   enum pos @_L_right asterisk -100;
+   enum pos @_N slash -21;
+   enum pos @_N at -31;
+   enum pos @_O_right M -20;
+   enum pos [O Oslash Q Ograve Oacute Ocircumflex Otilde Odieresis Omacron Ohungarumlaut Dcroat Dcaron Eth] X -16;
+   enum pos [O Oslash Ograve Oacute Ocircumflex Otilde Odieresis Omacron Ohungarumlaut D Dcroat Dcaron Eth] slash -10;
+   enum pos @_O_right backslash -40;
+   enum pos @_O_right AE -60;
+   enum pos @_P slash -31;
+   enum pos @_P AE -80;
+   enum pos @_R_right b -40;
+   enum pos @_R_right p -25;
+   enum pos @_R_right backslash -90;
+   enum pos @_R_right asterisk -61;
+   enum pos @_R_right question -30;
+   enum pos @_S M -10;
+   enum pos @_T_right M -15;
+   enum pos @_T_right slash -80;
+   enum pos @_T_right at -60;
+   enum pos @_T_right ampersand -50;
+   enum pos @_U_right M -10;
+   enum pos @_U_right x -30;
+   enum pos @_U_right slash -50;
+   enum pos @_U_right at -30;
+   enum pos @_V M -26;
+   enum pos @_V x -40;
+   enum pos @_V idieresis 40;
+   enum pos @_V atilde -60;
+   enum pos @_V adieresis -50;
+   enum pos @_V amacron -70;
+   enum pos @_V itilde 30;
+   enum pos @_V slash -90;
+   enum pos @_V at -90;
+   enum pos @_V ampersand -50;
+   enum pos @_V AE -140;
+   enum pos @_W M -20;
+   enum pos @_W x -30;
+   enum pos @_W itilde 40;
+   enum pos @_W idieresis 50;
+   enum pos @_W imacron 10;
+   enum pos @_W jcircumflex 10;
+   enum pos @_W icircumflex -10;
+   enum pos @_W slash -70;
+   enum pos @_W at -70;
+   enum pos @_W ampersand -40;
+   enum pos @_Y M -10;
+   enum pos @_Y x -60;
+   enum pos @_Y idieresis 50;
+   enum pos @_Y imacron 20;
+   enum pos @_Y atilde -50;
+   enum pos @_Y adieresis -40;
+   enum pos @_Y amacron -50;
+   enum pos @_Y itilde 30;
+   enum pos @_Y icircumflex 20;
+   enum pos @_Y slash -100;
+   enum pos @_Y at -90;
+   enum pos @_Y ampersand -50;
+   enum pos @_c_right backslash -40;
+   enum pos @_g_right backslash -30;
+   enum pos @_i_right question -20;
+   enum pos @_i_right backslash -40;
+   enum pos @_k_right backslash -30;
+   enum pos @_k_right asterisk -10;
+   enum pos @_n_right p -10;
+   enum pos @_n_right b -30;
+   enum pos @_n_right question -30;
+   enum pos @_n_right backslash -80;
+   enum pos @_n_right asterisk -70;
+   enum pos @_o_right p -10;
+   enum pos [o b p thorn oslash ograve oacute ocircumflex otilde odieresis omacron ohungarumlaut egrave eacute ecircumflex ecaron edieresis emacron ebreve edotaccent eogonek ae oe] x -10;
+   enum pos @_o_right b -30;
+   enum pos @_o_right backslash -61;
+   enum pos @_o_right asterisk -40;
+   enum pos @_r_right b -20;
+   enum pos @_r_right at -11;
+   enum pos @_s_right b -20;
+   enum pos @_s_right backslash -30;
+   enum pos @_u_right b -20;
+   enum pos @_u_right backslash -40;
+   enum pos @_u_right asterisk -40;
+   enum pos @_v_right b -20;
+   enum pos @_v_right slash -40;
+   enum pos @_v_right at -30;
+   enum pos @_w slash -20;
+   enum pos @_w at -30;
+   enum pos @_period three -80;
+   enum pos @_period five -70;
+   enum pos @_period seven -80;
+   enum pos @_period nine -40;
+   enum pos @_period uni0431 -30;
+   enum pos @_period uni0442 -50;
+   enum pos @_period uni0447 -64;
+   enum pos @_period uni0422 -77;
+   enum pos @_period uni0424 -39;
+   enum pos @_period uni0427 -82;
+   enum pos @_period uni042A -43;
+   enum pos @_period uni04AE -116;
+   enum pos @_period uni04B0 -116;
+   enum pos @_period Tau -100;
+   enum pos @_period Psi -30;
+   enum pos @_quoteright x -20;
+   enum pos @_quoteright four -90;
+   enum pos @_quoteright zero -20;
+   enum pos @_quoteright chi -45;
+   enum pos @_quoteright tau -45;
+   enum pos @_quoteright pi -45;
+   enum pos @_quoteleft M -20;
+   enum pos @_quoteleft AE -130;
+   enum pos @_quoteleft four -80;
+   enum pos @_quoteleft uni046A -103;
+   enum pos @_quoteleft uni0405 -39;
+   enum pos @_quoteleft uni0408 -133;
+   enum pos @_quoteleft uni0424 -39;
+   enum pos @_quoteleft uni041C -39;
+   enum pos @_quoteleft uni0414 -26;
+   enum pos @_quoteleft uni046B -90;
+   enum pos @_quoteleft uni0455 -43;
+   enum pos @_quoteleft uni0442 -26;
+   enum pos @_quoteleft uni0434 -47;
+   enum pos @_quoteleft uni0431 -34;
+   enum pos @_quotesinglbase b -50;
+   enum pos @_quotesinglbase seven -50;
+   enum pos @_quotesinglbase Tau -114;
+   enum pos @_quotesinglbase chi -92;
+   enum pos @_quotesingle M -10;
+   enum pos @_quotesingle Mu -10;
+   enum pos @_hyphen X -50;
+   enum pos @_hyphen two -10;
+   enum pos @_hyphen four -20;
+   enum pos @_hyphen uni0422 -50;
+   enum pos @_hyphen uni042A -20;
+   enum pos @_hyphen uni041C -20;
+   enum pos @_hyphen Zeta -40;
+   enum pos @_hyphen Tau -70;
+   enum pos @_hyphen Sigma -40;
+   enum pos @_hyphen chi -30;
+   enum pos @_parenleft chi -20;
+   enum pos @_guill uni041C -20;
+   enum pos @_guill uni0427 -30;
+   enum pos @_guill uni042A -20;
+   enum pos @_guill uni0422 -40;
+   enum pos @_guill chi -20;
+   enum pos @_guilr x -30;
+   enum pos @_guilr X -20;
+   enum pos @_guilr Tau -50;
+   enum pos @_guilr Chi -20;
+   enum pos @_guilr chi -25;
+   enum pos @_guilr Sigma -30;
+   enum pos @_cyr_uni0415_right uni0427 -10;
+   enum pos @_cyr_uni041D_right uni0447 -20;
+   enum pos [uni042C uni0409 uni040A uni042A uni042A_grave] uni0422 -50;
+   enum pos [uni042C uni0409 uni040A uni042A uni042A_grave] uni0427 -45;
+   enum pos [uni042C uni0409 uni040A uni042A uni042A_grave] uni042A -50;
+   enum pos @_cyr_uni042C_right uni041C -10;
+   enum pos @_cyr_uni042C_right backslash -86;
+   enum pos @_cyr_uni041A_right uni0431 -10;
+   enum pos [uni041A uni040C uni049A uni0496 uni046A] uni0442 -30;
+   enum pos @_cyr_uni041A_right uni0425 20;
+   enum pos [uni041A uni040C uni049A uni0496] uni0424 -10;
+   enum pos [uni041A uni040C uni049A uni0496 uni046A] uni0447 -30;
+   enum pos @_cyr_uni0423 uni0414 -30;
+   enum pos @_cyr_uni0423 uni041C -30;
+   enum pos @_cyr_uni0423 uni0424 -30;
+   enum pos @_cyr_uni0423 uni0405 -20;
+   enum pos @_cyr_uni0423 uni0408 -100;
+   enum pos @_cyr_uni0423 uni0431 -40;
+   enum pos @_cyr_uni0423 uni0434 -50;
+   enum pos @_cyr_uni0423 uni043C -65;
+   enum pos @_cyr_uni0423 uni0440 -55;
+   enum pos @_cyr_uni0423 uni0442 -50;
+   enum pos @_cyr_uni0423 uni0445 -40;
+   enum pos @_cyr_uni0423 uni0447 -60;
+   enum pos @_cyr_uni0423 uni0455 -70;
+   enum pos @_cyr_uni0423 uni0457 25;
+   enum pos @_cyr_uni0423 comma -130;
+   enum pos @_cyr_uni0423 uni046A -70;
+   enum pos @_cyr_uni0423 slash -116;
+   enum pos @_cyr_uni042D_right uni041C -20;
+   enum pos @_cyr_uni042D_right uni0427 -10;
+   enum pos @_cyr_uni042D_right uni0434 -20;
+   enum pos [uni042D uni042E uni041E_acute uni042D_acute uni042E_acute uni04D8 uni04E8 uni041E_grave uni042E_grave] uni0422 -10;
+   enum pos @_cyr_uni042D_right uni0414 -5;
+   enum pos @_cyr_uni042D_right uni0408 -26;
+   enum pos [uni042D uni042E uni041E_acute uni042D_acute uni042E_acute uni04D8 uni04E8 uni041E_grave uni042E_grave] slash -30;
+   enum pos [uni042D uni042E uni041E_acute uni042D_acute uni042E_acute uni04D8 uni04E8 uni041E_grave uni042E_grave] backslash -34;
+   enum pos @_cyr_lc_uni0433_right uni046B -80;
+   enum pos @_cyr_lc_uni0433_right uni0434 -10;
+   enum pos @_cyr_lc_uni0433_right comma -120;
+   enum pos @_cyr_lc_uni0433_right slash -47;
+   enum pos @_cyr_lc_uni0433_right backslash -43;
+   enum pos @_cyr_lc_uni0446_right backslash -47;
+   enum pos @_cyr_lc_uni0435_right backslash -61;
+   enum pos @_cyr_lc_uni0436_right uni0431 -10;
+   enum pos [uni0436 uni043A uni045C uni049B uni0497] backslash -64;
+   enum pos [uni0438 uni0439 uni043B uni043D uni043F uni0447 uni0448 uni044B uni044F uni0456 uni045F uni0438_acute uni044B_acute uni044F_acute uni045D uni044F_grave uni043C] backslash -65;
+   enum pos @_cyr_lc_uni0452_right backslash -90;
+   enum pos @_cyr_lc_uni0443 uni0434 -20;
+   enum pos @_cyr_lc_uni0443 uni0442 -10;
+   enum pos @_cyr_lc_uni0443 uni046B -50;
+   enum pos @_cyr_lc_uni0443 slash -68;
+   enum pos @_cyr_lc_uni0443 backslash -25;
+   enum pos @_cyr_lc_uni044C_right uni0442 -40;
+   enum pos @_cyr_lc_uni044C_right uni0447 -40;
+   enum pos @_cyr_lc_uni044C_right backslash -107;
+   enum pos @_cyr_lc_uni04AF slash -34;
+   enum pos @_cyr_uni0413_right uni0414 -30;
+   enum pos @_cyr_uni0413_right uni0408 -100;
+   enum pos @_cyr_uni0413_right uni0455 -50;
+   enum pos @_cyr_uni0413_right uni0417 -15;
+   enum pos @_cyr_uni0413_right uni041C -20;
+   enum pos @_cyr_uni0413_right uni0422 -20;
+   enum pos [uni0413 uni0403 uni0492] uni0424 -15;
+   enum pos @_cyr_uni0413_right uni042D -10;
+   enum pos [uni0413 uni0403 uni0492] uni0431 -50;
+   enum pos @_cyr_uni0413_right uni0434 -60;
+   enum pos @_cyr_uni0413_right uni043C -30;
+   enum pos @_cyr_uni0413_right uni0440 -30;
+   enum pos @_cyr_uni0413_right uni0442 -40;
+   enum pos @_cyr_uni0413_right uni0445 -20;
+   enum pos [uni0413 uni0403 uni0492] uni0447 -30;
+   enum pos @_cyr_uni0413_right uni0458 -30;
+   enum pos @_cyr_uni0413_right semicolon -20;
+   enum pos @_cyr_uni0413_right comma -120;
+   enum pos @_cyr_uni0413_right uni046A -80;
+   enum pos @_cyr_uni0413_right uni0405 -10;
+   enum pos @_cyr_uni0413_right slash -95;
+   enum pos @_cyr_A uni042A -50;
+   enum pos @_cyr_A uni04AE -110;
+   enum pos @_cyr_A uni0422 -90;
+   enum pos @_cyr_A uni0424 -30;
+   enum pos @_cyr_A uni0427 -80;
+   enum pos @_cyr_A uni0431 -40;
+   enum pos @_cyr_A uni0442 -50;
+   enum pos @_cyr_A uni0447 -60;
+   enum pos @_cyr_A backslash -111;
+   enum pos @_cyr_a uni0447 -20;
+   enum pos @_cyr_a uni0431 -10;
+   enum pos @_cyr_a uni0434 10;
+   enum pos @_cyr_a uni0442 -15;
+   enum pos @_cyr_a uni0458 -5;
+   enum pos @_cyr_a backslash -73;
+   enum pos @_cyr_lc_uni043E_2_right uni0447 -6;
+   enum pos @_cyr_lc_uni043E_2_right uni0445 -10;
+   enum pos @_cyr_lc_uni043E_2_right slash -25;
+   enum pos @_cyr_lc_uni043E_2_right backslash -68;
+   enum pos @_alpha_right asterisk -40;
+   enum pos @_alpha_right backslash -40;
+   enum pos @_alpha_right chi -20;
+   enum pos @_alpha_right tau -21;
+   enum pos @_alpha_right pi -5;
+   enum pos @_alpha_right xi -20;
+   enum pos @_alpha_right zeta -10;
+   enum pos @_alpha_right theta -20;
+   enum pos @_gamma ampersand -40;
+   enum pos @_gamma at -25;
+   enum pos @_gamma backslash -35;
+   enum pos @_gamma slash -15;
+   enum pos @_gamma quotedblbase -79;
+   enum pos @_gamma xi -20;
+   enum pos @_gamma chi -10;
+   enum pos @_gamma uni037E -22;
+   enum pos @_gamma tau -10;
+   enum pos @_gamma pi -10;
+   enum pos @_gamma zeta -30;
+   enum pos @_lambda zeta -20;
+   enum pos @_lambda theta -20;
+   enum pos @_lambda tau -70;
+   enum pos @_lambda chi -60;
+   enum pos @_lambda backslash -30;
+   enum pos @_lambda asterisk -30;
+   enum pos @_lambda xi -10;
+   enum pos @_lambda pi -20;
+   enum pos @_epsilon ampersand -15;
+   enum pos @_epsilon bracketright -12;
+   enum pos @_epsilon braceright -12;
+   enum pos @_epsilon backslash -25;
+   enum pos @_epsilon xi -10;
+   enum pos @_epsilon Psi -10;
+   enum pos @_eta chi -10;
+   enum pos @_eta tau -10;
+   enum pos @_eta pi -10;
+   enum pos @_eta backslash -30;
+   enum pos @_omicron_right asterisk -50;
+   enum pos @_omicron_right backslash -30;
+   enum pos @_omicron_right chi -30;
+   enum pos @_omicron_right tau -15;
+   enum pos @_omicron_right pi -10;
+   enum pos @_omicron_right zeta -20;
+   enum pos @_upsilon chi -20;
+   enum pos @_upsilon tau -10;
+   enum pos @_Alpha_right question -60;
+   enum pos @_Alpha_right backslash -100;
+   enum pos @_Alpha_right asterisk -100;
+   enum pos @_Alpha_right Tau -100;
+   enum pos @_Alpha_right chi -55;
+   enum pos @_Alpha_right tau -40;
+   enum pos @_Alpha_right pi -10;
+   enum pos @_Alpha_right zeta -20;
+   enum pos @_Alpha_right theta -10;
+   enum pos @_Alpha_right Psi -110;
+   enum pos @_Epsilon_right chi -20;
+   enum pos @_Epsilon_right tau -20;
+   enum pos @_Epsilon_right pi -20;
+   enum pos @_Epsilon_right Tau -30;
+   enum pos @_Eta_right pi -20;
+   enum pos @_Eta_right tau -20;
+   enum pos @_Eta_right chi -20;
+   enum pos @_Kappa_right question -30;
+   enum pos @_Kappa_right Tau -15;
+   enum pos @_Kappa_right chi -80;
+   enum pos @_Kappa_right tau -35;
+   enum pos @_Kappa_right pi -35;
+   enum pos @_Omicron_left slash -10;
+   enum pos @_Omicron_left backslash -40;
+   enum pos @_Omicron_left Zeta -10;
+   enum pos @_Omicron_left Tau -20;
+   enum pos @_Omicron_left Chi -16;
+   enum pos @_Omicron_left Xi -20;
+   enum pos @_Omicron_left Sigma -30;
+   enum pos @_Omicron_left Psi -50;
+   enum pos @_Omicron_left Mu -20;
+   enum pos @_Rho slash -31;
+   enum pos @_Rho Zeta -10;
+   enum pos @_Rho Mu -10;
+   enum pos @_Upsilon_left slash -100;
+   enum pos @_Upsilon_left at -90;
+   enum pos @_Upsilon_left ampersand -50;
+   enum pos @_Upsilon_left chi -65;
+   enum pos @_Upsilon_left tau -60;
+   enum pos @_Upsilon_left pi -60;
+   enum pos @_Upsilon_left delta -40;
+   enum pos @_Upsilon_left theta -20;
+   enum pos @_Upsilon_left kappa -60;
+   enum pos @_Upsilon_left Mu -10;
+   enum pos @_Upsilon_left uni037E -40;
+   enum pos @_Omega_right Zeta -10;
+   enum pos @_Omega_right Tau -20;
+   enum pos @_Omega_right Psi -60;
+   enum pos @_Omega_right Mu -20;
+   enum pos @_Omega_right zeta -10;
+   enum pos @_Omega_right pi -10;
+   enum pos @_Omega_right tau -10;
+   enum pos @_Omega_right xi -10;
+   enum pos @_cyr_uni0421_right uni0422 -25;
+   enum pos @_cyr_uni0421_right uni041C -20;
+   enum pos @_cyr_uni0421_right uni0424 -20;
+   enum pos @_cyr_uni0421_right uni0427 -20;
+   enum pos @_cyr_uni0421_right uni0434 -20;
+   enum pos @_cyr_uni0421_right uni0442 -30;
+   enum pos @_cyr_uni0421_right uni0447 -30;
+   enum pos @_cyr_uni0421_right uni0408 -50;
+   enum pos @_cyr_uni0421_right uni0405 -10;
+   enum pos @_cyr_uni0421_right uni0431 -20;
+   subtable;
+   enum pos space @_Alpha_sngl 50;
+   enum pos space @_Epsilon_sngl 200;
+   enum pos space @_Omicron_sngl 150;
+   enum pos space @_Upsilon_sngl 250;
+   enum pos space @_Alpha_dbl 70;
+   enum pos space @_Epsilon_dbl 300;
+   enum pos space @_Omicron_dbl 200;
+   enum pos space @_Upsilon_dbl 360;
+   enum pos ampersand @_T_left -30;
+   enum pos ampersand @_V -80;
+   enum pos ampersand @_W -70;
+   enum pos ampersand @_Y -90;
+   enum pos ampersand @_Upsilon_right -90;
+   enum pos ampersand @_gamma -25;
+   enum pos ampersand @_upsilon -15;
+   enum pos ampersand @_eta -15;
+   enum pos ampersand @_epsilon -35;
+   enum pos ampersand @_alpha_left -35;
+   enum pos asterisk @_A_left -100;
+   enum pos asterisk @_J_left -100;
+   enum pos asterisk @_o_left -40;
+   enum pos asterisk @_Alpha_left -100;
+   enum pos asterisk @_epsilon -45;
+   enum pos asterisk @_alpha_left -45;
+   enum pos asterisk @_lambda -30;
+   enum pos asterisk @_Omicron_sngl 150;
+   enum pos asterisk @_Upsilon_sngl 250;
+   enum pos asterisk @_Epsilon_sngl 200;
+   enum pos asterisk @_Alpha_sngl 50;
+   enum pos asterisk @_Alpha_dbl 70;
+   enum pos asterisk @_Epsilon_dbl 300;
+   enum pos asterisk @_Omicron_dbl 200;
+   enum pos asterisk @_Upsilon_dbl 360;
+   enum pos slash @_period -100;
+   enum pos slash @_A_left -100;
+   enum pos slash @_O_left -40;
+   enum pos slash @_J_left -60;
+   enum pos slash @_S -31;
+   enum pos slash @_i_left -10;
+   enum pos slash @_a_left -80;
+   enum pos slash @_g_left -79;
+   enum pos slash @_u_left -20;
+   enum pos slash @_t_left -30;
+   enum pos slash @_o_left -60;
+   enum pos slash @_s_left -70;
+   enum pos slash @_cyr_A -112;
+   enum pos slash @_cyr_uni041B_left -60;
+   enum pos slash @_cyr_uni0421_left -34;
+   enum pos slash @_cyr_uni042F_left -60;
+   enum pos slash @_cyr_lc_uni044F_left -73;
+   enum pos slash @_cyr_uni044A -51;
+   enum pos slash @_cyr_lc_uni0443 -38;
+   enum pos slash [uni043E uni0435 uni0441 uni0444 uni0454 uni0435_acute uni043E_acute uni0454_acute uni04D9 uni04E9 uni0450 uni043E_grave] -94;
+   enum pos slash @_cyr_lc_uni043B_left -77;
+   enum pos slash @_cyr_lc_uni0437_left -51;
+   enum pos slash [uni0436 uni0497] -51;
+   enum pos slash @_cyr_lc_uni0432_left -60;
+   enum pos slash @_cyr_a -73;
+   enum pos slash @_Alpha_left -100;
+   enum pos slash @_upsilon -25;
+   enum pos slash @_eta -25;
+   enum pos slash @_epsilon -35;
+   enum pos slash @_alpha_left -35;
+   enum pos slash @_Omicron_right -40;
+   enum pos slash @_Omicron_sngl 150;
+   enum pos slash @_Upsilon_sngl 250;
+   enum pos slash @_Epsilon_sngl 200;
+   enum pos slash @_Alpha_sngl 50;
+   enum pos slash @_Alpha_dbl 70;
+   enum pos slash @_Epsilon_dbl 300;
+   enum pos slash @_Omicron_dbl 200;
+   enum pos slash @_Upsilon_dbl 360;
+   enum pos one @_quoteright -20;
+   enum pos one @_quoteleft -70;
+   enum pos one @_quotesingle -30;
+   enum pos four @_quotesingle -10;
+   enum pos seven @_hyphen -20;
+   enum pos seven @_period -90;
+   enum pos at @_v_left -30;
+   enum pos at @_w -11;
+   enum pos at @_T_left -50;
+   enum pos at @_U_left -40;
+   enum pos at @_V -80;
+   enum pos at @_W -50;
+   enum pos at @_Y -80;
+   enum pos at @_Z -30;
+   enum pos B @_U_left -10;
+   enum pos B @_V -30;
+   enum pos B @_W -20;
+   enum pos B @_Y -30;
+   enum pos B @_T_left -20;
+   enum pos B @_J_left -10;
+   enum pos B @_Z -10;
+   enum pos B @_t_left -20;
+   enum pos B @_v_left -20;
+   enum pos B @_w -20;
+   enum pos D [A Agrave Aacute Acircumflex Atilde Adieresis Amacron Abreve Aring Aogonek] -50;
+   enum pos D @_T_left -30;
+   enum pos F [A Agrave Aacute Acircumflex Atilde Adieresis Amacron Abreve Aring Aogonek] -90;
+   enum pos F @_J_left -105;
+   enum pos F @_S -15;
+   enum pos F @_Z -10;
+   enum pos F @_n_left -20;
+   enum pos F @_o_left -40;
+   enum pos F @_z -20;
+   enum pos F @_a_left -40;
+   enum pos F @_s_left -40;
+   enum pos F @_g_left -50;
+   enum pos F @_h_k_l_left -15;
+   enum pos F @_v_left -10;
+   enum pos F @_hyphen -40;
+   enum pos M @_O_left -20;
+   enum pos M @_V -30;
+   enum pos M @_W -25;
+   enum pos M @_U_left -10;
+   enum pos M @_T_left -20;
+   enum pos M @_Y -10;
+   enum pos M @_v_left -80;
+   enum pos M @_f_left -10;
+   enum pos M @_t_left -40;
+   enum pos M @_s_left -20;
+   enum pos M @_o_left -20;
+   enum pos M @_a_left -20;
+   enum pos M @_u_left -50;
+   enum pos M @_j_left -10;
+   enum pos M @_w -40;
+   enum pos M @_quoteleft -20;
+   enum pos M @_quotesingle -10;
+   enum pos Q @_parenright 90;
+   enum pos X @_O_left -16;
+   enum pos X @_o_left -10;
+   enum pos X @_t_left -30;
+   enum pos X @_u_left -30;
+   enum pos X @_v_left -70;
+   enum pos X @_w -55;
+   enum pos X @_hyphen -50;
+   enum pos X @_guill -20;
+   enum pos a @_v_left -40;
+   enum pos f [a agrave aacute acircumflex atilde amacron abreve aring aogonek ae] -10;
+   enum pos f [o c d e q oe oslash cacute ccircumflex ccaron cdotaccent ccedilla dcaron dcroat egrave eacute ecircumflex ecaron edieresis emacron ebreve edotaccent eogonek ograve oacute ocircumflex otilde omacron ohungarumlaut eth] -10;
+   enum pos f @_s_left -10;
+   enum pos f @_quoteright 70;
+   enum pos f @_quoteleft 30;
+   enum pos f @_quotesingle 70;
+   enum pos f @_parenright 72;
+   enum pos f @_guill -10;
+   enum pos q @_o_left -10;
+   enum pos q @_a_left -10;
+   enum pos q @_u_left -10;
+   enum pos q @_quoteright -20;
+   enum pos q @_quotesingle -40;
+   enum pos q @_h_k_l_left -7;
+   enum pos q @_v_left -15;
+   enum pos q @_w -10;
+   enum pos x @_o_left -15;
+   enum pos x @_t_left -10;
+   enum pos x @_guill -30;
+   subtable;
+   enum pos bracketleft @_epsilon -12;
+   enum pos bracketleft @_alpha_left -12;
+   enum pos bracketleft @_Omicron_sngl 150;
+   enum pos bracketleft @_Epsilon_sngl 200;
+   enum pos bracketleft @_Alpha_sngl 50;
+   enum pos bracketleft @_Upsilon_sngl 250;
+   enum pos bracketleft @_Alpha_dbl 70;
+   enum pos bracketleft @_Epsilon_dbl 300;
+   enum pos bracketleft @_Omicron_dbl 200;
+   enum pos bracketleft @_Upsilon_dbl 360;
+   enum pos bracketright @_Omicron_sngl 150;
+   enum pos bracketright @_Epsilon_sngl 200;
+   enum pos bracketright @_Alpha_sngl 50;
+   enum pos bracketright @_Upsilon_sngl 250;
+   enum pos bracketright @_Alpha_dbl 70;
+   enum pos bracketright @_Epsilon_dbl 300;
+   enum pos bracketright @_Omicron_dbl 200;
+   enum pos bracketright @_Upsilon_dbl 360;
+   enum pos braceleft @_epsilon -12;
+   enum pos braceleft @_alpha_left -12;
+   enum pos braceleft @_Omicron_sngl 150;
+   enum pos braceleft @_Upsilon_sngl 250;
+   enum pos braceleft @_Alpha_sngl 50;
+   enum pos braceleft @_Epsilon_sngl 200;
+   enum pos braceleft @_Alpha_dbl 70;
+   enum pos braceleft @_Epsilon_dbl 300;
+   enum pos braceleft @_Omicron_dbl 200;
+   enum pos braceleft @_Upsilon_dbl 360;
+   enum pos braceright @_Omicron_sngl 150;
+   enum pos braceright @_Upsilon_sngl 250;
+   enum pos braceright @_Epsilon_sngl 200;
+   enum pos braceright @_Alpha_sngl 50;
+   enum pos braceright @_Alpha_dbl 70;
+   enum pos braceright @_Epsilon_dbl 300;
+   enum pos braceright @_Omicron_dbl 200;
+   enum pos braceright @_Upsilon_dbl 360;
+   enum pos underscore @_Omicron_sngl 150;
+   enum pos underscore @_Upsilon_sngl 250;
+   enum pos underscore @_Epsilon_sngl 200;
+   enum pos underscore @_Alpha_sngl 50;
+   enum pos underscore @_Alpha_dbl 70;
+   enum pos underscore @_Epsilon_dbl 300;
+   enum pos underscore @_Omicron_dbl 200;
+   enum pos underscore @_Upsilon_dbl 360;
+   enum pos bar @_Omicron_sngl 150;
+   enum pos bar @_Upsilon_sngl 250;
+   enum pos bar @_Epsilon_sngl 200;
+   enum pos bar @_Alpha_sngl 50;
+   enum pos bar @_Alpha_dbl 70;
+   enum pos bar @_Epsilon_dbl 300;
+   enum pos bar @_Omicron_dbl 200;
+   enum pos bar @_Upsilon_dbl 360;
+   enum pos backslash @_O_left -30;
+   enum pos backslash @_T_left -90;
+   enum pos backslash @_U_left -60;
+   enum pos backslash @_V -90;
+   enum pos backslash @_W -70;
+   enum pos backslash @_Y -90;
+   enum pos backslash @_u_left -30;
+   enum pos backslash @_v_left -40;
+   enum pos backslash @_w -21;
+   enum pos backslash @_cyr_uni044A -26;
+   enum pos backslash @_cyr_lc_uni04AF -34;
+   enum pos backslash @_cyr_uni0421_left -22;
+   enum pos backslash @_cyr_uni0423 -60;
+   enum pos backslash [uni0402 uni040B uni042A_grave uni0462] -56;
+   enum pos backslash @_Upsilon_right -90;
+   enum pos backslash @_gamma -25;
+   enum pos backslash @_Omicron_sngl 150;
+   enum pos backslash @_Upsilon_sngl 250;
+   enum pos backslash @_Alpha_sngl 50;
+   enum pos backslash @_Alpha_dbl 70;
+   enum pos backslash @_Omicron_dbl 200;
+   enum pos backslash @_Upsilon_dbl 360;
+   enum pos backslash @_Omicron_right -30;
+   enum pos brokenbar @_Omicron_sngl 150;
+   enum pos brokenbar @_Upsilon_sngl 250;
+   enum pos brokenbar @_Epsilon_sngl 200;
+   enum pos brokenbar @_Alpha_sngl 50;
+   enum pos brokenbar @_Alpha_dbl 70;
+   enum pos brokenbar @_Epsilon_dbl 300;
+   enum pos brokenbar @_Omicron_dbl 200;
+   enum pos brokenbar @_Upsilon_dbl 360;
+   enum pos copyright @_Alpha_sngl 50;
+   enum pos copyright @_Epsilon_sngl 200;
+   enum pos copyright @_Omicron_sngl 150;
+   enum pos copyright @_Upsilon_sngl 250;
+   enum pos copyright @_Alpha_dbl 70;
+   enum pos copyright @_Epsilon_dbl 300;
+   enum pos copyright @_Omicron_dbl 200;
+   enum pos copyright @_Upsilon_dbl 360;
+   enum pos registered @_Omicron_sngl 150;
+   enum pos registered @_Upsilon_sngl 250;
+   enum pos registered @_Epsilon_sngl 200;
+   enum pos registered @_Alpha_sngl 50;
+   enum pos registered @_Alpha_dbl 70;
+   enum pos registered @_Epsilon_dbl 300;
+   enum pos registered @_Omicron_dbl 200;
+   enum pos registered @_Upsilon_dbl 360;
+   enum pos paragraph @_Epsilon_sngl 200;
+   enum pos paragraph @_Omicron_sngl 150;
+   enum pos paragraph @_Alpha_sngl 50;
+   enum pos paragraph @_Upsilon_sngl 250;
+   enum pos paragraph @_Alpha_dbl 70;
+   enum pos paragraph @_Epsilon_dbl 300;
+   enum pos paragraph @_Omicron_dbl 200;
+   enum pos paragraph @_Upsilon_dbl 360;
+   enum pos periodcentered @_Alpha_sngl 50;
+   enum pos periodcentered @_Epsilon_sngl 200;
+   enum pos periodcentered @_Omicron_sngl 150;
+   enum pos periodcentered @_Upsilon_sngl 250;
+   enum pos periodcentered @_Alpha_dbl 70;
+   enum pos periodcentered @_Epsilon_dbl 300;
+   enum pos periodcentered @_Omicron_dbl 200;
+   enum pos periodcentered @_Upsilon_dbl 360;
+   enum pos germandbls @_t_left -20;
+   enum pos germandbls @_u_left -10;
+   enum pos germandbls @_v_left -60;
+   enum pos germandbls @_w -30;
+   enum pos germandbls @_j_left -20;
+   enum pos Dcaron @_T_left -30;
+   enum pos Dcroat @_T_left -30;
+   enum pos Eth [A Agrave Aacute Acircumflex Atilde Adieresis Amacron Abreve Aring Aogonek] -50;
+   enum pos Eth @_T_left -30;
+   enum pos uni1E0C @_A_left -50;
+   enum pos uni1E0C @_T_left -30;
+   enum pos uni1E0E @_A_left -50;
+   enum pos uni1E0E @_T_left -30;
+   enum pos Lcaron @_V -60;
+   enum pos Lcaron @_W -70;
+   enum pos Lcaron @_Y -60;
+   enum pos Lcaron @_T_left -80;
+   enum pos Thorn @_O_left 40;
+   enum pos Thorn @_J_left -20;
+   enum pos Thorn @_V -10;
+   enum pos Thorn @_Z -10;
+   enum pos Thorn @_Y -30;
+   enum pos Thorn @_quoteright -20;
+   enum pos Thorn [A Agrave Aacute Acircumflex Atilde Adieresis Amacron Abreve Aring Aogonek] -30;
+   enum pos agrave @_v_left -45;
+   enum pos aacute @_v_left -40;
+   enum pos acircumflex @_v_left -40;
+   enum pos atilde @_v_left -40;
+   enum pos adieresis @_v_left -40;
+   enum pos aring @_v_left -40;
+   enum pos abreve @_v_left -40;
+   enum pos amacron @_v_left -40;
+   enum pos aogonek @_v_left -40;
+   enum pos dcaron @_hyphen -64;
+   enum pos dcaron @_period -64;
+   pos dcaron colon -64;
+   enum pos dcaron @_a_left -64;
+   pos dcaron guillemotright -64;
+   enum pos dcaron @_g_left -64;
+   enum pos dcaron [n nacute ncaron ntilde racute rcaron kgreenlandic napostrophe] -64;
+   enum pos dcaron [o oe oslash cacute ccircumflex ccaron cdotaccent ccedilla dcaron dcroat egrave eacute ecircumflex ecaron edieresis emacron ebreve edotaccent eogonek ograve oacute ocircumflex otilde odieresis omacron ohungarumlaut eth] -64;
+   enum pos dcaron @_s_left -64;
+   enum pos dcaron @_u_left -64;
+   enum pos dcaron [v ygrave yacute ycircumflex ydieresis] -64;
+   enum pos dcaron @_w -64;
+   enum pos dcaron @_z -64;
+   enum pos dcaron @_quoteright -34;
+   pos dcaron guillemotleft -64;
+   enum pos lcaron @_hyphen -56;
+   enum pos lcaron @_period -56;
+   pos lcaron colon -56;
+   pos lcaron guillemotleft -56;
+   pos lcaron guillemotright -36;
+   enum pos lcaron @_g_left -56;
+   enum pos lcaron [n nacute ncaron ntilde racute rcaron kgreenlandic napostrophe] -56;
+   enum pos lcaron [o oe oslash cacute ccircumflex ccaron cdotaccent ccedilla dcaron dcroat egrave eacute ecircumflex ecaron edieresis emacron ebreve edotaccent eogonek ograve oacute ocircumflex otilde odieresis omacron ohungarumlaut eth] -56;
+   enum pos lcaron @_s_left -56;
+   enum pos lcaron @_u_left -66;
+   enum pos lcaron [v ygrave yacute ycircumflex ydieresis] -61;
+   enum pos lcaron @_w -51;
+   enum pos lcaron @_z -36;
+   enum pos lcaron @_quoteright -26;
+   enum pos lcaron @_a_left -56;
+   enum pos lslash @_o_left -6;
+   enum pos endash @_Alpha_sngl 50;
+   enum pos endash @_Epsilon_sngl 200;
+   enum pos endash @_Omicron_sngl 150;
+   enum pos endash @_Upsilon_sngl 250;
+   enum pos endash @_Upsilon_dbl 360;
+   enum pos endash @_Omicron_dbl 200;
+   enum pos endash @_Epsilon_dbl 300;
+   enum pos endash @_Alpha_dbl 70;
+   enum pos emdash @_Alpha_sngl 50;
+   enum pos emdash @_Omicron_sngl 150;
+   enum pos emdash @_Epsilon_sngl 200;
+   enum pos emdash @_Upsilon_sngl 250;
+   enum pos emdash @_Upsilon_dbl 360;
+   enum pos emdash @_Omicron_dbl 200;
+   enum pos emdash @_Epsilon_dbl 300;
+   enum pos bullet @_Omicron_sngl 150;
+   enum pos bullet @_Upsilon_sngl 250;
+   enum pos bullet @_Epsilon_sngl 200;
+   enum pos bullet @_Alpha_sngl 50;
+   enum pos bullet @_Alpha_dbl 70;
+   enum pos bullet @_Epsilon_dbl 300;
+   enum pos bullet @_Omicron_dbl 200;
+   enum pos bullet @_Upsilon_dbl 360;
+   enum pos Beta @_Upsilon_right -30;
+   enum pos Beta @_gamma -30;
+   enum pos Beta @_eta -30;
+   enum pos Gamma @_Alpha_left -110;
+   enum pos Gamma @_Omicron_right -30;
+   enum pos Gamma @_gamma -90;
+   enum pos Gamma @_upsilon -90;
+   enum pos Gamma @_eta -90;
+   enum pos Gamma @_epsilon -110;
+   enum pos Gamma [alpha omicron sigma phi omega alphatonos omicrontonos omegatonos uni1F00 uni1F04 uni1F02 uni1F06 uni1F01 uni1F05 uni1F03 uni1F07 uni1F71 uni1F70 uni1FB6 uni1FB1 uni1FB0 uni1FB3 uni1F80 uni1F84 uni1F82 uni1F86 uni1F81 uni1F85 uni1F83 uni1F87 uni1FB4 uni1FB2 uni1FB7 uni1F40 uni1F44 uni1F42 uni1F41 uni1F45 uni1F43 uni1F79 uni1F78 uni1F60 uni1F64 uni1F62 uni1F66 uni1F61 uni1F65 uni1F63 uni1F67 uni1F7D uni1F7C uni1FF6 uni1FF3 uni1FA0 uni1FA4 uni1FA2 uni1FA6 uni1FA1 uni1FA5 uni1FA3 uni1FA7 uni1FF4 uni1FF2 uni1FF7 uni03C2] -110;
+   enum pos Gamma @_Omega_left -30;
+   enum pos Gamma [iota iotadieresis iotadieresistonos uni1F30 uni1F34 uni1F32 uni1F36 uni1F31 uni1F35 uni1F33 uni1F37 uni1FD3 uni1FD2 uni1FD7 uni1F77 uni1F76 uni1FD6 uni1FD1 uni1FD0] -70;
+   enum pos Gamma @_lambda -40;
+   enum pos Gamma @_mu_left -70;
+   enum pos Gamma @_rho_left -110;
+   enum pos Gamma @_colon -50;
+   enum pos Zeta @_gamma -35;
+   enum pos Zeta @_eta -30;
+   enum pos Zeta @_alpha_left -10;
+   pos uni0394 quoteright -62;
+   enum pos Mu @_quoteleft -20;
+   enum pos Mu @_quotesingle -10;
+   enum pos Mu @_gamma -60;
+   enum pos Mu @_upsilon -40;
+   enum pos Mu @_eta -50;
+   enum pos Mu @_epsilon -30;
+   enum pos Mu @_alpha_left -20;
+   enum pos Mu @_Omicron_right -20;
+   enum pos Mu @_Upsilon_right -10;
+   enum pos Mu @_Omega_left -20;
+   enum pos Mu @_iota -10;
+   enum pos Mu @_lambda -10;
+   enum pos Mu @_mu_left -10;
+   enum pos Mu @_rho_left -10;
+   enum pos Nu @_period -20;
+   enum pos Nu @_Alpha_left -40;
+   enum pos Nu @_gamma -45;
+   enum pos Nu @_upsilon -20;
+   enum pos Nu @_eta -50;
+   enum pos Nu @_epsilon -25;
+   enum pos Nu @_alpha_left -15;
+   enum pos Nu @_Omega_left -20;
+   enum pos Nu @_colon -30;
+   enum pos Nu @_iota -20;
+   enum pos Nu @_lambda -20;
+   enum pos Nu @_mu_left -20;
+   enum pos Nu @_rho_left -20;
+   enum pos Sigma @_Omicron_right -15;
+   enum pos Sigma @_gamma -55;
+   enum pos Sigma @_eta -20;
+   enum pos Sigma @_upsilon -20;
+   enum pos Tau @_period -100;
+   enum pos Tau @_colon -20;
+   enum pos Tau @_hyphen -70;
+   enum pos Tau @_guill -50;
+   enum pos Tau @_Alpha_left -100;
+   enum pos Tau @_Omicron_right -20;
+   enum pos Tau @_gamma -60;
+   enum pos Tau @_upsilon -50;
+   enum pos Tau @_eta -50;
+   enum pos Tau @_epsilon -60;
+   enum pos Tau [alpha omicron sigma phi omega alphatonos omicrontonos omegatonos uni1F00 uni1F04 uni1F02 uni1F06 uni1F01 uni1F05 uni1F03 uni1F07 uni1F71 uni1F70 uni1FB6 uni1FB1 uni1FB0 uni1FB3 uni1F80 uni1F84 uni1F82 uni1F86 uni1F81 uni1F85 uni1F83 uni1F87 uni1FB4 uni1FB2 uni1FB7 uni1F40 uni1F44 uni1F42 uni1F41 uni1F45 uni1F43 uni1F79 uni1F78 uni1F60 uni1F64 uni1F62 uni1F66 uni1F61 uni1F65 uni1F63 uni1F67 uni1F7D uni1F7C uni1FF6 uni1FF3 uni1FA0 uni1FA4 uni1FA2 uni1FA6 uni1FA1 uni1FA5 uni1FA3 uni1FA7 uni1FF4 uni1FF2 uni1FF7 uni03C2] -70;
+   enum pos Tau @_Omega_left -10;
+   enum pos Tau @_iota -50;
+   enum pos Tau @_lambda -10;
+   enum pos Tau @_mu_left -50;
+   enum pos Tau @_rho_left -70;
+   enum pos Chi @_hyphen -50;
+   enum pos Chi @_guill -20;
+   enum pos Chi @_Omicron_right -16;
+   enum pos Chi @_gamma -70;
+   enum pos Chi @_upsilon -25;
+   enum pos Chi @_eta -25;
+   enum pos Chi @_epsilon -5;
+   enum pos Chi @_alpha_left -10;
+   enum pos Psi @_period -40;
+   enum pos Psi @_alpha_left -60;
+   enum pos Psi @_gamma -50;
+   enum pos Psi @_epsilon -70;
+   enum pos Psi @_eta -40;
+   enum pos Psi @_iota -50;
+   enum pos Psi @_lambda -10;
+   enum pos Psi @_mu_left -70;
+   enum pos Psi @_rho_left -50;
+   enum pos Psi @_upsilon -50;
+   enum pos Psi @_Alpha_left -110;
+   enum pos Psi @_Omicron_right -50;
+   enum pos Psi @_Omega_left -60;
+   enum pos Psi @_colon -60;
+   enum pos beta @_gamma -30;
+   enum pos beta @_lambda -20;
+   enum pos beta @_upsilon -10;
+   enum pos beta @_period -30;
+   enum pos beta @_epsilon -5;
+   enum pos zeta @_alpha_left -30;
+   enum pos zeta @_gamma -60;
+   enum pos zeta @_epsilon -10;
+   enum pos zeta @_upsilon -40;
+   enum pos zeta @_eta -30;
+   enum pos zeta @_iota -10;
+   enum pos theta @_rho_left -10;
+   enum pos theta @_lambda -20;
+   enum pos theta @_period -40;
+   enum pos kappa @_hyphen -50;
+   enum pos kappa @_guill -35;
+   enum pos kappa @_alpha_left -30;
+   enum pos kappa @_gamma -10;
+   enum pos kappa @_epsilon -10;
+   pos uni03BC quoteright -28;
+   pos mu quoteright -28;
+   enum pos xi @_alpha_left -14;
+   enum pos xi @_gamma -10;
+   enum pos xi @_epsilon -10;
+   enum pos xi @_upsilon -20;
+   enum pos xi @_eta -30;
+   enum pos pi @_hyphen -30;
+   enum pos pi @_colon -18;
+   pos pi quotesinglbase -23;
+   enum pos pi @_guill -25;
+   enum pos pi @_guilr -18;
+   enum pos pi @_epsilon -10;
+   enum pos pi @_alpha_left -30;
+   enum pos pi @_rho_left -20;
+   enum pos pi @_period -23;
+   enum pos sigma @_alpha_left -20;
+   enum pos sigma @_epsilon -10;
+   enum pos sigma @_lambda -60;
+   enum pos sigma @_rho_left -20;
+   enum pos sigma @_hyphen -20;
+   enum pos sigma @_period -23;
+   enum pos sigma @_quotesinglbase -30;
+   enum pos tau @_colon -18;
+   pos tau quotesinglbase -23;
+   enum pos tau @_hyphen -30;
+   enum pos tau @_guill -25;
+   enum pos tau @_guilr -18;
+   enum pos tau @_epsilon -10;
+   enum pos tau @_alpha_left -20;
+   enum pos tau @_lambda -20;
+   enum pos tau @_rho_left -20;
+   enum pos tau @_period -23;
+   enum pos chi @_hyphen -35;
+   enum pos chi @_colon -22;
+   enum pos chi @_guill -25;
+   enum pos chi @_guilr -22;
+   pos chi quotesinglbase -79;
+   enum pos chi @_epsilon -20;
+   enum pos chi @_alpha_left -30;
+   enum pos chi @_lambda -30;
+   enum pos chi @_gamma -10;
+   enum pos chi @_quoteright -30;
+   enum pos chi @_period -100;
+   enum pos anoteleia @_Alpha_sngl 50;
+   enum pos anoteleia @_Epsilon_sngl 200;
+   enum pos anoteleia @_Omicron_sngl 150;
+   enum pos anoteleia @_Upsilon_sngl 250;
+   enum pos anoteleia @_Alpha_dbl 70;
+   enum pos anoteleia @_Epsilon_dbl 300;
+   enum pos anoteleia @_Omicron_dbl 200;
+   enum pos anoteleia @_Upsilon_dbl 360;
+   enum pos uni0375 @_Omicron_sngl 150;
+   enum pos uni0375 @_Upsilon_sngl 250;
+   enum pos uni0375 @_Alpha_sngl 50;
+   enum pos uni0375 @_Epsilon_sngl 200;
+   enum pos uni0375 @_Alpha_dbl 70;
+   enum pos uni0375 @_Epsilon_dbl 300;
+   enum pos uni0375 @_Omicron_dbl 200;
+   enum pos uni0375 @_Upsilon_dbl 360;
+   enum pos uni037E @_Upsilon_right -70;
+   enum pos uni037E @_Omicron_sngl 150;
+   enum pos uni037E @_Upsilon_sngl 250;
+   enum pos uni037E @_Epsilon_sngl 200;
+   enum pos uni037E @_Alpha_sngl 50;
+   enum pos uni037E @_Alpha_dbl 70;
+   enum pos uni037E @_Epsilon_dbl 300;
+   enum pos uni037E @_Omicron_dbl 200;
+   enum pos uni037E @_Upsilon_dbl 360;
+   enum pos uni0411 @_cyr_lc_uni044F_left -20;
+   enum pos uni0411 @_cyr_A -10;
+   enum pos uni0411 @_cyr_lc_uni043B_left -10;
+   enum pos uni0411 @_cyr_lc_uni0443 -20;
+   enum pos uni0411 @_cyr_uni044A -20;
+   enum pos uni0411 @_cyr_lc_uni04AF -40;
+   enum pos uni0411 [uni0423 uni040E uni0423_acute uni0423_grave uni04B0] -20;
+   enum pos uni0411 @_quoteright -30;
+   enum pos uni0412 @_cyr_uni0423 -20;
+   enum pos uni0412 @_cyr_lc_uni043B_left -3;
+   enum pos uni0412 @_cyr_lc_uni0443 -10;
+   enum pos uni0412 @_cyr_lc_uni0436_left -10;
+   enum pos uni0412 @_cyr_lc_uni0437_left -10;
+   enum pos uni0412 @_cyr_uni044A -10;
+   enum pos uni0412 @_cyr_lc_uni044F_left -10;
+   enum pos uni0412 @_cyr_lc_uni04AF -10;
+   enum pos uni0412 @_cyr_uni042F_left 20;
+   enum pos uni0412 @_quoteright -30;
+   enum pos uni0414 @_cyr_lc_uni043E_left -20;
+   enum pos uni0414 @_cyr_lc_uni0436_left -30;
+   enum pos uni0414 @_cyr_lc_uni0437_left -10;
+   enum pos uni0414 @_cyr_lc_uni043B_left -10;
+   enum pos uni0414 @_cyr_lc_uni0443 -10;
+   enum pos uni0414 @_cyr_uni044A -50;
+   enum pos uni0414 @_cyr_lc_uni04AF -40;
+   enum pos uni0414 @_cyr_uni0423 -10;
+   enum pos uni0414 @_cyr_uni0421_left -5;
+   enum pos uni0416 @_cyr_uni0421_left -10;
+   enum pos uni0416 @_cyr_lc_uni0443 -30;
+   enum pos uni0416 @_cyr_uni044A -50;
+   enum pos uni0416 @_hyphen -30;
+   enum pos uni0416 @_cyr_lc_uni04AF -50;
+   enum pos uni0417 @_cyr_lc_uni044F_left -10;
+   enum pos uni0417 @_cyr_lc_uni04AF -10;
+   enum pos uni0417 [uni0423 uni040E uni0423_acute uni0423_grave uni04B0] -20;
+   enum pos uni0417 @_period -17;
+   enum pos uni0417 @_quoteright -21;
+   enum pos uni041C @_cyr_uni0423 -40;
+   enum pos uni041C @_cyr_uni0416_left -20;
+   enum pos uni041C @_cyr_uni041B_left -20;
+   enum pos uni041C @_cyr_uni0421_left -20;
+   enum pos uni041C @_cyr_lc_uni04AF -40;
+   enum pos uni041C @_hyphen -30;
+   enum pos uni041C @_quoteright -43;
+   enum pos uni041E @_cyr_A -30;
+   enum pos uni041E @_cyr_uni041B_left -10;
+   enum pos uni0420 @_cyr_A -70;
+   enum pos uni0420 @_cyr_lc_uni043B_left -40;
+   enum pos uni0420 @_cyr_lc_uni044F_left -40;
+   enum pos uni0420 @_cyr_lc_uni043E_left -20;
+   enum pos uni0420 @_cyr_uni0421_left 20;
+   pos uni0420 period -90;
+   enum pos uni0420 @_cyr_uni042F_left -10;
+   enum pos uni0422 @_cyr_A -90;
+   enum pos uni0422 @_cyr_uni0421_left -10;
+   enum pos uni0422 [uni0432 uni0433 uni0438 uni0439 uni043A uni043D uni043F uni0446 uni0448 uni0449 uni044B uni044C uni044E uni0453 uni0456 uni0457 uni045A uni045C uni045F uni0491 uni0438_acute uni044B_acute uni044E_acute uni0456_acute uni0493 uni049B uni04A3 uni045D uni044E_grave] -50;
+   enum pos uni0422 [uni0416 uni0496] -10;
+   enum pos uni0422 @_cyr_uni041B_left -30;
+   enum pos uni0422 @_cyr_lc_uni043E_left -70;
+   enum pos uni0422 @_cyr_lc_uni0436_left -50;
+   enum pos uni0422 @_cyr_lc_uni0437_left -50;
+   enum pos uni0422 @_cyr_lc_uni043B_left -80;
+   enum pos uni0422 @_cyr_uni044A -50;
+   enum pos uni0422 @_cyr_lc_uni044F_left -80;
+   enum pos uni0422 @_cyr_a -70;
+   enum pos uni0422 @_cyr_lc_uni0443 -20;
+   enum pos uni0422 @_colon -20;
+   enum pos uni0422 @_hyphen -50;
+   pos uni0422 period -100;
+   enum pos uni0422 @_cyr_lc_uni04AF -10;
+   enum pos uni0422 @_guilr -40;
+   enum pos uni0422 @_cyr_uni042F_left -35;
+   enum pos uni0424 @_cyr_A -30;
+   enum pos uni0424 [uni0416 uni0496] -10;
+   enum pos uni0424 @_cyr_uni041B_left -10;
+   enum pos uni0424 [uni0423 uni040E uni0423_acute uni0423_grave] -40;
+   enum pos uni0424 @_cyr_uni042F_left -15;
+   enum pos uni0424 @_cyr_lc_uni043B_left -40;
+   enum pos uni0424 @_cyr_lc_uni0437_left -20;
+   enum pos uni0424 @_cyr_lc_uni044F_left -50;
+   enum pos uni0424 @_period -38;
+   enum pos uni0424 @_quoteright -43;
+   enum pos uni0425 @_cyr_uni0421_left -16;
+   enum pos uni0425 @_cyr_lc_uni043E_left -10;
+   enum pos uni0425 @_cyr_uni044A -50;
+   enum pos uni0425 @_cyr_lc_uni0443 -60;
+   enum pos uni0425 @_hyphen -30;
+   enum pos uni0425 @_cyr_lc_uni04AF -30;
+   enum pos uni0402 @_cyr_uni0423 -50;
+   enum pos uni0402 @_quoteright -68;
+   enum pos uni0408 @_cyr_A -70;
+   enum pos uni0408 @_cyr_uni0416_left -10;
+   enum pos uni0408 @_period -69;
+   enum pos uni0408 @_cyr_uni042F_left -30;
+   enum pos uni040B @_cyr_uni0423 -70;
+   enum pos uni040B @_quoteright -107;
+   enum pos uni0490 @_cyr_a -70;
+   enum pos uni0490 [uni043E uni0441 uni0444 uni0451 uni0454 uni0435_acute uni043E_acute uni0454_acute uni04D9 uni04E9 uni0450 uni043E_grave] -80;
+   enum pos uni0490 [uni0432 uni0433 uni0438 uni0439 uni043A uni043D uni043F uni0446 uni0448 uni0449 uni044B uni044C uni044E uni0453 uni0456 uni0457 uni045A uni045C uni045F uni0491 uni0438_acute uni044B_acute uni044E_acute uni0493 uni049B uni04A3 uni045D uni044E_grave] -70;
+   enum pos uni0490 @_cyr_lc_uni043B_left -100;
+   subtable;
+   enum pos uni0490 @_cyr_lc_uni0443 -80;
+   enum pos uni0490 @_cyr_lc_uni0437_left -80;
+   enum pos uni0490 @_cyr_A -110;
+   enum pos uni0490 [uni041E uni0421 uni04E8 uni04D8 uni041E_acute uni0404_acute uni041E_grave] -30;
+   enum pos uni0490 @_cyr_uni042F_left -50;
+   enum pos uni0490 @_cyr_lc_uni0436_left -60;
+   enum pos uni0490 @_cyr_uni044A -70;
+   enum pos uni0404 @_cyr_A -40;
+   enum pos uni049A @_guilr -10;
+   enum pos uni04AE @_cyr_A -110;
+   enum pos uni04AE @_guilr -80;
+   enum pos uni04BA @_cyr_uni0423 -60;
+   enum pos uni04BA @_quoteright -73;
+   enum pos uni046A @_cyr_uni0423 -55;
+   enum pos uni046A @_quoteright -99;
+   enum pos uni0462 @_cyr_uni0423 -20;
+   enum pos uni0431 @_cyr_lc_uni04AF -10;
+   enum pos uni0431 @_cyr_lc_uni043B_left -6;
+   enum pos uni0431 @_cyr_lc_uni044F_left -5;
+   enum pos uni0431 @_cyr_lc_uni0443 -10;
+   enum pos uni0431 @_period -20;
+   enum pos uni0432 @_cyr_lc_uni0443 -15;
+   enum pos uni0432 @_cyr_lc_uni044F_left -10;
+   enum pos uni0432 @_quoteright -51;
+   enum pos uni0434 @_quoteright -26;
+   enum pos uni0437 @_cyr_lc_uni0443 -10;
+   enum pos uni0437 @_period -20;
+   enum pos uni0437 @_quoteright -43;
+   enum pos uni0441 @_quoteright -17;
+   enum pos uni0442 @_cyr_lc_uni043B_left -30;
+   enum pos uni0442 @_cyr_lc_uni044F_left -20;
+   pos uni0442 period -90;
+   enum pos uni0442 @_quoteright -21;
+   enum pos uni0445 @_cyr_lc_uni043E_left -10;
+   enum pos uni0497 @_cyr_lc_uni0443 30;
+   enum pos uni046B @_cyr_lc_uni0443 -60;
+   enum pos uni046B @_quoteright -82;
+   subtable;
+   pos @_A_right @_O_left -15;
+   pos @_A_right @_V -110;
+   pos @_A_right @_W -90;
+   pos @_A_right @_T_left -100;
+   pos @_A_right @_U_left -65;
+   pos @_A_right @_Y -110;
+   pos @_A_right @_o_left -5;
+   pos @_A_right @_t_left -45;
+   pos @_A_right @_u_left -40;
+   pos @_A_right @_v_left -90;
+   pos @_A_right @_w -70;
+   pos @_A_right @_hyphen -31;
+   pos @_A_right @_quoteright -100;
+   pos @_A_right @_quoteleft -110;
+   pos @_A_right @_quotesingle -90;
+   pos @_C_right @_T_left -25;
+   pos @_C_right @_Y -20;
+   pos @_C_right @_V -20;
+   pos @_C_right @_Z -10;
+   pos @_C_right @_a_left -10;
+   pos @_C_right @_t_left -10;
+   pos @_C_right @_A_left -10;
+   pos @_C_right @_S -10;
+   pos @_C_right @_W -14;
+   pos @_C_right @_O_left -10;
+   pos @_C_right @_u_left -15;
+   pos @_E_right @_T_left -30;
+   pos @_E_right @_V -10;
+   pos @_E_right @_U_left -20;
+   pos @_E_right @_Y -15;
+   pos @_E_right @_t_left -10;
+   pos @_E_right @_u_left -10;
+   pos @_E_right @_v_left -15;
+   pos @_E_right @_w -5;
+   pos @_E_right @_quoteright -30;
+   pos @_E_right @_quoteleft -10;
+   pos @_G_right @_Y -30;
+   pos @_G_right @_V -40;
+   pos @_G_right @_W -25;
+   pos @_G_right @_T_left -30;
+   pos @_G_right @_J_left -15;
+   pos @_G_right @_Z -10;
+   pos @_G_right @_quoteright -10;
+   pos @_G_right @_quotesingle -20;
+   pos @_H @_v_left -40;
+   pos @_H @_u_left -20;
+   pos @_H @_t_left -20;
+   pos @_H @_w -20;
+   pos @_H @_o_left -10;
+   pos @_K @_O_left -40;
+   pos @_K @_T_left -15;
+   pos @_K @_U_left -25;
+   pos @_K @_V -20;
+   pos @_K @_Y -20;
+   pos @_K @_W -10;
+   pos @_K @_o_left -20;
+   pos @_K @_v_left -90;
+   pos @_K @_t_left -40;
+   pos @_K @_u_left -45;
+   pos @_K @_w -70;
+   pos @_K @_quoteright -20;
+   pos @_K @_guill -20;
+   pos @_K @_a_left -15;
+   pos @_K @_quoteleft -30;
+   pos @_J_right @_A_left -70;
+   pos @_J_right @_J_left -60;
+   pos @_J_right @_S -20;
+   pos @_J_right @_o_left -20;
+   pos @_J_right @_v_left -20;
+   pos @_J_right @_u_left -20;
+   pos @_J_right @_s_left -40;
+   pos @_J_right @_a_left -30;
+   pos @_J_right @_g_left -20;
+   pos @_J_right @_z -20;
+   pos @_J_right @_period -60;
+   pos @_J_right @_guill -20;
+   pos @_J_right @_n_left -10;
+   pos @_L_right @_T_left -120;
+   pos @_L_right @_O_left -15;
+   pos @_L_right @_V -100;
+   pos @_L_right @_W -90;
+   pos @_L_right @_Y -110;
+   pos @_L_right @_Z -20;
+   pos @_L_right @_U_left -50;
+   pos @_L_right @_S -10;
+   pos @_L_right @_t_left -30;
+   pos @_L_right @_u_left -10;
+   pos @_L_right @_v_left -60;
+   pos @_L_right @_w -50;
+   pos @_L_right @_quoteright -90;
+   pos @_L_right @_quoteleft -100;
+   pos @_L_right @_quotesingle -90;
+   pos @_L_right @_J_left -10;
+   pos @_N @_A_left -40;
+   pos @_N @_J_left -20;
+   pos @_N @_u_left -30;
+   pos @_N @_o_left -15;
+   pos @_N @_s_left -20;
+   pos @_N @_z -25;
+   pos @_N @_v_left -50;
+   pos @_N @_w -60;
+   pos @_N @_a_left -30;
+   pos @_N @_f_left -20;
+   pos @_N @_g_left -20;
+   pos @_N @_t_left -20;
+   pos @_N @_period -20;
+   pos @_O_right @_A_left -30;
+   pos @_O_right @_Y -50;
+   pos @_O_right @_J_left -26;
+   pos @_O_right @_T_left -20;
+   pos @_O_right @_V -30;
+   pos @_O_right @_W -20;
+   pos @_O_right @_Z -10;
+   pos @_O_right @_v_left -10;
+   pos @_O_right @_period -30;
+   pos @_O_right @_quoteright -40;
+   pos @_O_right @_quoteleft -10;
+   pos @_O_right @_quotesingle -20;
+   pos @_P @_J_left -90;
+   pos @_P @_A_left -60;
+   pos @_P @_period -70;
+   pos @_R_right @_O_left -30;
+   pos @_R_right @_T_left -70;
+   pos @_R_right @_Y -95;
+   pos @_R_right @_V -90;
+   pos @_R_right @_W -70;
+   pos @_R_right @_U_left -60;
+   pos @_R_right @_S -10;
+   pos @_R_right @_a_left -15;
+   pos @_R_right @_o_left -30;
+   pos @_R_right @_j_left -30;
+   pos @_R_right @_h_k_l_left -10;
+   pos @_R_right @_n_left -10;
+   pos @_R_right @_s_left -10;
+   pos @_R_right @_t_left -50;
+   pos @_R_right @_u_left -45;
+   pos @_R_right @_v_left -75;
+   pos @_R_right @_w -60;
+   pos @_R_right @_z -4;
+   pos @_R_right @_hyphen -50;
+   pos @_R_right @_quoteright -60;
+   pos @_R_right @_quotesingle -40;
+   pos @_R_right @_guill -20;
+   pos @_R_right @_quoteleft -60;
+   pos @_S @_A_left -10;
+   pos @_S @_T_left -20;
+   pos @_S @_V -10;
+   pos @_S @_Y -15;
+   pos @_S @_a_left -10;
+   pos @_S @_t_left -10;
+   pos @_S @_u_left -10;
+   pos @_S @_v_left -20;
+   pos @_S @_w -10;
+   pos @_T_right @_A_left -100;
+   pos @_T_right @_S -20;
+   pos @_T_right @_O_left -10;
+   pos @_T_right @_J_left -100;
+   pos @_T_right @_t_left -20;
+   pos @_T_right @_o_left -70;
+   pos @_T_right @_a_left -70;
+   pos @_T_right @_v_left -10;
+   pos @_T_right @_s_left -50;
+   pos @_T_right @_u_left -20;
+   pos @_T_right @_f_left -20;
+   pos @_T_right @_g_left -30;
+   pos @_T_right @_h_k_l_left -10;
+   pos @_T_right @_n_left -20;
+   pos @_T_right @_z -20;
+   pos @_T_right @_period -100;
+   pos @_T_right @_colon -20;
+   pos @_T_right @_hyphen -70;
+   pos @_T_right @_guill -50;
+   pos @_T_right @_Z -10;
+   pos @_U_right @_A_left -75;
+   pos @_U_right @_J_left -60;
+   pos @_U_right @_S -10;
+   pos @_U_right @_Z -10;
+   pos @_U_right @_u_left -30;
+   pos @_U_right @_v_left -50;
+   pos @_U_right @_w -40;
+   pos @_U_right @_s_left -40;
+   pos @_U_right @_a_left -40;
+   pos @_U_right @_o_left -40;
+   pos @_U_right @_t_left -40;
+   pos @_U_right @_f_left -40;
+   pos @_U_right @_g_left -30;
+   pos @_U_right @_n_left -20;
+   pos @_U_right @_z -30;
+   pos @_U_right @_period -40;
+   pos @_V @_A_left -120;
+   pos @_V @_O_left -30;
+   pos @_V @_J_left -110;
+   pos @_V @_S -30;
+   pos @_V @_o_left -90;
+   pos @_V @_u_left -80;
+   pos @_V @_n_left -80;
+   pos @_V @_a_left -90;
+   pos @_V @_f_left -60;
+   pos @_V @_t_left -50;
+   pos @_V @_z -70;
+   pos @_V @_s_left -95;
+   pos @_V @_g_left -80;
+   pos @_V @_v_left -50;
+   pos @_V @_w -50;
+   pos @_V @_period -100;
+   pos @_V @_colon -30;
+   pos @_V @_hyphen -50;
+   pos @_V @_guill -50;
+   pos @_V @_guilr -10;
+   pos @_V @_Z -10;
+   pos @_W @_A_left -110;
+   pos @_W @_O_left -20;
+   pos @_W @_J_left -100;
+   pos @_W @_S -20;
+   pos @_W @_t_left -40;
+   pos @_W @_o_left -70;
+   pos @_W @_n_left -50;
+   pos @_W @_u_left -40;
+   pos @_W @_z -50;
+   pos @_W @_a_left -55;
+   pos @_W @_f_left -30;
+   pos @_W @_g_left -60;
+   pos @_W @_v_left -40;
+   pos @_W @_w -30;
+   pos @_W @_period -80;
+   pos @_W @_colon -10;
+   pos @_W @_hyphen -40;
+   pos @_W @_i_left -20;
+   pos @_W @_s_left -72;
+   pos @_W @_guill -40;
+   pos @_W @_guilr -10;
+   pos @_Y @_A_left -110;
+   pos @_Y @_O_left -50;
+   pos @_Y @_J_left -110;
+   pos @_Y @_S -40;
+   pos @_Y @_u_left -80;
+   pos @_Y @_n_left -70;
+   pos @_Y @_o_left -95;
+   pos @_Y @_a_left -90;
+   pos @_Y @_z -80;
+   pos @_Y @_f_left -40;
+   pos @_Y @_g_left -100;
+   pos @_Y @_i_left -20;
+   pos @_Y @_j_left -10;
+   pos @_Y @_s_left -80;
+   pos @_Y @_t_left -40;
+   pos @_Y @_v_left -70;
+   pos @_Y @_w -50;
+   pos @_Y @_period -100;
+   pos @_Y @_colon -40;
+   pos @_Y @_hyphen -80;
+   pos @_Y @_guill -50;
+   pos @_Y @_guilr -30;
+   pos @_Z @_S -10;
+   pos @_Z @_T_left -20;
+   pos @_Z @_t_left -20;
+   pos @_Z @_u_left -10;
+   pos @_Z @_v_left -40;
+   pos @_Z @_w -40;
+   pos @_Z @_U_left -7;
+   pos @_Z @_J_left -10;
+   pos @_c_right @_o_left -5;
+   pos @_c_right @_h_k_l_left -7;
+   pos @_g_right @_o_left -20;
+   pos @_g_right @_a_left -10;
+   pos @_g_right @_h_k_l_left -10;
+   pos @_i_right @_v_left -25;
+   pos @_i_right @_w -15;
+   pos @_i_right @_t_left -20;
+   pos @_i_right @_u_left -20;
+   pos @_i_right @_quoteleft -40;
+   pos @_i_right @_quoteright -10;
+   pos @_i_right @_T_left -50;
+   pos @_i_right @_V -50;
+   pos @_i_right @_U_left -30;
+   pos @_i_right @_W -40;
+   pos @_i_right @_Y -50;
+   pos @_j_right @_v_left -20;
+   pos @_j_right @_w -10;
+   pos @_j_right @_quoteright -20;
+   pos @_j_right @_t_left -10;
+   pos @_k_right @_quoteright -20;
+   pos @_k_right @_quoteleft -30;
+   pos @_k_right @_quotesingle -10;
+   pos @_k_right @_guill -20;
+   pos @_l_right @_v_left -25;
+   pos @_l_right @_w -15;
+   pos @_l_right @_t_left -10;
+   pos @_l_right @_u_left -10;
+   pos @_l_right @_quoteright -81;
+   pos @_n_right @_v_left -35;
+   pos @_n_right @_t_left -25;
+   pos @_n_right @_w -27;
+   pos @_n_right @_u_left -25;
+   pos @_n_right @_quoteright -40;
+   pos @_n_right @_quoteleft -55;
+   pos @_n_right @_quotesingle -40;
+   pos @_n_right @_j_left -15;
+   pos @_o_right @_v_left -20;
+   pos @_o_right @_t_left -15;
+   pos @_o_right @_w -10;
+   pos @_o_right @_h_k_l_left -15;
+   pos @_o_right @_period -10;
+   pos @_o_right @_quoteright -30;
+   pos @_o_right @_quoteleft -40;
+   pos @_o_right @_quotesingle -30;
+   pos @_o_right @_T_left -50;
+   pos @_r_right @_h_k_l_left -20;
+   pos @_r_right @_period -50;
+   pos @_s_right @_t_left -10;
+   pos @_u_right @_v_left -30;
+   pos @_u_right @_t_left -24;
+   pos @_u_right @_quoteright -50;
+   pos @_u_right @_quoteleft -50;
+   pos @_u_right @_quotesingle -30;
+   pos @_u_right @_T_left -60;
+   pos @_v_right @_o_left -25;
+   pos @_v_right @_a_left -15;
+   pos @_v_right @_g_left -20;
+   pos @_v_right @_h_k_l_left -30;
+   pos @_v_right @_s_left -10;
+   pos @_v_right @_period -90;
+   pos @_v_right @_hyphen -20;
+   pos @_v_right @_guill -20;
+   pos @_w @_a_left -10;
+   pos @_w @_o_left -15;
+   pos @_w @_g_left -10;
+   pos @_w @_h_k_l_left -20;
+   pos @_w @_s_left -5;
+   pos @_w @_period -80;
+   pos @_w @_hyphen -10;
+   pos @_w @_guill -10;
+   pos @_period @_O_left -30;
+   pos @_period @_T_left -100;
+   pos @_period @_U_left -30;
+   pos @_period @_V -100;
+   pos @_period @_W -80;
+   pos @_period @_Y -100;
+   pos @_period @_t_left -40;
+   pos @_period @_u_left -40;
+   pos @_period @_v_left -90;
+   pos @_period @_w -80;
+   pos @_period @_o_left -10;
+   pos @_period @_quoteleft -100;
+   pos @_period @_quoteright -100;
+   pos @_period @_quotesingle -100;
+   pos @_period @_cyr_lc_uni0437_left -20;
+   pos @_period @_cyr_lc_uni043E_left -20;
+   pos @_period @_cyr_lc_uni0443 -56;
+   pos @_period @_cyr_uni044A -47;
+   pos @_period @_cyr_lc_uni04AF -64;
+   pos @_period @_cyr_uni0421_left -34;
+   pos @_period @_cyr_uni0423 -77;
+   pos @_period @_Omicron_right -30;
+   pos @_period @_Upsilon_right -100;
+   pos @_quoteright @_A_left -100;
+   pos @_quoteright @_J_left -100;
+   pos @_quoteright @_O_left -50;
+   pos @_quoteright @_S -20;
+   pos @_quoteright @_Z -20;
+   pos @_quoteright @_s_left -80;
+   pos @_quoteright @_o_left -119;
+   pos @_quoteright @_u_left -50;
+   pos @_quoteright @_g_left -80;
+   pos @_quoteright @_v_left -40;
+   pos @_quoteright @_w -30;
+   pos @_quoteright @_n_left -20;
+   pos @_quoteright @_f_left -50;
+   pos @_quoteright @_t_left -20;
+   pos @_quoteright @_period -100;
+   pos @_quoteright @_a_left -95;
+   pos @_quoteright @_gamma -45;
+   pos @_quoteright @_Omicron_sngl 150;
+   pos @_quoteright @_Upsilon_sngl 250;
+   pos @_quoteright @_Epsilon_sngl 200;
+   pos @_quoteright @_Alpha_sngl 50;
+   pos @_quoteright @_Alpha_dbl 70;
+   pos @_quoteright @_Epsilon_dbl 300;
+   pos @_quoteright @_Omicron_dbl 200;
+   pos @_quoteright @_Upsilon_dbl 360;
+   pos @_quoteleft @_period -100;
+   pos @_quoteleft @_g_left -30;
+   pos @_quoteleft @_o_left -30;
+   pos @_quoteleft @_a_left -20;
+   pos @_quoteleft @_n_left -20;
+   pos @_quoteleft @_s_left -50;
+   pos @_quoteleft @_t_left -10;
+   pos @_quoteleft @_A_left -100;
+   pos @_quoteleft @_J_left -100;
+   pos @_quoteleft @_O_left -20;
+   pos @_quoteleft @_cyr_uni042F_left -43;
+   pos @_quoteleft @_cyr_uni0421_left -43;
+   pos @_quoteleft @_cyr_uni041B_left -56;
+   pos @_quoteleft @_cyr_A -129;
+   pos @_quoteleft @_cyr_lc_uni044F_left -60;
+   pos @_quoteleft @_cyr_lc_uni043E_left -64;
+   pos @_quoteleft @_cyr_lc_uni043B_left -56;
+   pos @_quoteleft @_cyr_lc_uni0437_left -26;
+   pos @_quoteleft @_cyr_lc_uni0436_left -39;
+   pos @_quoteleft @_cyr_lc_uni0432_left -34;
+   pos @_quoteleft @_cyr_a -47;
+   pos @_quoteleft @_Alpha_left -100;
+   pos @_quoteleft @_Omicron_right -20;
+   pos @_quoteleft @_epsilon -66;
+   pos @_quoteleft @_alpha_left -66;
+   pos @_quoteleft @_Omicron_sngl 150;
+   pos @_quoteleft @_Upsilon_sngl 250;
+   pos @_quoteleft @_Epsilon_sngl 200;
+   pos @_quoteleft @_Alpha_sngl 50;
+   pos @_quoteleft @_Alpha_dbl 70;
+   pos @_quoteleft @_Epsilon_dbl 300;
+   pos @_quoteleft @_Omicron_dbl 200;
+   pos @_quoteleft @_Upsilon_dbl 360;
+   pos @_quotesinglbase @_T_left -110;
+   pos @_quotesinglbase @_U_left -50;
+   pos @_quotesinglbase @_V -100;
+   pos @_quotesinglbase @_W -90;
+   pos @_quotesinglbase @_Y -120;
+   pos @_quotesinglbase @_t_left -50;
+   pos @_quotesinglbase @_u_left -50;
+   pos @_quotesinglbase @_v_left -100;
+   pos @_quotesinglbase @_w -90;
+   pos @_quotesinglbase @_O_left -30;
+   pos @_quotesinglbase @_Omicron_right -46;
+   pos @_quotesinglbase @_Upsilon_right -90;
+   pos @_quotesinglbase @_gamma -92;
+   pos @_quotesinglbase @_Omicron_sngl 150;
+   pos @_quotesinglbase @_Upsilon_sngl 250;
+   pos @_quotesinglbase @_Epsilon_sngl 200;
+   pos @_quotesinglbase @_Alpha_sngl 50;
+   pos @_quotesinglbase @_Alpha_dbl 70;
+   pos @_quotesinglbase @_Epsilon_dbl 300;
+   pos @_quotesinglbase @_Omicron_dbl 200;
+   pos @_quotesinglbase @_Upsilon_dbl 360;
+   pos @_quotesingle @_period -100;
+   pos @_quotesingle @_A_left -90;
+   pos @_quotesingle @_J_left -90;
+   pos @_quotesingle @_O_left -20;
+   pos @_quotesingle @_o_left -30;
+   pos @_quotesingle @_g_left -40;
+   pos @_quotesingle @_a_left -10;
+   pos @_quotesingle @_s_left -30;
+   pos @_quotesingle @_Alpha_left -90;
+   pos @_quotesingle @_Omicron_right -20;
+   pos @_quotesingle @_Omicron_sngl 150;
+   pos @_quotesingle @_Upsilon_sngl 250;
+   pos @_quotesingle @_Epsilon_sngl 200;
+   pos @_quotesingle @_Alpha_sngl 50;
+   pos @_quotesingle @_Alpha_dbl 70;
+   pos @_quotesingle @_Epsilon_dbl 300;
+   pos @_quotesingle @_Omicron_dbl 200;
+   pos @_quotesingle @_Upsilon_dbl 360;
+   pos @_hyphen @_A_left -30;
+   pos @_hyphen @_S -30;
+   pos @_hyphen @_T_left -70;
+   pos @_hyphen @_V -50;
+   pos @_hyphen @_W -40;
+   pos @_hyphen @_J_left -20;
+   pos @_hyphen @_Y -80;
+   pos @_hyphen @_Z -40;
+   pos @_hyphen @_v_left -20;
+   pos @_hyphen @_w -10;
+   pos @_hyphen @_cyr_uni0423 -30;
+   pos @_hyphen @_cyr_uni042F_left -20;
+   pos @_hyphen @_cyr_lc_uni043B_left -20;
+   pos @_hyphen @_cyr_uni041B_left -20;
+   pos @_hyphen @_cyr_A -30;
+   pos @_hyphen @_Alpha_left -30;
+   pos @_hyphen @_Upsilon_right -80;
+   pos @_hyphen @_gamma -30;
+   pos @_hyphen @_lambda -30;
+   pos @_hyphen @_upsilon -20;
+   pos @_hyphen @_Omicron_sngl 150;
+   pos @_hyphen @_Upsilon_sngl 250;
+   pos @_hyphen @_Epsilon_sngl 200;
+   pos @_hyphen @_Alpha_sngl 50;
+   pos @_hyphen @_Alpha_dbl 70;
+   pos @_hyphen @_Epsilon_dbl 300;
+   pos @_hyphen @_Omicron_dbl 200;
+   pos @_hyphen @_Upsilon_dbl 360;
+   pos @_parenleft @_epsilon -12;
+   pos @_parenleft @_alpha_left -12;
+   pos @_parenleft @_Upsilon_sngl 250;
+   pos @_parenleft @_Omicron_sngl 150;
+   pos @_parenleft @_Epsilon_sngl 200;
+   pos @_parenleft @_Alpha_sngl 50;
+   pos @_parenleft @_Alpha_dbl 70;
+   pos @_parenleft @_Epsilon_dbl 300;
+   pos @_parenleft @_Omicron_dbl 200;
+   pos @_parenleft @_Upsilon_dbl 360;
+   pos @_parenright @_Upsilon_sngl 250;
+   pos @_parenright @_Omicron_sngl 150;
+   pos @_parenright @_Epsilon_sngl 200;
+   pos @_parenright @_Alpha_sngl 50;
+   pos @_parenright @_Alpha_dbl 70;
+   pos @_parenright @_Epsilon_dbl 300;
+   pos @_parenright @_Omicron_dbl 200;
+   pos @_parenright @_Upsilon_dbl 360;
+   pos @_colon @_Upsilon_right -70;
+   pos @_colon @_Omicron_sngl 150;
+   pos @_colon @_Upsilon_sngl 250;
+   pos @_colon @_Epsilon_sngl 200;
+   pos @_colon @_Alpha_sngl 50;
+   pos @_colon @_Alpha_dbl 70;
+   pos @_colon @_Epsilon_dbl 300;
+   pos @_colon @_Omicron_dbl 200;
+   pos @_colon @_Upsilon_dbl 360;
+   pos @_guill @_Y -30;
+   pos @_guill @_V -10;
+   pos @_guill @_W -10;
+   pos @_guill @_cyr_A -20;
+   pos @_guill @_cyr_uni0411_left -10;
+   pos @_guill @_cyr_uni0423 -70;
+   pos @_guill @_Upsilon_right -30;
+   pos @_guill @_gamma -20;
+   pos @_guill @_Omicron_sngl 150;
+   pos @_guill @_Epsilon_sngl 200;
+   pos @_guill @_Alpha_sngl 50;
+   pos @_guill @_Upsilon_sngl 250;
+   pos @_guill @_Alpha_dbl 70;
+   pos @_guill @_Epsilon_dbl 300;
+   pos @_guill @_Omicron_dbl 200;
+   pos @_guill @_Upsilon_dbl 360;
+   pos @_guilr @_v_left -20;
+   pos @_guilr @_w -10;
+   pos @_guilr @_t_left -10;
+   pos @_guilr @_T_left -50;
+   pos @_guilr @_V -50;
+   pos @_guilr @_W -30;
+   pos @_guilr @_Y -40;
+   pos @_guilr @_period -20;
+   pos @_guilr @_Upsilon_right -40;
+   pos @_guilr @_gamma -45;
+   pos @_guilr @_lambda -30;
+   pos @_guilr @_Upsilon_sngl 250;
+   pos @_guilr @_Omicron_sngl 150;
+   pos @_guilr @_Epsilon_sngl 200;
+   pos @_guilr @_Alpha_sngl 50;
+   pos @_guilr @_Alpha_dbl 70;
+   pos @_guilr @_Epsilon_dbl 300;
+   pos @_guilr @_Omicron_dbl 200;
+   pos @_guilr @_Upsilon_dbl 360;
+   pos @_cyr_uni0415_right @_cyr_lc_uni04AF -40;
+   pos @_cyr_uni0415_right @_cyr_uni0423 -20;
+   pos @_cyr_uni042C_right @_cyr_uni0423 -60;
+   pos @_cyr_uni042C_right @_hyphen 30;
+   pos @_cyr_uni042C_right @_cyr_uni0402_left -30;
+   pos @_cyr_uni041A_right @_cyr_lc_uni043E_left -10;
+   pos @_cyr_uni041A_right @_cyr_uni042F_left 10;
+   pos @_cyr_uni041A_right @_cyr_uni044A -30;
+   pos @_cyr_uni041A_right @_cyr_lc_uni0443 -20;
+   pos @_cyr_uni041A_right @_cyr_lc_uni04AF -20;
+   pos @_cyr_uni0423 @_cyr_a -70;
+   pos @_cyr_uni0423 @_cyr_A -100;
+   pos @_cyr_uni0423 @_cyr_uni0421_left -20;
+   pos @_cyr_uni0423 @_cyr_uni041B_left -40;
+   pos @_cyr_uni0423 @_cyr_uni042F_left -30;
+   pos @_cyr_uni0423 @_cyr_lc_uni0432_left -55;
+   pos @_cyr_uni0423 @_cyr_lc_uni043E_left -65;
+   pos @_cyr_uni0423 @_cyr_lc_uni0436_left -60;
+   pos @_cyr_uni0423 @_cyr_lc_uni0437_left -40;
+   pos @_cyr_uni0423 @_cyr_lc_uni043B_left -80;
+   pos @_cyr_uni0423 @_cyr_lc_uni0443 -50;
+   pos @_cyr_uni0423 @_cyr_uni044A -70;
+   pos @_cyr_uni0423 @_cyr_lc_uni044F_left -80;
+   pos @_cyr_uni0423 @_colon -40;
+   pos @_cyr_uni0423 @_hyphen -40;
+   pos @_cyr_uni0423 @_period -142;
+   pos @_cyr_uni0423 @_cyr_lc_uni04AF -30;
+   pos @_cyr_uni0423 @_guilr -80;
+   pos @_cyr_uni0426_right @_cyr_lc_uni04AF -20;
+   pos @_cyr_uni0426_right @_cyr_uni0423 -20;
+   pos @_cyr_uni042D_right @_cyr_uni0416_left -20;
+   pos @_cyr_uni042D_right @_cyr_uni0423 -25;
+   pos @_cyr_uni042D_right @_cyr_lc_uni043B_left -30;
+   pos @_cyr_uni042D_right @_cyr_A -20;
+   pos @_cyr_uni042D_right @_cyr_lc_uni044F_left -20;
+   pos @_cyr_uni042D_right @_period -51;
+   pos @_cyr_uni042D_right @_quoteright -30;
+   pos @_cyr_lc_uni0433_right @_cyr_lc_uni0443 -10;
+   pos @_cyr_lc_uni0433_right @_cyr_lc_uni043B_left -35;
+   pos @_cyr_lc_uni0433_right @_cyr_lc_uni043E_left -10;
+   pos @_cyr_lc_uni0433_right @_cyr_lc_uni044F_left -30;
+   pos @_cyr_lc_uni0433_right @_period -80;
+   pos @_cyr_lc_uni0433_right @_cyr_a -5;
+   pos @_cyr_lc_uni0446_right @_cyr_lc_uni043E_left -5;
+   pos @_cyr_lc_uni0435_right @_cyr_lc_uni043B_left -5;
+   pos @_cyr_lc_uni0435_right @_cyr_lc_uni0443 -5;
+   pos @_cyr_lc_uni0436_right @_cyr_lc_uni0443 -10;
+   pos @_cyr_lc_uni0436_right @_quoteright -34;
+   pos @_cyr_lc_uni0452_right @_quoteright -73;
+   pos @_cyr_lc_uni0443 @_cyr_lc_uni043B_left -30;
+   pos @_cyr_lc_uni0443 @_cyr_lc_uni043E_left -20;
+   pos @_cyr_lc_uni0443 @_cyr_a -15;
+   pos @_cyr_lc_uni0443 @_cyr_lc_uni0437_left -20;
+   pos @_cyr_lc_uni0443 @_cyr_lc_uni044F_left -40;
+   pos @_cyr_lc_uni0443 @_cyr_lc_uni0436_left -10;
+   pos @_cyr_lc_uni0443 @_period -94;
+   pos @_cyr_lc_uni044C_right @_cyr_lc_uni0443 -40;
+   pos @_cyr_lc_uni044C_right @_cyr_lc_uni04AF -40;
+   pos @_cyr_lc_uni044C_right @_cyr_uni044A -25;
+   pos @_cyr_lc_uni044C_right @_quoteright -69;
+   pos @_cyr_lc_uni04AF @_cyr_lc_uni043B_left -20;
+   pos @_cyr_lc_uni04AF @_cyr_lc_uni043E_left -5;
+   pos @_cyr_lc_uni04AF @_period -77;
+   pos @_cyr_uni0413_right @_cyr_a -60;
+   pos @_cyr_uni0413_right @_cyr_lc_uni043E_left -70;
+   pos @_cyr_uni0413_right @_cyr_lc_uni0432_left -40;
+   pos @_cyr_uni0413_right @_cyr_lc_uni0443 -40;
+   pos @_cyr_uni0413_right @_cyr_lc_uni043B_left -100;
+   pos @_cyr_uni0413_right @_cyr_lc_uni0437_left -60;
+   pos @_cyr_uni0413_right @_cyr_uni041B_left -50;
+   pos @_cyr_uni0413_right @_cyr_uni0421_left -20;
+   pos @_cyr_uni0413_right @_cyr_A -90;
+   pos @_cyr_uni0413_right @_cyr_uni0416_left -20;
+   pos @_cyr_uni0413_right @_cyr_uni042F_left -30;
+   pos @_cyr_uni0413_right @_cyr_lc_uni0436_left -40;
+   pos @_cyr_uni0413_right @_cyr_uni044A -50;
+   pos @_cyr_uni0413_right @_cyr_lc_uni044F_left -90;
+   pos @_cyr_uni0413_right @_colon -30;
+   pos @_cyr_uni0413_right @_hyphen -50;
+   pos @_cyr_uni0413_right @_period -110;
+   pos @_cyr_uni0413_right @_cyr_lc_uni04AF -30;
+   pos @_cyr_uni0413_right @_guilr -20;
+   pos @_cyr_A @_cyr_uni0402_left -50;
+   pos @_cyr_A @_cyr_uni0421_left -15;
+   pos @_cyr_A @_cyr_uni0423 -60;
+   pos @_cyr_A @_cyr_lc_uni0436_left -10;
+   pos @_cyr_A @_cyr_lc_uni0437_left -10;
+   pos @_cyr_A @_cyr_lc_uni043B_left -10;
+   pos @_cyr_A @_cyr_uni044A -60;
+   pos @_cyr_A @_cyr_lc_uni044F_left -10;
+   pos @_cyr_A @_cyr_lc_uni0432_left -10;
+   pos @_cyr_A @_cyr_lc_uni043E_left -5;
+   pos @_cyr_A @_cyr_lc_uni0443 -80;
+   pos @_cyr_A @_cyr_lc_uni04AF -70;
+   pos @_cyr_A @_hyphen -30;
+   pos @_cyr_A @_cyr_uni041B_left 10;
+   pos @_cyr_A @_cyr_uni042F_left 20;
+   pos @_cyr_A @_quoteright -133;
+   pos @_cyr_a @_cyr_lc_uni043B_left 10;
+   pos @_cyr_a @_cyr_lc_uni0443 -40;
+   pos @_cyr_a @_cyr_uni044A -10;
+   pos @_cyr_a @_cyr_lc_uni04AF -20;
+   pos @_cyr_a @_quoteright -73;
+   pos @_cyr_lc_uni043E_2_right @_cyr_lc_uni0443 -20;
+   pos @_cyr_lc_uni043E_2_right @_cyr_lc_uni043B_left -5;
+   pos @_cyr_lc_uni043E_2_right @_cyr_lc_uni04AF -10;
+   pos @_cyr_lc_uni043E_2_right @_cyr_lc_uni0437_left -5;
+   pos @_cyr_lc_uni043E_2_right @_cyr_lc_uni044F_left -10;
+   pos @_cyr_lc_uni043E_2_right @_period -30;
+   pos @_cyr_lc_uni043E_2_right @_quoteright -34;
+   pos @_alpha_right @_quoteleft -45;
+   pos @_alpha_right @_quoteright -35;
+   pos @_alpha_right @_gamma -20;
+   pos @_alpha_right @_epsilon -5;
+   pos @_alpha_right @_upsilon -35;
+   pos @_alpha_right @_eta -20;
+   pos @_alpha_right @_hyphen -20;
+   pos @_alpha_right @_alpha_left -19;
+   pos @_alpha_right @_period -20;
+   pos @_gamma @_hyphen -35;
+   pos @_gamma @_colon -22;
+   pos @_gamma @_guill -25;
+   pos @_gamma @_guilr -22;
+   pos @_gamma @_quotesinglbase -79;
+   pos @_gamma @_epsilon -25;
+   pos @_gamma @_alpha_left -23;
+   pos @_gamma @_rho_left -20;
+   pos @_gamma @_lambda -60;
+   pos @_gamma @_period -80;
+   pos @_gamma @_upsilon -20;
+   pos @_lambda @_alpha_left -13;
+   pos @_lambda @_gamma -70;
+   pos @_lambda @_eta -40;
+   pos @_lambda @_upsilon -40;
+   pos @_lambda @_hyphen -30;
+   pos @_lambda @_quoteright -40;
+   pos @_lambda @_guill -20;
+   pos @_lambda @_period -20;
+   pos @_lambda @_epsilon -5;
+   pos @_epsilon @_parenright -12;
+   pos @_epsilon @_gamma -10;
+   pos @_epsilon @_alpha_left -5;
+   pos @_epsilon @_quoteright -30;
+   pos @_epsilon @_lambda -10;
+   pos @_epsilon @_rho_left -10;
+   pos @_eta @_gamma -20;
+   pos @_eta @_eta -10;
+   pos @_eta @_upsilon -10;
+   pos @_eta @_quoteright -30;
+   pos @_omicron_right @_quoteleft -45;
+   pos @_omicron_right @_quoteright -25;
+   pos @_omicron_right @_gamma -25;
+   pos @_omicron_right @_lambda -30;
+   pos @_omicron_right @_epsilon -12;
+   pos @_omicron_right @_eta -10;
+   pos @_omicron_right @_upsilon -15;
+   pos @_omicron_right @_period -30;
+   pos @_upsilon @_gamma -10;
+   pos @_upsilon @_epsilon -10;
+   pos @_upsilon @_eta -10;
+   pos @_upsilon @_lambda -27;
+   pos @_upsilon @_rho_left -10;
+   pos @_upsilon @_quoteright -30;
+   pos @_upsilon @_period -23;
+   pos @_Alpha_right @_hyphen -31;
+   pos @_Alpha_right @_quoteright -100;
+   pos @_Alpha_right @_quoteleft -110;
+   pos @_Alpha_right @_quotesingle -90;
+   pos @_Alpha_right @_Upsilon_right -110;
+   pos @_Alpha_right @_Omicron_right -15;
+   pos @_Alpha_right @_gamma -65;
+   pos @_Alpha_right @_upsilon -30;
+   pos @_Alpha_right @_eta -40;
+   pos @_Alpha_right @_epsilon -5;
+   pos @_Alpha_right @_alpha_left -5;
+   pos @_Epsilon_right @_quoteright -30;
+   pos @_Epsilon_right @_quoteleft -10;
+   pos @_Epsilon_right @_gamma -20;
+   pos @_Epsilon_right @_upsilon -20;
+   pos @_Epsilon_right @_eta -30;
+   pos @_Epsilon_right @_lambda -20;
+   pos @_Epsilon_right @_Upsilon_right -15;
+   pos @_Eta_right @_alpha_left -10;
+   pos @_Eta_right @_gamma -40;
+   pos @_Eta_right @_epsilon -10;
+   pos @_Eta_right @_eta -20;
+   pos @_Eta_right @_lambda -10;
+   pos @_Eta_right @_upsilon -20;
+   pos @_Kappa_right @_quoteright -20;
+   pos @_Kappa_right @_guill -20;
+   pos @_Kappa_right @_quoteleft -30;
+   pos @_Kappa_right @_Omicron_right -40;
+   pos @_Kappa_right @_gamma -80;
+   pos @_Kappa_right @_upsilon -50;
+   pos @_Kappa_right @_eta -50;
+   pos @_Kappa_right @_epsilon -20;
+   pos @_Kappa_right @_alpha_left -30;
+   pos @_Omicron_left @_period -30;
+   pos @_Omicron_left @_quoteright -40;
+   pos @_Omicron_left @_quotesingle -20;
+   pos @_Omicron_left @_Alpha_left -30;
+   pos @_Omicron_left @_Upsilon_right -50;
+   pos @_Omicron_left @_epsilon -10;
+   pos @_Omicron_left @_lambda -60;
+   pos @_Omicron_left @_eta -10;
+   pos @_Rho @_period -70;
+   pos @_Rho @_Alpha_left -60;
+   pos @_Upsilon_left @_period -100;
+   pos @_Upsilon_left @_colon -40;
+   pos @_Upsilon_left @_hyphen -80;
+   pos @_Upsilon_left @_guill -50;
+   pos @_Upsilon_left @_guilr -30;
+   pos @_Upsilon_left @_Alpha_left -110;
+   pos @_Upsilon_left @_Omicron_right -50;
+   pos @_Upsilon_left @_gamma -85;
+   pos @_Upsilon_left @_upsilon -85;
+   pos @_Upsilon_left @_eta -85;
+   pos @_Upsilon_left @_epsilon -94;
+   pos @_Upsilon_left @_alpha_left -95;
+   pos @_Upsilon_left @_Omega_left -30;
+   pos @_Upsilon_left @_iota -60;
+   pos @_Upsilon_left @_mu_left -60;
+   pos @_Upsilon_left @_rho_left -65;
+   pos @_Upsilon_left @_lambda 20;
+   pos @_Omega_right @_Upsilon_right -20;
+   pos @_Omega_right @_gamma -20;
+   pos @_Omega_right @_lambda -10;
+   pos @_Omega_right @_eta -20;
+   pos @_Omega_right @_upsilon -20;
+   pos @_cyr_uni0421_right @_cyr_A -10;
+   pos @_cyr_uni0421_right @_cyr_uni0423 -30;
+   pos @_cyr_uni0421_right @_cyr_lc_uni0436_left -20;
+   pos @_cyr_uni0421_right @_cyr_lc_uni043B_left -30;
+   pos @_cyr_uni0421_right @_cyr_lc_uni0437_left -25;
+   pos @_cyr_uni0421_right @_cyr_uni044A -60;
+   pos @_cyr_uni0421_right @_cyr_lc_uni044F_left -30;
+   pos @_cyr_uni0421_right @_cyr_lc_uni043E_left -20;
+   pos @_cyr_uni0421_right @_cyr_uni0421_left -10;
+   pos @_cyr_uni0421_right @_cyr_a -10;
+   pos @_cyr_uni0421_right @_cyr_lc_uni0443 -30;
+   pos @_cyr_uni0421_right @_cyr_lc_uni04AF -30;
+   pos @_cyr_uni0421_right @_cyr_lc_uni0432_left -10;
+} kern;
+
+
+
