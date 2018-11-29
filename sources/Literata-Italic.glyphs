@@ -77,6 +77,15 @@ value = 1;
 {
 name = "Use Line Breaks";
 value = 1;
+},
+{
+name = Axes;
+value = (
+{
+Name = Weight;
+Tag = wght;
+}
+);
 }
 );
 date = "2016-09-27 18:17:15 +0000";
@@ -218588,13 +218597,13 @@ f.sc = {
 at = -51;
 slash = -80;
 };
+five.lf = {
+two.lf = -40;
+};
 five.osf = {
 asterisk = -20;
 backslash = -30;
 seven.osf = -20;
-};
-five.lf = {
-two.lf = -40;
 };
 four.osf = {
 "@MMK_R_period" = -20;
@@ -219027,6 +219036,12 @@ m.sc = -6;
 scommaaccent.sc = {
 m.sc = -6;
 };
+seven.lf = {
+eight.lf = -20;
+four.lf = -50;
+six.lf = -40;
+three.lf = -20;
+};
 seven.osf = {
 "@MMK_R_hyphen" = -20;
 "@MMK_R_period" = -90;
@@ -219042,12 +219057,6 @@ slash = -40;
 three.osf = -10;
 two.osf = -20;
 zero.osf = -30;
-};
-seven.lf = {
-eight.lf = -20;
-four.lf = -50;
-six.lf = -40;
-three.lf = -20;
 };
 "shha-cy.sc" = {
 "@MMK_R_uni0402" = -80;
@@ -219079,15 +219088,15 @@ sigma.sc = {
 "@MMK_R_Omicron" = -15;
 "@MMK_R_omicron.sc" = -15;
 };
+six.lf = {
+seven.lf = -20;
+};
 six.osf = {
 five.osf = -10;
 four.osf = -25;
 seven.osf = -14;
 three.osf = -10;
 two.osf = -10;
-};
-six.lf = {
-seven.lf = -20;
 };
 slash = {
 "@MMK_R_A" = -100;
@@ -219244,6 +219253,9 @@ two.osf = -10;
 "che-cy.sc" = -90;
 "ef-cy.sc" = -10;
 };
+two.lf = {
+seven.lf = -20;
+};
 two.osf = {
 asterisk = -20;
 backslash = -70;
@@ -219252,9 +219264,6 @@ five.osf = -30;
 seven.osf = -40;
 three.osf = -20;
 two.osf = -10;
-};
-two.lf = {
-seven.lf = -20;
 };
 underscore = {
 "@MMK_R_Alphatonos" = 50;
@@ -219358,17 +219367,17 @@ m.sc = -9;
 "ha-cy.sc" = -5;
 "je-cy.sc" = -10;
 };
-zero.osf = {
-asterisk = -20;
-backslash = -60;
-four.osf = -10;
-seven.osf = -15;
-};
 zero.lf = {
 five.lf = -20;
 one.lf = -20;
 seven.lf = -20;
 two.lf = -20;
+};
+zero.osf = {
+asterisk = -20;
+backslash = -60;
+four.osf = -10;
+seven.osf = -15;
 };
 zeta = {
 "@MMK_R_alpha" = -40;
@@ -222907,13 +222916,13 @@ f.sc = {
 at = -51;
 slash = -80;
 };
+five.lf = {
+two.lf = -40;
+};
 five.osf = {
 asterisk = -20;
 backslash = -30;
 seven.osf = -20;
-};
-five.lf = {
-two.lf = -40;
 };
 four.osf = {
 "@MMK_R_quoteleft" = -50;
@@ -223235,6 +223244,12 @@ registered = {
 "@MMK_R_uni1F4D" = 280;
 "@MMK_R_uni1F5D" = 420;
 };
+seven.lf = {
+eight.lf = -20;
+four.lf = -50;
+six.lf = -40;
+three.lf = -20;
+};
 seven.osf = {
 "@MMK_R_hyphen" = -20;
 "@MMK_R_period" = -130;
@@ -223251,12 +223266,6 @@ slash = -40;
 three.osf = -10;
 two.osf = -30;
 zero.osf = -30;
-};
-seven.lf = {
-eight.lf = -20;
-four.lf = -50;
-six.lf = -40;
-three.lf = -20;
 };
 "shha-cy.sc" = {
 "@MMK_R_uni0402" = -80;
@@ -223288,15 +223297,15 @@ sigma.sc = {
 "@MMK_R_Omicron" = -15;
 "@MMK_R_omicron.sc" = -15;
 };
+six.lf = {
+seven.lf = -20;
+};
 six.osf = {
 five.osf = -20;
 four.osf = -25;
 seven.osf = -20;
 three.osf = -10;
 two.osf = -10;
-};
-six.lf = {
-seven.lf = -20;
 };
 slash = {
 "@MMK_R_A" = -100;
@@ -223478,6 +223487,9 @@ two.osf = -10;
 "che-cy.sc" = -90;
 "ef-cy.sc" = -10;
 };
+two.lf = {
+seven.lf = -20;
+};
 two.osf = {
 asterisk = -20;
 backslash = -110;
@@ -223486,9 +223498,6 @@ five.osf = -30;
 seven.osf = -40;
 three.osf = -20;
 two.osf = -10;
-};
-two.lf = {
-seven.lf = -20;
 };
 underscore = {
 "@MMK_R_Alphatonos" = 50;
@@ -223558,6 +223567,12 @@ xi = {
 "ha-cy.sc" = -5;
 "je-cy.sc" = -10;
 };
+zero.lf = {
+five.lf = -20;
+one.lf = -20;
+seven.lf = -20;
+two.lf = -20;
+};
 zero.osf = {
 asterisk = -20;
 backslash = -60;
@@ -223565,12 +223580,6 @@ five.osf = -10;
 four.osf = -10;
 seven.osf = -15;
 slash = -10;
-};
-zero.lf = {
-five.lf = -20;
-one.lf = -20;
-seven.lf = -20;
-two.lf = -20;
 };
 zeta = {
 "@MMK_R_alpha" = -10;
