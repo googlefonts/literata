@@ -1,3 +1,4 @@
+#!/bin/sh
 set -e
 
 
@@ -32,6 +33,12 @@ do
 	mv "$vf.fix" $vf;
 done
 rm ../fonts/variable/*backup*.ttf
+
+gftools fix-vf-meta $vfs;
+for vf in $vfs
+do
+	mv "$vf.fix" $vf;
+done
 
 echo "QAing"
 gftools qa ../fonts/variable/*.ttf -fb ../old_dropbox/_deliverables/TTF/*.ttf -o ../qa --no-diffbrowsers
