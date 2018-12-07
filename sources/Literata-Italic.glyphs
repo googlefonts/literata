@@ -128,6 +128,7 @@ feature sups;
 feature c2sc;
 feature smcp;
 feature case;
+feature ss01;
 ";
 name = aalt;
 },
@@ -207,21 +208,30 @@ name = frac;
 },
 {
 automatic = 1;
-code = "sub zero by zero.lf;
-sub one by one.lf;
-sub two by two.lf;
-sub three by three.lf;
-sub four by four.lf;
-sub five by five.lf;
-sub six by six.lf;
-sub seven by seven.lf;
-sub eight by eight.lf;
-sub nine by nine.lf;
+code = "sub zero.osf by zero.lf;
+sub one.osf by one.lf;
+sub two.osf by two.lf;
+sub three.osf by three.lf;
+sub four.osf by four.lf;
+sub five.osf by five.lf;
+sub six.osf by six.lf;
+sub seven.osf by seven.lf;
+sub eight.osf by eight.lf;
+sub nine.osf by nine.lf;
+sub zero by zero.tf;
+sub one by one.tf;
+sub two by two.tf;
+sub three by three.tf;
+sub four by four.tf;
+sub five by five.tf;
+sub six by six.tf;
+sub seven by seven.tf;
+sub eight by eight.tf;
+sub nine by nine.tf;
 ";
 name = lnum;
 },
 {
-automatic = 1;
 code = "sub zero.tf by zero.lf;
 sub one.tf by one.lf;
 sub two.tf by two.lf;
@@ -232,6 +242,16 @@ sub six.tf by six.lf;
 sub seven.tf by seven.lf;
 sub eight.tf by eight.lf;
 sub nine.tf by nine.lf;
+sub zero by zero.lf;
+sub one by one.lf;
+sub two by two.lf;
+sub three by three.lf;
+sub four by four.lf;
+sub five by five.lf;
+sub six by six.lf;
+sub seven by seven.lf;
+sub eight by eight.lf;
+sub nine by nine.lf;
 ";
 name = pnum;
 },
@@ -247,6 +267,16 @@ sub six.lf by six.tf;
 sub seven.lf by seven.tf;
 sub eight.lf by eight.tf;
 sub nine.lf by nine.tf;
+sub zero.osf by zero;
+sub one.osf by one;
+sub two.osf by two;
+sub three.osf by three;
+sub four.osf by four;
+sub five.osf by five;
+sub six.osf by six;
+sub seven.osf by seven;
+sub eight.osf by eight;
+sub nine.osf by nine;
 sub zero by zero.tf;
 sub one by one.tf;
 sub two by two.tf;
@@ -261,17 +291,26 @@ sub nine by nine.tf;
 name = tnum;
 },
 {
-automatic = 1;
-code = "sub zero.lf by zero;
-sub one.lf by one;
-sub two.lf by two;
-sub three.lf by three;
-sub four.lf by four;
-sub five.lf by five;
-sub six.lf by six;
-sub seven.lf by seven;
-sub eight.lf by eight;
-sub nine.lf by nine;
+code = "sub zero.lf by zero.osf;
+sub one.lf by one.osf;
+sub two.lf by two.osf;
+sub three.lf by three.osf;
+sub four.lf by four.osf;
+sub five.lf by five.osf;
+sub six.lf by six.osf;
+sub seven.lf by seven.osf;
+sub eight.lf by eight.osf;
+sub nine.lf by nine.osf;
+sub zero by zero.osf;
+sub one by one.osf;
+sub two by two.osf;
+sub three by three.osf;
+sub four by four.osf;
+sub five by five.osf;
+sub six by six.osf;
+sub seven by seven.osf;
+sub eight by eight.osf;
+sub nine by nine.osf;
 ";
 name = onum;
 },
@@ -1115,6 +1154,16 @@ sub six by six.lf;
 sub seven by seven.lf;
 sub eight by eight.lf;
 sub nine by nine.lf;
+sub zero.osf by zero.lf;
+sub one.osf by one.lf;
+sub two.osf by two.lf;
+sub three.osf by three.lf;
+sub four.osf by four.lf;
+sub five.osf by five.lf;
+sub six.osf by six.lf;
+sub seven.osf by seven.lf;
+sub eight.osf by eight.lf;
+sub nine.osf by nine.lf;
 sub zero.tf by zero.lf;
 sub one.tf by one.lf;
 sub two.tf by two.lf;
@@ -213554,6 +213603,199 @@ nodes = (
 "290 715 OFFCURVE",
 "277 699 OFFCURVE",
 "265 672 CURVE SMOOTH"
+);
+}
+);
+width = 500;
+}
+);
+},
+{
+glyphname = "brevecomb-cy";
+layers = (
+{
+anchors = (
+{
+name = _top;
+position = "{264, 550}";
+}
+);
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"325 590 OFFCURVE",
+"423 618 OFFCURVE",
+"423 685 CURVE SMOOTH",
+"423 717 OFFCURVE",
+"405 748 OFFCURVE",
+"367 748 CURVE SMOOTH",
+"330 748 OFFCURVE",
+"314 732 OFFCURVE",
+"314 711 CURVE SMOOTH",
+"314 697 OFFCURVE",
+"312 679 OFFCURVE",
+"331 646 CURVE",
+"306 633 OFFCURVE",
+"280 633 OFFCURVE",
+"248 633 CURVE",
+"215 633 OFFCURVE",
+"190 633 OFFCURVE",
+"168 646 CURVE",
+"187 679 OFFCURVE",
+"185 697 OFFCURVE",
+"185 711 CURVE SMOOTH",
+"185 732 OFFCURVE",
+"169 748 OFFCURVE",
+"132 748 CURVE SMOOTH",
+"94 748 OFFCURVE",
+"76 717 OFFCURVE",
+"76 685 CURVE SMOOTH",
+"76 611 OFFCURVE",
+"181 590 OFFCURVE",
+"249 590 CURVE SMOOTH"
+);
+}
+);
+};
+hints = (
+{
+place = "{99, 96}";
+type = Stem;
+},
+{
+horizontal = 1;
+place = "{584, 58}";
+type = Stem;
+},
+{
+horizontal = 1;
+place = "{584, 144}";
+type = Stem;
+}
+);
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"362 630 OFFCURVE",
+"300 584 OFFCURVE",
+"225 584 CURVE SMOOTH",
+"171 584 OFFCURVE",
+"119 613 OFFCURVE",
+"119 666 CURVE SMOOTH",
+"119 703 OFFCURVE",
+"143 728 OFFCURVE",
+"184 728 CURVE SMOOTH",
+"197 728 OFFCURVE",
+"206 725 OFFCURVE",
+"216 722 CURVE",
+"215 688 LINE SMOOTH",
+"215 651 OFFCURVE",
+"226 642 OFFCURVE",
+"250 642 CURVE SMOOTH",
+"292 642 OFFCURVE",
+"347 685 OFFCURVE",
+"388 725 CURVE",
+"388 723 OFFCURVE",
+"420 688 OFFCURVE",
+"420 688 CURVE"
+);
+}
+);
+width = 500;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{264, 550}";
+}
+);
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"355 568 OFFCURVE",
+"435 607 OFFCURVE",
+"435 677 CURVE SMOOTH",
+"435 711 OFFCURVE",
+"419 746 OFFCURVE",
+"365 746 CURVE SMOOTH",
+"312 746 OFFCURVE",
+"289 719 OFFCURVE",
+"289 695 CURVE SMOOTH",
+"289 679 OFFCURVE",
+"289 664 OFFCURVE",
+"308 631 CURVE",
+"289 623 OFFCURVE",
+"265 620 OFFCURVE",
+"249 620 CURVE SMOOTH",
+"232 620 OFFCURVE",
+"209 624 OFFCURVE",
+"193 631 CURVE",
+"211 664 OFFCURVE",
+"211 679 OFFCURVE",
+"211 695 CURVE SMOOTH",
+"211 719 OFFCURVE",
+"188 746 OFFCURVE",
+"135 746 CURVE SMOOTH",
+"81 746 OFFCURVE",
+"65 711 OFFCURVE",
+"65 677 CURVE SMOOTH",
+"65 600 OFFCURVE",
+"153 568 OFFCURVE",
+"250 568 CURVE SMOOTH"
+);
+}
+);
+};
+hints = (
+{
+place = "{97, 108}";
+type = Stem;
+},
+{
+horizontal = 1;
+place = "{584, 77}";
+type = Stem;
+},
+{
+horizontal = 1;
+place = "{584, 159}";
+type = Stem;
+}
+);
+layerId = "D537FF15-C70F-4B12-AACC-84E5BB5FCF97";
+paths = (
+{
+closed = 1;
+nodes = (
+"359 622 OFFCURVE",
+"307 584 OFFCURVE",
+"232 584 CURVE SMOOTH",
+"168 584 OFFCURVE",
+"127 622 OFFCURVE",
+"127 675 CURVE SMOOTH",
+"127 712 OFFCURVE",
+"153 743 OFFCURVE",
+"194 743 CURVE SMOOTH",
+"207 743 OFFCURVE",
+"226 740 OFFCURVE",
+"236 737 CURVE",
+"235 693 LINE SMOOTH",
+"235 673 OFFCURVE",
+"242 661 OFFCURVE",
+"259 661 CURVE SMOOTH",
+"302 661 OFFCURVE",
+"337 691 OFFCURVE",
+"378 731 CURVE",
+"378 729 OFFCURVE",
+"417 680 OFFCURVE",
+"417 680 CURVE"
 );
 }
 );
