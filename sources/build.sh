@@ -31,6 +31,12 @@ do
 	gftools fix-dsig -f $vf;
 	gftools fix-nonhinting $vf "$vf.fix";
 	mv "$vf.fix" $vf;
+	ttx -f -x "MVAR" $vf; # Drop MVAR. Table has issue in DW
+	rtrip=$(basename -s .ttf $vf)
+	new_file=../fonts/variable/$rtrip.ttx;
+	rm $vf;
+	ttx $new_file
+	rm ../fonts/variable/*.ttx
 done
 rm ../fonts/variable/*backup*.ttf
 
@@ -40,6 +46,7 @@ do
 	mv "$vf.fix" $vf;
 done
 
-echo "QAing"
-gftools qa ../fonts/variable/*.ttf -fb ../old_dropbox/_deliverables/TTF/*.ttf -o ../qa --no-diffbrowsers
+# echo "QAing"
+# TODO (M FOLEY) merge https://github.com/googlefonts/gftools/pull/101
+# gftools qa ../fonts/variable/*.ttf -fb ../old_dropbox/_deliverables/TTF/*.ttf -o ../qa --fontbakery --diffenator --browser-previews
 
