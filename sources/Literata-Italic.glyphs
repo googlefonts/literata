@@ -1,5 +1,8 @@
 {
-.appVersion = "1141";
+.appVersion = "1192";
+DisplayStrings = (
+"AÁ/Abreve/Abreveacute/Abrevedotbelow/Abrevegrave/Abrevehookabove/Abrevetilde/Acaron Â/Acircumflexacute/Acircumflexdotbelow/Acircumflexgrave/Acircumflexhookabove/Acircumflextilde/Adblgrave Ä/Adotbelow À/Ahookabove/Ainvertedbreve/Amacron/Aogonek Å/Aringacute ÃÆ/AEacute BC/Cacute/Ccaron Ç/Ccedillaacute/Ccircumflex/Cdotaccent D/DZcaron Ð/Dcaron/Dcroat/Ddotbelow/Dlinebelow/Dzcaron EÉ/Ebreve/Ecaron/Ecedillabreve Ê/Ecircumflexacute/Ecircumflexdotbelow/Ecircumflexgrave/Ecircumflexhookabove/Ecircumflextilde/Edblgrave Ë/Edotaccent/Edotbelow È/Ehookabove/Einvertedbreve/Emacron/Emacronacute/Emacrongrave/Eogonek/Etilde FG/G_tilde/Gbreve/Gcaron/Gcircumflex/Gcommaaccent/Gdotaccent/Gmacron H/Hbar/Hbrevebelow/Hcircumflex/Hdotbelow IÍ/Ibreve/Icaron Î/Idblgrave Ï/Idieresisacute/Idotaccent/Idotbelow Ì/Ihookabove/Iinvertedbreve/Imacron/Iogonek/Itilde J/Jcircumflex K/Kcommaaccent L/LJ/Lacute/Lcaron/Lcommaaccent/Ldot/Ldotbelow/Ldotbelowmacron/Lj/Llinebelow/Lslash M/Mdotbelow N/NJ/Nacute/Ncaron/Ncommaaccent/Ndotaccent/Ndotbelow/Eng/Nj/Nlinebelow ÑOÓ/Obreve/Ocaron Ô/Ocircumflexacute/Ocircumflexdotbelow/Ocircumflexgrave/Ocircumflexhookabove/Ocircumflextilde/Odblgrave Ö/Odieresismacron/Odotaccentmacron/Odotbelow Ò/Ohookabove/Ohorn/Ohornacute/Ohorndotbelow/Ohorngrave/Ohornhookabove/Ohorntilde/Ohungarumlaut/Oinvertedbreve/Omacron/Omacronacute/Omacrongrave/Oogonek Ø/Oslashacute Õ/Otildeacute/Otildedieresis/Otildemacron/OE PHÞHQR/Racute/Rcaron/Rcommaaccent/Rdblgrave/Rdotbelow/Rdotbelowmacron/Rinvertedbreve/Rlinebelow S/Sacute/Sacutedotaccent/Scaron/Scarondotaccent/Scedilla/Scircumflex/Scommaaccent/Sdotaccent/Sdotbelow/Sdotbelowdotaccent/Germandbls/Schwa T/Tbar/Tcaron/Tcedilla/Tcommaaccent/Tdotbelow/Tlinebelow UÚ/Ubreve/Ucaron Û/Udblgrave Ü/Udieresisacute/Udieresiscaron/Udieresisgrave/Udieresismacron/Udotbelow Ù/Uhookabove/Uhorn/Uhornacute/Uhorndotbelow/Uhorngrave/Uhornhookabove/Uhorntilde/Uhungarumlaut/Uinvertedbreve/Umacron/Umacrondieresis/Uogonek/Uring/Utilde/Utildeacute VW/Wacute/Wcircumflex/Wdieresis/Wgrave XYÝ/Ycircumflex/Ydieresis/Ydotaccent/Ydotbelow/Ygrave/Yhookabove/Ymacron/Ytilde Z/Zacute/Zcaron/Zdotaccent/Zdotbelow"
+);
 classes = (
 {
 automatic = 1;
@@ -88,7 +91,7 @@ Tag = wght;
 );
 }
 );
-date = "2016-09-27 18:17:15 +0000";
+date = "2016-09-27 6:17:15 PM +0000";
 designer = "Latin by Veronika Burian and Jose Scaglione. Greek by Irene Vlachou. Cyrillic by Vera Evstafieva";
 designerURL = "http://www.type-together.com";
 familyName = Literata;
@@ -5756,6 +5759,7 @@ rightKerningGroup = E;
 unicode = 011A;
 },
 {
+color = 2;
 glyphname = Ecedillabreve;
 layers = (
 {
@@ -6658,6 +6662,7 @@ rightKerningGroup = E;
 unicode = 0112;
 },
 {
+color = 2;
 glyphname = Emacronacute;
 layers = (
 {
@@ -6702,6 +6707,7 @@ rightKerningGroup = E;
 unicode = 1E16;
 },
 {
+color = 2;
 glyphname = Emacrongrave;
 layers = (
 {
@@ -10577,6 +10583,7 @@ rightKerningGroup = L;
 unicode = 013B;
 },
 {
+color = 0;
 glyphname = Ldot;
 layers = (
 {
@@ -13582,6 +13589,7 @@ rightKerningGroup = O;
 unicode = 00D6;
 },
 {
+color = 2;
 glyphname = Odieresismacron;
 layers = (
 {
@@ -13626,6 +13634,7 @@ rightKerningGroup = O;
 unicode = 022A;
 },
 {
+color = 2;
 glyphname = Odotaccentmacron;
 layers = (
 {
@@ -14601,6 +14610,7 @@ rightKerningGroup = O;
 unicode = 014C;
 },
 {
+color = 2;
 glyphname = Omacronacute;
 layers = (
 {
@@ -14645,6 +14655,7 @@ rightKerningGroup = O;
 unicode = 1E52;
 },
 {
+color = 2;
 glyphname = Omacrongrave;
 layers = (
 {
@@ -17427,6 +17438,7 @@ rightKerningGroup = S;
 unicode = 015A;
 },
 {
+color = 2;
 glyphname = Sacutedotaccent;
 layers = (
 {
@@ -17527,6 +17539,7 @@ rightKerningGroup = S;
 unicode = 0160;
 },
 {
+color = 2;
 glyphname = Scarondotaccent;
 layers = (
 {
@@ -17857,6 +17870,7 @@ rightKerningGroup = S;
 unicode = 1E62;
 },
 {
+color = 2;
 glyphname = Sdotbelowdotaccent;
 layers = (
 {
@@ -17905,6 +17919,7 @@ rightKerningGroup = S;
 unicode = 1E68;
 },
 {
+color = 1;
 glyphname = Germandbls;
 layers = (
 {
@@ -18219,6 +18234,7 @@ width = 736;
 unicode = 1E9E;
 },
 {
+color = 1;
 glyphname = Schwa;
 layers = (
 {
@@ -18665,6 +18681,7 @@ rightKerningGroup = T;
 unicode = 0054;
 },
 {
+color = 2;
 glyphname = Tbar;
 layers = (
 {
@@ -20829,6 +20846,7 @@ rightKerningGroup = U;
 unicode = 016A;
 },
 {
+color = 2;
 glyphname = Umacrondieresis;
 layers = (
 {
@@ -21276,6 +21294,7 @@ rightKerningGroup = U;
 unicode = 0168;
 },
 {
+color = 2;
 glyphname = Utildeacute;
 layers = (
 {
@@ -26647,6 +26666,7 @@ rightKerningGroup = c;
 unicode = 00E7;
 },
 {
+color = 2;
 glyphname = ccedillaacute;
 layers = (
 {
@@ -27487,6 +27507,7 @@ rightKerningGroup = l;
 unicode = 010F;
 },
 {
+color = 0;
 glyphname = dcroat;
 layers = (
 {
@@ -29316,6 +29337,7 @@ rightKerningGroup = o;
 unicode = 0113;
 },
 {
+color = 2;
 glyphname = emacronacute;
 layers = (
 {
@@ -29362,6 +29384,7 @@ rightKerningGroup = o;
 unicode = 1E17;
 },
 {
+color = 2;
 glyphname = emacrongrave;
 layers = (
 {
@@ -29748,6 +29771,7 @@ rightKerningGroup = o;
 unicode = 1EBD;
 },
 {
+color = 1;
 glyphname = schwa;
 layers = (
 {
@@ -31503,6 +31527,7 @@ rightKerningGroup = n;
 unicode = 0068;
 },
 {
+color = 0;
 glyphname = hbar;
 layers = (
 {
@@ -32694,6 +32719,7 @@ rightKerningGroup = i;
 unicode = 00EF;
 },
 {
+color = 0;
 glyphname = idieresisacute;
 layers = (
 {
@@ -37679,6 +37705,7 @@ rightKerningGroup = o;
 unicode = 00F6;
 },
 {
+color = 2;
 glyphname = odieresismacron;
 layers = (
 {
@@ -37734,6 +37761,7 @@ rightKerningGroup = o;
 unicode = 022B;
 },
 {
+color = 2;
 glyphname = odotaccentmacron;
 layers = (
 {
@@ -38717,6 +38745,7 @@ rightKerningGroup = o;
 unicode = 014D;
 },
 {
+color = 2;
 glyphname = omacronacute;
 layers = (
 {
@@ -38763,6 +38792,7 @@ rightKerningGroup = o;
 unicode = 1E53;
 },
 {
+color = 2;
 glyphname = omacrongrave;
 layers = (
 {
@@ -38955,6 +38985,7 @@ rightKerningGroup = o;
 unicode = 00F8;
 },
 {
+color = 2;
 glyphname = oslashacute;
 layers = (
 {
@@ -39048,6 +39079,7 @@ rightKerningGroup = o;
 unicode = 00F5;
 },
 {
+color = 2;
 glyphname = otildeacute;
 layers = (
 {
@@ -39094,6 +39126,7 @@ rightKerningGroup = o;
 unicode = 1E4D;
 },
 {
+color = 2;
 glyphname = otildedieresis;
 layers = (
 {
@@ -39140,6 +39173,7 @@ rightKerningGroup = o;
 unicode = 1E4F;
 },
 {
+color = 2;
 glyphname = otildemacron;
 layers = (
 {
@@ -39870,6 +39904,7 @@ rightKerningGroup = o;
 unicode = 0070;
 },
 {
+color = 2;
 glyphname = thorn;
 layers = (
 {
@@ -56692,6 +56727,7 @@ leftKerningGroup = e.sc;
 rightKerningGroup = e.sc;
 },
 {
+color = 1;
 glyphname = schwa.sc;
 layers = (
 {
@@ -81480,6 +81516,7 @@ rightKerningGroup = uni041D;
 unicode = 0407;
 },
 {
+color = 0;
 glyphname = "Yi_acute-cy";
 layers = (
 {
