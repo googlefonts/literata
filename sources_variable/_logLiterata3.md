@@ -6,12 +6,33 @@
 
 **Literata 3**  
 **José Scaglione**
-  
-  
+
+
 ### Project notes  
 
-Project sizes and meassures in 
+Project sizes and meassures in
 ~/Dropbox/TT_Literata/Literata 3/01_Concept/Brief/Figures_Literata3.numbers
+
+### Engineering early questions
+(put answers/comments below and I'll remove them as soon as everything is clear)
+
+- Can /breve.ELL /macron.ELL be deleted? (ideally it would be nice to remove all not needed glyphs the earlier the better). Are there other not needed glyphs to remove in order to clean up sources? **[JS]Those two ELL chars will not be in the file. We will replace them with the latin ones**
+- How/When are /gtilde(s) accessed? (there's no unicode for g+tilde)
+- CYR glyphs should be renamed to Glyphs.app's friendly names *but*: There's a bunch of unencoded CYR glyphs like
+
+    A\_acute-cy A\_grave-cy Ie\_acute-cy Ie\_grave-cy E\_acute-cy Ii\_acute-cy O\_acute-cy O\_grave-cy U\_acute-cy U\_grave-cy Yeru\_acute-cy I\_acute-cy Yi\_acute-cy Hardsign\_grave-cy Ereversed\_acute-cy Iu\_acute-cy Iu\_grave-cy Ia\_acute-cy Ia\_grave-cy a\_acute-cy a\_grave-cy ie\_acute-cy ie\_grave-cy e\_acute-cy ii\_acute-cy o\_acute-cy o\_grave-cy u\_acute-cy u\_grave-cy yeru\_acute-cy i\_acute-cy yi\_acute-cy hardsign\_grave-cy ereversed\_acute-cy iu\_acute-cy iu\_grave-cy ia\_acute-cy ia\_grave-cy
+
+
+    **[JS]ie_grave-cy iegrave-cy are repeated. sabe with Ie_grave-cy Iegrave-cy . Keep the one with unicode**
+    **[JS]Elena N said that those are stress marks used in children's books. I think we should keep them for the time being**
+
+    Glyphs doesn't handles any renaming to *Glyphs friendly names*, the question is: how are these accessed? Any reference for Unicode? I've made a quick research and at least some of them doesn't seem to exist…
+    **[JS]We may need a more intensive search, but if unencoded maybe we can 1- add to the composition decomp. fea. or 2- remove and make sure our anchors are in place**
+
+- Are \*.subs needed? Their design and position are the same than inferiors (in fact they're like inferiors copies). Those can be used in the *subscript feature* without any change.
+**[JS]Please remove if redundant**
+
+I'm (JCA) currently working on a script that will make all the changes needed in the source file(s) you're working on for having the source files better set since an earlier stage than usual.
 
 
 ### Anchor position
@@ -39,6 +60,191 @@ Set up basic font info (family name, style names, weight, width)
 - Accents are missing the top anchor
 - **DONE** exclamdown and questiondown... do we need them to reach the descender?
 - Tab width must be reconsidered
+
+
+
+****
+****
+
+### 2019-09-26 — Jose
+
+`S02_Literata3_italicMM.glyphs`
+
+- created master MM file
+- Compiled glyphs from all masters
+- checked compatibility
+- verified glyphs for Design stg presentation
+- exported instances and created presentation
+
+****
+****
+
+### 2019-09-25 — Vik
+
+`S02_M4_Literata3-Italic.glyphs`
+
+- made caps more narrow; they were too wide compared to uprights
+- tweaked basic accents - José needs to review
+- tweaked **s r v w x y z**
+- fine-tuned spacing
+- copied glyphs for stage 3 from BASE and marked grey
+
+**Printed Italic M0 - M4 basic testing incl.spacing**
+
+- M1: tweaked cap spacing and openend spacing of numbers
+- M2: fixed **r w x** and fine-tuned spacing caps, lc and numbers, punctuation
+- M3: fixed **H M N c e g w** and fine-tuned spacing caps, lc and numbers, punctuation
+
+****
+****
+
+### 2019-09-24 — Vik
+
+`S02_M4_Literata3-Italic.glyphs`
+
+- finished with design stage 2 glyhps 
+- José reviewed and made some minor changes
+- increased all serifs by 10 UPM
+- checked spacing
+- need to review in print
+
+Prepared files for Roxane with new glyphs stage 3, marked grey.
+
+****
+****
+
+### 2019-09-24 — ElenaN
+
+`EN_03_M1_Literata3.glyphs`
+
+- started working on M1
+
+****
+****
+
+### 2019-09-23 — Jose
+
+`S04_Literata3_uprightMM.glyphs`
+
+- copied over ElenaNs glyphs for cyrillic: M2 and M3
+- Made spacing for currency
+- Fixed composites in cyrillic
+
+****
+****
+
+### 2019-09-24 — Pooja
+
+`PS_04_Literata3_uprightMM.glyphs`
+
+- Design /zero.osf /one.osf /two.osf /three.osf /four.osf /five.osf /six.osf /seven.osf /eight.osf /nine.osf in M2, M3 and M4 (marked in blue)
+
+****
+****
+
+### 2019-09-23 — ElenaN
+
+`EN_03_M4_Literata3.glyphs`
+
+- added metrics in M4
+
+****
+****
+
+### 2019-09-23 — Vik
+
+`S02_M4_Literata3-Italic.glyphs`
+
+- worked on missing caps and lowercase
+- no spacing yet
+- José needs to review blue chars
+
+
+****
+****
+
+### 2019-09-23 — Jose
+
+`S04_Literata3_uprightMM.glyphs`
+
+- Fixed according to Dave Crossland's feedback: **c e ae oe**
+- Shifted cap accents in M2 10 units down
+
+
+****
+****
+
+### 2019-09-23 — Roxane
+
+`S02_M3_Literata3-Italic_RG.glyphs`
+
+Refined glyphs, added few punctuation, currently working on diacritics
+
+****
+****
+
+
+### 2019-09-23 — Pooja
+
+`PS_04_Literata3_uprightMM.glyphs`
+
+- Design ligatures Th ch ct fb ff ffb ffi ffk ffl fft fh fí fk ft ﬁ ﬂ (marked in blue)
+- **Need feedback on fí**, especially
+- Design /zero.osf /one.osf /two.osf /three.osf /four.osf /five.osf /six.osf /seven.osf /eight.osf /nine.osf in M1
+
+****
+****
+
+### 2019-09-21 — ElenaN
+
+`EN_03_M4_Literata3.glyphs`
+
+- finished cyrillic characters M4
+- fixed purple marked glyphs in M2 and M3
+
+****
+****
+
+### 2019-09-20 — ElenaN
+
+`EN_03_M4_Literata3.glyphs`
+
+- design cyrillic characters M4 (few left)
+
+****
+****
+
+### 2019-09-20 — Vik
+
+`EN_03_M2_Literata3_VB.glyphs` `EN_03_M3_Literata3_VB.glyphs`
+
+- checked CYR glyphs from ElenaN
+- marked some in purple and added notes in 'glyph note'
+
+`S02_M1_Literata3-Italic_RG.glyphs` M2 M3
+
+- reviewed Roxane's finished glyphs
+- fine-tuned especially **K R** and some others
+- did **not** check spacing yet
+- marked glyphs green
+- marked missing glyphs in grey **acute grave circumflex tilde dieresis cedilla**
+
+`S04_Literata3_uprightMM.glyphs`
+
+- reviewed Pooja's glyphs **& @ () [] {} / \ | ¦ /trademark.case/servicemark.case † ‡ § ¶ © ® ™ ℗ ℠** and marked green
+- reviewd **Œ Þ ð œ þ** and marked green
+- currency (yellow) seem fine too; question to José: will we have jumps in M4?
+- did **not** review spacing
+
+****
+****
+
+### 2019-09-19 — Jose
+
+`S04_Literata3_uprightMM.glyphs`
+
+- created currency but spacing must be checked: **dollar euro cent sterling yen liraTurkish cedi colonsign dong franc guarani hryvnia kip lira manat naira peseta peso ruble rupeeIndian tenge tugrik won**
+
 
 ****
 ****
@@ -80,7 +286,7 @@ Compiled the five first masters in this files. Checked comptibility.Orange must 
 
 ### 2019-09-17 — Roxane
 
-Fixed and complete for **M1** and **M2** the following glyphs (marked blue) : 
+Fixed and complete for **M1** and **M2** the following glyphs (marked blue) :
 `A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z zero one two three four five six seven eight nine period comma colon semicolon exclam question quoteleft quoteright quotesinglbase`
 
 ****
@@ -339,12 +545,12 @@ Created an alternate version with smaller lobe terminals and sent to Dave for ap
 
 `S02_M3_Literata3-Italic_RG`
 
-- Designed b c f l m q u 
+- Designed b c f l m q u
 
 `S02_M1_Literata3-Italic_RG.glyphs`
 
-- Review spacing 
-- Design uppercases B C D E F G I J K L M N P Q R 
+- Review spacing
+- Design uppercases B C D E F G I J K L M N P Q R
 
 ****
 ****
@@ -358,7 +564,7 @@ Created an alternate version with smaller lobe terminals and sent to Dave for ap
 
 `S02_M1_Literata3-Italic_RG.glyphs`
 
-- Refined p width 
+- Refined p width
 
 ****
 ****
@@ -400,7 +606,7 @@ Created an alternate version with smaller lobe terminals and sent to Dave for ap
 
 `S02_M2_Literata3-Italic.glyphs`
 
-- Created several glyphs and sent to Vik, 
+- Created several glyphs and sent to Vik,
 - Marked them Yellow
 
 `S02_M1_Literata3.glyphs S02_M2_Literata3.glyphs S02_M3_Literata3.glyphs`
@@ -482,7 +688,7 @@ Created BASE files for masters 1, 3 and 4. They are in 02 design
 
 ### 2019-08-18 — Vik
 
-`S01_M4_Literata3-Italic.glyphs` 
+`S01_M4_Literata3-Italic.glyphs`
 
 - reviewed spacing
 - generally fine-tuned shapes
