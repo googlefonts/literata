@@ -16,7 +16,7 @@ Project sizes and meassures in
 ### Engineering early questions
 (put answers/comments below and I'll remove them as soon as everything is clear)
 
-- Can /breve.ELL /macron.ELL be deleted? (ideally it would be nice to remove all not needed glyphs the earlier the better). Are there other not needed glyphs to remove in order to clean up sources? **[JS]Those two ELL chars will not be in the file. We will replace them with the latin ones**
+- ~~Can /breve.ELL /macron.ELL be deleted? (ideally it would be nice to remove all not needed glyphs the earlier the better). Are there other not needed glyphs to remove in order to clean up sources? **[JS]Those two ELL chars will not be in the file. We will replace them with the latin ones**~~
 - How/When are /gtilde(s) accessed? (there's no unicode for g+tilde)
 - CYR glyphs should be renamed to Glyphs.app's friendly names *but*: There's a bunch of unencoded CYR glyphs like
 
@@ -29,8 +29,8 @@ Project sizes and meassures in
     Glyphs doesn't handles any renaming to *Glyphs friendly names*, the question is: how are these accessed? Any reference for Unicode? I've made a quick research and at least some of them doesn't seem to exist…
     **[JS]We may need a more intensive search, but if unencoded maybe we can 1- add to the composition decomp. fea. or 2- remove and make sure our anchors are in place**
 
-- Are \*.subs needed? Their design and position are the same than inferiors (in fact they're like inferiors copies). Those can be used in the *subscript feature* without any change.
-**[JS]Please remove if redundant**
+- ~~Are \*.subs needed? Their design and position are the same than inferiors (in fact they're like inferiors copies). Those can be used in the *subscript feature* without any change.
+**[JS]Please remove if redundant**~~
 
 I'm (JCA) currently working on a script that will make all the changes needed in the source file(s) you're working on for having the source files better set since an earlier stage than usual.
 
@@ -62,6 +62,136 @@ Set up basic font info (family name, style names, weight, width)
 - Tab width must be reconsidered
 
 
+###List of glyphs that require jumps in variable:
+
+- dcroat hbar dollar cent cedi colonsign dong guarani hryvnia naira peso won 
+
+****
+****
+
+### 2019-10-03 — Jose
+
+`S05_Literata3_uprightsMM.glyphs`
+
+- Creatyed a base file for small caps based on values stored in /Brief
+- Merged from Pooja's file**n.superior T_h c_h c_t f_b f_f f_f_b f_f_i f_f_k f_f_l f_f_t f_h f_iacute f_k f_t fi fl s_t zero.osf one.osf two.osf three.osf four.osf five.osf six.osf seven.osf eight.osf nine.osf zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior parenleftsuperior parenrightsuperior ordfeminine ordmasculine **
+
+
+****
+****
+
+
+### 2019-10-03 — Pooja
+
+`PS_04_Literata3_uprightMM.glyphs`
+
+- Design /n.superior /s_t ⁷ ⁸ ⁹ ⁽ ⁾ ª º
+- **Need feedback on /s_t**
+
+****
+****
+
+### 2019-10-02 — Jose
+
+`S04_Literata3_italicMM.glyphs`
+
+- Finished anchors and most accents
+- Stablished meassurements and proportions for small caps and left them in the concept brief folder
+
+****
+****
+
+### 2019-10-02 — Vik
+`PS_04_Literata3_uprightMM.glyphs`
+
+- reviewed and fixed Pooja's glyphs: **/T_h/c_h/c_t/f_b/f_f/f_f_b/f_f_i/f_f_k/f_f_l/f_f_t/f_h/f_iacute/f_k/f_t ﬁﬂ /zero.osf/one.osf/two.osf/three.osf/four.osf/five.osf/six.osf/seven.osf/eight.osf/nine.osf ⁰¹²³⁴⁵⁶**
+
+****
+****
+
+### 2019-10-02 — Roxane
+
+
+`S02_M1_Literata3-Italic_RG.glyphs`
+
+Currently completing the grey glyphs. All done glyphs are marked in blue.
+
+****
+****
+
+### 2019-10-01 — Pooja
+
+`PS_04_Literata3_uprightMM.glyphs`
+
+- Design ⁰ ¹ ² ³ ⁴ ⁵ ⁶
+
+****
+****
+
+
+### 2019-10-01 — Roxane
+
+
+`S02_M1_Literata3-Italic_RG.glyphs`
+
+Currently completing the grey glyphs. All done glyphs are marked in blue.
+
+****
+****
+
+
+### 2019-10-01 — ElenaN
+
+`EN_03_M1_Literata3.glyphs`
+
+- finished russian characters of cyrillic in M1
+
+****
+****
+
+### 2019-09-26 — Vik
+
+`S02_M4_Literata3-Italic.glyphs`
+
+- fixed glyphs: **ÆÐŊŒÞẞæðŋœþßĸ¤%‰′″ʹʺ¡¿'"“”„‹›«»Əə/n.superior/T_h/c_h/c_t `´ˆ˜¨ˇ¸*#&@()[]{}/\|¦·•-‐–‒—†‡§¶^~_©®™℗℠№**
+
+Ready for José to review blue characters
+
+Question: Why is the softhyphen different from the normal hyphen?
+
+****
+****
+
+### 2019-09-28 — Vik
+
+`S05_Literata3_uprightMM.glyphs`
+
+- changed **M1**: ˆ ¯ ˚ ˇ /caron.alt/macron.cap/breve.cap/ring.cap
+- changed **M2**: ¯ ¨ /macron.cap/dieresis.cap
+- changed **M3**: ˆ ¯ ˇ /macron.cap/breve.cap
+- changed **M4**: ˆ ˘ ˇ /circumflex.cap/caron.cap
+
+Can we do a jump in **eth**? M4 does not look good.
+
+****
+****
+
+### 2019-09-27 — Jose
+
+`S02_Literata3_italicMM.glyphs`
+
+- Created glyphs: **grave acute circumflex tilde macron breve dotaccent dieresis ring ringhalfleft hungarumlaut caron verticallinemod cedilla verticallinelowmod commaturnedmod caron.alt grave.cap acute.cap circumflex.cap tilde.cap macron.cap breve.cap dotaccent.cap dieresis.cap ring.cap hungarumlaut.cap caron.cap hook.cap dblgravecomb.cap breveinvertedcomb.cap breve.ELL.cap macron.ELL.cap apostrophemod gravecomb acutecomb circumflexcomb tildecomb macroncomb brevecomb dotaccentcomb dieresiscomb ringcomb hungarumlautcomb caroncomb commaturnedabovecomb commaaccentcomb hookabovecomb ringhalfright**
+
+****
+****
+
+### 2019-09-26 — Vik
+
+`S02_M4_Literata3-Italic.glyphs`
+
+- continued fixing glyphs for stage 3
+
+Prepared all 4 Italic masters for Elena N tod o CYR
 
 ****
 ****
@@ -102,7 +232,7 @@ Set up basic font info (family name, style names, weight, width)
 
 `S02_M4_Literata3-Italic.glyphs`
 
-- finished with design stage 2 glyhps 
+- finished with design stage 2 glyhps
 - José reviewed and made some minor changes
 - increased all serifs by 10 UPM
 - checked spacing
