@@ -64,7 +64,135 @@ Set up basic font info (family name, style names, weight, width)
 
 ###List of glyphs that require jumps in variable:
 
-- dcroat hbar dollar cent cedi colonsign dong guarani hryvnia naira peso won 
+- dcroat hbar dollar cent cedi colonsign dong guarani hryvnia naira peso won
+
+
+
+****
+****
+
+
+### 2019-10-09 — Jose
+`S05_Literata3-ItalicMM.glyphs`
+
+- Fixed compatibility in several glyphs
+- Reviewed punctuation
+- Tweaked spacing for consistency in composites
+- Exported fonts and created test document
+- Updated Git
+
+
+
+****
+****
+
+### 2019-10-08 — ElenaN
+
+`EN_05_Literata3_uprightMM.glyphs`
+
+- fixed cyrbreve components
+
+`EN_02_M3_Literata3-Italic.glyphs`
+
+- finished Cyrillic characters in M3 italic (no spacing)
+
+
+****
+****
+
+
+### 2019-10-08 — Jose
+`S05_Literata3_uprightMM.glyphs`
+
+- Fixed compatibility in Cyr chars: **Lje-cy dje-cy **
+- Tabular width in text masters is 582upm
+- Tabular width in caption masters is 620upm
+- Tabular width in title masters is 582upm
+
+
+****
+****
+
+
+### 2019-10-07 — ElenaN
+
+`EN_02_M3_Literata3-Italic.glyphs`
+
+- designed Cyrillic lwc characters in M3 italic **бвгдзйнфцчшщъыьэю**
+
+****
+****
+
+### 2019-10-07 — Jose
+
+`S04_Literata3-ItalicMM.glyphs`
+
+- Created the derivative glyphs in layers 2 3 and 4 where necessary: **zero.osf one.osf two.osf three.osf four.osf five.osf six.osf seven.osf eight.osf nine.osf zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior parenleftsuperior parenrightsuperior ordfeminine ordmasculine n.superior T_h c_h c_t f_b f_f f_f_b f_f_i f_f_k f_f_l f_f_t f_h f_iacute f_k f_t fi fl s_t **
+- Moved files into 03-derivatives
+
+****
+****
+
+### 2019-10-07 — Vik
+`S04_Literata3-ItalicMM.glyphs`
+
+- merged glyphs and fixed compatibility from José and Roxane: **/n.superior/T_h/c_h/c_t/f_b/f_f/f_f_b/f_f_i/f_f_k/f_f_l/f_f_t/f_h/f_iacute/f_k/f_t ﬁﬂ/s_t**
+- merged and fixed compatibility **ĘĮǪŲąęįǫų**
+- copied from José and Roxane: **/zero.osf/one.osf/two.osf/three.osf/four.osf/five.osf/seven.osf/eight.osf/nine.osf ⁰¹²³⁴⁵⁶⁷⁸⁹⁽⁾ªº** — they still need reviewing
+
+****
+****
+
+### 2019-10-07 — Roxane
+
+`S02_M1_Literata3-Italic_RG.glyphs`
+
+Updated char-set, glyphs marked in blue.
+
+`S02_M2_Literata3-Italic_RG.glyphs`
+
+Added following glyphs marked in blue : **ellipsis quotesingle quotedbl quotedblleft quotedblright quotedblbase guilsinglleft guilsinglright guillemetleft guillemetright asterisk numbersign**
+
+
+
+### 2019-10-06 — Vik
+`S04_Literata3-ItalicMM.glyphs`
+
+- started creating additional glyphs: **æðŋœþßĸƏə**
+
+
+****
+****
+
+### 2019-10-06 — ElenaN
+
+`EN_05_Literata3_uprightMM.glyphs`
+
+- fixed marked glyphs
+
+`EN_02_M3_Literata3-Italic.glyphs`
+
+- designed Cyrillic capitals in M3 italic
+
+****
+****
+
+### 2019-10-05 — Vik
+
+`EN_05_Literata3_uprightMM.glyphs`
+
+- reviewed ElenaN M1 master and marked glyphs: **ЗЧЭҺ** as too light
+
+****
+****
+
+### 2019-10-03 — ElenaN
+
+`EN_03_M1_Literata3.glyphs`
+
+- finished M1
+- added spacing
+- fixed thin strokes
 
 ****
 ****
@@ -76,6 +204,13 @@ Set up basic font info (family name, style names, weight, width)
 - Creatyed a base file for small caps based on values stored in /Brief
 - Merged from Pooja's file**n.superior T_h c_h c_t f_b f_f f_f_b f_f_i f_f_k f_f_l f_f_t f_h f_iacute f_k f_t fi fl s_t zero.osf one.osf two.osf three.osf four.osf five.osf six.osf seven.osf eight.osf nine.osf zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior parenleftsuperior parenrightsuperior ordfeminine ordmasculine **
 
+****
+****
+
+### 2019-10-03 — Vik
+`S04_Literata3-ItalicMM.glyphs`
+
+- started creating additiona glyphs: **ÆŊŒÞẞ**
 
 ****
 ****
