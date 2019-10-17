@@ -67,6 +67,101 @@ Set up basic font info (family name, style names, weight, width)
 - dcroat hbar dollar cent cedi colonsign dong guarani hryvnia naira peso won
 
 
+****
+****
+
+### 2019-10-16 — Jose
+`S06_Literata3_uprightMM.glyphs`
+
+- Finished all small cap accented letters
+- copied over glyphs edited by Vik
+- fixed Joanca's script to remove the redundant CYR chars from the order list
+- Made back up of the file in the backup folder
+- Ran Rename script
+- Ran find and replace to fix metric keys in the small caps
+
+
+****
+****
+
+### 2019-10-15 — Jose
+`S05_Literata3_uprightMM.glyphs`
+
+- Created the following small caps in all of the masters and placed anchors: **a.sc b.sc c.sc d.sc e.sc f.sc g.sc h.sc i.sc j.sc k.sc l.sc m.sc n.sc o.sc p.sc r.sc t.sc u.sc y.sc**
+- Created composites to verify accent position on small caps: **aacute.sc abreve.sc abrevedotbelow.sc acaron.sc acircumflexdotbelow.sc adblgrave.sc adieresis.sc adotbelow.sc agrave.sc ainvertedbreve.sc amacron.sc aring.sc atilde.sc cacute.sc ccaron.sc ccedilla.sc ccedillaacute.sc ccircumflex.sc cdotaccent.sc edieresis.sc edotaccent.sc edotbelow.sc egrave.sc ehookabove.sc emacron.sc gcommaaccent.sc gdotaccent.sc idotbelow.sc igrave.sc iinvertedbreve.sc imacron.sc obreve.sc ocaron.sc ocircumflex.sc odieresis.sc omacron.sc tcaron.sc tcommaaccent.sc tdotbelow.sc**
+
+
+****
+****
+
+
+### 2019-10-09 — Jose
+`S05_Literata3-ItalicMM.glyphs`
+
+
+- Added from ENs file and fixed compatibility and anchor position: **Ze-cy Che-cy Ereversed-cy ii-cy iishort-cy Shha-cy ushort-cy cyrbreve brevecomb-cy cyrbreve.cap U-cy Ushort-cy Yat-cy** 
+
+`S05_Literata3-ItalicMM.glyphs`
+
+- Started with composites in small caps. Note that Double accents are not finished. Everything that was checked is marked YELLOW: **/aacute.sc/abreve.sc/abreveacute.sc/abrevedotbelow.sc/abrevegrave.sc/abrevehookabove.sc/abrevetilde.sc/acaron.sc/acircumflex.sc/acircumflexacute.sc/acircumflexdotbelow.sc/acircumflexgrave.sc/acircumflexhookabove.sc/acircumflextilde.sc/adblgrave.sc/adieresis.sc/adotbelow.sc/agrave.sc/ahookabove.sc/ainvertedbreve.sc/amacron.sc/aogonek.sc/aring.sc/aringacute.sc/atilde.sc/aeacute.sc/cacute.sc/ccaron.sc/ccedilla.sc/ccedillaacute.sc/ccircumflex.sc/cdotaccent.sc/dcaron.sc/dcroat.sc/ddotbelow.sc/dlinebelow.sc/dzcaron.sc/eacute.sc/ebreve.sc/ecaron.sc/ecedillabreve.sc/ecircumflex.sc/ecircumflexacute.sc/ecircumflexdotbelow.sc/ecircumflexgrave.sc/ecircumflexhookabove.sc/ecircumflextilde.sc/edblgrave.sc/edieresis.sc/edotaccent.sc/edotbelow.sc/egrave.sc/ehookabove.sc/einvertedbreve.sc/emacron.sc/emacronacute.sc/emacrongrave.sc/eogonek.sc/etilde.sc/schwa.sc/g_tilde.sc/gbreve.sc/gcaron.sc/gcircumflex.sc/gcommaaccent.sc/gdotaccent.sc/gmacron.sc/hbar.sc/hbrevebelow.sc/hcircumflex.sc/hdotbelow.sc/iacute.sc/ibreve.sc/icaron.sc/icircumflex.sc/idblgrave.sc/idieresis.sc/idieresisacute.sc/idotaccent.sc/idotbelow.sc/igrave.sc/ihookabove.sc/iinvertedbreve.sc/imacron.sc/iogonek.sc/itilde.sc/ijacute.sc/jcircumflex.sc/kcommaaccent.s**
+
+****
+****
+
+### 2019-10-15 — Pooja
+`PS_05_Literata3_uprightMM.glyphs`
+
+- Add **∅ √ ∞** in remaining upright masters (marked in blue)
+- Review **/zero.tf /one.tf /two.tf /three.tf /four.tf /five.tf /six.tf/ seven.tf /eight.tf /nine.tf** and fix spacing and glyph compatibility (marked in blue)
+- Fix compatibility for **>**
+
+- Discussed with José — Leave **Ω ∆ µ** for when the Greek has been added (marked in purple)
+
+****
+****
+
+
+### 2019-10-14 — Roxane
+
+`S04_Literata3-ItalicMM_RG.glyphs`
+
+- added **dollar euro cent sterling yen florin liraTurkish franc lira** on M1 M2 M3 M4 (marked in blue)
+
+****
+****
+
+### 2019-10-14 — Pooja
+`PS_05_Literata3_uprightMM.glyphs`
+
+- Add **∂ ∏ ∕ ∙ ∫ ≈ ≠ ≤ ≥ < = > ◊** in remaining upright masters (marked in blue)
+
+****
+****
+
+### 2019-10-13 — ElenaN
+
+`EN_02_M2_Literata3-Italic.glyphs`
+
+- started working on M3 italic
+
+
+****
+****
+
+### 2019-10-11 — ElenaN
+
+`EN_02_M3_Literata3-Italic.glyphs`
+
+- finished M3 italic (added spacing)
+
+****
+****
+
+
+### 2019-10-10 — Pooja
+`PS_05_Literata3_uprightMM.glyphs`
+
+- Add **₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉ ₍ ₎ zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr ⁄ zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom ½ ⅓ ⅔ ¼ ¾ ⅛ ⅜ ⅝ ⅞ ◊ + − ± ÷ × ¬** in remaining masters (marked in blue)
 
 ****
 ****
@@ -80,8 +175,6 @@ Set up basic font info (family name, style names, weight, width)
 - Tweaked spacing for consistency in composites
 - Exported fonts and created test document
 - Updated Git
-
-
 
 ****
 ****
