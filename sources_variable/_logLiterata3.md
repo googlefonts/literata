@@ -67,6 +67,43 @@ Set up basic font info (family name, style names, weight, width)
 - dcroat hbar dollar cent cedi colonsign dong guarani hryvnia naira peso won
 
 
+
+
+****
+****
+
+### 2019-10-18 — Jose
+`S06_Literata3_uprightMM.glyphs`
+
+- Finished the following glyphs: **currency.osf zeroslash.tf periodcentered.smcp periodcentered bullet hyphen softhyphen hyphentwo figuredash endash emdash horizontalbar hyphen.case exclamdown.case questiondown.case guilsinglleft.case guilsinglright.case guillemetleft.case guillemetright.case at.case parenleft.case parenright.case bracketleft.case bracketright.case braceleft.case braceright.case periodcentered.case bullet.case endash.case emdash.case figuredash.case asciitilde underscore eng.smcp**
+- Deleted unnecessary glyphs: **Ie_grave-cy ie_grave-cy zero.lf one.lf two.lf three.lf four.lf five.lf six.lf seven.lf eight.lf nine.lf periodcentered.loclCAT periodcentered.loclCAT.smcp cedi.lf cent.lf colonsign.lf currency.lf dollar.lf dong.lf euro.lf florin.lf franc.lf guarani.lf hryvnia.lf kip.lf lira.lf liraTurkish.lf manat.lf naira.lf peseta.lf peso.lf ruble.lf rupeeIndian.lf sterling.lf tenge.lf tugrik.lf won.lf yen.lf**
+
+****
+****
+
+## 2019-10-18 — Irene
+`IV05_Literata3_uprightMM`
+/TT_Literata/Literata\ 3/02_Design/IV_Greek/IV05_Literata3_uprightMM.glyphs 
+
+- 5 masters upright Greek set is done
+- compatibility is all done
+
+### immediate next step:
+- merge to S06_Literata3_uprightMM
+/TT_Literata/Literata\ 3/03_Derivatives/_Source_JS/S06_Literata3_uprightMM.glyphs
+- create proofs for Greek for review
+- QA????
+
+### next step:
+- check anchors and automatic alignment for Polytonic
+- design 4 archaic symbols
+- update small caps
+
+### final step:
+- kerning
+- create proofs for Greek for review
+- QA????
+
 ****
 ****
 
