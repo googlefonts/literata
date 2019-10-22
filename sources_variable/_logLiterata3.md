@@ -67,6 +67,133 @@ Set up basic font info (family name, style names, weight, width)
 - dcroat hbar dollar cent cedi colonsign dong guarani hryvnia naira peso won
 
 
+****
+****
+
+### 2019-10-22 — Jose
+`S06_Literata3_uprightMM.glyphs`
+
+- Added component CYR smcp: **a-cy.smcp ve-cy.smcp ie-cy.smcp em-cy.smcp en-cy.smcp o-cy.smcp er-cy.smcp es-cy.smcp te-cy.smcp ha-cy.smcp a_acute-cy.smcp a_grave-cy.smcp ie_acute-cy.smcp ie_grave-cy.smcp iegrave-cy.smcp io-cy.smcp o_acute-cy.smcp o_grave-cy.smcp ustraight-cy.smcp dze-cy.smcp i-cy.smcp i_acute-cy.smcp yi-cy.smcp yi_acute-cy.smcp**
+- Copied OSF from Vik’s file
+- Added greek from Irene’s file
+- Fixed compatibility in: **dollar.osf euro.osf cent.osf sterling.osf yen.osf florin.osf liraTurkish.osf dong.osf franc.osf naira.osf cedi.osf colonsign.osf guarani.osf hryvnia.osf kip.osf lira.osf manat.osf peseta.osf peso.osf ruble.osf rupeeIndian.osf tenge.osf tugrik.osf won.osf**
+- Applied externat -fea file
+- Tested OT features in indesign and fixed problems
+
+`S06_Literata3-ItalicMM.glyphs`
+
+- Moved to DERIVATIVE stage
+- Copied currency done by roxane: **dollar euro cent sterling yen florin liraTurkish franc lira**
+- Ran rename script
+- Deleted unnecesary glyphs: **Ie_grave-cy ie_grave-cy zero.lf one.lf two.lf three.lf four.lf five.lf six.lf seven.lf eight.lf nine.lf periodcentered.loclCAT periodcentered.loclCAT.smcp cedi.lf cent.lf colonsign.lf currency.lf dollar.lf dong.lf euro.lf florin.lf franc.lf guarani.lf hryvnia.lf kip.lf lira.lf liraTurkish.lf manat.lf naira.lf peseta.lf peso.lf ruble.lf rupeeIndian.lf sterling.lf tenge.lf tugrik.lf won.lf yen.lf**
+- Populates masters in: **leftArrow upArrow rightArrow downArrow blackSquare whiteSquare leftBlackTriangle upBlackTriangle rightBlackTriangle downBlackTriangle leftWhiteTriangle upWhiteTriangle rightWhiteTriangle downWhiteTriangle blackDiamond whiteDiamond**
+- Created the base for small caps using RMX tools
+
+****
+****
+
+### 2019-10-21 — Pooja
+`S06_Literata3-ItalicMM_PS.glyphs`
+
+- Add **― hyphen.case exclamdown.case questiondown.case guilsinglleft.case guilsinglright.case guillemetleft.case guillemetright.case at.case parenleft.case parenright.case bracketleft.case bracketright.case braceleft.case braceright.case periodcentered.case bullet.case endash.case emdash.case figuredash.case ₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉ ₍ ₎ zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom ⁄ ½ ⅓ ⅔ ¼ ¾ ⅛ ⅜ ⅝ ⅞ zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf** to remaining masters (marked in brown)
+
+****
+****
+
+### 2019-10-21 — ElenaN
+
+`EN_02_M2_Literata3-Italic.glyphs`
+
+- finished M2 italic (added spacing)
+
+****
+****
+
+### 2019-10-21 — Vik
+`S06_Literata3_uprightMM_VB.glyphs` (VB_design)
+
+- added new glyphs: **/hryvnia.osf/manat.osf/tugrik.osf/won.osf**
+- checked spacing of all currencies OSF
+- created 'Bold' layer in M5 for: **/dollar.osf/cent.osf/naira.osf/cedi.osf/colonsign.osf/guarani.osf/hryvnia.osf/peso.osf/won.osf**
+
+
+****
+****
+
+### 2019-10-21 — Jose
+`S06_Literata3_uprightMM.glyphs`
+
+- Fixed spacing: **iacute ibreve icircumflex idieresis idotaccent igrave imacron iogonek itilde icaron idblgrave idieresisacute ihookabove iinvertedbreve ijacute jcircumflex kgreenlandic f_f_b f_iacute**
+- Added external features file to replace the automatic Glyphs features
+- Added 4 glyphs from Pooja’s file: **florin asciicircum numero estimated literSign**
+
+
+****
+****
+
+### 2019-10-21 — Pooja
+`PS_05_Literata3_uprightMM.glyphs`
+
+- Add **florin currency.osf zeroslash.tf** to remaining masters (marked in blue)
+
+`Additional glyphs for pooja.glyphs`
+
+- Add **· • - ­ ‐ – ‒ — ― hyphen.case at.case exclamdown.case questiondown.case periodcentered.case bullet.case parenleft.case parenright.case braceleft.case braceright.case bracketleft.case bracketright.case endash.case emdash.case figuredash.cas /guillemetleft.case guillemetright.case guilsinglleft.case guilsinglright.case ^ ~ _ № ℮ literSign** in remaining upright masters (marked in brown)
+
+- All glyphs marked in light grey have already been drawn in `PS_05_Literata3_uprightMM.glyphs`
+
+****
+****
+
+### 2019-10-20 — Vik
+`S06_Literata3_uprightMM_VB.glyphs` (VB_design)
+
+- added new glyphs:**/dollar.osf/euro.osf/cent.osf/sterling.osf
+/yen.osf/florin.osf/dong.osf/franc.osf/naira.osf/cedi.osf
+/guarani.osf/kip.osf/lira.osf/peseta.osf/ruble.osf/rupeeIndian.osf/tenge.osf**
+- spacing not checked of those glyphs yet
+
+Prepared `S05_Literata3-ItalicMM_IV.glyphs` for Irene, based on our latest Latin MM and added automated Greek chars fro M1/M3/M4.
+
+****
+****
+
+### 2019-10-19 — Vik
+`S06_Literata3_uprightMM.glyphs` (JS_source)
+
+- M3:
+	- tuned spacing in glyphs: **/s.smcp**
+
+- M4:
+	- changed **@ /at.cap / at.smcp** now more in tune with the rest
+	- tuned spacing in glyphs: **/m.smcp/s.smcp/exclam.smcp
+	/exclamdown.smcp/question.smcp/questiondown.smcp/ampersand.smcp**
+
+****
+****
+
+### 2019-10-18 — ElenaN
+
+`EN_02_M2_Literata3-Italic.glyphs`
+
+- finished cyrillic characters in M2 italic (no spacing)
+
+****
+****
+
+### 2019-10-18 — Vik
+`S06_Literata3_uprightMM.glyphs` (JS_source)
+
+General problem with auto-align spacing in glyphs where the accent hangs outside of base glyph, e.g. **iacute**
+
+- M1:
+	- made **germandbls.cap** wider
+	- tuned spacing in glyphs: **a c o r /a.smcp/e.smcp/f.smcp/s.smcp/u.smcp/z.smcp**
+
+- M2:
+	- changed leg on **k**
+	- tuned spacing in glyphs: **a r s z /s.smcp/z.smcp/question.smcp/questiondown.smcp**
+
 
 
 ****
@@ -81,9 +208,9 @@ Set up basic font info (family name, style names, weight, width)
 ****
 ****
 
-## 2019-10-18 — Irene
+### 2019-10-18 — Irene
 `IV05_Literata3_uprightMM`
-/TT_Literata/Literata\ 3/02_Design/IV_Greek/IV05_Literata3_uprightMM.glyphs 
+/TT_Literata/Literata\ 3/02_Design/IV_Greek/IV05_Literata3_uprightMM.glyphs
 
 - 5 masters upright Greek set is done
 - compatibility is all done
@@ -107,6 +234,16 @@ Set up basic font info (family name, style names, weight, width)
 ****
 ****
 
+### 2019-10-17 — Vik
+`S06_Literata3_uprightMM_VB.glyphs`
+
+- fixed glyphs: **/aogonek.sc/eogonek.sc/iogonek.sc/oogonek.sc/uogonek.sc**
+- reviewed and fixed spacing: **/zero.tf/one.tf/two.tf/three.tf/four.tf/five.tf/six.tf/seven.tf/eight.tf/nine.tf √ ∫ ≤ ≥ < > ÷ × ¬**
+
+
+****
+****
+
 ### 2019-10-16 — Jose
 `S06_Literata3_uprightMM.glyphs`
 
@@ -116,6 +253,16 @@ Set up basic font info (family name, style names, weight, width)
 - Made back up of the file in the backup folder
 - Ran Rename script
 - Ran find and replace to fix metric keys in the small caps
+
+****
+****
+
+### 2019-10-16 — Vik
+`S05_Literata3_uprightMM_VB.glyphs`
+
+- fine-tuned and added missing **a-z.sc**
+- added new small cap glyphs: **/ae.sc/oe.sc/thorn.sc/germandbls.sc/schwa.sc/asterisk.sc/ampersand.sc/at.sc/exclam.sc/exclamdown.sc/question.sc/questiondown.sc/quoteleft.sc/quoteright.sc/quotedblleft.sc/quotedblright.sc/quotesingle.sc/quotedbl.sc**
+
 
 
 ****
@@ -136,7 +283,7 @@ Set up basic font info (family name, style names, weight, width)
 `S05_Literata3-ItalicMM.glyphs`
 
 
-- Added from ENs file and fixed compatibility and anchor position: **Ze-cy Che-cy Ereversed-cy ii-cy iishort-cy Shha-cy ushort-cy cyrbreve brevecomb-cy cyrbreve.cap U-cy Ushort-cy Yat-cy** 
+- Added from ENs file and fixed compatibility and anchor position: **Ze-cy Che-cy Ereversed-cy ii-cy iishort-cy Shha-cy ushort-cy cyrbreve brevecomb-cy cyrbreve.cap U-cy Ushort-cy Yat-cy**
 
 `S05_Literata3-ItalicMM.glyphs`
 

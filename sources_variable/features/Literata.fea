@@ -1,0 +1,522 @@
+# Literata features (customized TT-LAT-2018.enc)
+# 2019-10-08 [jca]
+
+# -----------------------------------------------
+# --- START comment for working in Glyphs.app ---
+
+# table head {
+# 	FontRevision 1.001 ;
+# } head ;
+
+
+# table BASE {
+# 	HorizAxis.BaseTagList       ideo    romn ;
+# 	HorizAxis.BaseScriptList    DFLT    romn    -180 0,
+# 															latn    romn    -180 0 ;
+# } BASE ;
+
+
+# table name {
+# 	nameid 0 "Copyright \00A9 2017 DESIGNER. All rights reserved." ;
+# 	nameid 0 1 "Copyright \A9 2017 DESIGNER. All rights reserved." ;
+# 	nameid 7 "FontFamilyName is a trademark of DESIGNER_OR_FOUNDRY" ;
+# 	nameid 7 1 "FontFamilyName is a trademark of DESIGNER_OR_FOUNDRY" ;
+# 	nameid 8 "FOUNDRY" ;
+# 	nameid 8 1 "FOUNDRY" ;
+# 	nameid 9 "DESIGNER_OR_FOUNDRY" ;
+# 	nameid 9 1 "DESIGNER_OR_FOUNDRY" ;
+# 	nameid 10 "FontFamilyName\000D\000DLead design and concept by DESIGNER\000DEngineering: ENGINEER\000DQuality assurance: QUALITY_ASSURANCE\000DGraphic design: GRAPHIC_DESIGNER\000DCopywriting: COPYWRITER\000D\000DPublished by TypeTogether\000D\000D" ;
+# 	nameid 10 1 "FontFamilyName\0A\0ALead design and concept by DESIGNER\0AEngineering: ENGINEER\0AQuality assurance: QUALITY_ASSURANCE\0AGraphic design: GRAPHIC_DESIGNER\0ACopywriting: COPYWRITER\0A\0APublished by TypeTogether\0A\0A" ;
+# 	nameid 11 "http://www.type-together.com" ;
+# 	nameid 11 1 "http://www.type-together.com" ;
+# 	nameid 12 "http://www.type-together.com" ;
+# 	nameid 12 1 "http://www.type-together.com" ;
+# 	nameid 13 "For further details please go to: http://www.type-together.com/resources/eula/TT-EULA.pdf" ;
+# 	nameid 13 1 "For further details please go to: http://www.type-together.com/resources/eula/TT-EULA.pdf" ;
+# 	nameid 14 "http://www.type-together.com/resources/eula/TT-EULA.pdf" ;
+# 	nameid 14 1 "http://www.type-together.com/resources/eula/TT-EULA.pdf" ;
+# } name ;
+
+
+# # -----------------
+# # LANGUAGE SYSTEMS
+# # -----------------
+# languagesystem DFLT dflt;
+# languagesystem latn dflt;
+
+# languagesystem latn AZE;
+# languagesystem latn CAT;
+# languagesystem latn CRT;
+# languagesystem latn KAZ;
+# languagesystem latn MOL;
+# languagesystem latn NLD;
+# languagesystem latn ROM;
+# languagesystem latn TAT;
+# languagesystem latn TRK;
+
+# languagesystem cyrl dflt;
+# languagesystem grek dflt;
+
+
+# ---- END comment for working in Glyphs.app ----
+# -----------------------------------------------
+
+
+# -------------
+# CLASSES
+# -------------
+
+# LETTERS
+@Letters_UPPERCASE = [ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z ] ;
+@Letters_UPPERCASE_ADD = [ AE Eth IJ Eng OE Thorn Germandbls ] ;
+@Letters_UPPERCASE_ACCENTED = [ Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde Cacute Ccaron Ccedilla Ccircumflex Cdotaccent Dcaron Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek Gbreve Gcircumflex Gcommaaccent Gdotaccent Hcircumflex Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde IJacute Jcircumflex Kcommaaccent Lacute Lcaron Lcommaaccent Ldot Nacute Ncaron Ncommaaccent Ntilde Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Otilde Racute Rcaron Rcommaaccent Sacute Scaron Scedilla Scircumflex Scommaaccent Tcaron Tcedilla Tcommaaccent Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde Wacute Wcircumflex Wdieresis Wgrave Yacute Ycircumflex Ydieresis Ygrave Zacute Zcaron Zdotaccent ] ;
+@Letters_UPPERCASE_ACCENTED_ADD = [ AEacute Dcroat Hbar Lslash Oslash Tbar ] ;
+@Letters_UPPERCASE_ALL = [ @Letters_UPPERCASE @Letters_UPPERCASE_ADD @Letters_UPPERCASE_ACCENTED @Letters_UPPERCASE_ACCENTED_ADD ] ;
+
+@Letters_LOWERCASE = [ a b c d e f g h i j k l m n o p q r s t u v w x y z ] ;
+@Letters_LOWERCASE_ADD = [ ae eth ij eng oe thorn germandbls ] ;
+@Letters_LOWERCASE_ACCENTED = [ aacute abreve acircumflex adieresis agrave amacron aogonek aring atilde cacute ccaron ccedilla ccircumflex cdotaccent dcaron eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eogonek gbreve gcircumflex gcommaaccent gdotaccent hcircumflex iacute ibreve icircumflex idieresis idotaccent igrave imacron iogonek itilde ijacute jcircumflex kcommaaccent lacute lcaron lcommaaccent ldot nacute ncaron ncommaaccent ntilde oacute obreve ocircumflex odieresis ograve ohungarumlaut omacron otilde racute rcaron rcommaaccent sacute scaron scedilla scircumflex scommaaccent tcaron tcedilla tcommaaccent uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde wacute wcircumflex wdieresis wgrave yacute ycircumflex ydieresis ygrave zacute zcaron zdotaccent ] ;
+@Letters_LOWERCASE_ACCENTED_ADD = [ aeacute dcroat hbar lslash oslash tbar ] ;
+# @Letters_LOWERCASE_INFERIORS = [ ainferior b.sinf c.sinf d.sinf einferior f.sinf g.sinf h.sinf i.sinf j.sinf kinferior linferior minferior ninferior oinferior pinferior q.sinf r.sinf sinferior tinferior u.sinf v.sinf w.sinf xinferior y.sinf z.sinf ] ;
+# @Letters_LOWERCASE_SUPERIORS = [ a.sups b.sups c.sups d.sups e.sups f.sups g.sups h.sups i.sups j.sups k.sups l.sups m.sups nmod o.sups p.sups q.sups r.sups s.sups t.sups u.sups v.sups w.sups x.sups y.sups z.sups ] ;
+# @Letters_LOWERCASE_Symbols = [ asterisk ampersand at parenleft parenright bracketleft bracketright braceleft braceright slash backslash hyphen endash emdash copyright numero ordfeminine ordmasculine ] ;
+
+
+@Letters_SMALLCAPS = [ a.smcp b.smcp c.smcp d.smcp e.smcp f.smcp g.smcp h.smcp i.smcp j.smcp k.smcp l.smcp m.smcp n.smcp o.smcp p.smcp q.smcp r.smcp s.smcp t.smcp u.smcp v.smcp w.smcp x.smcp y.smcp z.smcp ] ;
+@Letters_SMALLCAPS_ADD = [ ae.smcp eth.smcp ij.smcp eng.smcp oe.smcp thorn.smcp germandbls.smcp ] ;
+@Letters_SMALLCAPS_ACCENTED = [ aacute.smcp abreve.smcp acircumflex.smcp adieresis.smcp agrave.smcp amacron.smcp aogonek.smcp aring.smcp atilde.smcp cacute.smcp ccaron.smcp ccedilla.smcp ccircumflex.smcp cdotaccent.smcp dcaron.smcp eacute.smcp ebreve.smcp ecaron.smcp ecircumflex.smcp edieresis.smcp edotaccent.smcp egrave.smcp emacron.smcp eogonek.smcp gbreve.smcp gcircumflex.smcp gcommaaccent.smcp gdotaccent.smcp hcircumflex.smcp iacute.smcp ibreve.smcp icircumflex.smcp idieresis.smcp idotaccent.smcp igrave.smcp imacron.smcp iogonek.smcp itilde.smcp ijacute.smcp jcircumflex.smcp kcommaaccent.smcp lacute.smcp lcaron.smcp lcommaaccent.smcp ldot.smcp nacute.smcp ncaron.smcp ncommaaccent.smcp ntilde.smcp oacute.smcp obreve.smcp ocircumflex.smcp odieresis.smcp ograve.smcp ohungarumlaut.smcp omacron.smcp otilde.smcp racute.smcp rcaron.smcp rcommaaccent.smcp sacute.smcp scaron.smcp scedilla.smcp scircumflex.smcp scommaaccent.smcp tcaron.smcp tcedilla.smcp tcommaaccent.smcp uacute.smcp ubreve.smcp ucircumflex.smcp udieresis.smcp ugrave.smcp uhungarumlaut.smcp umacron.smcp uogonek.smcp uring.smcp utilde.smcp wacute.smcp wcircumflex.smcp wdieresis.smcp wgrave.smcp yacute.smcp ycircumflex.smcp ydieresis.smcp ygrave.smcp zacute.smcp zcaron.smcp zdotaccent.smcp ] ;
+@Letters_SMALLCAPS_ACCENTED_ADD = [ aeacute.smcp dcroat.smcp hbar.smcp lslash.smcp oslash.smcp tbar.smcp ] ;
+# @Letters_SMALLCAPS_Symbols = [ asterisk.smcp ampersand.smcp at.smcp parenleft.smcp parenright.smcp bracketleft.smcp bracketright.smcp braceleft.smcp braceright.smcp slash.smcp backslash.smcp hyphen.smcp endash.smcp emdash.smcp copyright.smcp numero.smcp ordfeminine.smcp ordmasculine.smcp  ] ;
+
+# DIGITS
+@Figures = [ zero one two three four five six seven eight nine ] ;
+# @Figures_LINING = [ zero.lf one.lf two.lf three.lf four.lf five.lf six.lf seven.lf eight.lf nine.lf ] ;
+@Figures_OLDSTYLE = [ zero.osf one.osf two.osf three.osf four.osf five.osf six.osf seven.osf eight.osf nine.osf ] ;
+# @Figures_SMALLCAPS = [ zero.smcp one.smcp two.smcp three.smcp four.smcp five.smcp six.smcp seven.smcp eight.smcp nine.smcp ] ;
+@Figures_TABULAR = [ zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf ] ;
+# @Figures_TABULAR_OLDSTYLE = [ zero.tosf one.tosf two.tosf three.tosf four.tosf five.tosf six.tosf seven.tosf eight.tosf nine.tosf ] ;
+
+@Figures_NUMERATORS = [ zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr ] ;
+@Figures_DENOMINATORS = [ zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom ] ;
+@Figures_SUPERIORS = [ zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior ] ;
+@Figures_INFERIORS = [ zeroinferior oneinferior twoinferior threeinferior fourinferior fiveinferior sixinferior seveninferior eightinferior nineinferior ] ;
+
+# CURRENCY
+@Currency = [ dollar euro cent sterling yen florin liraTurkish ] ;
+# @Currency_LINING = [ dollar.lf euro.lf cent.lf sterling.lf yen.lf florin.lf liraTurkish.lf ] ;
+@Currency_OLDSTYLE = [ dollar.osf euro.osf cent.osf sterling.osf yen.osf florin.osf liraTurkish.osf ] ;
+# @Currency_SMALLCAPS = [ dollar.smcp euro.smcp cent.smcp sterling.smcp yen.smcp florin.smcp liraTurkish.smcp ] ;
+# @Currency_TABULAR = [ dollar.tf euro.tf cent.tf sterling.tf yen.tf florin.tf liraTurkish.tf ] ;
+# @Currency_TABULAR_OLDSTYLE = [ dollar.tosf euro.tosf cent.tosf sterling.tosf yen.tosf florin.tosf liraTurkish.tosf ] ;
+
+# PERCENT/NUMERO
+# @Percent = [ percent perthousand numero ] ;
+# @Percent_OLDSTYLE = [ percent.osf perthousand.osf numero.osf ] ;
+# @Percent_SMALLCAPS = [ percent.smcp perthousand.smcp numero.smcp ] ;
+# @Percent_TABULAR = [ percent.tf perthousand.tf numero.tf ] ;
+# @Percent_TABULAR_OLDSTYLE = [ percent.tosf perthousand.tosf numero.tosf ] ;
+
+# PUNCTUATION
+@Punctuation_CASE_source = [ hyphen at exclamdown questiondown ] ;
+@Punctuation_CASE = [ hyphen.case at.case exclamdown.case questiondown.case  ] ;
+# add [at exclamdown questiondown] ?
+@Punctuation_CASE_GPOS = [ parenleft parenright braceleft braceright bracketleft bracketright guillemetleft guillemetright guilsinglleft guilsinglright endash emdash ] ;
+
+@Punctuation_SMALLCAPS_source = [ exclam exclamdown question questiondown quotesingle quotedbl ampersand at periodcentered quoteleft quoteright quotedblleft quotedblright asterisk ] ;
+@Punctuation_SMALLCAPS = [ exclam.smcp exclamdown.smcp question.smcp questiondown.smcp quotesingle.smcp quotedbl.smcp ampersand.smcp at.smcp periodcentered.smcp quoteleft.smcp quoteright.smcp quotedblleft.smcp quotedblright.smcp asterisk.smcp ] ;
+
+@Punctuation_SMALLFIGURES_source = [ plus minus equal parenleft parenright hyphen comma period ] ;
+# @Punctuation_INFERIOR = [ plusinferior minusinferior equalinferior parenleftinferior parenrightinferior hypheninferior commainferior periodinferior ] ;
+# @Punctuation_SUPERIOR = [ plussuperior minussuperior equalsuperior parenleftsuperior parenrightsuperior hyphensuperior commasuperior periodsuperior ] ;
+# TODO: ORDN punc must be sorted in glyph order
+# @Punctuation_ORDINAL = [ plus.ordn minus.ordn equal.ordn parenleft.ordn parenright.ordn hyphen.ordn comma.ordn period.ordn ] ;
+
+
+# Stylistic CLASSES
+@ss01_source = [ Alphaprosgegrammeni Alphapsiliprosgegrammeni Alphadasiaprosgegrammeni Alphapsilivariaprosgegrammeni Alphadasiavariaprosgegrammeni Alphapsilioxiaprosgegrammeni Alphadasiaoxiaprosgegrammeni Alphapsiliperispomeniprosgegrammeni Alphadasiaperispomeniprosgegrammeni Etaprosgegrammeni Etapsiliprosgegrammeni Etadasiaprosgegrammeni Etapsilivariaprosgegrammeni Etadasiavariaprosgegrammeni Etapsilioxiaprosgegrammeni Etadasiaoxiaprosgegrammeni Etapsiliperispomeniprosgegrammeni Etadasiaperispomeniprosgegrammeni Omegaprosgegrammeni Omegapsiliprosgegrammeni Omegadasiaprosgegrammeni Omegapsilivariaprosgegrammeni Omegadasiavariaprosgegrammeni Omegapsilioxiaprosgegrammeni Omegadasiaoxiaprosgegrammeni Omegapsiliperispomeniprosgegrammeni Omegadasiaperispomeniprosgegrammeni ] ;
+@ss01_target = [ Alphaprosgegrammeni.ad Alphapsiliprosgegrammeni.ad Alphadasiaprosgegrammeni.ad Alphapsilivariaprosgegrammeni.ad Alphadasiavariaprosgegrammeni.ad Alphapsilioxiaprosgegrammeni.ad Alphadasiaoxiaprosgegrammeni.ad Alphapsiliperispomeniprosgegrammeni.ad Alphadasiaperispomeniprosgegrammeni.ad Etaprosgegrammeni.ad Etapsiliprosgegrammeni.ad Etadasiaprosgegrammeni.ad Etapsilivariaprosgegrammeni.ad Etadasiavariaprosgegrammeni.ad Etapsilioxiaprosgegrammeni.ad Etadasiaoxiaprosgegrammeni.ad Etapsiliperispomeniprosgegrammeni.ad Etadasiaperispomeniprosgegrammeni.ad Omegaprosgegrammeni.ad Omegapsiliprosgegrammeni.ad Omegadasiaprosgegrammeni.ad Omegapsilivariaprosgegrammeni.ad Omegadasiavariaprosgegrammeni.ad Omegapsilioxiaprosgegrammeni.ad Omegadasiaoxiaprosgegrammeni.ad Omegapsiliperispomeniprosgegrammeni.ad Omegadasiaperispomeniprosgegrammeni.ad ] ;
+
+@ss02_source = [ a b c d e f g h i j k l m n o p ] ;
+@ss02_target = [ leftArrow upArrow rightArrow downArrow blackSquare whiteSquare leftBlackTriangle upBlackTriangle rightBlackTriangle downBlackTriangle leftWhiteTriangle upWhiteTriangle rightWhiteTriangle downWhiteTriangle blackDiamond whiteDiamond ] ;
+
+
+# # -------------
+# # FEATURES
+# # -------------
+
+# Manual Alternates
+feature aalt {
+	feature locl ;
+	feature numr ;
+	feature dnom ;
+	feature sups ;
+	feature subs ;
+	feature sinf ;
+	feature ordn ;
+	feature lnum ;
+	feature onum ;
+	feature pnum ;
+	feature tnum ;
+	feature hist ;
+	# feature calt? ;
+	# feature ssXX? ;
+} aalt;
+
+
+# # --------------------------------------------------------------
+# # NOTE: This feature is generated in Glyphs.app and pasted here
+# # --------------------------------------------------------------
+# feature ccmp {
+# 	@UPPERCASE = [ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z AE Eth IJ Eng OE Thorn Germandbls Aacute Abreve Acircumflex Adieresis AEacute Agrave Amacron Aogonek Aring Atilde Cacute Ccaron Ccedilla Ccircumflex Cdotaccent Dcaron Dcroat Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek Gbreve Gcircumflex Gcommaaccent Gdotaccent Hbar Hcircumflex Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde Jcircumflex Kcommaaccent Lacute Lcaron Lcommaaccent Ldot Lslash Nacute Ncaron Ncommaaccent Ntilde Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde Racute Rcaron Rcommaaccent Sacute Scaron Scedilla Scircumflex Scommaaccent Tbar Tcaron Tcedilla Tcommaaccent Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde Wacute Wcircumflex Wdieresis Wgrave Yacute Ycircumflex Ydieresis Ygrave Zacute Zcaron Zdotaccent Delta Omega ] ;
+# 	lookup ccmp_Other_1 {
+# 		@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+# 		@CombiningNonTopAccents = [cedillacomb ogonekcomb];
+# 		sub [i j]' @CombiningTopAccents by [idotless jdotless];
+# 		sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
+# 		@Markscomb = [tilde ring circumflex acute grave dieresis caron macron dotaccent hungarumlaut breve];
+# 		@MarkscombCase = [tilde.case ring.case circumflex.case acute.case grave.case dieresis.case caron.case macron.case dotaccent.case hungarumlaut.case breve.case];
+# 		sub @Markscomb @Markscomb' by @MarkscombCase;
+# 		sub @UPPERCASE @Markscomb' by @MarkscombCase;
+# 	} ccmp_Other_1;
+
+# 	lookup ccmp_Other_2 {
+# 		sub @Markscomb' @MarkscombCase by @MarkscombCase;
+# 		sub @MarkscombCase @Markscomb' by @MarkscombCase;
+# 	} ccmp_Other_2;
+# } ccmp;
+
+
+# Localized Forms
+feature locl {
+	script latn ;
+	# Latin
+	language AZE exclude_dflt ; # Azeri
+		lookup I_TRK {
+			sub [ i i.smcp] by [ idotaccent idotaccent.smcp ] ;
+		} I_TRK ;
+	language CAT exclude_dflt ; # Catalan
+		sub L' periodcentered' by Ldot ;
+		sub l' periodcentered' by ldot ;
+	language CRT  exclude_dflt ; # Crimean Tatar
+		lookup I_TRK ;
+	language MOL  exclude_dflt ; # Moldavian
+		lookup ST_CEDILLA {
+					sub [ Scedilla scedilla ] by [ Scommaaccent scommaaccent ] ;
+		sub [ Tcedilla tcedilla ] by [ Tcommaaccent tcommaaccent ] ;
+		} ST_CEDILLA ;
+	language NLD exclude_dflt ; # Dutch
+		sub i j by ij ;
+		sub I J by IJ ;
+		sub iacute j by ijacute ;
+		sub Iacute J by IJacute ;
+		sub Iacute J acutecomb by IJacute ;
+ 		sub iacute j acutecomb by ijacute ;
+	language ROM exclude_dflt ; # Romanian
+		lookup ST_CEDILLA ;
+	language TRK exclude_dflt ; # Turkish
+		lookup I_TRK ;
+} locl ;
+
+
+# Fractions
+feature frac {
+
+	lookup FractionBar {
+		ignore sub slash @Figures @Figures @Figures @Figures @Figures @Figures @Figures @Figures @Figures @Figures slash' ;
+		ignore sub slash' @Figures @Figures @Figures @Figures @Figures @Figures @Figures @Figures @Figures @Figures slash ;
+		ignore sub slash @Figures @Figures @Figures @Figures @Figures @Figures @Figures @Figures @Figures slash' ;
+		ignore sub slash' @Figures @Figures @Figures @Figures @Figures @Figures @Figures @Figures @Figures slash ;
+		ignore sub slash @Figures @Figures @Figures @Figures @Figures @Figures @Figures @Figures slash' ;
+		ignore sub slash' @Figures @Figures @Figures @Figures @Figures @Figures @Figures @Figures slash ;
+		ignore sub slash @Figures @Figures @Figures @Figures @Figures @Figures @Figures slash' ;
+		ignore sub slash' @Figures @Figures @Figures @Figures @Figures @Figures @Figures slash ;
+		ignore sub slash @Figures @Figures @Figures @Figures @Figures @Figures slash' ;
+		ignore sub slash' @Figures @Figures @Figures @Figures @Figures @Figures slash ;
+		ignore sub slash @Figures @Figures @Figures @Figures @Figures slash' ;
+		ignore sub slash' @Figures @Figures @Figures @Figures @Figures slash ;
+		ignore sub slash @Figures @Figures @Figures @Figures slash' ;
+		ignore sub slash' @Figures @Figures @Figures @Figures slash ;
+		ignore sub slash @Figures @Figures @Figures slash' ;
+		ignore sub slash' @Figures @Figures @Figures slash ;
+		ignore sub slash @Figures @Figures slash' ;
+		ignore sub slash' @Figures @Figures slash ;
+		ignore sub slash @Figures slash' ;
+		ignore sub slash' @Figures slash ;
+		ignore sub slash slash' ;
+		ignore sub slash' slash ;
+		sub @Figures slash' @Figures by fraction ;
+	} FractionBar ;
+
+	lookup Numerator1 {
+		sub @Figures' fraction by @Figures_NUMERATORS ;
+	} Numerator1 ;
+
+	lookup Numerator2 {
+		sub @Figures' @Figures_NUMERATORS fraction by @Figures_NUMERATORS ;
+	} Numerator2 ;
+
+	lookup Numerator3 {
+		sub @Figures' @Figures_NUMERATORS @Figures_NUMERATORS fraction by @Figures_NUMERATORS ;
+	} Numerator3 ;
+
+	lookup Numerator4 {
+		sub @Figures' @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS fraction by @Figures_NUMERATORS ;
+	} Numerator4 ;
+
+	lookup Numerator5 {
+		sub @Figures' @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS fraction by @Figures_NUMERATORS ;
+	} Numerator5 ;
+
+	lookup Numerator6 {
+		sub @Figures' @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS fraction by @Figures_NUMERATORS ;
+	} Numerator6 ;
+
+	lookup Numerator7 {
+		sub @Figures' @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS fraction by @Figures_NUMERATORS ;
+	} Numerator7 ;
+
+	lookup Numerator8 {
+		sub @Figures' @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS fraction by @Figures_NUMERATORS ;
+	} Numerator8 ;
+
+	lookup Numerator9 {
+		sub @Figures' @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS fraction by @Figures_NUMERATORS ;
+	} Numerator9 ;
+
+	lookup Numerator10 {
+		sub @Figures' @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS fraction by @Figures_NUMERATORS ;
+	} Numerator10 ;
+
+	lookup Denominator {
+		sub [fraction @Figures_DENOMINATORS] @Figures' by @Figures_DENOMINATORS ;
+	} Denominator ;
+
+	lookup PREBUILT {
+		sub one.numr fraction two.dnom by onehalf ;
+		sub one.numr fraction three.dnom by onethird ;
+		sub two.numr fraction three.dnom by twothirds ;
+		sub one.numr fraction four.dnom by onequarter ;
+		sub three.numr fraction four.dnom by threequarters ;
+		sub one.numr fraction eight.dnom by oneeighth ;
+		sub three.numr fraction eight.dnom by threeeighths ;
+		sub five.numr fraction eight.dnom by fiveeighths ;
+		sub seven.numr fraction eight.dnom by seveneighths ;
+	} PREBUILT ;
+	# thinspace
+	sub @Figures space' @Figures_NUMERATORS by thinspace ;
+} frac ;
+
+
+# NUMERATORS
+feature numr {
+	sub @Figures by @Figures_NUMERATORS ;
+	# sub @Punctuation_SMALLFIGURES_source by @Punctuation_ORDINAL ;
+	# sub [ a-z ] by [ a.ordn-z.ordn ] ;
+} numr ;
+
+
+# DENOMINATORS
+feature dnom {
+	sub @Figures by @Figures_DENOMINATORS ;
+} dnom ;
+
+
+# Superscripts
+feature sups {
+	sub @Figures by @Figures_SUPERIORS ;
+	# sub @Punctuation_SMALLFIGURES_source by @Punctuation_SUPERIOR ;
+	# sub [ a-z ] by @Letters_LOWERCASE_SUPERIORS ;
+} sups ;
+
+
+# Subscripts
+feature subs {
+	lookup INFERIORS {
+		sub @Figures by @Figures_INFERIORS ;
+		# sub @Punctuation_SMALLFIGURES_source by @Punctuation_INFERIOR ;
+		# sub [ a-z ] by @Letters_LOWERCASE_INFERIORS ;
+	} INFERIORS;
+} subs ;
+
+
+# Scientific Inferiors
+feature sinf {
+	lookup INFERIORS ;
+} sinf ;
+
+
+# Lining Figures
+feature lnum {
+	sub @Figures_OLDSTYLE by @Figures ;
+	sub @Currency_OLDSTYLE by @Currency ;
+	# sub @Percent_OLDSTYLE by @Percent ;
+	# sub @Figures_TABULAR_OLDSTYLE by @Figures_TABULAR ;
+	# sub @Currency_TABULAR_OLDSTYLE by @Currency_TABULAR ;
+	# sub @Percent_TABULAR_OLDSTYLE by @Percent_TABULAR ;
+} lnum ;
+
+
+# Proportional figures
+feature pnum {
+	sub @Figures_TABULAR by @Figures ;
+	# sub @Currency_TABULAR by @Currency ;
+	# sub @Percent_TABULAR by @Percent ;
+	# sub @Figures_TABULAR_OLDSTYLE by @Figures_OLDSTYLE ;
+	# sub @Currency_TABULAR_OLDSTYLE by @Currency_OLDSTYLE ;
+	# sub @Percent_TABULAR_OLDSTYLE by @Percent_OLDSTYLE ;
+} pnum;
+
+
+# Old Style figures
+feature onum {
+	sub @Figures by @Figures_OLDSTYLE ;
+	sub @Currency by @Currency_OLDSTYLE ;
+	# sub @Percent by @Percent_OLDSTYLE ;
+	# sub @Figures_TABULAR by @Figures_TABULAR_OLDSTYLE ;
+	# sub @Currency_TABULAR by @Currency_TABULAR_OLDSTYLE ;
+	# sub @Percent_TABULAR by @Percent_TABULAR_OLDSTYLE ;
+} onum ;
+
+
+# Tabular figures
+feature tnum {
+	sub @Figures by @Figures_TABULAR ;
+	# sub @Currency by @Currency_TABULAR ;
+	# sub @Percent by @Percent_TABULAR ;
+	# sub @Figures_OLDSTYLE by @Figures_TABULAR_OLDSTYLE ;
+	# sub @Currency_OLDSTYLE by @Currency_TABULAR_OLDSTYLE ;
+	# sub @Percent_OLDSTYLE by @Percent_TABULAR_OLDSTYLE ;
+} tnum ;
+
+
+# Ordinals
+feature ordn {
+	sub N o period by numero ;
+	sub [ a o n ] by [ ordfeminine ordmasculine nmod ] ;
+	# sub [a-z] by [a.ordn-z.ordn] ;
+	# sub @Punctuation_SMALLFIGURES_source by @Punctuation_ORDINAL ;
+} ordn ;
+
+
+# Small Caps
+feature smcp {
+	sub @Letters_LOWERCASE by @Letters_SMALLCAPS ;
+	sub @Letters_LOWERCASE_ADD by @Letters_SMALLCAPS_ADD ;
+	sub @Letters_LOWERCASE_ACCENTED by @Letters_SMALLCAPS_ACCENTED ;
+	sub @Letters_LOWERCASE_ACCENTED_ADD by @Letters_SMALLCAPS_ACCENTED_ADD ;
+	# sub @Figures by @Figures_SMALLCAPS ;
+	# sub @Currency by @Currency_SMALLCAPS ;
+	# sub @Percent by @Percent_SMALLCAPS ;
+	sub @Punctuation_SMALLCAPS_source  by @Punctuation_SMALLCAPS ;
+} smcp ;
+
+
+# Capitals to Small Caps
+feature c2sc {
+	sub @Letters_UPPERCASE by @Letters_SMALLCAPS ;
+	sub @Letters_UPPERCASE_ADD by @Letters_SMALLCAPS_ADD ;
+	sub @Letters_UPPERCASE_ACCENTED by @Letters_SMALLCAPS_ACCENTED ;
+	sub @Letters_UPPERCASE_ACCENTED_ADD by @Letters_SMALLCAPS_ACCENTED_ADD ;
+	# sub @Figures by @Figures_SMALLCAPS ;
+	# sub @Currency by @Currency_SMALLCAPS ;
+	sub @Punctuation_SMALLCAPS_source  by @Punctuation_SMALLCAPS ;
+} c2sc ;
+
+
+# Zero slash
+feature zero {
+	sub [ zero zero.tf ] by zeroslash.tf ;
+} zero ;
+
+
+# Case
+feature case {
+	sub @Letters_LOWERCASE by @Letters_UPPERCASE ;
+	sub @Letters_LOWERCASE_ADD by @Letters_UPPERCASE_ADD ;
+	sub @Letters_LOWERCASE_ACCENTED by @Letters_UPPERCASE_ACCENTED ;
+	sub @Letters_LOWERCASE_ACCENTED_ADD by @Letters_UPPERCASE_ACCENTED_ADD ;
+	sub @Figures_OLDSTYLE by @Figures ;
+	# sub @Figures_TABULAR_OLDSTYLE by @Figures_TABULAR ;
+	sub @Punctuation_CASE_source by @Punctuation_CASE ;
+
+	# positioning case punctuation
+	pos @Punctuation_CASE_GPOS <0 50 0 0> ;
+} case ;
+
+
+# # Historical Forms
+# feature hist {
+# 	sub s by longs ;
+# } hist ;
+
+
+# # Contextual Alternates
+# feature calt {
+# 	sub g [ j jcircumflex ]' by [ j.calt jcircumflex.calt ] ;
+# 	sub j [ j jcircumflex ]' by [ j.calt jcircumflex.calt ] ;
+# 	sub q [ j jcircumflex ]' by [ j.calt jcircumflex.calt ] ;
+# } calt ;
+
+
+# # Stylistic alternates
+# feature salt {
+# 	sub @ss01_source by @ss01_target ;
+# } salt ;
+
+
+# Stylistic alternates
+feature ss01 {
+	featureNames {
+		name "Adscript alternates" ; # Windows English
+		name 1 0 0 "Adscript alternates" ; # Mac English
+	};
+	sub @ss01_source by @ss01_target ;
+} ss01 ;
+
+feature ss02 {
+    featureNames {
+        name "Arrows and Geometric"; # Windows English
+        name 1 0 0 "Arrows and Geometric"; # Mac English
+    };
+    sub @ss02_source by @ss02_target ;
+} ss02 ;
+
+# feature salt {
+# lookup SOMESTYLISTICSET ;
+# } salt ;
+
+# Discretionary Ligatures
+feature dlig {
+	sub c h by c_h;
+	sub c t by c_t;
+	sub s t by s_t;
+} dlig ;
+
+
+# Standard Ligatures
+feature liga {
+	sub f f b by f_f_b ;
+	# sub f f h by f_f_h ;
+	sub f f i by f_f_i ;
+	# sub f f j by f_f_j ;
+	sub f f k by f_f_k ;
+	sub f f l by f_f_l ;
+	sub f f t by f_f_t ;
+	sub f b by f_b ;
+	sub f f by f_f ;
+	sub f h by f_h ;
+	sub f i by fi ;
+	# sub f j by f_j ;
+	sub f k by f_k ;
+	sub f l by fl ;
+	sub f t by f_t ;
+	sub f iacute by f_iacute ;
+	# sub t t by t_t ;
+	sub T h by T_h ;
+} liga ;
+
+
+# Capital spacing
+feature cpsp {
+	pos @Letters_UPPERCASE_ALL <10 0 10 0> ;
+} cpsp;
