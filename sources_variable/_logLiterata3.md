@@ -67,6 +67,37 @@ Set up basic font info (family name, style names, weight, width)
 - dcroat hbar dollar cent cedi colonsign dong guarani hryvnia naira peso won
 
 
+
+****
+****
+
+### 2019-10-23 — Vik
+`S06_Literata3_uprightMM_VB.glyphs` (VB_design)
+
+- finished spacing check of a.smcp–z.smcp in all masters
+
+Sent `20191023.zip` to Radek for kerning (includes `S06_Literata3_uprightMM.glyphs` and the features folder)
+
+
+
+****
+****
+
+### 2019-10-22 — Vik
+`S06_Literata3_uprightMM_VB.glyphs` (VB_design)
+
+- fine-tuned a.smcp–z.smcp in all masters and started with spacing check
+
+
+****
+****
+
+### 2019-10-22 — ElenaN
+
+`EN_02_M4_Literata3-Italic.glyphs`
+
+- started working on M4 italic
+
 ****
 ****
 
@@ -91,6 +122,7 @@ Set up basic font info (family name, style names, weight, width)
 
 ****
 ****
+
 
 ### 2019-10-21 — Pooja
 `S06_Literata3-ItalicMM_PS.glyphs`
