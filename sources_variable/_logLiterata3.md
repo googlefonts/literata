@@ -64,9 +64,187 @@ Set up basic font info (family name, style names, weight, width)
 
 ###List of glyphs that require jumps in variable:
 
-- dcroat hbar dollar cent cedi colonsign dong guarani hryvnia naira peso won
+- dollar cent dong naira cedi colonsign guarani hryvnia peso won dcroat hbar thorn.smcp hbar.smcp dollar.osf cent.osf dong.osf naira.osf cedi.osf colonsign.osf guarani.osf hryvnia.osf peso.osf won.osf
 
 
+### 2019-11-04 — Jose
+`RG_07_Literata3-ItalicMM_material5.glyphs`
+
+- Created file for Roxane
+- Tweaked control characters
+
+`RG_07_Literata3-ItalicMM_material5.glyphs`
+
+
+****
+****
+
+
+
+### 2019-11-03 — Vik
+
+- reviewed spacing of all italic masters, incl. smcp
+- did NOT implement changes
+
+
+****
+****
+
+### 2019-10-31 — Pooja
+`PS_07_Literata3_uprightMM_material5.glyphs`
+
+- Add remaining basic LC glyphs to M5 **f g j k r t u v w x y z** (marked in green)
+- Add numerals to M5 **0 1 2 3 4** (marked in green)
+
+****
+****
+
+### 2019-11-03 — ElenaN
+
+`Base for smcp.glyphs`
+
+- started with small caps, added most of M2 (6 glyphs left) 
+
+****
+****
+
+
+### 2019-10-31 — Pooja
+`PS_07_Literata3_uprightMM_material5.glyphs`
+
+- Add remaining basic UC glyphs to M5 **S W X Y Z** (marked in green)
+- Add LC glyphs to M5 **b c h i l m p q** (marked in green)
+
+****
+****
+
+### 2019-10-31 — ElenaN
+
+`EN_02_M3_Literata3-Italic.glyphs`
+
+- fixed ball terninals in M3
+
+****
+****
+
+### 2019-10-30 — ElenaN
+
+`EN_02_M1_Literata3-Italic.glyphs`
+
+- finished M1 italic (with spacing)
+
+****
+****
+
+### 2019-10-29 — ElenaN
+
+`EN_02_M1_Literata3-Italic.glyphs`
+
+- added most of cyrillic characters in M1 italic (17 left)
+
+
+****
+****
+
+### 2019-10-29 — Vik
+`S06_Literata3_uprightMM_VB.glyphs` (VB_design)
+
+- added new glyphs:**/exclam.smcp/exclamdown.smcp/question.smcp/questiondown.smcp/quotesingle.smcp/quotedbl.smcp/ampersand.smcp/at.smcp/periodcentered.smcp/quoteleft.smcp/quoteright.smcp/quotedblleft.smcp/quotedblright.smcp/asterisk.smcp**
+
+****
+****
+
+### 2019-10-29 — Jose
+`S07_Literata3_uprightMM_material5.glyphs`
+
+- Created Master 5
+- Set xheight blue zone
+- Created glyphs:
+
+`S07_Literata3-ItalicMM.glyphs`
+- Transferred glyphs from Pooja and Vik's files
+- Made changes from QA document (Azza's)
+- Fixed master compatibility in several glyphs
+- Fixed spacing, compatibility issues and spacing inconsistencies in some upper cases.
+- Produced test fonts labelled 06
+
+****
+****
+
+
+### 2019-10-29 — Pooja
+`S06_Literata3-ItalicMM_PS.glyphs`
+
+- Add **∂ ∑ ∞ ∫ ≈ ≠ ≤ ≥ ◊ ± ÷ × ¬** to remaining masters (marked in brown)
+
+
+****
+****
+
+### 2019-10-28 — Jose
+`S07_Literata3_italicMM.glyphs`
+
+- Moved file into /04_Composites
+- Added instances for M5 M6 and M7
+- Fixed compatibility in floring and ninesuperior
+
+
+
+****
+****
+
+### 2019-10-27 — ElenaN
+
+`EN_02_M4_Literata3-Italic.glyphs`
+
+- Finished M4 italic (with spacing)
+
+****
+****
+
+### 2019-10-25 — ElenaN
+
+`EN_02_M4_Literata3-Italic.glyphs`
+
+- made a half of cyrillic lowercases in M4 italic
+
+****
+****
+
+### 2019-10-25 — Jose
+`S06_Literata3_italicMM.glyphs`
+
+-Finished these glyphs: **oslash.smcp ocircumflexacute.smcp ocircumflexgrave.smcp ocircumflexhookabove.smcp ocircumflextilde.smcp odblgrave.smcp odieresismacron.smcp odotaccentmacron.smcp omacronacute.smcp omacrongrave.smcp oslashacute.smcp otildeacute.smcp otildedieresis.smcp otildemacron.smcp ohorn.smcp ohornacute.smcp ohorndotbelow.smcp ohorngrave.smcp ohornhookabove.smcp ohorntilde.smcp sacutedotaccent.smcp scarondotaccent.smcp tbar.smcp udieresisacute.smcp udieresiscaron.smcp udieresisgrave.smcp udieresismacron.smcp uhorn.smcp uhornacute.smcp uhorndotbelow.smcp uhorngrave.smcp uhornhookabove.smcp uhorntilde.smcp umacrondieresis.smcp utildeacute.smcp eth.smcp abreveacute.smcp abrevegrave.smcp abrevehookabove.smcp abrevetilde.smcp acircumflexacute.smcp acircumflexgrave.smcp acircumflexhookabove.smcp acircumflextilde.smcp aringacute.smcp dcroat.smcp dzcaron.smcp ecircumflexacute.smcp ecircumflexgrave.smcp ecircumflexhookabove.smcp ecircumflextilde.smcp emacronacute.smcp emacrongrave.smcp hbar.smcp idieresisacute.smcp lcaron.smcp lslash.smcp**
+
+
+****
+****
+
+### 2019-10-24 — ElenaN
+
+`EN_02_M4_Literata3-Italic.glyphs`
+
+- finished cyrillic capitals in M4 italic
+
+****
+****
+
+### 2019-10-24 — Vik
+`S06_Literata3_uprightMM_VB.glyphs` (VB_design)
+
+- added new glyphs:**/ae.smcp/oe.smcp/thorn.smcp/germandbls.smcp**
+
+
+****
+****
+
+### 2019-10-24 — Jose
+`S06_Literata3_italicMM.glyphs`
+
+- Copied small caps a to z from Vik's file.
+- Tweaked design of small caps
+- Placed anchors
+- Created the following glyphs: **ij.smcp idotless.smcp kgreenlandic.smcp aacute.smcp abreve.smcp acircumflex.smcp adieresis.smcp agrave.smcp amacron.smcp aring.smcp atilde.smcp abreveacute.smcp abrevedotbelow.smcp abrevegrave.smcp abrevehookabove.smcp abrevetilde.smcp acaron.smcp acircumflexdotbelow.smcp adblgrave.smcp adotbelow.smcp ahookabove.smcp ainvertedbreve.smcp aeacute.smcp cacute.smcp ccaron.smcp ccedilla.smcp ccircumflex.smcp cdotaccent.smcp ccedillaacute.smcp dcaron.smcp ddotbelow.smcp dlinebelow.smcp dzcaron.smcp eacute.smcp ebreve.smcp ecaron.smcp ecircumflex.smcp edieresis.smcp edotaccent.smcp egrave.smcp emacron.smcp ecedillabreve.smcp ecircumflexdotbelow.smcp edotbelow.smcp ehookabove.smcp einvertedbreve.smcp etilde.smcp gbreve.smcp gcircumflex.smcp gcommaaccent.smcp gdotaccent.smcp gcaron.smcp gmacron.smcp gtilde.smcp hcircumflex.smcp hbrevebelow.smcp hdotbelow.smcp iacute.smcp ibreve.smcp icircumflex.smcp idieresis.smcp idotaccent.smcp igrave.smcp imacron.smcp itilde.smcp icaron.smcp idblgrave.smcp idotbelow.smcp ihookabove.smcp iinvertedbreve.smcp ijacute.smcp jcircumflex.smcp kcommaaccent.smcp lacute.smcp lcommaaccent.smcp ldot.smcp ldotbelow.smcp ldotbelowmacron.smcp lj.smcp llinebelow.smcp mdotbelow.smcp nacute.smcp ncaron.smcp ncommaaccent.smcp ntilde.smcp napostrophe.smcp ndotaccent.smcp ndotbelow.smcp nlinebelow.smcp nj.smcp oacute.smcp obreve.smcp ocircumflex.smcp odieresis.smcp ograve.smcp ohungarumlaut.smcp omacron.smcp otilde.smcp ocaron.smcp ocircumflexdotbelow.smcp odotbelow.smcp ohookabove.smcp oinvertedbreve.smcp racute.smcp rcaron.smcp rcommaaccent.smcp rdblgrave.smcp rdotbelow.smcp rdotbelowmacron.smcp rinvertedbreve.smcp rlinebelow.smcp sacute.smcp scaron.smcp scedilla.smcp scircumflex.smcp scommaaccent.smcp sdotaccent.smcp sdotbelow.smcp sdotbelowdotaccent.smcp tcaron.smcp tcedilla.smcp tcommaaccent.smcp tdieresis.smcp tdotbelow.smcp tlinebelow.smcp uacute.smcp ubreve.smcp ucircumflex.smcp udieresis.smcp ugrave.smcp uhungarumlaut.smcp umacron.smcp uring.smcp utilde.smcp ucaron.smcp udblgrave.smcp udotbelow.smcp uhookabove.smcp uinvertedbreve.smcp wacute.smcp wcircumflex.smcp wdieresis.smcp wgrave.smcp yacute.smcp ycircumflex.smcp ydieresis.smcp ygrave.smcp ydotaccent.smcp ydotbelow.smcp yhookabove.smcp ymacron.smcp ytilde.smcp zacute.smcp zcaron.smcp zdotaccent.smcp zdotbelow.smcp**
 
 ****
 ****
@@ -77,6 +255,8 @@ Set up basic font info (family name, style names, weight, width)
 - finished spacing check of a.smcp–z.smcp in all masters
 
 Sent `20191023.zip` to Radek for kerning (includes `S06_Literata3_uprightMM.glyphs` and the features folder)
+
+
 
 
 
