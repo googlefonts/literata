@@ -66,6 +66,92 @@ Set up basic font info (family name, style names, weight, width)
 
 - dollar cent dong naira cedi colonsign guarani hryvnia peso won dcroat hbar thorn.smcp hbar.smcp dollar.osf cent.osf dong.osf naira.osf cedi.osf colonsign.osf guarani.osf hryvnia.osf peso.osf won.osf
 
+****
+****
+
+### 2019-11-07 — ElenaN
+
+- fixed г in all italic masters
+
+****
+****
+
+
+### 2019-11-07 — Pooja
+`PS_07_Literata3_uprightMM_material5.glyphs`
+
+- Add remaining small caps M5 **/a.smcp /b.smcp /c.smcp /d.smcp /e.smcp /f.smcp /g.smcp /i.smcp /j.smcp /k.smcp /l.smcp /m.smcp /n.smcp /p.smcp /q.smcp /r.smcp /s.smcp /t.smcp /u.smcp /v.smcp /w.smcp /x.smcp /y.smcp /z.smcp** (marked in green)
+
+
+
+
+****
+****
+
+### 2019-11-07 — Jose
+`S07_Literata3_uprightMM_material5.glyphs`
+
+- Added currency: **dollar euro cent sterling yen florin liraTurkish dong franc naira cedi colonsign guarani hryvnia kip lira manat peseta peso ruble rupeeIndian tenge tugrik won**
+- Created glyphc with connected diacritics in M5: **Dcroat Hbar Lslash Oslash Ohorn Tbar Uhorn dcroat gsingle hbar lslash oslash ohorn schwa tbar uhorn**
+- Created floating accents: **grave acute circumflex tilde macron firsttonechinese breve dotaccent dieresis ring hungarumlaut caron cedilla ogonek commaturnedmod caron.alt hook.case tilde.case ring.case circumflex.case acute.case grave.case dieresis.case caron.case macron.case dotaccent.case hungarumlaut.case breve.case gravecomb commaturnedabovecomb commaaccentcomb hookabovecomb dblgravecomb breveinvertedcomb horncomb dotbelowcomb brevebelowcomb dieresisbelowcomb macronbelowcomb verticallinemod verticallinelowmod **
+
+`S07_Literata3-ItalicMM.glyphs`
+- Added the cyrillic from EN's files
+- Fixzed compatibility
+- Created accented CYR characters
+
+
+
+
+
+****
+****
+
+### 2019-11-08 — Jose
+`S07_Literata3-ItalicMM.glyphs`
+
+- Compiled the following glyphs from EN's files: **A-cy Be-cy Ve-cy Ge-cy De-cy Ie-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Ka-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ef-cy Ha-cy Tse-cy Che-cy Sha-cy Shcha-cy Hardsign-cy Yeru-cy Softsign-cy Ereversed-cy Iu-cy Ia-cy a-cy be-cy ve-cy ge-cy de-cy ie-cy zhe-cy ze-cy ii-cy iishort-cy ka-cy el-cy em-cy en-cy o-cy pe-cy er-cy es-cy te-cy u-cy ef-cy ha-cy tse-cy che-cy sha-cy shcha-cy hardsign-cy yeru-cy softsign-cy ereversed-cy iu-cy ia-cy Gje-cy Gheupturn-cy Ghestroke-cy E-cy E_acute-cy Zhedescender-cy Kadescender-cy Lje-cy Endescender-cy Nje-cy Yat-cy Yusbig-cy Obarred-cy Ustraight-cy Ustraitstroke-cy Dze-cy Dzhe-cy I-cy Je-cy Dje-cy Tshe-cy Shha-cy Schwa-cy gje-cy gheupturn-cy ghestroke-cy e-cy e_acute-cy zhedescender-cy kadescender-cy lje-cy endescender-cy nje-cy yat-cy yusbig-cy obarred-cy ustraight-cy ustraitstroke-cy dze-cy dzhe-cy i-cy je-cy dje-cy tshe-cy shha-cy schwa-cy **
+
+
+****
+****
+
+### 2019-11-07 — Vik
+`S07_Literata3-ItalicMM.glyphs`
+
+- fixed spacing metric alerts
+- sending copy to Radek for kerning
+
+****
+****
+
+### 2019-11-06 — Vik
+`S07_Literata3-ItalicMM.glyphs`
+
+- checked and fixed spacing in M1—M4: caps, lowercase,, small cpas, punctuation, LF OSF TF
+- did not review accented glyphs
+
+****
+****
+### 2019-11-05 Roxane
+`RG_07_Literata3-ItalicMM_material5.glyphs`
+
+- Added glyphs **a b c d e f g h i j l m n o p q r t u v w** (marked in blue)
+
+****
+****
+
+### 2019-10-31 — Pooja
+`PS_07_Literata3_uprightMM_material5.glyphs`
+
+- Add remaining numerals to M5 **5 6 7 8 9** (marked in green)
+- Add glyphs **Ŋ Œ Þ ẞ æ ŋ œ þ % ‰ . , : ; … ! ¡** to M5 (marked in green)
+
+- **æ** marked in red because masters are still not compatible for that glyph
+
+****
+****
+
 
 ### 2019-11-04 — Jose
 `RG_07_Literata3-ItalicMM_material5.glyphs`
@@ -78,7 +164,6 @@ Set up basic font info (family name, style names, weight, width)
 
 ****
 ****
-
 
 
 ### 2019-11-03 — Vik
@@ -103,7 +188,7 @@ Set up basic font info (family name, style names, weight, width)
 
 `Base for smcp.glyphs`
 
-- started with small caps, added most of M2 (6 glyphs left) 
+- started with small caps, added most of M2 (6 glyphs left)
 
 ****
 ****
