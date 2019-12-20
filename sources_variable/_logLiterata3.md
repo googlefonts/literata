@@ -66,6 +66,397 @@ Set up basic font info (family name, style names, weight, width)
 
 - dollar cent dong naira cedi colonsign guarani hryvnia peso won dcroat hbar thorn.smcp hbar.smcp dollar.osf cent.osf dong.osf naira.osf cedi.osf colonsign.osf guarani.osf hryvnia.osf peso.osf won.osf
 
+
+****
+****
+
+### 2019-12-19 — Pooja
+
+`S09_Literata3_uprightMM.glyphs`
+
+- Add to M6 **currency.osf zeroslash.tf zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf ⁰ ¹ ² ³ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹ ⁽ ⁾ ª º ⁿ ₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉ ₍ ₎ zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom ⁄ ½ ⅓ ⅔ ¼ ¾ ⅛ ⅜ ⅝ ⅞  ∏ ∕ ∙ ≠ ≤ ≥ < = > ◊ + − ± ÷ × ¬ zero.osf one.osf two.osf three.osf four.osf eight.osf** (marked in blue)
+
+****
+****
+
+### 2019-12-17 — Jose
+
+`PS_S09_Literata3_italicMM.glyphs`
+
+- Designed accents in master 6: **grave acute circumflex tilde macron firsttonechinese breve dotaccent dieresis ring hungarumlaut caron cedilla commaturnedmod caron.alt hook.case tilde.case ring.case circumflex.case acute.case grave.case dieresis.case caron.case macron.case macron.ELL.case dotaccent.case hungarumlaut.case breve.case breve.ELL.case apostrophemod gravecomb acutecomb circumflexcomb tildecomb macroncomb brevecomb dotaccentcomb dieresiscomb ringcomb hungarumlautcomb caroncomb commaturnedabovecomb cedillacomb ogonekcomb commaaccentcomb hookabovecomb dblgravecomb breveinvertedcomb horncomb dotbelowcomb brevebelowcomb dieresisbelowcomb ringhalfright macronbelowcomb dblgravecomb.case breveinvertedcomb.case ringhalfleft verticallinemod secondtonechinese fourthtonechinese verticallinelowmod**
+- Reviewed and fixed compatibility in all the designed glyphs
+- Added to M6: **dcroat.jump hbar.jump cedi.jump cent.jump colonsign.jump dollar.jump dong.jump guarani.jump hryvnia.jump naira.jump peso.jump won.jump **
+- redesigned: **quoteleft quoteright quotesinglbase quotedblleft quotedblright quotedblbase **
+- Redesigned: **Eng OE**
+- Fixed M6: **fi fl f_t f_f_i f_f_l f_f_k f_f_b f_f_t f_iacute s_t c_t c_h T_h**
+
+
+
+****
+****
+
+### 2019-12-20 — Jose
+
+- Finished all characters in Master 6 except CYR and GRK
+- Generated test fonts 
+- generated Alfa variable font
+. Made presentation PDFs
+
+
+****
+****
+
+### 2019-12-16 — Pooja
+
+`S09_Literata3_uprightMM.glyphs`
+
+- Add to M6 **Ə ɑ ɡ ə′ ″ ʹ ʺ ( ) [ ] { } / \ | ¦ · • - ­ ‐ ‒ – — ― hyphen.case guilsinglleft.case guilsinglright.case guillemetleft.case guillemetright.case parenleft.case parenright.case bracketleft.case bracketright.case braceleft.case braceright.case periodcentered.case bullet.case endash.case emdash.case figuredash.case _ exclamdown.case trademark.case servicemark.case † ‡ ¶ ™ ℠ № * # & ^ © ℗ ¤ § ® questiondown.case zeroslash.tf zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf exclam.smcp exclamdown.smcp quotesingle.smcp quotedbl.smcp periodcentered.smcp quoteleft.smcp quoteright.smcp quotedblleft.smcp quotedblright.smcp asterisk.smcp currency.osf** (marked in blue)
+
+- Updated in M6 **? ¿** (marked in blue)
+
+****
+****
+
+### 2019-12-16 — Jose
+
+`S09_Literata3_uprightMM.glyphs`
+
+- Added all the accents and started building composites in small caps
+
+****
+****
+
+### 2019-12-16 — Pooja
+
+`PS_S09_Literata3_uprightMM.glyphs`
+
+- Add remaining LC glyphs 
+- Add remaining small caps glyphs **b.smcp c.smcp g.smcp m.smcp r.smcp s.smcp w.smcp x.smcp y.smcp z.smcp ae.smcp eth.smcp eng.smcp oe.smcp germandbls.smcp** to M6 (marked in light blue)
+- Add remaining ligatures **s_t** **c_t** **c_h**
+
+****
+****
+
+### 2019-12-12 — Vik
+`S09_Literata3_uprightMM.glyphs` (JS folder)
+
+- reviewed and fixed: **A–Z a–z 0–9 ÆÐĲǇŊŒÞẞæðĳǉŋœþßıȷĸ$€¢£¥ƒ₺₫₣₦₵₡₲₴₭₤₼₧₱₽₹₸₮₩**
+- checked spacing on the glyphs above
+
+****
+****
+
+### 2019-12-10 — Pooja
+
+`PS_S09_Literata3_uprightMM.glyphs`
+
+- Add **a.smcp d.smcp e.smcp f.smcp h.smcp i.smcp j.smcp k.smcp l.smcp n.smcp o.smcp p.smcp q.smcp t.smcp u.smcp v.smcp idotless.smcp kgreenlandic.smcp** to M6 (marked in light blue)
+- Update **% ‰ . , : ; … ! ¡ ' " ‘ ’ ‚ “ ” „ ‹ › « »** according to José’s feedback (marked in light blue)
+- **? ¿** still need to be updated (marked in dark blue)
+
+
+
+
+
+
+
+****
+****
+
+### 2019-12-10 — Pooja
+
+`PS_S09_Literata3_uprightMM.glyphs`
+
+- Add **X Y Z Æ Ð Ĳ Ǉ Ŋ Œ Þ ẞ k s v w y z æ ð ĳ ǉ ŋ œ þ ß ı ȷ ĸ % ‰ . , : ; … ! ¡ ? ¿ ' " ‘ ’ ‚ “ ” „ ‹ › « » f_f ﬁ ﬂ f_k f_b f_h f_t f_f_i f_f_l f_f_k f_f_b f_f_t T_h** to M6 (marked in blue)
+
+
+****
+****
+
+### 2019-12-09 — Jose
+
+`S09_Literata3-ItalicMM.glyphs`
+
+. Added complete cyrillic, including the base for Master 6
+
+
+
+****
+****
+
+### 2019-12-09 — Roxane
+
+`RG_09_Literata3-ItalicMM.glyphs`
+
+- added glyphs marked in blue in M6
+
+
+### 2019-12-08 — ElenaN
+
+`S08_Literata3-ItalicMM.glyphs`
+
+- made all cyrillic glyphs in M5 italic (no spacing)
+
+****
+****
+
+
+### 2019-12-06 — Roxane
+
+`RG_09_Literata3-ItalicMM.glyphs`
+
+- added glyphs marked in blue
+
+### 2019-12-03 — ElenaN
+
+`EN_08_Literata3_uprightMM.glyphs`
+
+- finished upright M5
+
+
+****
+****
+
+### 2019-12-03 — Vik
+
+`S09_Literata3-ItalicMM_VB.glyphs`
+
+- tweaked **HOonac** continue with lowercase
+
+`RG_09_Literata3-ItalicMM.glyphs`
+
+- marked glyphs to do in M6 in grey for Roxane
+
+
+
+
+****
+****
+
+### 2019-12-04 — Jose
+`S09_Literata3_uprightMM.glyphs`
+
+- Latest cyrillic added (includes upper and lc for M5)
+
+
+****
+****
+
+### 2019-12-03 — Jose
+`S09_Literata3_uprightMM.glyphs`
+
+- Added master number 6
+- Created control characters HOno and marked Yellow
+
+
+`S08_Literata3-ItalicMM.glyphs`
+- Created file and added Master 5
+- Fixed metrics in case punctuation: **guilsinglleft.case guilsinglright.case guillemetleft.case guillemetright.case at.case parenleft.case parenright.case bracketleft.case bracketright.case braceleft.case braceright.case periodcentered.case bullet.case**
+- Fixed compatibility with master 5
+- Reviewed all metric warnings and made the necessary changes
+- Added cyrillc and checked Masters 0 to 4 for compatibility and metrics
+
+
+****
+****
+
+### 2019-12-02 — Vik
+`S07_Literata3-ItalicMM_M5_VB.glyphs`
+
+- copied Roxane's and Pooja's glyphs over
+- all blue glyphs need checking
+
+`S08_Literata3_uprightMM.glyphs` (in _Source_JS)
+
+- copied ElenaN's MM5 glyphs over and marked green
+
+`S07_Literata3-ItalicMM.glyphs` (in _Source_JS)
+
+- copied ElenaN's CYR small caps
+- fixed **ustraitstroke-cy.smcp**
+
+****
+****
+
+### 2019-11-30 — ElenaN
+`EN_07_Literata3_uprightMM_material5.glyphs`
+
+- finished M5 lowercases, capitals + spacing
+
+
+****
+****
+
+### 2019-11-26 — Pooja
+
+`PS_S07_Literata3-ItalicMM_M5.glyphs`
+
+- Add to M5 **/zeroslash.tf ⁽ ⁾ ª º ⁿ ₍ ₎ ⁄ ½ ⅓ ⅔ ¼ ¾ ⅛ ⅜ ⅝ ⅞ ∕ ∂ ∏ ∑ ∙ √ ∞ ∫ ≈ ≠ ≤ ≥ < = > ◊ + − ± ÷ × ¬ ℓ** (marked in dark blue)
+
+`PS_S08_Literata3_uprightMM`
+
+- Fixed **∏** is M2 and M5 — it was not aligned to the cap height (marked in black)
+
+****
+****
+
+### 2019-11-27 — Vik
+`S08_Literata3_uprightMM.glyphs` (in _Source_JS)
+
+- copied Pooja's blue glyphs M5 into this source file
+
+****
+****
+
+### 2019-11-26 — ElenaN
+
+`EN_07_Literata3-ItalicMM__JS.glyphs`
+
+- finished italic small caps
+- added new ge-s to this file
+
+****
+****
+
+### 2019-11-26 — Pooja
+
+`PS_S08_Literata3_uprightMM`
+
+- Add to M5 **@ at.case † ‡ §  schwa.smcp question.smcp questiondown.smcp ampersand.smcp at.smcp ∂ ∏ ∑ ∞ ℓ** (marked in blue)
+- **Ω ∆ µ** need Greek letters so they can be used as components (marked in red)
+
+`PS_S07_Literata3-ItalicMM_M5.glyphs`
+
+- Add to M5 **zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf ⁰ ¹ ² ³ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹ ₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉ zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom** (marked in blue)
+
+****
+****
+
+### 2019-11-25 — Vik
+`S07_Literata3-ItalicMM_M5_VB.glyphs`
+
+- fixed **v.ss01 w.ss01 lira**
+- checked spacing OSF numerals and currency
+
+- marked glyphs in brown for Pooja:
+`PS_S07_Literata3-ItalicMM_M5.glyphs`
+
+- marked glyphs in dark grey for Roxane:
+`RG_07_Literata3-ItalicMM_M5.glyphs`
+
+
+****
+****
+
+### 2019-11-25 — Pooja
+
+- Create `~/Dropbox/TT_Literata/Literata 3/04_Composites/PS_Uprights`  
+- Make a copy of `S08_Literata3_uprightMM.glyphs` (as shared by **José**), rename it `PS_S08_Literata3_uprightMM` and put in `~/Dropbox/TT_Literata/Literata 3/04_Composites/PS_Uprights`
+- Move old files `PS_07_Literata3_uprightMM_material5` into it as well
+
+`PS_S08_Literata3_uprightMM`
+
+- Add to M5 **f_iacute exclamdown.case questiondown.case guilsinglleft.case guilsinglright.case guillemetleft.case guillemetright.case parenleft.case parenright.case bracketleft.case bracketright.case braceleft.case braceright.case periodcentered.case bullet.case endash.case emdash.case trademark.case servicemark.case figuredash.case ¶ ^ ~ _ © ® ℗ ™ ℠ № ¤  ae.smcp eng.smcp oe.smcp germandbls.smcp aeacute.smcp napostrophe.smcp exclam.smcp exclamdown.smcp quotesingle.smcp quotedbl.smcp periodcentered.smcp quoteleft.smcp quoteright.smcp quotedblleft.smcp quotedblright.smcp asterisk.smcp currency.osf zeroslash.tf zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf ⁰ ¹ ² ³ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹ ⁽ ⁾ ª º ⁿ ₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉ ₍ ₎ zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr ⁄ zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom ½ ⅓ ⅔ ¼ ¾ ⅛ ⅜ ⅝ ⅞** (marked in blue)
+
+
+
+****
+****
+
+### 2019-11-21 — Vik
+`S07_Literata3-ItalicMM_M5_VB.glyphs`
+
+- fixed currency and numbers LF and OSF in M5
+- checked spacing LF, but not OSF
+
+****
+****
+
+### 2019-11-21 — Vik
+`S07_Literata3-ItalicMM.glyphs`
+
+- checked CYR outlines in all masters
+- fixed some outlines
+- wrong char: **ge-cy, ghestroke-cy** (Elena N needs to fix contrast)
+- **e_acute-cy** auto-alignment is wrong - JOSE?!!
+
+
+****
+****
+
+### 2019-11-21 — Pooja
+`PS_07_Literata3_uprightMM_material5.glyphs`
+
+- Add to M5 **Æ s_t c_t c_h ¶ ^ ~ _ © ® ℗ ™ ℠ № ¤  eng.smcp oe.smcp thorn.smcp germandbls.smcp five.osf six.osf seven.osf eight.osf nine.osf  ∕ ∙ √ ∫ ≈ ≠ ≤ ≥ < = > ◊ + − ± ÷ × ¬** (marked in green)
+
+****
+****
+
+### 2019-11-15 — ElenaN
+
+`Base for smcp.glyphs`
+
+- finished upright small caps, added spacing and components
+
+****
+****
+
+### 2019-11-12 — ElenaN
+
+`Base for smcp.glyphs`
+
+- finished upright small caps (spacing + components left)
+
+****
+****
+
+### 2019-11-12 — Pooja
+`PS_07_Literata3_uprightMM_material5.glyphs`
+
+- Add to M5 **Æ Ə f_f ﬁ ﬂ f_k f_b f_h f_t f_f_i f_f_l f_f_k f_f_b f_f_t T_h ° ′ ″ * ʹ ʺ # & ( ) [ ] { } / \ | ¦ · • - ­ ‐ ‒ – — ― hyphen.case zero.osf one.osf two.osf three.osf four.osf** (marked in green)
+
+****
+****
+
+### 2019-11-11 — Jose
+`S08_Literata3_uprightMM_material5.glyphs`
+
+- Collated all additions from Pooja's file.
+
+####Worked in master 5. Detail below.
+- Added composites and bar chars: **Aacute Abreve Acircumflex Adieresis Agrave Amacron Aring Atilde Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adblgrave Adotbelow Ahookabove Ainvertedbreve Aringacute Cacute Ccaron Ccedilla Ccircumflex Cdotaccent Ccedillaacute Dcaron Dcroat Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Ddotbelow Dlinebelow DZcaron Dzcaron Ecedillabreve Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edblgrave Edotbelow Ehookabove Einvertedbreve Emacronacute Emacrongrave Etilde Gbreve Gcircumflex Gcommaaccent Gdotaccent Gcaron Gmacron Gtilde Hbar Hcircumflex Hbrevebelow Hdotbelow Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Itilde Icaron Idblgrave Idieresisacute Idotbelow Ihookabove Iinvertedbreve IJacute Jcircumflex Kcommaaccent Lacute Lcaron Lcommaaccent Ldot Lslash Ldotbelow Ldotbelowmacron Llinebelow Lj Mdotbelow Nacute Ncaron Ncommaaccent Ntilde Ndotaccent Ndotbelow Nlinebelow NJ Nj Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde Ocaron Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odblgrave Odieresismacron Odotaccentmacron Odotbelow Ohookabove Oinvertedbreve Omacronacute Omacrongrave Oslashacute Otildeacute Otildedieresis Otildemacron Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Racute Rcaron Rcommaaccent Rdblgrave Rdotbelow Rdotbelowmacron Rinvertedbreve Rlinebelow Sacute Scaron Scedilla Scircumflex Scommaaccent Sacutedotaccent Scarondotaccent Sdotaccent Sdotbelow Sdotbelowdotaccent Tbar Tcaron Tcedilla Tcommaaccent Tdotbelow Tlinebelow Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uring Utilde Ucaron Udblgrave Udieresisacute Udieresiscaron Udieresisgrave Udieresismacron Udotbelow Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uinvertedbreve Umacrondieresis Utildeacute Wacute Wcircumflex Wdieresis Wgrave Yacute Ycircumflex Ydieresis Ygrave Ydotaccent Ydotbelow Yhookabove Ymacron Ytilde Zacute Zcaron Zdotaccent Zdotbelow aacute abreve acircumflex adieresis agrave amacron aring atilde abreveacute abrevedotbelow abrevegrave abrevehookabove abrevetilde acaron acircumflexacute acircumflexdotbelow acircumflexgrave acircumflexhookabove acircumflextilde adblgrave adotbelow ahookabove ainvertedbreve aringacute aeacute cacute ccaron ccedilla ccircumflex cdotaccent ccedillaacute dcaron dcroat ddotbelow dlinebelow dzcaron eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron ecedillabreve ecircumflexacute ecircumflexdotbelow ecircumflexgrave ecircumflexhookabove ecircumflextilde edblgrave edotbelow ehookabove einvertedbreve emacronacute emacrongrave etilde gbreve gcircumflex gcommaaccent gdotaccent gcaron gmacron gsingle gtilde hbar hcircumflex hbrevebelow hdotbelow iacute ibreve icircumflex idieresis idotaccent igrave imacron itilde icaron idblgrave idieresisacute idotbelow ihookabove iinvertedbreve ijacute jcircumflex kcommaaccent lacute lcaron lcommaaccent ldot lslash ldotbelow ldotbelowmacron llinebelow mdotbelow nacute ncaron ncommaaccent ntilde ndotaccent ndotbelow nlinebelow nj oacute obreve ocircumflex odieresis ograve ohungarumlaut omacron oslash otilde ocaron ocircumflexacute ocircumflexdotbelow ocircumflexgrave ocircumflexhookabove ocircumflextilde odblgrave odieresismacron odotaccentmacron odotbelow ohookabove oinvertedbreve omacronacute omacrongrave oogonek oslashacute otildeacute otildedieresis otildemacron ohorn ohornacute ohorndotbelow ohorngrave ohornhookabove ohorntilde racute rcaron rcommaaccent rdblgrave rdotbelow rdotbelowmacron rinvertedbreve rlinebelow sacute scaron scedilla scircumflex scommaaccent sacutedotaccent scarondotaccent schwa sdotaccent sdotbelow sdotbelowdotaccent tbar tcaron tcedilla tcommaaccent tdieresis tdotbelow tlinebelow uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uring utilde ucaron udblgrave udieresisacute udieresiscaron udieresisgrave udieresismacron udotbelow uhookabove uhorn uhornacute uhorndotbelow uhorngrave uhornhookabove uhorntilde uinvertedbreve umacrondieresis utildeacute wacute wcircumflex wdieresis wgrave yacute ycircumflex ydieresis ygrave ydotaccent ydotbelow yhookabove ymacron ytilde zacute zcaron zdotaccent zdotbelow**
+- Designed diacritics: **grave acute circumflex tilde macron firsttonechinese breve dotaccent dieresis ring hungarumlaut caron cedilla ogonek commaturnedmod caron.alt hook.case tilde.case ring.case circumflex.case acute.case grave.case dieresis.case caron.case macron.case macron.ELL.case dotaccent.case hungarumlaut.case breve.case breve.ELL.case apostrophemod gravecomb acutecomb circumflexcomb tildecomb macroncomb brevecomb dotaccentcomb dieresiscomb ringcomb hungarumlautcomb caroncomb commaturnedabovecomb cedillacomb ogonekcomb commaaccentcomb hookabovecomb dblgravecomb breveinvertedcomb horncomb dotbelowcomb brevebelowcomb dieresisbelowcomb ringhalfright macronbelowcomb dblgravecomb.case breveinvertedcomb.case ringhalfleft verticallinemod verticallinelowmod**
+- Added small caps accented letters: **eth.smcp ij.smcp idotless.smcp kgreenlandic.smcp aacute.smcp abreve.smcp acircumflex.smcp adieresis.smcp agrave.smcp amacron.smcp aring.smcp atilde.smcp abreveacute.smcp abrevedotbelow.smcp abrevegrave.smcp abrevehookabove.smcp abrevetilde.smcp acaron.smcp acircumflexacute.smcp acircumflexdotbelow.smcp acircumflexgrave.smcp acircumflexhookabove.smcp acircumflextilde.smcp adblgrave.smcp adotbelow.smcp ahookabove.smcp ainvertedbreve.smcp aringacute.smcp cacute.smcp ccaron.smcp ccedilla.smcp ccircumflex.smcp cdotaccent.smcp ccedillaacute.smcp dcaron.smcp dcroat.smcp ddotbelow.smcp dlinebelow.smcp dzcaron.smcp eacute.smcp ebreve.smcp ecaron.smcp ecircumflex.smcp edieresis.smcp edotaccent.smcp egrave.smcp emacron.smcp ecedillabreve.smcp ecircumflexacute.smcp ecircumflexdotbelow.smcp ecircumflexgrave.smcp ecircumflexhookabove.smcp ecircumflextilde.smcp edblgrave.smcp edotbelow.smcp ehookabove.smcp einvertedbreve.smcp emacronacute.smcp emacrongrave.smcp etilde.smcp gbreve.smcp gcircumflex.smcp gcommaaccent.smcp gdotaccent.smcp gcaron.smcp gmacron.smcp gtilde.smcp hbar.smcp hcircumflex.smcp hbrevebelow.smcp hdotbelow.smcp iacute.smcp ibreve.smcp icircumflex.smcp idieresis.smcp idotaccent.smcp igrave.smcp imacron.smcp itilde.smcp icaron.smcp idblgrave.smcp idieresisacute.smcp idotbelow.smcp ihookabove.smcp iinvertedbreve.smcp ijacute.smcp jcircumflex.smcp kcommaaccent.smcp lacute.smcp lcaron.smcp lcommaaccent.smcp ldot.smcp lslash.smcp ldotbelow.smcp ldotbelowmacron.smcp lj.smcp llinebelow.smcp mdotbelow.smcp nacute.smcp ncaron.smcp ncommaaccent.smcp ntilde.smcp ndotaccent.smcp ndotbelow.smcp nlinebelow.smcp nj.smcp oacute.smcp obreve.smcp ocircumflex.smcp odieresis.smcp ograve.smcp ohungarumlaut.smcp omacron.smcp oslash.smcp otilde.smcp ocaron.smcp ocircumflexacute.smcp ocircumflexdotbelow.smcp ocircumflexgrave.smcp ocircumflexhookabove.smcp ocircumflextilde.smcp odblgrave.smcp odieresismacron.smcp odotaccentmacron.smcp odotbelow.smcp ohookabove.smcp oinvertedbreve.smcp omacronacute.smcp omacrongrave.smcp oslashacute.smcp otildeacute.smcp otildedieresis.smcp otildemacron.smcp ohorn.smcp ohornacute.smcp ohorndotbelow.smcp ohorngrave.smcp ohornhookabove.smcp ohorntilde.smcp racute.smcp rcaron.smcp rcommaaccent.smcp rdblgrave.smcp rdotbelow.smcp rdotbelowmacron.smcp rinvertedbreve.smcp rlinebelow.smcp sacute.smcp scaron.smcp scedilla.smcp scircumflex.smcp scommaaccent.smcp sacutedotaccent.smcp scarondotaccent.smcp sdotaccent.smcp sdotbelow.smcp sdotbelowdotaccent.smcp tbar.smcp tcaron.smcp tcedilla.smcp tcommaaccent.smcp tdieresis.smcp tdotbelow.smcp tlinebelow.smcp uacute.smcp ubreve.smcp ucircumflex.smcp udieresis.smcp ugrave.smcp uhungarumlaut.smcp umacron.smcp uring.smcp utilde.smcp ucaron.smcp udblgrave.smcp udieresisacute.smcp udieresiscaron.smcp udieresisgrave.smcp udieresismacron.smcp udotbelow.smcp uhookabove.smcp uhorn.smcp uhornacute.smcp uhorndotbelow.smcp uhorngrave.smcp uhornhookabove.smcp uhorntilde.smcp uinvertedbreve.smcp umacrondieresis.smcp utildeacute.smcp wacute.smcp wcircumflex.smcp wdieresis.smcp wgrave.smcp yacute.smcp ycircumflex.smcp ydieresis.smcp ygrave.smcp ydotaccent.smcp ydotbelow.smcp yhookabove.smcp ymacron.smcp ytilde.smcp zacute.smcp zcaron.smcp zdotaccent.smcp zdotbelow.smcp**
+- Added old style currency: **dollar.osf euro.osf cent.osf sterling.osf yen.osf florin.osf liraTurkish.osf dong.osf franc.osf naira.osf cedi.osf colonsign.osf guarani.osf hryvnia.osf kip.osf lira.osf manat.osf peseta.osf peso.osf ruble.osf rupeeIndian.osf tenge.osf tugrik.osf won.osf**
+
+
+****
+****
+
+### 2019-11-11 — ElenaN
+
+`Base for smcp.glyphs`
+
+- added small caps for M3
+
+****
+****
+
+### 2019-11-11 — Pooja
+`PS_07_Literata3_uprightMM_material5.glyphs`
+
+- Add remaining small caps M5 **æ ð ß ĸ ? ¿ ' " ‘ ’ ‚ “ ” „ ‹ › « »** (marked in green)
+
+****
+****
+
+### 2019-11-09 — ElenaN
+
+`Base for smcp.glyphs`
+
+- added small caps for M4
+
+
 ****
 ****
 
