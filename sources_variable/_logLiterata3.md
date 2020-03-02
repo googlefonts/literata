@@ -67,6 +67,430 @@ Set up basic font info (family name, style names, weight, width)
 - dollar cent dong naira cedi colonsign guarani hryvnia peso won dcroat hbar thorn.smcp hbar.smcp dollar.osf cent.osf dong.osf naira.osf cedi.osf colonsign.osf guarani.osf hryvnia.osf peso.osf won.osf
 
 
+
+****
+****
+### 2020-02-25 — Joanca
+`JCA-S18_Literata3-Upright.glyphs` and `JCA-S18_Literata3-Italic.glyphs` (files in /05_Engineering/sources-glyphs, those are always the latest source files)
+
+- Fixed a bunch of interpolation issues (see `~/Dropbox/TT_Literata/Literata 3/05_Engineering/interpolation_bugs(fixed)/` if you're curious about which ones).
+
+
+
+### 2020-02-25 — Jose
+`S18_Literata3-Italic.glyphs`
+
+- Fixed Ohm, micro and increment.
+- Decomposed and merged overlaps and fixed compatibility
+- Marked glyhs green
+- font is ready for production
+- 
+
+****
+****
+
+### 2020-02-25 — Jose
+`S18_Literata3-Upright.glyphs`
+
+- Fixed Ohm, micro and increment.
+- Decomposed and merged overlaps and fixed compatibility
+- Marked glyhs green
+- font is ready for production
+
+
+
+****
+****
+
+### 2020-02-24 — Vik
+`S17_Literata3-ItalicMM.glyphs`
+`S17_Literata3_uprightMM.glyphs`
+
+These are the final SOURCE files, complete with kerning LAT, CYR, GRK
+
+- overlaps are still present
+
+
+****
+****
+
+### 2020-02-16 — Vik
+`S16_Literata3-ItalicMM.glyphs`
+
+- checked kerning M5-7 and fixed were necesary, especially M6 was meesed up
+- sent files to ElenaN
+- Azza finished QA report
+- instructed ElenaN to fix the found errors
+
+
+****
+****
+
+### 2020-02-16 — Vik
+`S16_Literata3_uprightMM.glyphs`
+
+- imported GRK outlines and kerning from Irene into source file S15
+- José interpolated M5-7
+- checked kerning M5-7 and fixed were necesary, especially M6 was meesed up
+
+`S16_Literata3-ItalicMM.glyphs`
+
+- imported GRK outlines and kerning from Irene into source file S15
+- José interpolated M5-7
+- KERNING M5-7 needs checking
+
+
+AZZA instructed to run QA on GRK CYR uprights and italics
+
+****
+****
+
+### 2020-02-05 — Irene
+
+`/TT_Literata/Literata\ 3/04_Composites/IV_Greek/IV_12_Literata3_uprightMM.glyphs`
+`/TT_Literata/Literata\ 3/04_Composites/IV_Greek/IV_12_Literata3-ItalicMM.glyphs`
+
+- finished with design all GRK masters 
+
+****
+****
+
+### 2020-02-04 — Vik
+`S14_Literata3_uprightMM.glyphs`
+
+- merged kerning from ElenaN's file `EN_S11_Literata3_uprightMM_KERN-0-4.glyphs`
+- fixed metrics warnings, mainly in M7
+- copied corrected glyphs in M4 **Л л Љ љ /el-cy.smcp/lje-cy.smcp**
+
+`S13_Literata3-ItalicMM.glyphs`
+- merged kerning from ElenaN's file
+- copied corrected glyphs in M3 **/Ef-cy /ef.cy.smcp**
+
+****
+****
+
+### 2020-02-03 — Azza
+`S13_Literata3_uprightMM.glyphs`
+
+- ran QA2 [[https://paper.dropbox.com/doc/QA2-Literata-3--Att9fA1WnJUVdIonJEJJlMPXAQ-LNLEG9jqIP6AamKNtO2aX]]
+- fixed problems from QA
+
+****
+****
+
+### 2020-02-03 — ElenaN
+
+`EN_S12_Literata3-ItalicMM.glyphs`
+
+- finished kerning in Italic (0-4)
+
+****
+****
+
+### 2020-01-30 — ElenaN
+
+`EN_S11_Literata3_uprightMM.glyphs`
+`EN_S12_Literata3-ItalicMM.glyphs`
+
+- finished m7 cyrillic (upright and italic)
+
+
+****
+****
+
+### 2020-01-27 — Jose
+`S12 Upright and italics`
+
+- Verified all glyphs with double accents
+- stripped kerning in masters 5 and 6
+
+
+****
+****
+
+### 2020-01-27 — Vik
+`S12_Literata3_uprightMM.glyphs`
+
+- added Pooja's latest glyphs
+
+
+****
+****
+
+### 2020-01-27 — Pooja
+
+`PS_S10_Literata3_uprightMM`
+
+- Update alignment of accents and spacing of **Ǻ Ṍ Ṥ Ṧ Ṹ ď ḗ ḕ ṓ ṑ ṏ ṥ ṧ ṻ ṹ abreveacute.smcp abrevegrave.smcp abrevehookabove.smcp abrevetilde.smcp acircumflexacute.smcp acircumflexgrave.smcp acircumflexhookabove.smcp acircumflextilde.smcp aringacute.smcp ecircumflexacute.smcp ecircumflexgrave.smcp ecircumflexhookabove.smcp ecircumflextilde.smcp emacronacute.smcp emacrongrave.smcp idieresisacute.smcp ocircumflexacute.smcp ocircumflexgrave.smcp ocircumflexhookabove.smcp ocircumflextilde.smcp odieresismacron.smcp odotaccentmacron.smcp omacronacute.smcp omacrongrave.smcp otildeacute.smcp otildedieresis.smcp otildemacron.smcp sacutedotaccent.smcp scarondotaccent.smcp udieresisacute.smcp udieresiscaron.smcp udieresisgrave.smcp udieresismacron.smcp umacrondieresis.smcp utildeacute.smcp Ø Ǿ ø ǿ oslash.smcp oslashacute.smcp** (marked in green)
+- Add **schwa.smcp** (marked in green)
+
+****
+****
+
+### 2020-01-26 — Vik
+`S12_Literata3_uprightMM.glyphs`
+
+- copied Pooja's M7 into S11 and renamed S12
+- made jump characters in M7
+- fixed some of the 'BOLD' versions
+
+
+****
+****
+
+### 2020-01-22 — Pooja
+
+`PS_S10_Literata3_uprightMM`
+
+- Add **% ‰ đ # & @ at.case ampersand.smcp at.smcp asterisk.smcp ∂ ∫** in M7 (marked in green)
+- Review vertical alignment of lowercase accents
+- Update alignment of accents and spacing of **ắ ằ ẳ ẵ ấ ầ ẩ ẫ ǻ ế ề ể ễ ố ồ ổ ỗ ȫ ȱ ṍ ȭ ǘ ǚ ǜ ǖ Ắ Ằ Ẳ Ẵ Ấ Ầ Ẩ Ẫ Ế Ề Ể Ễ Ḗ Ḕ Ố Ồ Ổ Ỗ Ȫ Ṓ Ṑ Ṏ Ȭ Ǘ Ǚ Ǜ Ǖ Ṻ** (marked in green)
+
+****
+****
+
+### 2020-01-22 — Vik
+`S12_Literata3-ItalicMM.glyphs`
+
+- copied Roxane's M7 into source S11 and renamed to S12
+- fixed incompatibility (can't fix one glyphs marked red)
+
+
+****
+****
+
+### 2020-01-21 — Pooja
+
+`PS_S10_Literata3_uprightMM`
+
+In M7,
+
+- Add oldstyle numerals **zero.osf one.osf two.osf three.osf four.osf five.osf six.osf seven.osf eight.osf nine.osf** (marked in green)
+- Add oldstyle currency symbols **dollar.osf euro.osf sterling.osf yen.osf florin.osf liraTurkish.osf dong.osf franc.osf naira.osf cedi.osf guarani.osf hryvnia.osf kip.osf lira.osf manat.osf peseta.osf peso.osf ruble.osf rupeeIndian.osf tenge.osf tugrik.osf won.osf currency.osf** (marked in green)
+- Marked **cent.osf colonsign.osf** in pink for special review
+- Add math operators **∏ ∑ ∕ ∙ √ ≈ ≠ ≤ ≥ < = > ◊ + − ± ÷ × ¬ ∅ ℮ ∞ ℓ** (marked in green)
+
+****
+****
+
+### 2020-01-20 — ElenaN
+`S11_Literata3_uprightMM_KERN-0-4.glyphs`
+
+- made cyrillic kerning in masters 1-4
+- delete some pairs from master 0 (smallcap+cap)
+
+****
+****
+
+### 2020-01-20 — Pooja
+
+`PS_S10_Literata3_uprightMM`
+
+In M7,
+
+- Add punctuation and marks **°′″ * ʹ ʺ ˈ ˊ ˋ ˌ ( ) [ ] { } | ¦ - ­ ‐ ‒ – — ― hyphen.case exclamdown.case questiondown.case guilsinglleft.case guilsinglright.case guillemetleft.case guillemetright.case parenleft.case parenright.case bracketleft.case bracketright.case braceleft.case braceright.case endash.case emdash.case trademark.case servicemark.case figuredash.case / \ · • periodcentered.case bullet.case ^ ~ _** (marked in green)
+- Add accents **` ´ ˆ ˜ ¯ ˉ ˘ ˙ ¨ ˚ ˝ ˇ ¸ ˛ ʻ caron.alt** (marked in green)
+- Add combining accents  ̀  ́  ̂  ̃  ̄  ̆  ̇  ̈  ̊  ̋  ̌ ̧ ̉ ̏ ̑ ̨ ̣ ̮ ̤ ̦ ̱ ̒ ̛ ʾʿ (marked in green)
+- Add UC accents **hook.case tilde.case ring.case circumflex.case acute.case grave.case dieresis.case caron.case macron.case macron.ELL.case dotaccent.case hungarumlaut.case breve.case breve.ELL.case dblgravecomb.case breveinvertedcomb.case** (marked in green)
+
+****
+****
+
+### 2020-01-19 — Vik
+`PS_S10_Literata3_uprightMM.glyphs`
+
+- checked spacing and partially updated in Pooja's file M7: A–Z, a–z, a.smcp–z.smcp
+
+
+****
+****
+
+### 2020-01-16 — Vik
+`S11_Literata3-ItalicMM.glyphs`
+
+- checked kerning (only overall, not deep) in masters 0 to 4.
+- checked regular kerning exceptions and fixed some problems
+- fixed some odd looking kern pairs
+
+****
+****
+
+### 2020-01-16 — Pooja
+
+`PS_S10_Literata3_uprightMM`
+
+In M7,
+
+- Add LC glyphs **þ ı ȷ ĸ ɑ ɡ ə** (marked in green)
+- Add punctuation **† ‡ § ¶ © ® ℗ ™ ℠ № ¤** (marked in green)
+- Add numerals **zeroslash.tf zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf ⁰ ¹ ² ³ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹ ⁽ ⁾ ª º ⁿ ₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉ ₍ ₎ zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom ⁄ ½ ⅓ ⅔ ¼ ¾ ⅛ ⅜ ⅝ ⅞** (marked in green)
+- Add small caps punctuation **exclam.smcp exclamdown.smcp question.smcp questiondown.smcp quotesingle.smcp quotedbl.smcp periodcentered.smcp quoteleft.smcp quoteright.smcp quotedblleft.smcp quotedblright.smcp** (marked in green)
+
+
+****
+****
+
+### 2020-01-14 — Pooja
+
+`PS_S10_Literata3_uprightMM`
+
+In M7,
+
+- Modify ligatures after **José’s review** – **f_f ﬂ** (marked in green)
+- Add remaining ligatures **ﬁ f_k f_b f_h f_t f_f_i f_f_l f_f_k f_f_b f_f_t s_t c_t** (marked in green)
+- Marked **f_iacute** red, will draw after **iacute**
+
+****
+****
+
+### 2020-01-13 — Jose
+
+`S10_Literata3-ItalicMM.glyphs`
+
+- Added new kerning groups to masters 0–4
+- Reviewed spacing of Masters 0–4 according to Radek's file
+
+`S11_Literata3-ItalicMM.glyphs`
+
+- Added kerning to masters 0–4
+- extrapolated kerning for masters 5 and 6 (must be checked)
+
+
+****
+****
+
+### 2020-01-13 — Pooja
+
+`PS_S10_Literata3_uprightMM`
+
+In M7,
+
+- Add ligatures for **José’s review** – **f_f ﬂ c_h T_h** (marked in green)
+- Add punctuation **. , : ; … ! ¡ ? ¿ ' " ‘ ’ ‚ “ ” „ ‹ › « »** (marked in green)
+- Add currency symbols **$ € £ ¥ ƒ ₺ ₣ ₦ ₵ ₲ ₴ ₭ ₤ ₧ ₱ ₽ ₹ ₸ ₮ ₩** (marked in green)
+- Please review **¢ ₡** (marked in pink)
+
+****
+****
+### 2020-01-12 — Vik
+`S11_Literata3_uprightMM.glyphs`
+
+- checked kerning (only overall, not deep) in masters 0 to 4 and compared to Radek's file. No inconsistencies discovered.
+- checked regular kerning exceptions and fixed mostly Lcaron
+- fixed some odd looking kern pairs
+- sent file to ElenaN for her to use in Cyrillic kerning
+
+
+### 2020-01-09 — Vik
+`S10_Literata3-ItalicMM-VB.glyphs`
+
+in M7:
+
+- checked and tweaked A–Z, a–z, 0–9, ÆĲǇŊŒÞẞæǉŋœß
+- all ligatures
+
+
+****
+****
+
+### 2020-01-07 — Pooja
+
+`PS_S10_Literata3_uprightMM`
+
+In M7,
+
+- Modify all small caps glyphs **a.smcp b.smcp c.smcp d.smcp e.smcp f.smcp g.smcp h.smcp i.smcp j.smcp k.smcp l.smcp m.smcp n.smcp o.smcp p.smcp q.smcp r.smcp s.smcp t.smcp u.smcp v.smcp w.smcp x.smcp y.smcp z.smcp ae.smcp eth.smcp ij.smcp eng.smcp oe.smcp thorn.smcp germandbls.smcp** (marked in green)
+
+****
+****
+
+### 2020-01-07 — Jose
+
+`S10_Literata3_uprightMM.glyphs`
+
+- Verified spacing changes from Radek's files.
+- Consolidated spacing in masters 0–4
+
+
+****
+****
+
+### 2020-01-07 — Pooja
+
+`PS_S10_Literata3_uprightMM`
+
+In M7,
+
+- Review the spacing of UC glyphs **B D E F I J L N P R T** (marked in orange)
+- Modify UC glyphs **C G K M Q S U V W X Y Z Æ Ð Ĳ Ǉ Ŋ Œ Þ ẞ** (marked in green)
+- Review the spacing of LC glyphs **b c f g j k l m q r t u w x y z ĳ** (marked in orange)
+- Modify LC glyphs **æ ð ǉ ŋ œ ß** (marked in green)
+- Modify numerals **0 1 2 3 4 5 6 7 8 9** (all marked in green except **4** which is in pink, because I am a tad unsure about its width — looks too wide to me — could you please review, **José**)
+
+****
+****
+
+### 2020-01-06 — Jose
+
+`S10_Literata3_uprightMM.glyphs`
+
+- Duplicated Master 4 and renamed as M7
+- Set xheight to 529 and matching blue zone
+- ran RMX scaler in Upper cases: LIGHT GREY
+	- width: 108%
+	- spacing: 5
+- ran RMX scaler in Lower cases: LIGHT GREY
+	- width: 108%
+	- spacing: 5
+	- height: 102%
+
+
+
+****
+****
+
+### 2020-01-03 — Jose
+
+`S09_Literata3_uprightMM.glyphs`
+
+- Added new Cyrillic from Elena's file
+- Updated metrics for master 6 in the following glyphs: **a-cy.smcp ie-cy.smcp o-cy.smcp er-cy.smcp es-cy.smcp a_acute-cy.smcp a_grave-cy.smcp iegrave-cy.smcp io-cy.smcp o_acute-cy.smcp o_grave-cy.smcp dze-cy.smcp i-cy.smcp i_acute-cy.smcp yi-cy.smcp yi_acute-cy.smcp**
+
+
+****
+****
+
+### 2020-01-02 — Jose
+
+`S09_Literata3-ItalicMM.glyphs`
+
+- Added new Cyrillic from Elena's file
+- Updated metrics for master 6 in the following glyphs: **ie-cy ii-cy iishort-cy es-cy A_acute-cy A_grave-cy Ie_acute-cy Iegrave-cy Io-cy O_acute-cy O_grave-cy Dze-cy I_acute-cy Yi-cy Yi_acute-cy a_acute-cy a_grave-cy ie_acute-cy iegrave-cy io-cy u_acute-cy u_grave-cy ushort-cy yi_acute-cy ve-cy.smcp ge-cy.smcp ie-cy.smcp ii-cy.smcp el-cy.smcp em-cy.smcp pe-cy.smcp er-cy.smcp es-cy.smcp tse-cy.smcp che-cy.smcp sha-cy.smcp hardsign-cy.smcp yeru-cy.smcp softsign-cy.smcp ereversed-cy.smcp iu-cy.smcp ia-cy.smcp a_acute-cy.smcp a_grave-cy.smcp gheupturn-cy.smcp ghestroke-cy.smcp ie_grave-cy.smcp iegrave-cy.smcp io-cy.smcp e-cy.smcp kadescender-cy.smcp endescender-cy.smcp nje-cy.smcp o_acute-cy.smcp o_grave-cy.smcp ustraight-cy.smcp dze-cy.smcp i-cy.smcp i_acute-cy.smcp yi-cy.smcp yi_acute-cy.smcp je-cy.smcp**
+- Fixed compatibility in the following glyphs: **Zhe-cy Ka-cy U-cy Hardsign-cy Yeru-cy Softsign-cy Ereversed-cy Ia-cy de-cy zhe-cy ze-cy ka-cy el-cy em-cy en-cy ef-cy sha-cy shcha-cy hardsign-cy yeru-cy iu-cy ia-cy Gheupturn-cy Ghestroke-cy Zhedescender-cy Kadescender-cy Endescender-cy Nje-cy Yusbig-cy Obarred-cy Dje-cy Schwa-cy gheupturn-cy zhedescender-cy kadescender-cy endescender-cy nje-cy yat-cy yusbig-cy obarred-cy ustraight-cy ustraitstroke-cy dje-cy schwa-cy be-cy.smcp zhe-cy.smcp ze-cy.smcp ka-cy.smcp u-cy.smcp ef-cy.smcp shcha-cy.smcp zhedescender-cy.smcp obarred-cy.smcp tshe-cy.smcp cyrbreve.case**
+- Elena must verify design of ustraitstroke-cy.smcp  (Master 6)
+
+
+
+
+****
+****
+
+### 2019-12-27 — ElenaN
+
+`S09_Literata3-ItalicMM_VB.glyphs`
+
+- finished cyrillc in italic M6
+
+****
+****
+
+### 2019-12-25 — ElenaN
+
+`S09_Literata3_uprightMM_3.glyphs`
+
+- finished cyrillc in upright M6
+
+
 ****
 ****
 
@@ -98,7 +522,7 @@ Set up basic font info (family name, style names, weight, width)
 ### 2019-12-20 — Jose
 
 - Finished all characters in Master 6 except CYR and GRK
-- Generated test fonts 
+- Generated test fonts
 - generated Alfa variable font
 . Made presentation PDFs
 
@@ -130,7 +554,7 @@ Set up basic font info (family name, style names, weight, width)
 
 `PS_S09_Literata3_uprightMM.glyphs`
 
-- Add remaining LC glyphs 
+- Add remaining LC glyphs
 - Add remaining small caps glyphs **b.smcp c.smcp g.smcp m.smcp r.smcp s.smcp w.smcp x.smcp y.smcp z.smcp ae.smcp eth.smcp eng.smcp oe.smcp germandbls.smcp** to M6 (marked in light blue)
 - Add remaining ligatures **s_t** **c_t** **c_h**
 
