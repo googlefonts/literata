@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="delta" format="2">
+	<unicode hex="03B4"/>
+	<advance width="656"/>
+	<outline>
+		<contour>
+			<point x="308" y="-14" type="curve" smooth="yes"/>
+			<point x="490" y="-14"/>
+			<point x="601" y="103"/>
+			<point x="601" y="259" type="curve" smooth="yes"/>
+			<point x="601" y="329"/>
+			<point x="569" y="449"/>
+			<point x="433" y="566" type="curve" smooth="yes"/>
+			<point x="343" y="644"/>
+			<point x="331" y="661"/>
+			<point x="331" y="703" type="curve" smooth="yes"/>
+			<point x="331" y="743"/>
+			<point x="359" y="767"/>
+			<point x="411" y="767" type="curve" smooth="yes"/>
+			<point x="450" y="767"/>
+			<point x="498" y="758"/>
+			<point x="498" y="714" type="curve" smooth="yes"/>
+			<point x="498" y="694"/>
+			<point x="490" y="675"/>
+			<point x="466" y="612" type="curve"/>
+			<point x="480" y="599"/>
+			<point x="519" y="569"/>
+			<point x="559" y="569" type="curve" smooth="yes"/>
+			<point x="615" y="569"/>
+			<point x="640" y="608"/>
+			<point x="640" y="646" type="curve" smooth="yes"/>
+			<point x="640" y="737"/>
+			<point x="522" y="782"/>
+			<point x="411" y="782" type="curve" smooth="yes"/>
+			<point x="215" y="782"/>
+			<point x="129" y="714"/>
+			<point x="129" y="620" type="curve" smooth="yes"/>
+			<point x="129" y="568"/>
+			<point x="164" y="515"/>
+			<point x="272" y="434" type="curve"/>
+			<point x="106" y="434"/>
+			<point x="23" y="336"/>
+			<point x="23" y="215" type="curve" smooth="yes"/>
+			<point x="23" y="71"/>
+			<point x="125" y="-14"/>
+		</contour>
+		<contour>
+			<point x="298" y="8" type="curve" smooth="yes"/>
+			<point x="257" y="8"/>
+			<point x="232" y="64"/>
+			<point x="232" y="173" type="curve" smooth="yes"/>
+			<point x="232" y="248"/>
+			<point x="244" y="383"/>
+			<point x="289" y="425" type="curve"/>
+			<point x="337" y="388"/>
+			<point x="363" y="312"/>
+			<point x="359" y="192" type="curve" smooth="yes"/>
+			<point x="355" y="81"/>
+			<point x="348" y="8"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=o-10</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=o-5</string>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>-0.275</real>
+						<real>-0.63</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>-0.985</real>
+						<real>-0.542</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>-2.782</real>
+						<real>-0.63</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>-2.885</real>
+						<real>-0.71</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>0.103</real>
+						<real>-0.443</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>-4.283</real>
+						<real>-1.385</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>-5.32</real>
+						<real>-0.348</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0.5,0.09,0.79,1</string>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="germandbls.smcp" format="2">
+	<advance width="838"/>
+	<outline>
+		<contour>
+			<point x="23" y="0" type="line"/>
+			<point x="306" y="0" type="line"/>
+			<point x="306" y="348" type="line" smooth="yes"/>
+			<point x="306" y="395"/>
+			<point x="306" y="471"/>
+			<point x="426" y="471" type="curve" smooth="yes"/>
+			<point x="460" y="471"/>
+			<point x="494" y="465"/>
+			<point x="520" y="456" type="curve"/>
+			<point x="396" y="322" type="line"/>
+			<point x="433" y="242" type="line"/>
+			<point x="457" y="247"/>
+			<point x="482" y="250"/>
+			<point x="498" y="250" type="curve" smooth="yes"/>
+			<point x="561" y="250"/>
+			<point x="600" y="221"/>
+			<point x="600" y="168" type="curve" smooth="yes"/>
+			<point x="600" y="127"/>
+			<point x="576" y="109"/>
+			<point x="543" y="109" type="curve" smooth="yes"/>
+			<point x="504" y="109"/>
+			<point x="476" y="127"/>
+			<point x="446" y="190" type="curve"/>
+			<point x="340" y="176" type="line"/>
+			<point x="353" y="-6" type="line"/>
+			<point x="449" y="-6" type="line"/>
+			<point x="459" y="37" type="line"/>
+			<point x="492" y="10"/>
+			<point x="537" y="-14"/>
+			<point x="610" y="-14" type="curve" smooth="yes"/>
+			<point x="709" y="-14"/>
+			<point x="813" y="38"/>
+			<point x="813" y="161" type="curve" smooth="yes"/>
+			<point x="813" y="280"/>
+			<point x="727" y="325"/>
+			<point x="602" y="330" type="curve"/>
+			<point x="716" y="463" type="line"/>
+			<point x="696" y="538" type="line"/>
+			<point x="615" y="569"/>
+			<point x="517" y="593"/>
+			<point x="412" y="593" type="curve" smooth="yes"/>
+			<point x="111" y="593"/>
+			<point x="84" y="399"/>
+			<point x="84" y="320" type="curve" smooth="yes"/>
+			<point x="84" y="139" type="line" smooth="yes"/>
+			<point x="84" y="107"/>
+			<point x="80" y="98"/>
+			<point x="55" y="96" type="curve" smooth="yes"/>
+			<point x="23" y="94" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=i.smcp-15</string>
+		</dict>
+	</lib>
+</glyph>

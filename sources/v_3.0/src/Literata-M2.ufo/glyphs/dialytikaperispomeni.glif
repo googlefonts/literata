@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dialytikaperispomeni" format="2">
+	<unicode hex="1FC1"/>
+	<advance width="500"/>
+	<outline>
+		<component base="dieresis" yOffset="-53"/>
+		<component base="perispomeni" xOffset="-1" yOffset="103"/>
+	</outline>
+	<anchor name="_top" x="251" y="550"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=dieresis</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=dieresis</string>
+			<key>public.markColor</key>
+			<string>0.5,0.09,0.79,1</string>
+		</dict>
+	</lib>
+</glyph>

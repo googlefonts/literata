@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yat-cy.smcp" format="2">
+	<advance width="687"/>
+	<outline>
+		<contour>
+			<point x="201" y="465" type="line"/>
+			<point x="182" y="24" type="line"/>
+			<point x="119" y="17" type="line"/>
+			<point x="117" y="0" type="line"/>
+			<point x="428" y="0" type="line" smooth="yes"/>
+			<point x="562" y="0"/>
+			<point x="679" y="63"/>
+			<point x="679" y="190" type="curve" smooth="yes"/>
+			<point x="679" y="276"/>
+			<point x="607" y="331"/>
+			<point x="496" y="331" type="curve" smooth="yes"/>
+			<point x="461" y="331"/>
+			<point x="439" y="329"/>
+			<point x="402" y="324" type="curve"/>
+			<point x="400" y="304" type="line"/>
+			<point x="409" y="306"/>
+			<point x="419" y="307"/>
+			<point x="430" y="307" type="curve" smooth="yes"/>
+			<point x="471" y="307"/>
+			<point x="501" y="291"/>
+			<point x="501" y="186" type="curve" smooth="yes"/>
+			<point x="501" y="63"/>
+			<point x="460" y="21"/>
+			<point x="391" y="21" type="curve" smooth="yes"/>
+			<point x="372" y="21" type="line"/>
+			<point x="390" y="465" type="line"/>
+			<point x="461" y="465" type="line" smooth="yes"/>
+			<point x="530" y="465"/>
+			<point x="555" y="449"/>
+			<point x="570" y="396" type="curve" smooth="yes"/>
+			<point x="584" y="346" type="line"/>
+			<point x="604" y="349" type="line"/>
+			<point x="589" y="486" type="line"/>
+			<point x="391" y="486" type="line"/>
+			<point x="394" y="556" type="line"/>
+			<point x="455" y="567" type="line"/>
+			<point x="458" y="584" type="line"/>
+			<point x="146" y="584" type="line"/>
+			<point x="142" y="567" type="line"/>
+			<point x="205" y="556" type="line"/>
+			<point x="202" y="486" type="line"/>
+			<point x="44" y="486" type="line"/>
+			<point x="22" y="323" type="line"/>
+			<point x="43" y="318" type="line"/>
+			<point x="68" y="392" type="line" smooth="yes"/>
+			<point x="89" y="455"/>
+			<point x="125" y="465"/>
+			<point x="179" y="465" type="curve" smooth="yes"/>
+		</contour>
+	</outline>
+	<guideline x="376" y="585" angle="0"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=softsign-cy.smcp</string>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>267.332</real>
+						<integer>87</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>281.333</real>
+						<integer>85</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>606.332</real>
+						<integer>97</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>0</integer>
+						<integer>54</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>334</integer>
+						<integer>52</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>556</integer>
+						<integer>57</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>556</integer>
+						<integer>184</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0,0.67,0.91,1</string>
+		</dict>
+	</lib>
+</glyph>

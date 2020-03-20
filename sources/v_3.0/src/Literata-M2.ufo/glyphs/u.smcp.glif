@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u.smcp" format="2">
+	<advance width="649"/>
+	<outline>
+		<contour>
+			<point x="337" y="-11" type="curve" smooth="yes"/>
+			<point x="460" y="-11"/>
+			<point x="543" y="56"/>
+			<point x="543" y="190" type="curve" smooth="yes"/>
+			<point x="543" y="505" type="line" smooth="yes"/>
+			<point x="543" y="540"/>
+			<point x="552" y="544"/>
+			<point x="568" y="546" type="curve" smooth="yes"/>
+			<point x="609" y="552" type="line"/>
+			<point x="609" y="563" type="line"/>
+			<point x="448" y="563" type="line"/>
+			<point x="448" y="552" type="line"/>
+			<point x="493" y="547" type="line" smooth="yes"/>
+			<point x="515" y="545"/>
+			<point x="520" y="534"/>
+			<point x="520" y="508" type="curve" smooth="yes"/>
+			<point x="520" y="188" type="line" smooth="yes"/>
+			<point x="520" y="89"/>
+			<point x="465" y="21"/>
+			<point x="360" y="21" type="curve" smooth="yes"/>
+			<point x="257" y="21"/>
+			<point x="213" y="81"/>
+			<point x="213" y="188" type="curve" smooth="yes"/>
+			<point x="213" y="506" type="line" smooth="yes"/>
+			<point x="213" y="532"/>
+			<point x="218" y="544"/>
+			<point x="238" y="546" type="curve" smooth="yes"/>
+			<point x="290" y="552" type="line"/>
+			<point x="290" y="563" type="line"/>
+			<point x="40" y="563" type="line"/>
+			<point x="40" y="552" type="line"/>
+			<point x="91" y="547" type="line" smooth="yes"/>
+			<point x="113" y="545"/>
+			<point x="118" y="534"/>
+			<point x="118" y="508" type="curve" smooth="yes"/>
+			<point x="118" y="187" type="line" smooth="yes"/>
+			<point x="118" y="63"/>
+			<point x="185" y="-11"/>
+		</contour>
+	</outline>
+	<anchor name="bottom" x="360" y="-30"/>
+	<anchor name="top" x="361" y="583"/>
+	<lib>
+		<dict>
+			<key>RMXScaler</key>
+			<dict>
+				<key>height</key>
+				<integer>77</integer>
+				<key>weight</key>
+				<integer>-18</integer>
+				<key>width</key>
+				<integer>82</integer>
+			</dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=h.smcp-10</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=h.smcp-10</string>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>138</integer>
+						<integer>99</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>607</integer>
+						<integer>70</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>-14</integer>
+						<integer>70</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>700</integer>
+						<integer>-20</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>d</string>
+						<string>o</string>
+						<string>w</string>
+						<string>n</string>
+					</array>
+					<key>type</key>
+					<string>TopGhost</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

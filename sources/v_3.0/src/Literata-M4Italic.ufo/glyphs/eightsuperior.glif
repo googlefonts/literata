@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="eightsuperior" format="2">
+	<unicode hex="2078"/>
+	<advance width="476"/>
+	<outline>
+		<contour>
+			<point x="229" y="362" type="curve" smooth="yes"/>
+			<point x="315" y="362"/>
+			<point x="464" y="398"/>
+			<point x="464" y="528" type="curve" smooth="yes"/>
+			<point x="464" y="580"/>
+			<point x="437" y="606"/>
+			<point x="358" y="639" type="curve"/>
+			<point x="389" y="649"/>
+			<point x="449" y="681"/>
+			<point x="449" y="742" type="curve" smooth="yes"/>
+			<point x="449" y="777"/>
+			<point x="423" y="838"/>
+			<point x="293" y="838" type="curve" smooth="yes"/>
+			<point x="121" y="838"/>
+			<point x="81" y="763"/>
+			<point x="81" y="707" type="curve" smooth="yes"/>
+			<point x="81" y="661"/>
+			<point x="105" y="623"/>
+			<point x="150" y="599" type="curve"/>
+			<point x="52" y="569"/>
+			<point x="36" y="518"/>
+			<point x="36" y="478" type="curve" smooth="yes"/>
+			<point x="36" y="403"/>
+			<point x="113" y="362"/>
+		</contour>
+		<contour>
+			<point x="228" y="445" type="curve" smooth="yes"/>
+			<point x="180" y="445"/>
+			<point x="157" y="465"/>
+			<point x="157" y="493" type="curve" smooth="yes"/>
+			<point x="157" y="524"/>
+			<point x="177" y="546"/>
+			<point x="208" y="558" type="curve"/>
+			<point x="278" y="532"/>
+			<point x="301" y="516"/>
+			<point x="301" y="489" type="curve" smooth="yes"/>
+			<point x="301" y="457"/>
+			<point x="266" y="445"/>
+		</contour>
+		<contour>
+			<point x="290" y="664" type="curve"/>
+			<point x="245" y="682"/>
+			<point x="221" y="700"/>
+			<point x="221" y="728" type="curve" smooth="yes"/>
+			<point x="221" y="754"/>
+			<point x="245" y="770"/>
+			<point x="276" y="770" type="curve" smooth="yes"/>
+			<point x="317" y="770"/>
+			<point x="329" y="750"/>
+			<point x="329" y="731" type="curve" smooth="yes"/>
+			<point x="329" y="706"/>
+			<point x="315" y="685"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>31</integer>
+						<integer>44</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>63</integer>
+						<integer>39</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>304</integer>
+						<integer>40</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>332</integer>
+						<integer>19</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>763</integer>
+						<integer>15</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

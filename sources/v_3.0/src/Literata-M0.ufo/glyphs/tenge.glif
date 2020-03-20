@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tenge" format="2">
+	<unicode hex="20B8"/>
+	<advance width="688"/>
+	<outline>
+		<contour>
+			<point x="184" y="0" type="line"/>
+			<point x="507" y="0" type="line"/>
+			<point x="507" y="48" type="line"/>
+			<point x="424" y="61" type="line" smooth="yes"/>
+			<point x="399" y="65"/>
+			<point x="394" y="73"/>
+			<point x="394" y="108" type="curve" smooth="yes"/>
+			<point x="394" y="535" type="line"/>
+			<point x="485" y="535" type="line" smooth="yes"/>
+			<point x="567" y="535"/>
+			<point x="587" y="517"/>
+			<point x="624" y="412" type="curve"/>
+			<point x="676" y="424" type="line"/>
+			<point x="644" y="584" type="line"/>
+			<point x="46" y="584" type="line"/>
+			<point x="12" y="423" type="line"/>
+			<point x="63" y="411" type="line"/>
+			<point x="100" y="516"/>
+			<point x="122" y="535"/>
+			<point x="207" y="535" type="curve" smooth="yes"/>
+			<point x="297" y="535" type="line"/>
+			<point x="297" y="111" type="line" smooth="yes"/>
+			<point x="297" y="75"/>
+			<point x="291" y="65"/>
+			<point x="268" y="61" type="curve" smooth="yes"/>
+			<point x="184" y="48" type="line"/>
+		</contour>
+		<contour>
+			<point x="46" y="643" type="line"/>
+			<point x="645" y="643" type="line"/>
+			<point x="645" y="700" type="line"/>
+			<point x="53" y="700" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>320</integer>
+						<integer>99</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>645</integer>
+						<integer>55</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>0</integer>
+						<integer>21</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>u</string>
+						<string>p</string>
+					</array>
+					<key>type</key>
+					<string>BottomGhost</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

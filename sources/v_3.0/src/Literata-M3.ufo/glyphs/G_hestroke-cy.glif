@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ghestroke-cy" format="2">
+	<unicode hex="0492"/>
+	<advance width="593"/>
+	<outline>
+		<contour>
+			<point x="76" y="0" type="line"/>
+			<point x="336" y="0" type="line"/>
+			<point x="336" y="26" type="line"/>
+			<point x="248" y="35" type="line"/>
+			<point x="220" y="40"/>
+			<point x="214" y="53"/>
+			<point x="214" y="82" type="curve" smooth="yes"/>
+			<point x="214" y="339" type="line"/>
+			<point x="349" y="339" type="line"/>
+			<point x="349" y="378" type="line"/>
+			<point x="214" y="378" type="line"/>
+			<point x="214" y="661" type="line"/>
+			<point x="375" y="661" type="line" smooth="yes"/>
+			<point x="469" y="661"/>
+			<point x="488" y="608"/>
+			<point x="532" y="500" type="curve"/>
+			<point x="560" y="507" type="line"/>
+			<point x="520" y="700" type="line"/>
+			<point x="76" y="700" type="line"/>
+			<point x="76" y="672" type="line"/>
+			<point x="132" y="663" type="line" smooth="yes"/>
+			<point x="159" y="659"/>
+			<point x="165" y="650"/>
+			<point x="165" y="616" type="curve" smooth="yes"/>
+			<point x="165" y="378" type="line"/>
+			<point x="77" y="378" type="line"/>
+			<point x="67" y="339" type="line"/>
+			<point x="165" y="339" type="line"/>
+			<point x="165" y="86" type="line" smooth="yes"/>
+			<point x="165" y="50"/>
+			<point x="159" y="39"/>
+			<point x="132" y="35" type="curve" smooth="yes"/>
+			<point x="76" y="26" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>151</integer>
+						<integer>99</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>327</integer>
+						<integer>61</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>646</integer>
+						<integer>54</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>0</integer>
+						<integer>21</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>u</string>
+						<string>p</string>
+					</array>
+					<key>type</key>
+					<string>BottomGhost</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0,0.67,0.91,1</string>
+		</dict>
+	</lib>
+</glyph>

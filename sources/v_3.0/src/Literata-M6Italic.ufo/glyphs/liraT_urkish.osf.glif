@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="liraTurkish.osf" format="2">
+	<advance width="726"/>
+	<outline>
+		<contour>
+			<point x="27" y="0" type="line"/>
+			<point x="357" y="0" type="line" smooth="yes"/>
+			<point x="559" y="0"/>
+			<point x="689" y="56"/>
+			<point x="689" y="195" type="curve" smooth="yes"/>
+			<point x="689" y="275"/>
+			<point x="642" y="323"/>
+			<point x="564" y="323" type="curve" smooth="yes"/>
+			<point x="459" y="323"/>
+			<point x="417" y="229"/>
+			<point x="464" y="143" type="curve"/>
+			<point x="501" y="149" type="line" smooth="yes"/>
+			<point x="554" y="158"/>
+			<point x="586" y="148"/>
+			<point x="586" y="110" type="curve" smooth="yes"/>
+			<point x="586" y="58"/>
+			<point x="518" y="23"/>
+			<point x="337" y="23" type="curve"/>
+			<point x="348" y="331" type="line"/>
+			<point x="492" y="356" type="line"/>
+			<point x="494" y="380" type="line"/>
+			<point x="349" y="355" type="line"/>
+			<point x="352" y="440" type="line"/>
+			<point x="497" y="466" type="line"/>
+			<point x="499" y="490" type="line"/>
+			<point x="353" y="464" type="line"/>
+			<point x="357" y="582" type="line"/>
+			<point x="133" y="582" type="line"/>
+			<point x="127" y="429" type="line"/>
+			<point x="42" y="415" type="line"/>
+			<point x="41" y="391" type="line"/>
+			<point x="126" y="405" type="line"/>
+			<point x="122" y="319" type="line"/>
+			<point x="37" y="305" type="line"/>
+			<point x="36" y="281" type="line"/>
+			<point x="121" y="295" type="line"/>
+			<point x="110" y="27" type="line"/>
+			<point x="29" y="18" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>134.168</real>
+						<integer>70</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>396.668</real>
+						<integer>60</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>134.168</real>
+						<integer>80</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>0</integer>
+						<real>49.168</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>461.668</real>
+						<integer>-20</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>d</string>
+						<string>o</string>
+						<string>w</string>
+						<string>n</string>
+					</array>
+					<key>type</key>
+					<string>TopGhost</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

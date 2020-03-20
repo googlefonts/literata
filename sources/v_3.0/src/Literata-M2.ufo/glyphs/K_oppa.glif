@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Koppa" format="2">
+	<unicode hex="03DE"/>
+	<advance width="563"/>
+	<outline>
+		<contour>
+			<point x="328" y="-90" type="curve" smooth="yes"/>
+			<point x="362" y="-90"/>
+			<point x="393" y="-74"/>
+			<point x="419" y="-43" type="curve"/>
+			<point x="414" y="-36" type="line"/>
+			<point x="389" y="-47"/>
+			<point x="381" y="-50"/>
+			<point x="368" y="-50" type="curve" smooth="yes"/>
+			<point x="340" y="-50"/>
+			<point x="322" y="-30"/>
+			<point x="322" y="1" type="curve" smooth="yes"/>
+			<point x="322" y="74"/>
+			<point x="371" y="157"/>
+			<point x="492" y="287" type="curve" smooth="yes"/>
+			<point x="523" y="320" type="line"/>
+			<point x="480" y="386" type="line"/>
+			<point x="128" y="190" type="line"/>
+			<point x="320" y="428"/>
+			<point x="346" y="468"/>
+			<point x="346" y="523" type="curve" smooth="yes"/>
+			<point x="346" y="576"/>
+			<point x="311" y="610"/>
+			<point x="255" y="610" type="curve" smooth="yes"/>
+			<point x="221" y="610"/>
+			<point x="190" y="594"/>
+			<point x="164" y="563" type="curve"/>
+			<point x="169" y="556" type="line"/>
+			<point x="194" y="567"/>
+			<point x="202" y="570"/>
+			<point x="215" y="570" type="curve" smooth="yes"/>
+			<point x="243" y="570"/>
+			<point x="261" y="550"/>
+			<point x="261" y="519" type="curve" smooth="yes"/>
+			<point x="261" y="468"/>
+			<point x="232" y="415"/>
+			<point x="97" y="218" type="curve" smooth="yes"/>
+			<point x="50" y="149" type="line"/>
+			<point x="67" y="124" type="line"/>
+			<point x="419" y="285" type="line"/>
+			<point x="276" y="120"/>
+			<point x="237" y="56"/>
+			<point x="237" y="-7" type="curve" smooth="yes"/>
+			<point x="237" y="-57"/>
+			<point x="273" y="-90"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=s</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=s</string>
+			<key>public.markColor</key>
+			<string>0.5,0.09,0.79,1</string>
+		</dict>
+	</lib>
+</glyph>

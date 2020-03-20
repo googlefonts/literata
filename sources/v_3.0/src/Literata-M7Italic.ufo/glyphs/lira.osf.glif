@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lira.osf" format="2">
+	<advance width="769"/>
+	<outline>
+		<component base="lira"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>RMXScaler</key>
+			<dict>
+				<key>adjustSpace</key>
+				<integer>5</integer>
+				<key>width</key>
+				<integer>108</integer>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

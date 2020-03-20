@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="udieresiscaron.smcp" format="2">
+	<advance width="618"/>
+	<outline>
+		<component base="u.smcp"/>
+		<component base="dieresiscomb" xOffset="315" yOffset="33"/>
+		<component base="caron.case" xOffset="59" yOffset="40"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>2</integer>
+					<key>name</key>
+					<string>caron.case</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

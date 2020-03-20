@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="trademark.case" format="2">
+	<advance width="855"/>
+	<outline>
+		<component base="trademark" yOffset="57"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>trademark</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>trademark</string>
+		</dict>
+	</lib>
+</glyph>

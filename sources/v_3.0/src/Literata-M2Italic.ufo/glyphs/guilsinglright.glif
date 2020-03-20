@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="guilsinglright" format="2">
+	<unicode hex="203A"/>
+	<advance width="308"/>
+	<outline>
+		<contour>
+			<point x="53" y="79" type="curve"/>
+			<point x="64" y="70" type="line"/>
+			<point x="124" y="146"/>
+			<point x="200" y="212"/>
+			<point x="279" y="238" type="curve"/>
+			<point x="287" y="275" type="line"/>
+			<point x="201" y="321"/>
+			<point x="143" y="387"/>
+			<point x="107" y="465" type="curve"/>
+			<point x="95" y="459" type="line"/>
+			<point x="113" y="397"/>
+			<point x="151" y="326"/>
+			<point x="207" y="266" type="curve"/>
+			<point x="155" y="219"/>
+			<point x="106" y="168"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>57</integer>
+						<integer>21</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>u</string>
+						<string>p</string>
+					</array>
+					<key>type</key>
+					<string>BottomGhost</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>468</integer>
+						<integer>-20</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>d</string>
+						<string>o</string>
+						<string>w</string>
+						<string>n</string>
+					</array>
+					<key>type</key>
+					<string>TopGhost</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

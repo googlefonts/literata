@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ia_grave-cy" format="2">
+	<advance width="840"/>
+	<outline>
+		<component base="Ia-cy"/>
+		<component base="grave.case" xOffset="203"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0,0.67,0.91,1</string>
+		</dict>
+	</lib>
+</glyph>

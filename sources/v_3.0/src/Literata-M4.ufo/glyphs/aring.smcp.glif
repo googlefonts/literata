@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="aring.smcp" format="2">
+	<advance width="694"/>
+	<outline>
+		<component base="a.smcp"/>
+		<component base="ringcomb" xOffset="343" yOffset="33"/>
+	</outline>
+</glyph>

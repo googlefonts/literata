@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="prosgegrammeni" format="2">
+	<unicode hex="1FBE"/>
+	<advance width="316"/>
+	<outline>
+		<contour>
+			<point x="195" y="-14" type="curve" smooth="yes"/>
+			<point x="235" y="-14"/>
+			<point x="275" y="1"/>
+			<point x="303" y="26" type="curve"/>
+			<point x="291" y="71" type="line"/>
+			<point x="271" y="64"/>
+			<point x="254" y="61"/>
+			<point x="234" y="61" type="curve" smooth="yes"/>
+			<point x="176" y="61"/>
+			<point x="158" y="80"/>
+			<point x="158" y="142" type="curve" smooth="yes"/>
+			<point x="158" y="183"/>
+			<point x="163" y="265"/>
+			<point x="174" y="409" type="curve"/>
+			<point x="161" y="416" type="line"/>
+			<point x="71" y="407" type="line"/>
+			<point x="75" y="246"/>
+			<point x="76" y="180"/>
+			<point x="76" y="143" type="curve" smooth="yes"/>
+			<point x="76" y="31"/>
+			<point x="110" y="-14"/>
+		</contour>
+	</outline>
+	<anchor name="_side" x="56" y="217"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=iota</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=iota</string>
+			<key>public.markColor</key>
+			<string>0.5,0.09,0.79,1</string>
+		</dict>
+	</lib>
+</glyph>

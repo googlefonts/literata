@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="etaoxiaypogegrammeni" format="2">
+	<unicode hex="1FC4"/>
+	<advance width="502"/>
+	<outline>
+		<component base="eta"/>
+		<component base="oxia" xOffset="43"/>
+		<component base="ypogegrammeni" xOffset="27"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.5,0.09,0.79,1</string>
+		</dict>
+	</lib>
+</glyph>

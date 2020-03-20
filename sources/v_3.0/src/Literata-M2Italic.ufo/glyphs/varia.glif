@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="varia" format="2">
+	<unicode hex="1FEF"/>
+	<advance width="476"/>
+	<outline>
+		<contour>
+			<point x="281" y="573" type="line"/>
+			<point x="290" y="577" type="line"/>
+			<point x="210" y="773" type="line"/>
+			<point x="203" y="778" type="line"/>
+			<point x="196" y="782"/>
+			<point x="185" y="783"/>
+			<point x="179" y="783" type="curve" smooth="yes"/>
+			<point x="158" y="783"/>
+			<point x="142" y="771"/>
+			<point x="142" y="749" type="curve" smooth="yes"/>
+			<point x="142" y="734"/>
+			<point x="151" y="722"/>
+			<point x="159" y="712" type="curve" smooth="yes"/>
+		</contour>
+	</outline>
+	<anchor name="_top" x="289" y="550"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=|oxia</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=|oxia</string>
+			<key>public.markColor</key>
+			<string>0.5,0.09,0.79,1</string>
+		</dict>
+	</lib>
+</glyph>

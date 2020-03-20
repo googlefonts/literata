@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="wdieresis.jump" format="2">
+	<advance width="837"/>
+	<outline>
+		<component base="w.jump"/>
+		<component base="dieresiscomb" xOffset="443"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.75,0.75,0.75,1</string>
+		</dict>
+	</lib>
+</glyph>

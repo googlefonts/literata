@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="omacrongrave" format="2">
+	<unicode hex="1E51"/>
+	<advance width="642"/>
+	<outline>
+		<component base="o"/>
+		<component base="grave.case" xOffset="74" yOffset="70"/>
+		<component base="macroncomb" xOffset="323"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>grave.case</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

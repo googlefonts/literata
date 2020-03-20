@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dasiavaria" format="2">
+	<unicode hex="1FDD"/>
+	<advance width="679"/>
+	<outline>
+		<component base="dasia"/>
+		<component base="varia" xOffset="209"/>
+	</outline>
+	<anchor name="_top" x="364" y="550"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=dasia</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=varia</string>
+			<key>public.markColor</key>
+			<string>0.5,0.09,0.79,1</string>
+		</dict>
+	</lib>
+</glyph>

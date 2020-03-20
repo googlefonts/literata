@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nje-cy.smcp" format="2">
+	<advance width="871"/>
+	<outline>
+		<contour>
+			<point x="470" y="257" type="line"/>
+			<point x="462" y="50" type="line"/>
+			<point x="387" y="39" type="line"/>
+			<point x="383" y="0" type="line"/>
+			<point x="598" y="0" type="line" smooth="yes"/>
+			<point x="774" y="0"/>
+			<point x="844" y="80"/>
+			<point x="844" y="178" type="curve" smooth="yes"/>
+			<point x="844" y="248"/>
+			<point x="792" y="319"/>
+			<point x="679" y="319" type="curve" smooth="yes"/>
+			<point x="639" y="319"/>
+			<point x="614" y="316"/>
+			<point x="588" y="312" type="curve"/>
+			<point x="586" y="269" type="line"/>
+			<point x="607" y="273"/>
+			<point x="618" y="274"/>
+			<point x="639" y="274" type="curve" smooth="yes"/>
+			<point x="716" y="274"/>
+			<point x="752" y="235"/>
+			<point x="752" y="172" type="curve" smooth="yes"/>
+			<point x="752" y="96"/>
+			<point x="714" y="46"/>
+			<point x="597" y="46" type="curve" smooth="yes"/>
+			<point x="548" y="46" type="line"/>
+			<point x="566" y="500" type="line"/>
+			<point x="638" y="514" type="line"/>
+			<point x="643" y="553" type="line"/>
+			<point x="413" y="553" type="line"/>
+			<point x="408" y="514" type="line"/>
+			<point x="481" y="500" type="line"/>
+			<point x="473" y="310" type="line"/>
+			<point x="219" y="310" type="line"/>
+			<point x="226" y="500" type="line"/>
+			<point x="298" y="514" type="line"/>
+			<point x="303" y="553" type="line"/>
+			<point x="72" y="553" type="line"/>
+			<point x="67" y="514" type="line"/>
+			<point x="140" y="501" type="line"/>
+			<point x="123" y="49" type="line"/>
+			<point x="53" y="39" type="line"/>
+			<point x="48" y="0" type="line"/>
+			<point x="285" y="0" type="line"/>
+			<point x="290" y="40" type="line"/>
+			<point x="209" y="50" type="line"/>
+			<point x="217" y="257" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=en-cy.smcp</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=softsign-cy.smcp</string>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>172</integer>
+						<integer>82</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>557</integer>
+						<integer>94</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>571</integer>
+						<integer>80</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>891</integer>
+						<integer>97</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>172</integer>
+						<integer>94</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>0</integer>
+						<integer>54</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>328</integer>
+						<integer>71</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>347</integer>
+						<integer>52</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>700</integer>
+						<integer>-20</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>d</string>
+						<string>o</string>
+						<string>w</string>
+						<string>n</string>
+					</array>
+					<key>type</key>
+					<string>TopGhost</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0,0.67,0.91,1</string>
+		</dict>
+	</lib>
+</glyph>

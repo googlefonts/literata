@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="omacronacute.smcp" format="2">
+	<advance width="632"/>
+	<outline>
+		<component base="o.smcp"/>
+		<component base="macroncomb" xOffset="317" yOffset="33"/>
+		<component base="acute.case" xOffset="33" yOffset="43"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>2</integer>
+					<key>name</key>
+					<string>acute.case</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

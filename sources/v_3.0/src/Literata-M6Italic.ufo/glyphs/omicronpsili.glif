@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="omicronpsili" format="2">
+	<unicode hex="1F40"/>
+	<advance width="624"/>
+	<outline>
+		<component base="omicron"/>
+		<component base="psili" xOffset="63"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.5,0.09,0.79,1</string>
+		</dict>
+	</lib>
+</glyph>

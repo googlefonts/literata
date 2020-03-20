@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dasiavaria.case" format="2">
+	<advance width="708"/>
+	<outline>
+		<component base="dasiavaria" xOffset="-3" yOffset="-92"/>
+	</outline>
+	<anchor name="_topleft" x="551" y="700"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=dasia</string>
+			<key>public.markColor</key>
+			<string>0.5,0.09,0.79,1</string>
+		</dict>
+	</lib>
+</glyph>

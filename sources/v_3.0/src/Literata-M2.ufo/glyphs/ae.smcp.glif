@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ae.smcp" format="2">
+	<advance width="778"/>
+	<outline>
+		<contour>
+			<point x="5" y="0" type="line"/>
+			<point x="194" y="0" type="line"/>
+			<point x="194" y="12" type="line"/>
+			<point x="157" y="17" type="line" smooth="yes"/>
+			<point x="121" y="22"/>
+			<point x="109" y="32"/>
+			<point x="124" y="61" type="curve" smooth="yes"/>
+			<point x="229" y="266" type="line"/>
+			<point x="381" y="266" type="line"/>
+			<point x="381" y="58" type="line" smooth="yes"/>
+			<point x="381" y="27"/>
+			<point x="375" y="20"/>
+			<point x="356" y="18" type="curve" smooth="yes"/>
+			<point x="301" y="12" type="line"/>
+			<point x="301" y="0" type="line"/>
+			<point x="724" y="0" type="line"/>
+			<point x="738" y="142" type="line"/>
+			<point x="725" y="142" type="line"/>
+			<point x="691" y="35"/>
+			<point x="675" y="16"/>
+			<point x="591" y="16" type="curve" smooth="yes"/>
+			<point x="474" y="16" type="line"/>
+			<point x="474" y="266" type="line"/>
+			<point x="562" y="266" type="line" smooth="yes"/>
+			<point x="614" y="266"/>
+			<point x="624" y="256"/>
+			<point x="634" y="188" type="curve"/>
+			<point x="648" y="191" type="line"/>
+			<point x="648" y="359" type="line"/>
+			<point x="634" y="357" type="line"/>
+			<point x="623" y="283"/>
+			<point x="600" y="282"/>
+			<point x="559" y="282" type="curve" smooth="yes"/>
+			<point x="474" y="282" type="line"/>
+			<point x="474" y="547" type="line"/>
+			<point x="570" y="547" type="line" smooth="yes"/>
+			<point x="653" y="547"/>
+			<point x="678" y="525"/>
+			<point x="713" y="422" type="curve"/>
+			<point x="727" y="423" type="line"/>
+			<point x="704" y="562" type="line"/>
+			<point x="278" y="562" type="line"/>
+			<point x="278" y="549" type="line"/>
+			<point x="354" y="542" type="line"/>
+			<point x="118" y="87" type="line" smooth="yes"/>
+			<point x="101" y="54"/>
+			<point x="73" y="20"/>
+			<point x="24" y="15" type="curve" smooth="yes"/>
+			<point x="5" y="13" type="line"/>
+		</contour>
+		<contour>
+			<point x="236" y="281" type="line"/>
+			<point x="372" y="541" type="line"/>
+			<point x="381" y="541" type="line"/>
+			<point x="381" y="281" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="top" x="509" y="583"/>
+	<lib>
+		<dict>
+			<key>RMXScaler</key>
+			<dict>
+				<key>height</key>
+				<integer>77</integer>
+				<key>weight</key>
+				<integer>-18</integer>
+				<key>width</key>
+				<integer>82</integer>
+			</dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=a.smcp</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=e.smcp</string>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>511</integer>
+						<integer>99</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>0</integer>
+						<integer>54</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>315</integer>
+						<integer>57</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>646</integer>
+						<integer>54</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tau" format="2">
+	<unicode hex="03C4"/>
+	<advance width="469"/>
+	<outline>
+		<contour>
+			<point x="278" y="-13" type="curve" smooth="yes"/>
+			<point x="326" y="-13"/>
+			<point x="368" y="6"/>
+			<point x="410" y="46" type="curve"/>
+			<point x="391" y="72" type="line"/>
+			<point x="363" y="53"/>
+			<point x="334" y="32"/>
+			<point x="285" y="32" type="curve" smooth="yes"/>
+			<point x="232" y="32"/>
+			<point x="210" y="60"/>
+			<point x="210" y="128" type="curve" smooth="yes"/>
+			<point x="210" y="186"/>
+			<point x="217" y="391"/>
+			<point x="222" y="466" type="curve"/>
+			<point x="422" y="466" type="line"/>
+			<point x="434" y="472" type="line"/>
+			<point x="434" y="517" type="line"/>
+			<point x="136" y="512" type="line"/>
+			<point x="99" y="510"/>
+			<point x="42" y="497"/>
+			<point x="15" y="485" type="curve"/>
+			<point x="11" y="467" type="line"/>
+			<point x="188" y="466" type="line"/>
+			<point x="172" y="306"/>
+			<point x="161" y="171"/>
+			<point x="161" y="134" type="curve" smooth="yes"/>
+			<point x="161" y="30"/>
+			<point x="195" y="-13"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=t-22</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=t+25</string>
+			<key>public.markColor</key>
+			<string>0.5,0.09,0.79,1</string>
+		</dict>
+	</lib>
+</glyph>

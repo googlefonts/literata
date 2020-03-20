@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="O" format="2">
+	<unicode hex="004F"/>
+	<advance width="733"/>
+	<outline>
+		<contour>
+			<point x="365" y="-14" type="curve" smooth="yes"/>
+			<point x="555" y="-14"/>
+			<point x="668" y="129"/>
+			<point x="668" y="362" type="curve" smooth="yes"/>
+			<point x="668" y="580"/>
+			<point x="560" y="714"/>
+			<point x="371" y="714" type="curve" smooth="yes"/>
+			<point x="173" y="714"/>
+			<point x="65" y="578"/>
+			<point x="65" y="342" type="curve" smooth="yes"/>
+			<point x="65" y="124"/>
+			<point x="169" y="-14"/>
+		</contour>
+		<contour>
+			<point x="370" y="31" type="curve" smooth="yes"/>
+			<point x="204" y="31"/>
+			<point x="116" y="154"/>
+			<point x="116" y="350" type="curve" smooth="yes"/>
+			<point x="116" y="548"/>
+			<point x="203" y="669"/>
+			<point x="363" y="669" type="curve" smooth="yes"/>
+			<point x="530" y="669"/>
+			<point x="617" y="552"/>
+			<point x="617" y="356" type="curve" smooth="yes"/>
+			<point x="617" y="156"/>
+			<point x="527" y="31"/>
+		</contour>
+	</outline>
+	<anchor name="bottom" x="368" y="-30"/>
+	<anchor name="top" x="365" y="730"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>59</integer>
+						<integer>106</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>610</integer>
+						<integer>109</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>-14</integer>
+						<integer>67</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>650</integer>
+						<integer>64</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

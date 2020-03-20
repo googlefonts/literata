@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="io-cy.smcp" format="2">
+	<advance width="526"/>
+	<outline>
+		<component base="e.smcp"/>
+		<component base="dieresis" xOffset="7" yOffset="33"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0,0.67,0.91,1</string>
+		</dict>
+	</lib>
+</glyph>

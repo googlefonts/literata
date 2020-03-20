@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="etadasia" format="2">
+	<unicode hex="1F21"/>
+	<advance width="538"/>
+	<outline>
+		<component base="eta"/>
+		<component base="dasia" xOffset="-11" yOffset="1"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.5,0.09,0.79,1</string>
+		</dict>
+	</lib>
+</glyph>

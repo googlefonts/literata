@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Y" format="2">
+	<unicode hex="0059"/>
+	<advance width="722"/>
+	<outline>
+		<contour>
+			<point x="394" y="325" type="line"/>
+			<point x="216" y="644" type="line"/>
+			<point x="305" y="654" type="line"/>
+			<point x="312" y="700" type="line"/>
+			<point x="36" y="700" type="line"/>
+			<point x="29" y="654" type="line"/>
+			<point x="113" y="642" type="line"/>
+			<point x="336" y="259" type="line"/>
+			<point x="326" y="59" type="line"/>
+			<point x="237" y="46" type="line"/>
+			<point x="231" y="0" type="line"/>
+			<point x="513" y="0" type="line"/>
+			<point x="519" y="46" type="line"/>
+			<point x="416" y="59" type="line"/>
+			<point x="423" y="261" type="line"/>
+			<point x="658" y="639" type="line"/>
+			<point x="745" y="653" type="line"/>
+			<point x="752" y="700" type="line"/>
+			<point x="501" y="700" type="line"/>
+			<point x="494" y="657" type="line"/>
+			<point x="589" y="642" type="line"/>
+			<point x="398" y="325" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="bottom" x="367" y="-30"/>
+	<anchor name="top" x="396" y="730"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>299</integer>
+						<integer>87</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>700</integer>
+						<integer>-20</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>d</string>
+						<string>o</string>
+						<string>w</string>
+						<string>n</string>
+					</array>
+					<key>type</key>
+					<string>TopGhost</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>0</integer>
+						<integer>21</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>u</string>
+						<string>p</string>
+					</array>
+					<key>type</key>
+					<string>BottomGhost</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

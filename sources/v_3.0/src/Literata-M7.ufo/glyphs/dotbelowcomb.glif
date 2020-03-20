@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dotbelowcomb" format="2">
+	<unicode hex="0323"/>
+	<outline>
+		<contour>
+			<point x="0" y="-265" type="curve" smooth="yes"/>
+			<point x="79" y="-265"/>
+			<point x="127" y="-228"/>
+			<point x="127" y="-163" type="curve" smooth="yes"/>
+			<point x="127" y="-97"/>
+			<point x="86" y="-61"/>
+			<point x="0" y="-61" type="curve" smooth="yes"/>
+			<point x="-85" y="-61"/>
+			<point x="-128" y="-98"/>
+			<point x="-128" y="-162" type="curve" smooth="yes"/>
+			<point x="-128" y="-229"/>
+			<point x="-82" y="-265"/>
+		</contour>
+	</outline>
+	<anchor name="_bottom" x="0" y="-30"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>111.8</real>
+						<real>280.6</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>-290.2</real>
+						<real>239.6</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

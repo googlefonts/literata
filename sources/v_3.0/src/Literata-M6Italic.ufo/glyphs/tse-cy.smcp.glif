@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tse-cy.smcp" format="2">
+	<advance width="722"/>
+	<outline>
+		<contour>
+			<point x="273" y="22" type="line"/>
+			<point x="295" y="550" type="line"/>
+			<point x="355" y="561" type="line"/>
+			<point x="358" y="578" type="line"/>
+			<point x="46" y="578" type="line"/>
+			<point x="42" y="561" type="line"/>
+			<point x="105" y="550" type="line"/>
+			<point x="81" y="23" type="line"/>
+			<point x="13" y="16" type="line"/>
+			<point x="11" y="0" type="line"/>
+			<point x="566" y="0" type="line" smooth="yes"/>
+			<point x="637" y="0"/>
+			<point x="665" y="-27"/>
+			<point x="665" y="-119" type="curve"/>
+			<point x="688" y="-121" type="line"/>
+			<point x="704" y="21" type="line"/>
+			<point x="621" y="21" type="line"/>
+			<point x="642" y="552" type="line"/>
+			<point x="703" y="561" type="line"/>
+			<point x="706" y="578" type="line"/>
+			<point x="398" y="578" type="line"/>
+			<point x="395" y="561" type="line"/>
+			<point x="454" y="552" type="line"/>
+			<point x="432" y="22" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=en-cy.smcp</string>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>172.332</real>
+						<integer>87</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>572.332</real>
+						<integer>87</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>0</integer>
+						<integer>60</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>700</integer>
+						<integer>-20</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>d</string>
+						<string>o</string>
+						<string>w</string>
+						<string>n</string>
+					</array>
+					<key>type</key>
+					<string>TopGhost</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>-160</integer>
+						<integer>21</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>u</string>
+						<string>p</string>
+					</array>
+					<key>type</key>
+					<string>BottomGhost</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0,0.67,0.91,1</string>
+		</dict>
+	</lib>
+</glyph>

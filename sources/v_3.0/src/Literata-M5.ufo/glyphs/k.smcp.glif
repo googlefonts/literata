@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="k.smcp" format="2">
+	<advance width="541"/>
+	<outline>
+		<contour>
+			<point x="52" y="0" type="line"/>
+			<point x="257" y="0" type="line"/>
+			<point x="257" y="11" type="line"/>
+			<point x="209" y="16" type="line" smooth="yes"/>
+			<point x="184" y="19"/>
+			<point x="179" y="28"/>
+			<point x="179" y="56" type="curve" smooth="yes"/>
+			<point x="179" y="241" type="line"/>
+			<point x="223" y="286" type="line"/>
+			<point x="362" y="62" type="line" smooth="yes"/>
+			<point x="394" y="10"/>
+			<point x="419" y="-14"/>
+			<point x="469" y="-14" type="curve" smooth="yes"/>
+			<point x="502" y="-14"/>
+			<point x="523" y="1"/>
+			<point x="541" y="21" type="curve"/>
+			<point x="536" y="27" type="line"/>
+			<point x="520" y="16"/>
+			<point x="505" y="8"/>
+			<point x="488" y="8" type="curve" smooth="yes"/>
+			<point x="462" y="8"/>
+			<point x="442" y="26"/>
+			<point x="401" y="91" type="curve" smooth="yes"/>
+			<point x="256" y="319" type="line"/>
+			<point x="435" y="503" type="line" smooth="yes"/>
+			<point x="462" y="530"/>
+			<point x="472" y="538"/>
+			<point x="501" y="542" type="curve" smooth="yes"/>
+			<point x="534" y="546" type="line"/>
+			<point x="534" y="557" type="line"/>
+			<point x="371" y="557" type="line"/>
+			<point x="371" y="546" type="line"/>
+			<point x="403" y="543" type="line" smooth="yes"/>
+			<point x="438" y="540"/>
+			<point x="434" y="526"/>
+			<point x="402" y="493" type="curve" smooth="yes"/>
+			<point x="179" y="265" type="line"/>
+			<point x="179" y="501" type="line" smooth="yes"/>
+			<point x="179" y="529"/>
+			<point x="184" y="538"/>
+			<point x="209" y="541" type="curve" smooth="yes"/>
+			<point x="257" y="546" type="line"/>
+			<point x="257" y="557" type="line"/>
+			<point x="52" y="557" type="line"/>
+			<point x="52" y="545" type="line"/>
+			<point x="101" y="541" type="line" smooth="yes"/>
+			<point x="124" y="539"/>
+			<point x="130" y="532"/>
+			<point x="130" y="499" type="curve" smooth="yes"/>
+			<point x="130" y="58" type="line" smooth="yes"/>
+			<point x="130" y="25"/>
+			<point x="124" y="18"/>
+			<point x="101" y="16" type="curve" smooth="yes"/>
+			<point x="52" y="11" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="bottom" x="281" y="-30"/>
+	<anchor name="top" x="301" y="583"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>h.smcp</string>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>161.24</real>
+						<real>82.013</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>-14</integer>
+						<real>58.68</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>0</integer>
+						<integer>21</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>u</string>
+						<string>p</string>
+					</array>
+					<key>type</key>
+					<string>BottomGhost</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>700</integer>
+						<integer>-20</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>d</string>
+						<string>o</string>
+						<string>w</string>
+						<string>n</string>
+					</array>
+					<key>type</key>
+					<string>TopGhost</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

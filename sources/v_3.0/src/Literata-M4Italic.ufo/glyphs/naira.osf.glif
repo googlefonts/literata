@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="naira.osf" format="2">
+	<advance width="744"/>
+	<outline>
+		<contour>
+			<point x="437" y="-18" type="line"/>
+			<point x="641" y="0" type="line"/>
+			<point x="648" y="208" type="line"/>
+			<point x="722" y="208" type="line"/>
+			<point x="726" y="275" type="line"/>
+			<point x="650" y="275" type="line"/>
+			<point x="652" y="325" type="line"/>
+			<point x="725" y="325" type="line"/>
+			<point x="729" y="392" type="line"/>
+			<point x="654" y="392" type="line"/>
+			<point x="657" y="465" type="line"/>
+			<point x="726" y="479" type="line"/>
+			<point x="732" y="567" type="line"/>
+			<point x="490" y="567" type="line"/>
+			<point x="485" y="479" type="line"/>
+			<point x="558" y="465" type="line"/>
+			<point x="555" y="392" type="line"/>
+			<point x="447" y="392" type="line"/>
+			<point x="371" y="567" type="line"/>
+			<point x="46" y="567" type="line"/>
+			<point x="41" y="477" type="line"/>
+			<point x="114" y="468" type="line"/>
+			<point x="110" y="392" type="line"/>
+			<point x="27" y="392" type="line"/>
+			<point x="19" y="325" type="line"/>
+			<point x="106" y="325" type="line"/>
+			<point x="104" y="275" type="line"/>
+			<point x="23" y="275" type="line"/>
+			<point x="15" y="208" type="line"/>
+			<point x="100" y="208" type="line"/>
+			<point x="94" y="96" type="line"/>
+			<point x="26" y="86" type="line"/>
+			<point x="21" y="0" type="line"/>
+			<point x="268" y="0" type="line"/>
+			<point x="273" y="86" type="line"/>
+			<point x="195" y="96" type="line"/>
+			<point x="200" y="208" type="line"/>
+			<point x="331" y="208" type="line"/>
+		</contour>
+		<contour>
+			<point x="203" y="275" type="line"/>
+			<point x="206" y="325" type="line"/>
+			<point x="276" y="325" type="line"/>
+			<point x="300" y="275" type="line"/>
+		</contour>
+		<contour>
+			<point x="546" y="166" type="line"/>
+			<point x="528" y="208" type="line"/>
+			<point x="548" y="208" type="line"/>
+		</contour>
+		<contour>
+			<point x="209" y="392" type="line"/>
+			<point x="212" y="462" type="line"/>
+			<point x="245" y="392" type="line"/>
+		</contour>
+		<contour>
+			<point x="498" y="275" type="line"/>
+			<point x="477" y="325" type="line"/>
+			<point x="552" y="325" type="line"/>
+			<point x="550" y="275" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>166</integer>
+						<integer>66</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>587</integer>
+						<integer>64</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>0</integer>
+						<integer>59</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>637</integer>
+						<integer>63</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>-11</integer>
+						<integer>21</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>u</string>
+						<string>p</string>
+					</array>
+					<key>type</key>
+					<string>BottomGhost</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

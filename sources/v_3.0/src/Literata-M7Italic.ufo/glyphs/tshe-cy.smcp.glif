@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tshe-cy.smcp" format="2">
+	<advance width="948"/>
+	<outline>
+		<contour>
+			<point x="490" y="370" type="curve"/>
+			<point x="496" y="480" type="line"/>
+			<point x="572" y="480" type="line" smooth="yes"/>
+			<point x="604" y="480"/>
+			<point x="622" y="463"/>
+			<point x="630" y="426" type="curve" smooth="yes"/>
+			<point x="635" y="404" type="line"/>
+			<point x="754" y="421" type="line"/>
+			<point x="747" y="567" type="line"/>
+			<point x="62" y="567" type="line"/>
+			<point x="33" y="364" type="line"/>
+			<point x="156" y="354" type="line"/>
+			<point x="175" y="426" type="line" smooth="yes"/>
+			<point x="186" y="467"/>
+			<point x="205" y="480"/>
+			<point x="240" y="480" type="curve" smooth="yes"/>
+			<point x="272" y="480" type="line"/>
+			<point x="252" y="97" type="line"/>
+			<point x="176" y="86" type="line"/>
+			<point x="172" y="0" type="line"/>
+			<point x="527" y="0" type="line"/>
+			<point x="532" y="85" type="line"/>
+			<point x="474" y="97" type="line"/>
+			<point x="484" y="266" type="line"/>
+			<point x="498" y="269"/>
+			<point x="524" y="271"/>
+			<point x="542" y="271" type="curve" smooth="yes"/>
+			<point x="608" y="271"/>
+			<point x="638" y="246"/>
+			<point x="638" y="189" type="curve" smooth="yes"/>
+			<point x="638" y="164"/>
+			<point x="635" y="131"/>
+			<point x="630" y="96" type="curve"/>
+			<point x="575" y="85" type="line"/>
+			<point x="571" y="0" type="line"/>
+			<point x="928" y="0" type="line"/>
+			<point x="932" y="86" type="line"/>
+			<point x="855" y="100" type="line"/>
+			<point x="858" y="122"/>
+			<point x="862" y="169"/>
+			<point x="862" y="200" type="curve" smooth="yes"/>
+			<point x="862" y="316"/>
+			<point x="801" y="383"/>
+			<point x="619" y="383" type="curve" smooth="yes"/>
+			<point x="575" y="383"/>
+			<point x="527" y="378"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=te-cy.smcp</string>
+			<key>public.markColor</key>
+			<string>0,0.67,0.91,1</string>
+		</dict>
+	</lib>
+</glyph>

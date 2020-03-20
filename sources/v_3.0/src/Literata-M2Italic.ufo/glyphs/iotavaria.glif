@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="iotavaria" format="2">
+	<unicode hex="1F76"/>
+	<advance width="291"/>
+	<outline>
+		<component base="iota"/>
+		<component base="varia" xOffset="-180" yOffset="1"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.5,0.09,0.79,1</string>
+		</dict>
+	</lib>
+</glyph>

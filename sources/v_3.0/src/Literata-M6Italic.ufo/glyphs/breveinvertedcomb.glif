@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="breveinvertedcomb" format="2">
+	<unicode hex="0311"/>
+	<outline>
+		<component base="breve" xScale="-1" yScale="-1" xOffset="293" yOffset="1391"/>
+	</outline>
+	<anchor name="_top" x="14" y="550"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>breve</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

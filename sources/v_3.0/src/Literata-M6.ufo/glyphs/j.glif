@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="j" format="2">
+	<unicode hex="006A"/>
+	<advance width="361"/>
+	<outline>
+		<contour>
+			<point x="15" y="-230" type="line"/>
+			<point x="270" y="-173"/>
+			<point x="298" y="-57"/>
+			<point x="298" y="90" type="curve" smooth="yes"/>
+			<point x="298" y="523" type="line"/>
+			<point x="291" y="531" type="line"/>
+			<point x="12" y="519" type="line"/>
+			<point x="11" y="507" type="line"/>
+			<point x="38" y="504" type="line" smooth="yes"/>
+			<point x="69" y="501"/>
+			<point x="74" y="485"/>
+			<point x="74" y="447" type="curve" smooth="yes"/>
+			<point x="74" y="-31" type="line" smooth="yes"/>
+			<point x="74" y="-116"/>
+			<point x="63" y="-161"/>
+			<point x="10" y="-221" type="curve"/>
+		</contour>
+		<contour>
+			<point x="178" y="594" type="curve" smooth="yes"/>
+			<point x="260" y="594"/>
+			<point x="306" y="633"/>
+			<point x="306" y="698" type="curve" smooth="yes"/>
+			<point x="306" y="764"/>
+			<point x="267" y="802"/>
+			<point x="178" y="802" type="curve" smooth="yes"/>
+			<point x="91" y="802"/>
+			<point x="49" y="763"/>
+			<point x="49" y="699" type="curve" smooth="yes"/>
+			<point x="49" y="632"/>
+			<point x="94" y="594"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>102.8</real>
+						<real>136.332</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>513.8</real>
+						<real>100.132</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>613.932</real>
+						<real>168.532</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>-229</integer>
+						<integer>21</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>u</string>
+						<string>p</string>
+					</array>
+					<key>type</key>
+					<string>BottomGhost</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

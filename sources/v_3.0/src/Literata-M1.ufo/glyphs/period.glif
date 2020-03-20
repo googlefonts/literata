@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="period" format="2">
+	<unicode hex="002E"/>
+	<advance width="345"/>
+	<outline>
+		<contour>
+			<point x="172" y="-14" type="curve" smooth="yes"/>
+			<point x="217" y="-14"/>
+			<point x="249" y="18"/>
+			<point x="249" y="62" type="curve" smooth="yes"/>
+			<point x="249" y="106"/>
+			<point x="217" y="137"/>
+			<point x="172" y="137" type="curve" smooth="yes"/>
+			<point x="128" y="137"/>
+			<point x="96" y="105"/>
+			<point x="96" y="61" type="curve" smooth="yes"/>
+			<point x="96" y="17"/>
+			<point x="128" y="-14"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>90</integer>
+						<integer>153</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>-17</integer>
+						<integer>151</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

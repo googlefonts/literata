@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="phi.smcp" format="2">
+	<advance width="673"/>
+	<outline>
+		<contour>
+			<point x="219" y="-15" type="line"/>
+			<point x="453" y="-15" type="line"/>
+			<point x="454" y="4" type="line"/>
+			<point x="378" y="13" type="line"/>
+			<point x="380" y="62" type="line"/>
+			<point x="597" y="79"/>
+			<point x="638" y="203"/>
+			<point x="638" y="290" type="curve" smooth="yes"/>
+			<point x="638" y="445"/>
+			<point x="512" y="494"/>
+			<point x="398" y="508" type="curve"/>
+			<point x="400" y="540" type="line"/>
+			<point x="472" y="551" type="line"/>
+			<point x="474" y="570" type="line"/>
+			<point x="246" y="570" type="line"/>
+			<point x="244" y="551" type="line"/>
+			<point x="311" y="540" type="line"/>
+			<point x="310" y="508" type="line"/>
+			<point x="109" y="495"/>
+			<point x="52" y="382"/>
+			<point x="52" y="280" type="curve" smooth="yes"/>
+			<point x="52" y="180"/>
+			<point x="102" y="89"/>
+			<point x="292" y="63" type="curve"/>
+			<point x="290" y="12" type="line"/>
+			<point x="221" y="4" type="line"/>
+		</contour>
+		<contour>
+			<point x="293" y="83" type="line"/>
+			<point x="175" y="100"/>
+			<point x="144" y="193"/>
+			<point x="144" y="281" type="curve" smooth="yes"/>
+			<point x="144" y="405"/>
+			<point x="198" y="476"/>
+			<point x="309" y="490" type="curve"/>
+		</contour>
+		<contour>
+			<point x="381" y="81" type="curve"/>
+			<point x="398" y="489" type="line"/>
+			<point x="498" y="474"/>
+			<point x="546" y="395"/>
+			<point x="546" y="288" type="curve" smooth="yes"/>
+			<point x="546" y="167"/>
+			<point x="495" y="98"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>RMXScaler</key>
+			<dict>
+				<key>height</key>
+				<integer>77</integer>
+				<key>weight</key>
+				<integer>-18</integer>
+				<key>width</key>
+				<integer>82</integer>
+			</dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=o.smcp-5</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=o.smcp-5</string>
+			<key>public.markColor</key>
+			<string>0.5,0.09,0.79,1</string>
+		</dict>
+	</lib>
+</glyph>

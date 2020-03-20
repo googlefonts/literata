@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="idieresisacute" format="2">
+	<unicode hex="1E2F"/>
+	<advance width="379"/>
+	<outline>
+		<component base="idotless"/>
+		<component base="dieresiscomb" xOffset="174"/>
+		<component base="acute.case" xOffset="-95" yOffset="40"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>2</integer>
+					<key>name</key>
+					<string>acute.case</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Stigma" format="2">
+	<unicode hex="03DA"/>
+	<advance width="664"/>
+	<outline>
+		<contour>
+			<point x="439" y="-210" type="line"/>
+			<point x="502" y="-157"/>
+			<point x="538" y="-97"/>
+			<point x="538" y="-45" type="curve" smooth="yes"/>
+			<point x="538" y="29"/>
+			<point x="502" y="63"/>
+			<point x="395" y="92" type="curve" smooth="yes"/>
+			<point x="233" y="135"/>
+			<point x="169" y="206"/>
+			<point x="168" y="344" type="curve" smooth="yes"/>
+			<point x="168" y="543"/>
+			<point x="249" y="652"/>
+			<point x="397" y="652" type="curve" smooth="yes"/>
+			<point x="474" y="652"/>
+			<point x="528" y="627"/>
+			<point x="528" y="591" type="curve" smooth="yes"/>
+			<point x="528" y="585"/>
+			<point x="526" y="578"/>
+			<point x="522" y="571" type="curve" smooth="yes"/>
+			<point x="502" y="533" type="line"/>
+			<point x="524" y="511"/>
+			<point x="548" y="500"/>
+			<point x="576" y="500" type="curve" smooth="yes"/>
+			<point x="613" y="500"/>
+			<point x="639" y="527"/>
+			<point x="639" y="566" type="curve" smooth="yes"/>
+			<point x="639" y="648"/>
+			<point x="532" y="715"/>
+			<point x="401" y="715" type="curve" smooth="yes"/>
+			<point x="204" y="715"/>
+			<point x="71" y="566"/>
+			<point x="71" y="346" type="curve" smooth="yes"/>
+			<point x="71" y="162"/>
+			<point x="151" y="64"/>
+			<point x="345" y="10" type="curve" smooth="yes"/>
+			<point x="419" y="-11"/>
+			<point x="443" y="-30"/>
+			<point x="443" y="-68" type="curve" smooth="yes"/>
+			<point x="443" y="-99"/>
+			<point x="432" y="-124"/>
+			<point x="395" y="-176" type="curve"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=C</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=C</string>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>81</integer>
+						<integer>94</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>442</integer>
+						<integer>69</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>507</integer>
+						<integer>208</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>652</integer>
+						<integer>63</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>-234</integer>
+						<integer>21</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>u</string>
+						<string>p</string>
+					</array>
+					<key>type</key>
+					<string>BottomGhost</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0.5,0.09,0.79,1</string>
+		</dict>
+	</lib>
+</glyph>

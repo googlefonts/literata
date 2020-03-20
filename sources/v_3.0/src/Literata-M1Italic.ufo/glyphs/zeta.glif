@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zeta" format="2">
+	<unicode hex="03B6"/>
+	<advance width="490"/>
+	<outline>
+		<contour>
+			<point x="327" y="-234" type="line"/>
+			<point x="380" y="-182"/>
+			<point x="412" y="-123"/>
+			<point x="412" y="-75" type="curve" smooth="yes"/>
+			<point x="412" y="-11"/>
+			<point x="376" y="23"/>
+			<point x="260" y="70" type="curve" smooth="yes"/>
+			<point x="180" y="102"/>
+			<point x="155" y="136"/>
+			<point x="155" y="213" type="curve" smooth="yes"/>
+			<point x="155" y="331"/>
+			<point x="242" y="510"/>
+			<point x="348" y="608" type="curve"/>
+			<point x="430" y="600"/>
+			<point x="490" y="636"/>
+			<point x="490" y="693" type="curve" smooth="yes"/>
+			<point x="490" y="720"/>
+			<point x="468" y="745"/>
+			<point x="441" y="749" type="curve"/>
+			<point x="415" y="740"/>
+			<point x="364" y="700"/>
+			<point x="308" y="645" type="curve"/>
+			<point x="241" y="648"/>
+			<point x="203" y="675"/>
+			<point x="203" y="720" type="curve" smooth="yes"/>
+			<point x="203" y="735"/>
+			<point x="205" y="748"/>
+			<point x="212" y="769" type="curve"/>
+			<point x="199" y="778"/>
+			<point x="183" y="782"/>
+			<point x="163" y="782" type="curve" smooth="yes"/>
+			<point x="118" y="782"/>
+			<point x="91" y="756"/>
+			<point x="91" y="711" type="curve" smooth="yes"/>
+			<point x="91" y="644"/>
+			<point x="176" y="599"/>
+			<point x="278" y="611" type="curve"/>
+			<point x="128" y="442"/>
+			<point x="57" y="307"/>
+			<point x="57" y="191" type="curve" smooth="yes"/>
+			<point x="57" y="96"/>
+			<point x="103" y="43"/>
+			<point x="232" y="-12" type="curve" smooth="yes"/>
+			<point x="315" y="-48"/>
+			<point x="340" y="-70"/>
+			<point x="340" y="-108" type="curve" smooth="yes"/>
+			<point x="340" y="-133"/>
+			<point x="322" y="-170"/>
+			<point x="290" y="-210" type="curve"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=c</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=c-40</string>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>48</integer>
+						<integer>95</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>81</integer>
+						<integer>107</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>310</integer>
+						<integer>69</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>-234</integer>
+						<integer>21</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>u</string>
+						<string>p</string>
+					</array>
+					<key>type</key>
+					<string>BottomGhost</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>779</integer>
+						<integer>-20</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>d</string>
+						<string>o</string>
+						<string>w</string>
+						<string>n</string>
+					</array>
+					<key>type</key>
+					<string>TopGhost</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0.5,0.09,0.79,1</string>
+		</dict>
+	</lib>
+</glyph>

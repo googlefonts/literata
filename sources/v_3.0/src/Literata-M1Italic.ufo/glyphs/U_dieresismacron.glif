@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Udieresismacron" format="2">
+	<unicode hex="01D5"/>
+	<advance width="799"/>
+	<outline>
+		<component base="U"/>
+		<component base="dieresis.case" xOffset="146"/>
+		<component base="macron.case" xOffset="153" yOffset="173"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>2</integer>
+					<key>name</key>
+					<string>macron.case</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

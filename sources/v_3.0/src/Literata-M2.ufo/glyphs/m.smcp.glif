@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="m.smcp" format="2">
+	<advance width="814"/>
+	<outline>
+		<contour>
+			<point x="40" y="0" type="line"/>
+			<point x="218" y="0" type="line"/>
+			<point x="218" y="10" type="line"/>
+			<point x="165" y="15" type="line" smooth="yes"/>
+			<point x="138" y="18"/>
+			<point x="139" y="34"/>
+			<point x="140" y="58" type="curve" smooth="yes"/>
+			<point x="167" y="505" type="line"/>
+			<point x="168" y="505" type="line"/>
+			<point x="350" y="87" type="line"/>
+			<point x="396" y="87" type="line"/>
+			<point x="566" y="506" type="line"/>
+			<point x="568" y="506" type="line"/>
+			<point x="596" y="59" type="line" smooth="yes"/>
+			<point x="598" y="31"/>
+			<point x="591" y="18"/>
+			<point x="571" y="16" type="curve" smooth="yes"/>
+			<point x="519" y="11" type="line"/>
+			<point x="519" y="0" type="line"/>
+			<point x="774" y="0" type="line"/>
+			<point x="774" y="11" type="line"/>
+			<point x="721" y="16" type="line" smooth="yes"/>
+			<point x="700" y="18"/>
+			<point x="694" y="27"/>
+			<point x="692" y="58" type="curve" smooth="yes"/>
+			<point x="661" y="511" type="line" smooth="yes"/>
+			<point x="659" y="535"/>
+			<point x="665" y="545"/>
+			<point x="686" y="547" type="curve" smooth="yes"/>
+			<point x="737" y="552" type="line"/>
+			<point x="737" y="563" type="line"/>
+			<point x="566" y="563" type="line"/>
+			<point x="409" y="177" type="line"/>
+			<point x="408" y="177" type="line"/>
+			<point x="241" y="562" type="line"/>
+			<point x="68" y="562" type="line"/>
+			<point x="68" y="551" type="line"/>
+			<point x="120" y="545" type="line" smooth="yes"/>
+			<point x="142" y="542"/>
+			<point x="148" y="534"/>
+			<point x="146" y="505" type="curve" smooth="yes"/>
+			<point x="117" y="60" type="line" smooth="yes"/>
+			<point x="115" y="29"/>
+			<point x="111" y="18"/>
+			<point x="90" y="16" type="curve" smooth="yes"/>
+			<point x="40" y="11" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="bottom" x="371" y="-30"/>
+	<lib>
+		<dict>
+			<key>RMXScaler</key>
+			<dict>
+				<key>height</key>
+				<integer>77</integer>
+				<key>weight</key>
+				<integer>-18</integer>
+				<key>width</key>
+				<integer>82</integer>
+			</dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>166</integer>
+						<integer>70</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>733</integer>
+						<integer>99</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>0</integer>
+						<integer>21</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>u</string>
+						<string>p</string>
+					</array>
+					<key>type</key>
+					<string>BottomGhost</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>700</integer>
+						<integer>-20</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>d</string>
+						<string>o</string>
+						<string>w</string>
+						<string>n</string>
+					</array>
+					<key>type</key>
+					<string>TopGhost</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

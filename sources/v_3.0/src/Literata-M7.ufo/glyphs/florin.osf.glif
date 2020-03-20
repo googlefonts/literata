@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="florin.osf" format="2">
+	<advance width="608"/>
+	<outline>
+		<contour>
+			<point x="64" y="-194" type="curve" smooth="yes"/>
+			<point x="240" y="-194"/>
+			<point x="319" y="-78"/>
+			<point x="334" y="43" type="curve" smooth="yes"/>
+			<point x="369" y="323" type="line"/>
+			<point x="521" y="323" type="line"/>
+			<point x="536" y="438" type="line"/>
+			<point x="384" y="438" type="line"/>
+			<point x="394" y="521" type="line" smooth="yes"/>
+			<point x="403" y="597"/>
+			<point x="425" y="623"/>
+			<point x="462" y="623" type="curve" smooth="yes"/>
+			<point x="485" y="623"/>
+			<point x="500" y="617"/>
+			<point x="513" y="612" type="curve"/>
+			<point x="494" y="580"/>
+			<point x="485" y="564"/>
+			<point x="483" y="546" type="curve" smooth="yes"/>
+			<point x="479" y="507"/>
+			<point x="495" y="486"/>
+			<point x="547" y="486" type="curve" smooth="yes"/>
+			<point x="611" y="486"/>
+			<point x="651" y="517"/>
+			<point x="657" y="568" type="curve" smooth="yes"/>
+			<point x="667" y="653"/>
+			<point x="595" y="713"/>
+			<point x="454" y="713" type="curve" smooth="yes"/>
+			<point x="265" y="713"/>
+			<point x="193" y="597"/>
+			<point x="175" y="476" type="curve" smooth="yes"/>
+			<point x="169" y="435" type="line"/>
+			<point x="83" y="435" type="line"/>
+			<point x="68" y="323" type="line"/>
+			<point x="153" y="323" type="line"/>
+			<point x="113" y="-18" type="line" smooth="yes"/>
+			<point x="106" y="-78"/>
+			<point x="93" y="-104"/>
+			<point x="56" y="-104" type="curve" smooth="yes"/>
+			<point x="30" y="-104"/>
+			<point x="17" y="-99"/>
+			<point x="5" y="-93" type="curve"/>
+			<point x="24" y="-61"/>
+			<point x="33" y="-45"/>
+			<point x="35" y="-27" type="curve" smooth="yes"/>
+			<point x="39" y="12"/>
+			<point x="13" y="33"/>
+			<point x="-39" y="33" type="curve" smooth="yes"/>
+			<point x="-103" y="33"/>
+			<point x="-133" y="2"/>
+			<point x="-139" y="-49" type="curve" smooth="yes"/>
+			<point x="-149" y="-134"/>
+			<point x="-87" y="-194"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>1288</integer>
+						<real>212.6</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>420.6</real>
+						<integer>102</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>704</integer>
+						<integer>78</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>0</integer>
+						<integer>21</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>u</string>
+						<string>p</string>
+					</array>
+					<key>type</key>
+					<string>BottomGhost</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

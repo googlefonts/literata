@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="colon" format="2">
+	<unicode hex="003A"/>
+	<advance width="323"/>
+	<outline>
+		<contour>
+			<point x="162" y="-14" type="curve" smooth="yes"/>
+			<point x="226" y="-14"/>
+			<point x="268" y="25"/>
+			<point x="268" y="81" type="curve" smooth="yes"/>
+			<point x="268" y="135"/>
+			<point x="227" y="173"/>
+			<point x="162" y="173" type="curve" smooth="yes"/>
+			<point x="97" y="173"/>
+			<point x="55" y="135"/>
+			<point x="55" y="81" type="curve" smooth="yes"/>
+			<point x="55" y="25"/>
+			<point x="97" y="-14"/>
+		</contour>
+		<contour>
+			<point x="162" y="350" type="curve" smooth="yes"/>
+			<point x="226" y="350"/>
+			<point x="268" y="389"/>
+			<point x="268" y="445" type="curve" smooth="yes"/>
+			<point x="268" y="499"/>
+			<point x="227" y="537"/>
+			<point x="162" y="537" type="curve" smooth="yes"/>
+			<point x="97" y="537"/>
+			<point x="55" y="499"/>
+			<point x="55" y="445" type="curve" smooth="yes"/>
+			<point x="55" y="389"/>
+			<point x="97" y="350"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>-242.333</real>
+						<real>-364.3</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>355.767</real>
+						<real>168.4</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>364.8</real>
+						<real>161.4</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>-242.333</real>
+						<real>-364.3</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>-18.733</real>
+						<real>161.4</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>72.667</real>
+						<real>171.2</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>-18.733</real>
+						<real>161.4</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>72.667</real>
+						<real>171.2</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>293.267</real>
+						<real>161.4</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

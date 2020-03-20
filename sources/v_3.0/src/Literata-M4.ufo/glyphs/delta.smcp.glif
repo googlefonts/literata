@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="delta.smcp" format="2">
+	<advance width="669"/>
+	<outline>
+		<contour>
+			<point x="27" y="0" type="line"/>
+			<point x="646" y="0" type="line"/>
+			<point x="659" y="78" type="line"/>
+			<point x="449" y="567" type="line"/>
+			<point x="227" y="567" type="line"/>
+			<point x="10" y="78" type="line"/>
+		</contour>
+		<contour>
+			<point x="158" y="120" type="line"/>
+			<point x="293" y="419" type="line"/>
+			<point x="295" y="419" type="line"/>
+			<point x="404" y="120" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=a.smcp+10</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=a.smcp+10</string>
+			<key>public.markColor</key>
+			<string>0.5,0.09,0.79,1</string>
+		</dict>
+	</lib>
+</glyph>

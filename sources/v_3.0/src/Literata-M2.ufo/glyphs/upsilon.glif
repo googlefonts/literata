@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="upsilon" format="2">
+	<unicode hex="03C5"/>
+	<advance width="569"/>
+	<outline>
+		<contour>
+			<point x="296" y="-14" type="curve" smooth="yes"/>
+			<point x="439" y="-14"/>
+			<point x="521" y="90"/>
+			<point x="521" y="273" type="curve" smooth="yes"/>
+			<point x="521" y="369"/>
+			<point x="500" y="456"/>
+			<point x="463" y="513" type="curve"/>
+			<point x="458" y="518" type="line"/>
+			<point x="369" y="501" type="line"/>
+			<point x="404" y="454"/>
+			<point x="430" y="348"/>
+			<point x="430" y="254" type="curve" smooth="yes"/>
+			<point x="430" y="73"/>
+			<point x="395" y="4"/>
+			<point x="302" y="4" type="curve" smooth="yes"/>
+			<point x="219" y="4"/>
+			<point x="192" y="53"/>
+			<point x="192" y="203" type="curve" smooth="yes"/>
+			<point x="192" y="309"/>
+			<point x="202" y="348"/>
+			<point x="202" y="431" type="curve" smooth="yes"/>
+			<point x="202" y="487"/>
+			<point x="169" y="522"/>
+			<point x="116" y="522" type="curve" smooth="yes"/>
+			<point x="81" y="522"/>
+			<point x="53" y="508"/>
+			<point x="25" y="475" type="curve"/>
+			<point x="30" y="468" type="line"/>
+			<point x="44" y="477"/>
+			<point x="61" y="482"/>
+			<point x="75" y="482" type="curve" smooth="yes"/>
+			<point x="103" y="482"/>
+			<point x="114" y="466"/>
+			<point x="114" y="427" type="curve" smooth="yes"/>
+			<point x="114" y="349"/>
+			<point x="103" y="303"/>
+			<point x="103" y="196" type="curve" smooth="yes"/>
+			<point x="103" y="50"/>
+			<point x="162" y="-14"/>
+		</contour>
+	</outline>
+	<anchor name="top" x="280" y="550"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=eta</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=o</string>
+			<key>public.markColor</key>
+			<string>0.5,0.09,0.79,1</string>
+		</dict>
+	</lib>
+</glyph>

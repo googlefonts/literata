@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dasia" format="2">
+	<unicode hex="1FFE"/>
+	<advance width="503"/>
+	<outline>
+		<component base="psili" xScale="-1" xOffset="503"/>
+	</outline>
+	<anchor name="_top" x="257" y="550"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=|caron.alt</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=|caron.alt</string>
+			<key>public.markColor</key>
+			<string>0.5,0.09,0.79,1</string>
+		</dict>
+	</lib>
+</glyph>

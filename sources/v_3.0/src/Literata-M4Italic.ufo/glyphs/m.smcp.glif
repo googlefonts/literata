@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="m.smcp" format="2">
+	<advance width="979"/>
+	<outline>
+		<contour>
+			<point x="677" y="474" type="line"/>
+			<point x="695" y="96" type="line"/>
+			<point x="622" y="86" type="line"/>
+			<point x="615" y="0" type="line"/>
+			<point x="953" y="0" type="line"/>
+			<point x="960" y="86" type="line"/>
+			<point x="891" y="96" type="line"/>
+			<point x="868" y="472" type="line"/>
+			<point x="932" y="481" type="line"/>
+			<point x="939" y="567" type="line"/>
+			<point x="592" y="567" type="line"/>
+			<point x="495" y="239" type="line"/>
+			<point x="405" y="567" type="line"/>
+			<point x="61" y="567" type="line"/>
+			<point x="54" y="483" type="line"/>
+			<point x="129" y="469" type="line"/>
+			<point x="99" y="97" type="line"/>
+			<point x="27" y="86" type="line"/>
+			<point x="20" y="0" type="line"/>
+			<point x="275" y="0" type="line"/>
+			<point x="282" y="86" type="line"/>
+			<point x="203" y="97" type="line"/>
+			<point x="233" y="460" type="line"/>
+			<point x="360" y="-9" type="line"/>
+			<point x="540" y="5" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="bottom" x="443" y="-30"/>
+	<lib>
+		<dict>
+			<key>RMXScaler</key>
+			<dict>
+				<key>adjustSpace</key>
+				<integer>4</integer>
+				<key>height</key>
+				<integer>80</integer>
+				<key>weight</key>
+				<integer>-25</integer>
+				<key>width</key>
+				<integer>87</integer>
+			</dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>151</integer>
+						<integer>65</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>725</integer>
+						<integer>87</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>0</integer>
+						<integer>21</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>u</string>
+						<string>p</string>
+					</array>
+					<key>type</key>
+					<string>BottomGhost</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>700</integer>
+						<integer>-20</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>d</string>
+						<string>o</string>
+						<string>w</string>
+						<string>n</string>
+					</array>
+					<key>type</key>
+					<string>TopGhost</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>-11</integer>
+						<integer>21</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>u</string>
+						<string>p</string>
+					</array>
+					<key>type</key>
+					<string>BottomGhost</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

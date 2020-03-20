@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cyrbreve.case" format="2">
+	<advance width="500"/>
+	<outline>
+		<contour>
+			<point x="249" y="784" type="curve" smooth="yes"/>
+			<point x="329" y="784"/>
+			<point x="425" y="811"/>
+			<point x="425" y="886" type="curve" smooth="yes"/>
+			<point x="425" y="916"/>
+			<point x="407" y="934"/>
+			<point x="375" y="934" type="curve" smooth="yes"/>
+			<point x="345" y="934"/>
+			<point x="327" y="915"/>
+			<point x="327" y="890" type="curve" smooth="yes"/>
+			<point x="327" y="871"/>
+			<point x="332" y="854"/>
+			<point x="347" y="832" type="curve"/>
+			<point x="327" y="822"/>
+			<point x="288" y="815"/>
+			<point x="250" y="815" type="curve" smooth="yes"/>
+			<point x="208" y="815"/>
+			<point x="176" y="822"/>
+			<point x="153" y="832" type="curve"/>
+			<point x="167" y="854"/>
+			<point x="172" y="870"/>
+			<point x="172" y="891" type="curve" smooth="yes"/>
+			<point x="172" y="916"/>
+			<point x="157" y="934"/>
+			<point x="126" y="934" type="curve" smooth="yes"/>
+			<point x="93" y="934"/>
+			<point x="75" y="916"/>
+			<point x="75" y="885" type="curve" smooth="yes"/>
+			<point x="75" y="805"/>
+			<point x="179" y="784"/>
+		</contour>
+	</outline>
+	<anchor name="_top" x="250" y="730"/>
+	<guideline x="250" y="890" angle="270"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0,0.67,0.91,1</string>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="acircumflexacute.smcp" format="2">
+	<advance width="649"/>
+	<outline>
+		<component base="a.smcp"/>
+		<component base="circumflexcomb" xOffset="331" yOffset="33"/>
+		<component base="acute.case" xOffset="73" yOffset="85"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>2</integer>
+					<key>name</key>
+					<string>acute.case</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=a.sc</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=a.sc</string>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="v" format="2">
+	<unicode hex="0076"/>
+	<advance width="654"/>
+	<outline>
+		<contour>
+			<point x="228" y="0" type="line"/>
+			<point x="438" y="0" type="line"/>
+			<point x="571" y="358" type="line" smooth="yes"/>
+			<point x="585" y="396"/>
+			<point x="593" y="402"/>
+			<point x="617" y="407" type="curve" smooth="yes"/>
+			<point x="649" y="415" type="line"/>
+			<point x="649" y="517" type="line"/>
+			<point x="413" y="517" type="line"/>
+			<point x="398" y="416" type="line"/>
+			<point x="429" y="410" type="line" smooth="yes"/>
+			<point x="457" y="405"/>
+			<point x="460" y="389"/>
+			<point x="449" y="357" type="curve" smooth="yes"/>
+			<point x="387" y="175" type="line"/>
+			<point x="383" y="175" type="line"/>
+			<point x="313" y="363" type="line" smooth="yes"/>
+			<point x="302" y="393"/>
+			<point x="306" y="407"/>
+			<point x="320" y="410" type="curve" smooth="yes"/>
+			<point x="351" y="416" type="line"/>
+			<point x="351" y="517" type="line"/>
+			<point x="19" y="517" type="line"/>
+			<point x="5" y="413" type="line"/>
+			<point x="44" y="403" type="line" smooth="yes"/>
+			<point x="69" y="396"/>
+			<point x="74" y="384"/>
+			<point x="89" y="349" type="curve" smooth="yes"/>
+		</contour>
+	</outline>
+	<anchor name="top" x="363" y="550"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>522.6</real>
+						<integer>-20</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>d</string>
+						<string>o</string>
+						<string>w</string>
+						<string>n</string>
+					</array>
+					<key>type</key>
+					<string>TopGhost</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>0</integer>
+						<integer>21</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>u</string>
+						<string>p</string>
+					</array>
+					<key>type</key>
+					<string>BottomGhost</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

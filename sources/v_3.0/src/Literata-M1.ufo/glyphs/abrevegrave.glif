@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="abrevegrave" format="2">
+	<unicode hex="1EB1"/>
+	<advance width="601"/>
+	<outline>
+		<component base="a"/>
+		<component base="grave.case" xOffset="36" yOffset="48"/>
+		<component base="breve" xOffset="26"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>grave.case</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

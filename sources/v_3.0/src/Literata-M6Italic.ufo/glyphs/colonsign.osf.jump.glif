@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="colonsign.osf.jump" format="2">
+	<advance width="625"/>
+	<outline>
+		<contour>
+			<point x="249" y="-96" type="line"/>
+			<point x="274" y="-96" type="line"/>
+			<point x="290" y="-7" type="line"/>
+			<point x="310" y="-11"/>
+			<point x="330" y="-13"/>
+			<point x="350" y="-13" type="curve"/>
+			<point x="335" y="-96" type="line"/>
+			<point x="360" y="-96" type="line"/>
+			<point x="375" y="-14" type="line"/>
+			<point x="510" y="-14"/>
+			<point x="595" y="38"/>
+			<point x="595" y="135" type="curve" smooth="yes"/>
+			<point x="595" y="175"/>
+			<point x="573" y="218"/>
+			<point x="507" y="218" type="curve" smooth="yes"/>
+			<point x="472" y="218"/>
+			<point x="438" y="200"/>
+			<point x="418" y="181" type="curve"/>
+			<point x="436" y="129" type="line" smooth="yes"/>
+			<point x="467" y="40"/>
+			<point x="455" y="4"/>
+			<point x="398" y="4" type="curve" smooth="yes"/>
+			<point x="307" y="4"/>
+			<point x="269" y="118"/>
+			<point x="269" y="281" type="curve" smooth="yes"/>
+			<point x="269" y="510"/>
+			<point x="336" y="564"/>
+			<point x="402" y="564" type="curve" smooth="yes"/>
+			<point x="472" y="564"/>
+			<point x="491" y="523"/>
+			<point x="464" y="458" type="curve" smooth="yes"/>
+			<point x="443" y="408" type="line"/>
+			<point x="465" y="387"/>
+			<point x="499" y="371"/>
+			<point x="534" y="371" type="curve" smooth="yes"/>
+			<point x="584" y="371"/>
+			<point x="612" y="404"/>
+			<point x="612" y="453" type="curve" smooth="yes"/>
+			<point x="612" y="516"/>
+			<point x="550" y="569"/>
+			<point x="443" y="580" type="curve"/>
+			<point x="460" y="660" type="line"/>
+			<point x="435" y="660" type="line"/>
+			<point x="418" y="582" type="line"/>
+			<point x="413" y="582"/>
+			<point x="408" y="582"/>
+			<point x="403" y="582" type="curve" smooth="yes"/>
+			<point x="388" y="582"/>
+			<point x="373" y="581"/>
+			<point x="357" y="580" type="curve"/>
+			<point x="374" y="660" type="line"/>
+			<point x="349" y="660" type="line"/>
+			<point x="332" y="576" type="line"/>
+			<point x="180" y="552"/>
+			<point x="42" y="448"/>
+			<point x="42" y="264" type="curve" smooth="yes"/>
+			<point x="42" y="114"/>
+			<point x="134" y="27"/>
+			<point x="266" y="-3" type="curve"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>c.smcp</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>euro.osf</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

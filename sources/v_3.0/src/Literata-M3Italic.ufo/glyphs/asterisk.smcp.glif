@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="asterisk.smcp" format="2">
+	<advance width="463"/>
+	<outline>
+		<component base="asterisk" xOffset="-3" yOffset="-70"/>
+	</outline>
+</glyph>

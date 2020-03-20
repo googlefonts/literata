@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="H" format="2">
+	<unicode hex="0048"/>
+	<advance width="844"/>
+	<outline>
+		<contour>
+			<point x="518" y="299" type="line"/>
+			<point x="507" y="104" type="line"/>
+			<point x="440" y="92" type="line"/>
+			<point x="434" y="0" type="line"/>
+			<point x="822" y="0" type="line"/>
+			<point x="828" y="94" type="line"/>
+			<point x="738" y="107" type="line"/>
+			<point x="762" y="595" type="line"/>
+			<point x="842" y="609" type="line"/>
+			<point x="847" y="700" type="line"/>
+			<point x="469" y="700" type="line"/>
+			<point x="464" y="612" type="line"/>
+			<point x="531" y="595" type="line"/>
+			<point x="522" y="408" type="line"/>
+			<point x="342" y="408" type="line"/>
+			<point x="351" y="598" type="line"/>
+			<point x="420" y="612" type="line"/>
+			<point x="424" y="700" type="line"/>
+			<point x="43" y="700" type="line"/>
+			<point x="38" y="614" type="line"/>
+			<point x="120" y="597" type="line"/>
+			<point x="96" y="102" type="line"/>
+			<point x="18" y="91" type="line"/>
+			<point x="12" y="0" type="line"/>
+			<point x="391" y="0" type="line"/>
+			<point x="397" y="92" type="line"/>
+			<point x="327" y="107" type="line"/>
+			<point x="337" y="299" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="bottom" x="411" y="-30"/>
+	<anchor name="top" x="447" y="730"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>156</integer>
+						<integer>88</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>216</integer>
+						<integer>28</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>558</integer>
+						<integer>55</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>558</integer>
+						<integer>87</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>328</integer>
+						<integer>63</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>0</integer>
+						<integer>21</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>u</string>
+						<string>p</string>
+					</array>
+					<key>type</key>
+					<string>BottomGhost</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>700</integer>
+						<integer>-20</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>d</string>
+						<string>o</string>
+						<string>w</string>
+						<string>n</string>
+					</array>
+					<key>type</key>
+					<string>TopGhost</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

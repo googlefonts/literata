@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="servicemark.case" format="2">
+	<advance width="789"/>
+	<outline>
+		<component base="servicemark" yOffset="57"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>servicemark</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>servicemark</string>
+		</dict>
+	</lib>
+</glyph>

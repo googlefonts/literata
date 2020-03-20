@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="odotaccentmacron.smcp" format="2">
+	<advance width="635"/>
+	<outline>
+		<component base="o.smcp"/>
+		<component base="dotaccentcomb" xOffset="316" yOffset="33"/>
+		<component base="macroncomb" xOffset="320" yOffset="190"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>2</integer>
+					<key>name</key>
+					<string>macroncomb</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

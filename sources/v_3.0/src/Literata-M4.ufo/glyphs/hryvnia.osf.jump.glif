@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hryvnia.osf.jump" format="2">
+	<advance width="725"/>
+	<outline>
+		<contour>
+			<point x="330" y="-11" type="curve" smooth="yes"/>
+			<point x="402" y="-11"/>
+			<point x="475" y="12"/>
+			<point x="514" y="37" type="curve"/>
+			<point x="525" y="-5" type="line"/>
+			<point x="624" y="-5" type="line"/>
+			<point x="634" y="173" type="line"/>
+			<point x="529" y="188" type="line"/>
+			<point x="506" y="152"/>
+			<point x="455" y="101"/>
+			<point x="371" y="101" type="curve" smooth="yes"/>
+			<point x="326" y="101"/>
+			<point x="308" y="114"/>
+			<point x="308" y="139" type="curve" smooth="yes"/>
+			<point x="308" y="166"/>
+			<point x="340" y="182"/>
+			<point x="432" y="198" type="curve" smooth="yes"/>
+			<point x="461" y="203"/>
+			<point x="497" y="210"/>
+			<point x="531" y="226" type="curve"/>
+			<point x="677" y="226" type="line"/>
+			<point x="677" y="342" type="line"/>
+			<point x="627" y="342" type="line"/>
+			<point x="630" y="356"/>
+			<point x="632" y="372"/>
+			<point x="632" y="390" type="curve" smooth="yes"/>
+			<point x="632" y="462"/>
+			<point x="592" y="581"/>
+			<point x="397" y="581" type="curve" smooth="yes"/>
+			<point x="316" y="581"/>
+			<point x="262" y="560"/>
+			<point x="222" y="538" type="curve"/>
+			<point x="209" y="581" type="line"/>
+			<point x="127" y="581" type="line"/>
+			<point x="104" y="396" type="line"/>
+			<point x="211" y="378" type="line"/>
+			<point x="256" y="450"/>
+			<point x="323" y="465"/>
+			<point x="356" y="465" type="curve" smooth="yes"/>
+			<point x="385" y="465"/>
+			<point x="413" y="454"/>
+			<point x="413" y="413" type="curve" smooth="yes"/>
+			<point x="413" y="380"/>
+			<point x="379" y="375"/>
+			<point x="308" y="359" type="curve" smooth="yes"/>
+			<point x="287" y="354"/>
+			<point x="265" y="349"/>
+			<point x="243" y="343" type="curve"/>
+			<point x="48" y="343" type="line"/>
+			<point x="34" y="227" type="line"/>
+			<point x="97" y="227" type="line"/>
+			<point x="92" y="213"/>
+			<point x="90" y="197"/>
+			<point x="90" y="179" type="curve" smooth="yes"/>
+			<point x="90" y="43"/>
+			<point x="213" y="-11"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>602</integer>
+						<integer>411</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>271</integer>
+						<integer>395</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>626</integer>
+						<integer>493</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>21</integer>
+						<integer>489</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>618</integer>
+						<integer>21</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>u</string>
+						<string>p</string>
+					</array>
+					<key>type</key>
+					<string>BottomGhost</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

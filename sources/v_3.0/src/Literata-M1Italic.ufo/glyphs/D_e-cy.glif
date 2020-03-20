@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="De-cy" format="2">
+	<unicode hex="0414"/>
+	<advance width="776"/>
+	<outline>
+		<contour>
+			<point x="25" y="-156" type="line"/>
+			<point x="82" y="-156" type="line"/>
+			<point x="98" y="-39"/>
+			<point x="121" y="0"/>
+			<point x="177" y="0" type="curve" smooth="yes"/>
+			<point x="574" y="0" type="line" smooth="yes"/>
+			<point x="637" y="0"/>
+			<point x="646" y="-20"/>
+			<point x="646" y="-157" type="curve"/>
+			<point x="703" y="-160" type="line"/>
+			<point x="731" y="61" type="line"/>
+			<point x="611" y="61" type="line"/>
+			<point x="632" y="637" type="line"/>
+			<point x="724" y="654" type="line"/>
+			<point x="730" y="700" type="line"/>
+			<point x="170" y="700" type="line"/>
+			<point x="164" y="654" type="line"/>
+			<point x="257" y="637" type="line"/>
+			<point x="246" y="384"/>
+			<point x="220" y="206"/>
+			<point x="131" y="61" type="curve"/>
+			<point x="30" y="61" type="line"/>
+		</contour>
+		<contour>
+			<point x="208" y="61" type="line"/>
+			<point x="273" y="185"/>
+			<point x="311" y="331"/>
+			<point x="326" y="640" type="curve"/>
+			<point x="544" y="640" type="line"/>
+			<point x="521" y="61" type="line"/>
+		</contour>
+	</outline>
+	<guideline x="521" y="61" angle="0"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>-156</integer>
+						<integer>217</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>0</integer>
+						<integer>61</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>640</integer>
+						<integer>60</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>-160</integer>
+						<integer>21</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>u</string>
+						<string>p</string>
+					</array>
+					<key>type</key>
+					<string>BottomGhost</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0,0.67,0.91,1</string>
+		</dict>
+	</lib>
+</glyph>
