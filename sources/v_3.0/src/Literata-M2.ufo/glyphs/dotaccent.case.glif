@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dotaccent.case" format="2">
+	<advance width="500"/>
+	<outline>
+		<contour>
+			<point x="249" y="799" type="curve" smooth="yes"/>
+			<point x="287" y="799"/>
+			<point x="315" y="827"/>
+			<point x="315" y="864" type="curve" smooth="yes"/>
+			<point x="315" y="901"/>
+			<point x="287" y="928"/>
+			<point x="249" y="928" type="curve" smooth="yes"/>
+			<point x="212" y="928"/>
+			<point x="184" y="900"/>
+			<point x="184" y="863" type="curve" smooth="yes"/>
+			<point x="184" y="826"/>
+			<point x="212" y="799"/>
+		</contour>
+	</outline>
+	<anchor name="_top" x="250" y="730"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>182</integer>
+						<integer>135</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>767</integer>
+						<integer>133</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="exclamdown.smcp" format="2">
+	<advance width="265"/>
+	<outline>
+		<component base="exclam.smcp" yScale="-1" xOffset="-5" yOffset="557"/>
+	</outline>
+</glyph>

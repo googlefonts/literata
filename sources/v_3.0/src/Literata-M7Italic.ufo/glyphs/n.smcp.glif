@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="n.smcp" format="2">
+	<advance width="777"/>
+	<outline>
+		<contour>
+			<point x="578" y="186" type="line"/>
+			<point x="379" y="567" type="line"/>
+			<point x="49" y="567" type="line"/>
+			<point x="44" y="477" type="line"/>
+			<point x="122" y="468" type="line"/>
+			<point x="102" y="96" type="line"/>
+			<point x="28" y="86" type="line"/>
+			<point x="23" y="0" type="line"/>
+			<point x="285" y="0" type="line"/>
+			<point x="290" y="86" type="line"/>
+			<point x="205" y="96" type="line"/>
+			<point x="222" y="442" type="line"/>
+			<point x="472" y="-18" type="line"/>
+			<point x="673" y="0" type="line"/>
+			<point x="690" y="465" type="line"/>
+			<point x="765" y="479" type="line"/>
+			<point x="771" y="567" type="line"/>
+			<point x="517" y="567" type="line"/>
+			<point x="511" y="479" type="line"/>
+			<point x="590" y="465" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="bottom" x="374" y="-30"/>
+	<anchor name="top" x="416" y="583"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>h.smcp</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=h.smcp-5</string>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>156</integer>
+						<integer>66</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>577</integer>
+						<integer>64</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>0</integer>
+						<integer>59</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>637</integer>
+						<integer>63</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>-11</integer>
+						<integer>21</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>u</string>
+						<string>p</string>
+					</array>
+					<key>type</key>
+					<string>BottomGhost</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

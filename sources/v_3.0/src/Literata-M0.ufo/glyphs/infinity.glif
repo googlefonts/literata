@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="infinity" format="2">
+	<unicode hex="221E"/>
+	<advance width="644"/>
+	<outline>
+		<contour>
+			<point x="167" y="118" type="curve" smooth="yes"/>
+			<point x="217" y="118"/>
+			<point x="269" y="151"/>
+			<point x="315" y="196" type="curve"/>
+			<point x="379" y="134"/>
+			<point x="415" y="118"/>
+			<point x="466" y="118" type="curve" smooth="yes"/>
+			<point x="531" y="118"/>
+			<point x="594" y="164"/>
+			<point x="594" y="241" type="curve" smooth="yes"/>
+			<point x="594" y="323"/>
+			<point x="548" y="362"/>
+			<point x="477" y="362" type="curve" smooth="yes"/>
+			<point x="432" y="362"/>
+			<point x="377" y="332"/>
+			<point x="330" y="289" type="curve"/>
+			<point x="263" y="352"/>
+			<point x="226" y="368"/>
+			<point x="181" y="368" type="curve" smooth="yes"/>
+			<point x="121" y="368"/>
+			<point x="50" y="327"/>
+			<point x="50" y="237" type="curve" smooth="yes"/>
+			<point x="50" y="167"/>
+			<point x="93" y="118"/>
+		</contour>
+		<contour>
+			<point x="177" y="171" type="curve" smooth="yes"/>
+			<point x="136" y="171"/>
+			<point x="111" y="199"/>
+			<point x="111" y="242" type="curve" smooth="yes"/>
+			<point x="111" y="276"/>
+			<point x="134" y="303"/>
+			<point x="170" y="303" type="curve" smooth="yes"/>
+			<point x="200" y="303"/>
+			<point x="235" y="273"/>
+			<point x="280" y="231" type="curve"/>
+			<point x="239" y="191"/>
+			<point x="210" y="171"/>
+		</contour>
+		<contour>
+			<point x="473" y="183" type="curve" smooth="yes"/>
+			<point x="434" y="183"/>
+			<point x="409" y="203"/>
+			<point x="363" y="253" type="curve"/>
+			<point x="400" y="288"/>
+			<point x="435" y="311"/>
+			<point x="470" y="311" type="curve" smooth="yes"/>
+			<point x="508" y="311"/>
+			<point x="534" y="285"/>
+			<point x="534" y="242" type="curve" smooth="yes"/>
+			<point x="534" y="210"/>
+			<point x="512" y="183"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>50</integer>
+						<integer>61</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>534</integer>
+						<integer>60</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>118</integer>
+						<integer>53</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>311</integer>
+						<integer>51</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>118</integer>
+						<integer>65</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>368</integer>
+						<integer>-20</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>d</string>
+						<string>o</string>
+						<string>w</string>
+						<string>n</string>
+					</array>
+					<key>type</key>
+					<string>TopGhost</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

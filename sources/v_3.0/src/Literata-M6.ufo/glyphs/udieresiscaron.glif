@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="udieresiscaron" format="2">
+	<unicode hex="01DA"/>
+	<advance width="699"/>
+	<outline>
+		<component base="u"/>
+		<component base="caron.case" xOffset="92" yOffset="40"/>
+		<component base="dieresis" xOffset="93"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>caron.case</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>2</integer>
+					<key>name</key>
+					<string>dieresis</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

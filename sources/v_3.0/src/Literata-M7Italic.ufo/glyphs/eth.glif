@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="eth" format="2">
+	<unicode hex="00F0"/>
+	<advance width="703"/>
+	<outline>
+		<contour>
+			<point x="326" y="-17" type="curve" smooth="yes"/>
+			<point x="565" y="-17"/>
+			<point x="654" y="127"/>
+			<point x="654" y="332" type="curve" smooth="yes"/>
+			<point x="654" y="476"/>
+			<point x="617" y="601"/>
+			<point x="505" y="708" type="curve"/>
+			<point x="587" y="743" type="line"/>
+			<point x="554" y="814" type="line"/>
+			<point x="428" y="757" type="line"/>
+			<point x="373" y="782"/>
+			<point x="277" y="814"/>
+			<point x="179" y="823" type="curve"/>
+			<point x="153" y="742" type="line"/>
+			<point x="205" y="730"/>
+			<point x="253" y="714"/>
+			<point x="297" y="689" type="curve"/>
+			<point x="216" y="652" type="line"/>
+			<point x="249" y="581" type="line"/>
+			<point x="362" y="633" type="line"/>
+			<point x="415" y="585"/>
+			<point x="459" y="512"/>
+			<point x="480" y="448" type="curve"/>
+			<point x="472" y="444" type="line"/>
+			<point x="447" y="487"/>
+			<point x="393" y="535"/>
+			<point x="309" y="535" type="curve" smooth="yes"/>
+			<point x="132" y="535"/>
+			<point x="45" y="406"/>
+			<point x="45" y="244" type="curve" smooth="yes"/>
+			<point x="45" y="89"/>
+			<point x="133" y="-17"/>
+		</contour>
+		<contour>
+			<point x="343" y="80" type="curve" smooth="yes"/>
+			<point x="284" y="80"/>
+			<point x="269" y="137"/>
+			<point x="269" y="240" type="curve" smooth="yes"/>
+			<point x="269" y="381"/>
+			<point x="294" y="437"/>
+			<point x="355" y="437" type="curve" smooth="yes"/>
+			<point x="415" y="437"/>
+			<point x="426" y="387"/>
+			<point x="426" y="285" type="curve" smooth="yes"/>
+			<point x="426" y="179"/>
+			<point x="421" y="80"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=o</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=o+10</string>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>48</integer>
+						<integer>95</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>393</integer>
+						<integer>92</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>-14</integer>
+						<integer>59</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>463</integer>
+						<integer>58</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>774</integer>
+						<integer>-20</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>d</string>
+						<string>o</string>
+						<string>w</string>
+						<string>n</string>
+					</array>
+					<key>type</key>
+					<string>TopGhost</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

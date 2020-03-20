@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="pe-cy.smcp" format="2">
+	<advance width="669"/>
+	<outline>
+		<contour>
+			<point x="48" y="0" type="line"/>
+			<point x="285" y="0" type="line"/>
+			<point x="290" y="40" type="line"/>
+			<point x="209" y="50" type="line"/>
+			<point x="226" y="501" type="line"/>
+			<point x="484" y="501" type="line"/>
+			<point x="466" y="50" type="line"/>
+			<point x="396" y="39" type="line"/>
+			<point x="391" y="0" type="line"/>
+			<point x="628" y="0" type="line"/>
+			<point x="633" y="40" type="line"/>
+			<point x="552" y="50" type="line"/>
+			<point x="569" y="500" type="line"/>
+			<point x="641" y="514" type="line"/>
+			<point x="646" y="553" type="line"/>
+			<point x="72" y="553" type="line"/>
+			<point x="67" y="514" type="line"/>
+			<point x="140" y="501" type="line"/>
+			<point x="123" y="49" type="line"/>
+			<point x="53" y="39" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=en-cy.smcp</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=en-cy.smcp</string>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>172</integer>
+						<integer>88</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>574</integer>
+						<integer>87</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>640</integer>
+						<integer>60</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>0</integer>
+						<integer>21</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>u</string>
+						<string>p</string>
+					</array>
+					<key>type</key>
+					<string>BottomGhost</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0,0.67,0.91,1</string>
+		</dict>
+	</lib>
+</glyph>

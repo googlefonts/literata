@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="m.smcp" format="2">
+	<advance width="866"/>
+	<outline>
+		<contour>
+			<point x="648" y="500" type="line"/>
+			<point x="666" y="56" type="line"/>
+			<point x="594" y="45" type="line"/>
+			<point x="589" y="0" type="line"/>
+			<point x="827" y="0" type="line"/>
+			<point x="832" y="45" type="line"/>
+			<point x="752" y="56" type="line"/>
+			<point x="731" y="513" type="line"/>
+			<point x="801" y="524" type="line"/>
+			<point x="805" y="568" type="line"/>
+			<point x="609" y="569" type="line"/>
+			<point x="439" y="97" type="line"/>
+			<point x="286" y="569" type="line"/>
+			<point x="91" y="569" type="line"/>
+			<point x="86" y="525" type="line"/>
+			<point x="160" y="513" type="line"/>
+			<point x="124" y="56" type="line"/>
+			<point x="51" y="45" type="line"/>
+			<point x="46" y="0" type="line"/>
+			<point x="260" y="0" type="line"/>
+			<point x="265" y="45" type="line"/>
+			<point x="186" y="56" type="line"/>
+			<point x="220" y="495" type="line"/>
+			<point x="382" y="-9" type="line"/>
+			<point x="476" y="5" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="bottom" x="421" y="-30"/>
+	<lib>
+		<dict>
+			<key>RMXScaler</key>
+			<dict>
+				<key>adjustSpace</key>
+				<integer>6</integer>
+				<key>height</key>
+				<real>81.5</real>
+				<key>weight</key>
+				<integer>-23</integer>
+				<key>width</key>
+				<integer>89</integer>
+			</dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>158</integer>
+						<integer>72</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>732</integer>
+						<integer>94</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>7</integer>
+						<integer>21</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>u</string>
+						<string>p</string>
+					</array>
+					<key>type</key>
+					<string>BottomGhost</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>707</integer>
+						<integer>-20</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>d</string>
+						<string>o</string>
+						<string>w</string>
+						<string>n</string>
+					</array>
+					<key>type</key>
+					<string>TopGhost</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>-4</integer>
+						<integer>21</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>u</string>
+						<string>p</string>
+					</array>
+					<key>type</key>
+					<string>BottomGhost</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

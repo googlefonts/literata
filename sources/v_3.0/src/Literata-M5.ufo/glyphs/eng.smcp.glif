@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="eng.smcp" format="2">
+	<advance width="650"/>
+	<outline>
+		<contour>
+			<point x="52" y="0" type="line"/>
+			<point x="229" y="0" type="line"/>
+			<point x="229" y="11" type="line"/>
+			<point x="178" y="15" type="line" smooth="yes"/>
+			<point x="152" y="17"/>
+			<point x="149" y="28"/>
+			<point x="149" y="55" type="curve" smooth="yes"/>
+			<point x="149" y="531" type="line"/>
+			<point x="150" y="531" type="line"/>
+			<point x="474" y="40" type="line"/>
+			<point x="472" y="-103"/>
+			<point x="454" y="-131"/>
+			<point x="387" y="-183" type="curve"/>
+			<point x="393" y="-192" type="line"/>
+			<point x="526" y="-118"/>
+			<point x="523" y="-49"/>
+			<point x="523" y="136" type="curve" smooth="yes"/>
+			<point x="523" y="502" type="line" smooth="yes"/>
+			<point x="523" y="529"/>
+			<point x="526" y="540"/>
+			<point x="552" y="542" type="curve" smooth="yes"/>
+			<point x="603" y="546" type="line"/>
+			<point x="603" y="557" type="line"/>
+			<point x="426" y="557" type="line"/>
+			<point x="426" y="546" type="line"/>
+			<point x="477" y="542" type="line" smooth="yes"/>
+			<point x="503" y="540"/>
+			<point x="506" y="529"/>
+			<point x="506" y="502" type="curve" smooth="yes"/>
+			<point x="506" y="73" type="line"/>
+			<point x="505" y="73" type="line"/>
+			<point x="188" y="557" type="line"/>
+			<point x="53" y="557" type="line"/>
+			<point x="53" y="546" type="line"/>
+			<point x="104" y="542" type="line" smooth="yes"/>
+			<point x="130" y="540"/>
+			<point x="133" y="529"/>
+			<point x="133" y="502" type="curve" smooth="yes"/>
+			<point x="132" y="55" type="line" smooth="yes"/>
+			<point x="132" y="28"/>
+			<point x="129" y="17"/>
+			<point x="103" y="15" type="curve" smooth="yes"/>
+			<point x="52" y="11" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="bottom" x="135" y="-30"/>
+	<anchor name="top" x="320" y="583"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=n.smcp</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=n.smcp</string>
+		</dict>
+	</lib>
+</glyph>

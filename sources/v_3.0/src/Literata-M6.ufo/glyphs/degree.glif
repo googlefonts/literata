@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="degree" format="2">
+	<unicode hex="00B0"/>
+	<advance width="313"/>
+	<outline>
+		<contour>
+			<point x="153" y="546" type="curve" smooth="yes"/>
+			<point x="229" y="546"/>
+			<point x="272" y="600"/>
+			<point x="272" y="666" type="curve" smooth="yes"/>
+			<point x="272" y="734"/>
+			<point x="229" y="781"/>
+			<point x="154" y="781" type="curve" smooth="yes"/>
+			<point x="76" y="781"/>
+			<point x="36" y="726"/>
+			<point x="36" y="664" type="curve" smooth="yes"/>
+			<point x="36" y="597"/>
+			<point x="74" y="546"/>
+		</contour>
+		<contour>
+			<point x="155" y="579" type="curve" smooth="yes"/>
+			<point x="99" y="579"/>
+			<point x="72" y="615"/>
+			<point x="72" y="664" type="curve" smooth="yes"/>
+			<point x="72" y="714"/>
+			<point x="103" y="748"/>
+			<point x="151" y="748" type="curve" smooth="yes"/>
+			<point x="204" y="748"/>
+			<point x="236" y="715"/>
+			<point x="236" y="664" type="curve" smooth="yes"/>
+			<point x="236" y="615"/>
+			<point x="204" y="579"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.annotations</key>
+			<array>
+				<dict>
+					<key>position</key>
+					<array>
+						<integer>258</integer>
+						<integer>255</integer>
+					</array>
+					<key>type</key>
+					<string>Text</string>
+					<key>width</key>
+					<integer>100</integer>
+				</dict>
+				<dict>
+					<key>position</key>
+					<array>
+						<integer>143</integer>
+						<integer>248</integer>
+					</array>
+					<key>type</key>
+					<string>Text</string>
+					<key>width</key>
+					<integer>100</integer>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>43</integer>
+						<real>81.4</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>236.8</real>
+						<real>77.8</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>545.267</real>
+						<real>57.933</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>731.133</real>
+						<real>57.8</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

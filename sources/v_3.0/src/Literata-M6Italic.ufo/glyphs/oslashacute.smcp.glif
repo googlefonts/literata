@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="oslashacute.smcp" format="2">
+	<advance width="739"/>
+	<outline>
+		<component base="oslash.smcp"/>
+		<component base="acutecomb" xOffset="371" yOffset="33"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>oslash.sc</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>oslash.sc</string>
+		</dict>
+	</lib>
+</glyph>

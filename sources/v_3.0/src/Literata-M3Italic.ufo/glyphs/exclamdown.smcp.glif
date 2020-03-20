@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="exclamdown.smcp" format="2">
+	<advance width="328"/>
+	<outline>
+		<component base="exclam.smcp" xScale="-1" yScale="-1" xOffset="353" yOffset="571"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=exclam.smcp</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=exclam.smcp</string>
+		</dict>
+	</lib>
+</glyph>

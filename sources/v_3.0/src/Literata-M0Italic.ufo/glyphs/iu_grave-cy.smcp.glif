@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="iu_grave-cy.smcp" format="2">
+	<advance width="907"/>
+	<outline>
+		<component base="iu-cy.smcp"/>
+		<component base="grave" xOffset="169" yOffset="37"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0,0.67,0.91,1</string>
+		</dict>
+	</lib>
+</glyph>

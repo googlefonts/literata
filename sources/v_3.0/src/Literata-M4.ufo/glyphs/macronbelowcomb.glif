@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="macronbelowcomb" format="2">
+	<unicode hex="0331"/>
+	<outline>
+		<contour>
+			<point x="-179" y="-209" type="line"/>
+			<point x="179" y="-209" type="line"/>
+			<point x="179" y="-67" type="line"/>
+			<point x="-179" y="-67" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="_bottom" x="0" y="-30"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>-465.4</real>
+						<real>239.2</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

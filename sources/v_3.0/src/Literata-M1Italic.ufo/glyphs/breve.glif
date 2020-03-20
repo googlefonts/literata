@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="breve" format="2">
+	<unicode hex="02D8"/>
+	<advance width="495"/>
+	<outline>
+		<contour>
+			<point x="266" y="593" type="curve" smooth="yes"/>
+			<point x="369" y="593"/>
+			<point x="424" y="688"/>
+			<point x="431" y="769" type="curve"/>
+			<point x="387" y="779" type="line"/>
+			<point x="371" y="717"/>
+			<point x="335" y="677"/>
+			<point x="270" y="677" type="curve" smooth="yes"/>
+			<point x="206" y="677"/>
+			<point x="183" y="711"/>
+			<point x="165" y="780" type="curve"/>
+			<point x="118" y="768" type="line"/>
+			<point x="126" y="676"/>
+			<point x="165" y="593"/>
+		</contour>
+	</outline>
+	<anchor name="_top" x="266" y="550"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>587</integer>
+						<integer>80</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>768</integer>
+						<integer>-20</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>d</string>
+						<string>o</string>
+						<string>w</string>
+						<string>n</string>
+					</array>
+					<key>type</key>
+					<string>TopGhost</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

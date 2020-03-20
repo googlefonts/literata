@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="eightsuperior" format="2">
+	<unicode hex="2078"/>
+	<advance width="480"/>
+	<outline>
+		<contour>
+			<point x="232" y="362" type="curve" smooth="yes"/>
+			<point x="354" y="362"/>
+			<point x="459" y="418"/>
+			<point x="459" y="528" type="curve" smooth="yes"/>
+			<point x="459" y="585"/>
+			<point x="409" y="628"/>
+			<point x="330" y="656" type="curve"/>
+			<point x="400" y="664"/>
+			<point x="457" y="693"/>
+			<point x="457" y="753" type="curve" smooth="yes"/>
+			<point x="457" y="803"/>
+			<point x="399" y="838"/>
+			<point x="279" y="838" type="curve" smooth="yes"/>
+			<point x="145" y="838"/>
+			<point x="57" y="783"/>
+			<point x="57" y="705" type="curve" smooth="yes"/>
+			<point x="57" y="649"/>
+			<point x="90" y="609"/>
+			<point x="161" y="578" type="curve"/>
+			<point x="74" y="560"/>
+			<point x="33" y="532"/>
+			<point x="33" y="475" type="curve" smooth="yes"/>
+			<point x="33" y="407"/>
+			<point x="122" y="362"/>
+		</contour>
+		<contour>
+			<point x="249" y="384" type="curve" smooth="yes"/>
+			<point x="191" y="384"/>
+			<point x="165" y="431"/>
+			<point x="165" y="485" type="curve" smooth="yes"/>
+			<point x="165" y="521"/>
+			<point x="166" y="546"/>
+			<point x="179" y="567" type="curve"/>
+			<point x="284" y="516"/>
+			<point x="310" y="490"/>
+			<point x="310" y="453" type="curve" smooth="yes"/>
+			<point x="310" y="415"/>
+			<point x="293" y="384"/>
+		</contour>
+		<contour>
+			<point x="311" y="666" type="curve"/>
+			<point x="232" y="704"/>
+			<point x="209" y="720"/>
+			<point x="209" y="764" type="curve" smooth="yes"/>
+			<point x="209" y="794"/>
+			<point x="232" y="816"/>
+			<point x="272" y="816" type="curve" smooth="yes"/>
+			<point x="310" y="816"/>
+			<point x="329" y="792"/>
+			<point x="329" y="753" type="curve" smooth="yes"/>
+			<point x="329" y="714"/>
+			<point x="320" y="687"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>51</integer>
+						<integer>64</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>83</integer>
+						<integer>59</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>324</integer>
+						<integer>60</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>352</integer>
+						<integer>39</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>783</integer>
+						<integer>35</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

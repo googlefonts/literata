@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="won.jump" format="2">
+	<advance width="1022"/>
+	<outline>
+		<contour>
+			<point x="303" y="-11" type="line"/>
+			<point x="379" y="0" type="line"/>
+			<point x="555" y="443" type="line"/>
+			<point x="682" y="-11" type="line"/>
+			<point x="758" y="0" type="line"/>
+			<point x="848" y="309" type="line"/>
+			<point x="1001" y="309" type="line"/>
+			<point x="1001" y="332" type="line"/>
+			<point x="855" y="332" type="line"/>
+			<point x="887" y="444" type="line"/>
+			<point x="1006" y="444" type="line"/>
+			<point x="1006" y="467" type="line"/>
+			<point x="894" y="467" type="line"/>
+			<point x="962" y="700" type="line"/>
+			<point x="1041" y="711" type="line"/>
+			<point x="1044" y="730" type="line"/>
+			<point x="841" y="730" type="line"/>
+			<point x="838" y="711" type="line"/>
+			<point x="934" y="700" type="line"/>
+			<point x="753" y="46" type="line"/>
+			<point x="750" y="46" type="line"/>
+			<point x="561" y="739" type="line"/>
+			<point x="479" y="715" type="line"/>
+			<point x="544" y="481" type="line"/>
+			<point x="374" y="46" type="line"/>
+			<point x="371" y="46" type="line"/>
+			<point x="217" y="699" type="line"/>
+			<point x="304" y="711" type="line"/>
+			<point x="307" y="730" type="line"/>
+			<point x="49" y="730" type="line"/>
+			<point x="46" y="711" type="line"/>
+			<point x="123" y="700" type="line"/>
+			<point x="182" y="467" type="line"/>
+			<point x="60" y="467" type="line"/>
+			<point x="61" y="444" type="line"/>
+			<point x="188" y="444" type="line"/>
+			<point x="216" y="332" type="line"/>
+			<point x="59" y="332" type="line"/>
+			<point x="59" y="309" type="line"/>
+			<point x="222" y="309" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=W+15</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=W+15</string>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>701</integer>
+						<integer>-20</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>d</string>
+						<string>o</string>
+						<string>w</string>
+						<string>n</string>
+					</array>
+					<key>type</key>
+					<string>TopGhost</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>700</integer>
+						<integer>-20</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>d</string>
+						<string>o</string>
+						<string>w</string>
+						<string>n</string>
+					</array>
+					<key>type</key>
+					<string>TopGhost</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>-10</integer>
+						<integer>21</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>u</string>
+						<string>p</string>
+					</array>
+					<key>type</key>
+					<string>BottomGhost</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Acircumflexgrave" format="2">
+	<unicode hex="1EA6"/>
+	<advance width="735"/>
+	<outline>
+		<component base="A"/>
+		<component base="grave.case" xOffset="128" yOffset="200"/>
+		<component base="circumflex.case" xOffset="123"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>grave.case</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=A</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=A</string>
+		</dict>
+	</lib>
+</glyph>

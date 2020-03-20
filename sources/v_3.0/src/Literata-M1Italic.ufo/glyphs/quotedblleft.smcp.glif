@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quotedblleft.smcp" format="2">
+	<advance width="480"/>
+	<outline>
+		<component base="quotedblleft" xOffset="4" yOffset="-70"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=quoteleft.smcp</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=quoteleft.smcp</string>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Emacrongrave" format="2">
+	<unicode hex="1E14"/>
+	<advance width="564"/>
+	<outline>
+		<component base="E"/>
+		<component base="macron.case" xOffset="44"/>
+		<component base="grave.case" xOffset="62" yOffset="155"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>2</integer>
+					<key>name</key>
+					<string>grave.case</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=E</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=E</string>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cyrbreve" format="2">
+	<unicode hex="F6D4"/>
+	<advance width="500"/>
+	<outline>
+		<contour>
+			<point x="249" y="589" type="curve" smooth="yes"/>
+			<point x="350" y="589"/>
+			<point x="423" y="628"/>
+			<point x="423" y="691" type="curve" smooth="yes"/>
+			<point x="423" y="721"/>
+			<point x="401" y="747"/>
+			<point x="364" y="747" type="curve" smooth="yes"/>
+			<point x="334" y="747"/>
+			<point x="314" y="733"/>
+			<point x="314" y="704" type="curve" smooth="yes"/>
+			<point x="314" y="667"/>
+			<point x="331" y="642"/>
+			<point x="347" y="618" type="curve"/>
+			<point x="322" y="607"/>
+			<point x="284" y="601"/>
+			<point x="249" y="601" type="curve" smooth="yes"/>
+			<point x="214" y="601"/>
+			<point x="177" y="607"/>
+			<point x="152" y="618" type="curve"/>
+			<point x="168" y="642"/>
+			<point x="185" y="667"/>
+			<point x="185" y="704" type="curve" smooth="yes"/>
+			<point x="185" y="733"/>
+			<point x="165" y="747"/>
+			<point x="135" y="747" type="curve" smooth="yes"/>
+			<point x="98" y="747"/>
+			<point x="76" y="721"/>
+			<point x="76" y="691" type="curve" smooth="yes"/>
+			<point x="76" y="628"/>
+			<point x="148" y="589"/>
+		</contour>
+	</outline>
+	<anchor name="_top" x="250" y="550"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0,0.67,0.91,1</string>
+		</dict>
+	</lib>
+</glyph>

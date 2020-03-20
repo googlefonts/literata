@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="won.osf.jump" format="2">
+	<advance width="969"/>
+	<outline>
+		<contour>
+			<point x="231" y="0" type="line"/>
+			<point x="345" y="0" type="line"/>
+			<point x="475" y="455" type="line"/>
+			<point x="477" y="455" type="line"/>
+			<point x="620" y="0" type="line"/>
+			<point x="730" y="0" type="line"/>
+			<point x="790" y="219" type="line"/>
+			<point x="944" y="219" type="line"/>
+			<point x="944" y="274" type="line"/>
+			<point x="805" y="274" type="line"/>
+			<point x="822" y="334" type="line"/>
+			<point x="944" y="334" type="line"/>
+			<point x="944" y="389" type="line"/>
+			<point x="837" y="389" type="line"/>
+			<point x="858" y="467" type="line" smooth="yes"/>
+			<point x="867" y="499"/>
+			<point x="879" y="507"/>
+			<point x="899" y="510" type="curve" smooth="yes"/>
+			<point x="939" y="516" type="line"/>
+			<point x="940" y="557" type="line"/>
+			<point x="731" y="557" type="line"/>
+			<point x="731" y="516" type="line"/>
+			<point x="773" y="508" type="line" smooth="yes"/>
+			<point x="797" y="503"/>
+			<point x="802" y="494"/>
+			<point x="794" y="466" type="curve" smooth="yes"/>
+			<point x="696" y="86" type="line"/>
+			<point x="692" y="86" type="line"/>
+			<point x="543" y="557" type="line"/>
+			<point x="440" y="557" type="line"/>
+			<point x="305" y="85" type="line"/>
+			<point x="300" y="85" type="line"/>
+			<point x="204" y="471" type="line" smooth="yes"/>
+			<point x="197" y="500"/>
+			<point x="201" y="507"/>
+			<point x="224" y="510" type="curve" smooth="yes"/>
+			<point x="268" y="515" type="line"/>
+			<point x="268" y="557" type="line"/>
+			<point x="31" y="557" type="line"/>
+			<point x="31" y="513" type="line"/>
+			<point x="65" y="507" type="line" smooth="yes"/>
+			<point x="90" y="503"/>
+			<point x="96" y="496"/>
+			<point x="104" y="467" type="curve" smooth="yes"/>
+			<point x="125" y="389" type="line"/>
+			<point x="31" y="389" type="line"/>
+			<point x="25" y="334" type="line"/>
+			<point x="140" y="334" type="line"/>
+			<point x="156" y="274" type="line"/>
+			<point x="31" y="274" type="line"/>
+			<point x="25" y="219" type="line"/>
+			<point x="171" y="219" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>700</integer>
+						<integer>-20</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>d</string>
+						<string>o</string>
+						<string>w</string>
+						<string>n</string>
+					</array>
+					<key>type</key>
+					<string>TopGhost</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>0</integer>
+						<integer>21</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>u</string>
+						<string>p</string>
+					</array>
+					<key>type</key>
+					<string>BottomGhost</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

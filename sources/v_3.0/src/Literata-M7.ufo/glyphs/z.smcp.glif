@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="z.smcp" format="2">
+	<advance width="697"/>
+	<outline>
+		<contour>
+			<point x="40" y="0" type="line"/>
+			<point x="640" y="0" type="line"/>
+			<point x="662" y="244" type="line"/>
+			<point x="535" y="244" type="line"/>
+			<point x="490" y="122"/>
+			<point x="457" y="114"/>
+			<point x="384" y="114" type="curve" smooth="yes"/>
+			<point x="305" y="114" type="line"/>
+			<point x="649" y="475" type="line"/>
+			<point x="649" y="579" type="line"/>
+			<point x="56" y="579" type="line"/>
+			<point x="46" y="330" type="line"/>
+			<point x="171" y="338" type="line"/>
+			<point x="207" y="449"/>
+			<point x="221" y="469"/>
+			<point x="294" y="469" type="curve" smooth="yes"/>
+			<point x="391" y="469" type="line"/>
+			<point x="40" y="106" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="bottom" x="346" y="-31"/>
+	<anchor name="top" x="347" y="596"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>0</integer>
+						<integer>94</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>605.4</real>
+						<real>94.6</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

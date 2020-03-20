@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="psi" format="2">
+	<unicode hex="03C8"/>
+	<advance width="738"/>
+	<outline>
+		<contour>
+			<point x="348" y="-219" type="line"/>
+			<point x="420" y="-219" type="line"/>
+			<point x="425" y="-14" type="line"/>
+			<point x="602" y="-13"/>
+			<point x="690" y="83"/>
+			<point x="690" y="273" type="curve" smooth="yes"/>
+			<point x="690" y="367"/>
+			<point x="667" y="462"/>
+			<point x="632" y="513" type="curve"/>
+			<point x="627" y="518" type="line"/>
+			<point x="538" y="501" type="line"/>
+			<point x="571" y="457"/>
+			<point x="599" y="348"/>
+			<point x="599" y="263" type="curve" smooth="yes"/>
+			<point x="599" y="76"/>
+			<point x="552" y="6"/>
+			<point x="425" y="4" type="curve"/>
+			<point x="443" y="705" type="line"/>
+			<point x="436" y="710" type="line"/>
+			<point x="340" y="703" type="line"/>
+			<point x="347" y="4" type="line"/>
+			<point x="234" y="6"/>
+			<point x="192" y="60"/>
+			<point x="192" y="203" type="curve" smooth="yes"/>
+			<point x="192" y="309"/>
+			<point x="202" y="348"/>
+			<point x="202" y="431" type="curve" smooth="yes"/>
+			<point x="202" y="486"/>
+			<point x="168" y="522"/>
+			<point x="117" y="522" type="curve" smooth="yes"/>
+			<point x="81" y="522"/>
+			<point x="57" y="510"/>
+			<point x="25" y="475" type="curve"/>
+			<point x="30" y="468" type="line"/>
+			<point x="46" y="477"/>
+			<point x="62" y="482"/>
+			<point x="76" y="482" type="curve" smooth="yes"/>
+			<point x="103" y="482"/>
+			<point x="114" y="466"/>
+			<point x="114" y="427" type="curve" smooth="yes"/>
+			<point x="114" y="349"/>
+			<point x="103" y="303"/>
+			<point x="103" y="201" type="curve" smooth="yes"/>
+			<point x="103" y="52"/>
+			<point x="176" y="-12"/>
+			<point x="347" y="-14" type="curve"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=upsilon</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=upsilon</string>
+			<key>public.markColor</key>
+			<string>0.5,0.09,0.79,1</string>
+		</dict>
+	</lib>
+</glyph>

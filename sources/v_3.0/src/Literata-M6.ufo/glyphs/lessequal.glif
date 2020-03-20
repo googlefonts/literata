@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lessequal" format="2">
+	<unicode hex="2264"/>
+	<advance width="582"/>
+	<outline>
+		<contour>
+			<point x="455" y="105" type="line"/>
+			<point x="466" y="124" type="line"/>
+			<point x="102" y="314" type="line"/>
+			<point x="466" y="506" type="line"/>
+			<point x="453" y="524" type="line"/>
+			<point x="75" y="325" type="line"/>
+			<point x="75" y="303" type="line"/>
+		</contour>
+		<contour>
+			<point x="65" y="4" type="line"/>
+			<point x="463" y="4" type="line"/>
+			<point x="463" y="25" type="line"/>
+			<point x="65" y="25" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>0.833</real>
+						<real>52.5</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>441.668</real>
+						<integer>-20</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>d</string>
+						<string>o</string>
+						<string>w</string>
+						<string>n</string>
+					</array>
+					<key>type</key>
+					<string>TopGhost</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

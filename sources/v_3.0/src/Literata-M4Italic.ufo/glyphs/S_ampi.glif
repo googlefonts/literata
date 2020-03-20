@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Sampi" format="2">
+	<unicode hex="03E0"/>
+	<advance width="842"/>
+	<outline>
+		<contour>
+			<point x="283" y="-229" type="line"/>
+			<point x="350" y="-185" type="line"/>
+			<point x="347" y="-167" type="line" smooth="yes"/>
+			<point x="342" y="-144"/>
+			<point x="346" y="-138"/>
+			<point x="374" y="-119" type="curve" smooth="yes"/>
+			<point x="623" y="49" type="line"/>
+			<point x="623" y="28"/>
+			<point x="623" y="6"/>
+			<point x="621" y="-17" type="curve" smooth="yes"/>
+			<point x="620" y="-49"/>
+			<point x="614" y="-129"/>
+			<point x="608" y="-170" type="curve"/>
+			<point x="775" y="-172" type="line"/>
+			<point x="784" y="-118"/>
+			<point x="792" y="-6"/>
+			<point x="792" y="54" type="curve" smooth="yes"/>
+			<point x="792" y="441"/>
+			<point x="586" y="562"/>
+			<point x="189" y="562" type="curve"/>
+			<point x="178" y="410" type="line"/>
+			<point x="262" y="409"/>
+			<point x="331" y="400"/>
+			<point x="388" y="385" type="curve"/>
+			<point x="155" y="227" type="line" smooth="yes"/>
+			<point x="131" y="210"/>
+			<point x="120" y="207"/>
+			<point x="101" y="221" type="curve" smooth="yes"/>
+			<point x="87" y="230" type="line"/>
+			<point x="22" y="185" type="line"/>
+			<point x="146" y="-9" type="line"/>
+			<point x="212" y="35" type="line"/>
+			<point x="209" y="53" type="line" smooth="yes"/>
+			<point x="204" y="77"/>
+			<point x="208" y="82"/>
+			<point x="237" y="101" type="curve" smooth="yes"/>
+			<point x="537" y="304" type="line"/>
+			<point x="563" y="278"/>
+			<point x="582" y="247"/>
+			<point x="595" y="212" type="curve"/>
+			<point x="293" y="7" type="line" smooth="yes"/>
+			<point x="269" y="-10"/>
+			<point x="259" y="-13"/>
+			<point x="238" y="1" type="curve" smooth="yes"/>
+			<point x="225" y="10" type="line"/>
+			<point x="159" y="-35" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=T</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=|C</string>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>-103</integer>
+						<integer>119</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>611</integer>
+						<integer>128</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>266</integer>
+						<integer>21</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>u</string>
+						<string>p</string>
+					</array>
+					<key>type</key>
+					<string>BottomGhost</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0.5,0.09,0.79,1</string>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="KoppaArchaic" format="2">
+	<unicode hex="03D8"/>
+	<advance width="809"/>
+	<outline>
+		<contour>
+			<point x="303" y="-220" type="line"/>
+			<point x="456" y="-208" type="line"/>
+			<point x="456" y="-133"/>
+			<point x="456" y="-40"/>
+			<point x="457" y="-11" type="curve"/>
+			<point x="666" y="20"/>
+			<point x="775" y="174"/>
+			<point x="775" y="396" type="curve" smooth="yes"/>
+			<point x="775" y="592"/>
+			<point x="670" y="717"/>
+			<point x="436" y="717" type="curve" smooth="yes"/>
+			<point x="180" y="717"/>
+			<point x="44" y="562"/>
+			<point x="44" y="316" type="curve" smooth="yes"/>
+			<point x="44" y="136"/>
+			<point x="129" y="13"/>
+			<point x="307" y="-11" type="curve"/>
+			<point x="302" y="-87"/>
+			<point x="292" y="-155"/>
+			<point x="285" y="-209" type="curve"/>
+		</contour>
+		<contour>
+			<point x="466" y="118" type="curve"/>
+			<point x="475" y="187"/>
+			<point x="482" y="231"/>
+			<point x="486" y="255" type="curve"/>
+			<point x="468" y="266" type="line"/>
+			<point x="315" y="254" type="line"/>
+			<point x="315" y="246"/>
+			<point x="316" y="189"/>
+			<point x="316" y="133" type="curve"/>
+			<point x="279" y="180"/>
+			<point x="280" y="253"/>
+			<point x="280" y="349" type="curve" smooth="yes"/>
+			<point x="285" y="511"/>
+			<point x="330" y="610"/>
+			<point x="420" y="610" type="curve" smooth="yes"/>
+			<point x="511" y="610"/>
+			<point x="536" y="533"/>
+			<point x="536" y="408" type="curve" smooth="yes"/>
+			<point x="536" y="286"/>
+			<point x="525" y="161"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=O</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=O</string>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>226</integer>
+						<integer>-20</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>d</string>
+						<string>o</string>
+						<string>w</string>
+						<string>n</string>
+					</array>
+					<key>type</key>
+					<string>TopGhost</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>-219</integer>
+						<integer>21</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>u</string>
+						<string>p</string>
+					</array>
+					<key>type</key>
+					<string>BottomGhost</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>61</integer>
+						<integer>95</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>578</integer>
+						<integer>98</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>-14</integer>
+						<integer>65</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>653</integer>
+						<integer>62</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0.5,0.09,0.79,1</string>
+		</dict>
+	</lib>
+</glyph>

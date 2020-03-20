@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Epsilondasia" format="2">
+	<unicode hex="1F19"/>
+	<advance width="567"/>
+	<outline>
+		<component base="Epsilon"/>
+		<component base="dasia.case" xOffset="-294"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.5,0.09,0.79,1</string>
+		</dict>
+	</lib>
+</glyph>

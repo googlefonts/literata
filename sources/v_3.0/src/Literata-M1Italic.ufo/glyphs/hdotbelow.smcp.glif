@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hdotbelow.smcp" format="2">
+	<advance width="696"/>
+	<outline>
+		<component base="h.smcp"/>
+		<component base="dotbelowcomb" xOffset="353" yOffset="1"/>
+	</outline>
+</glyph>

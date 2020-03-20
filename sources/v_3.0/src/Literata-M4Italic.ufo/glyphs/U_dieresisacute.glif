@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Udieresisacute" format="2">
+	<unicode hex="01D7"/>
+	<advance width="853"/>
+	<outline>
+		<component base="U"/>
+		<component base="dieresis.case" xOffset="176"/>
+		<component base="acute.case" xOffset="155" yOffset="249"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>2</integer>
+					<key>name</key>
+					<string>acute.case</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

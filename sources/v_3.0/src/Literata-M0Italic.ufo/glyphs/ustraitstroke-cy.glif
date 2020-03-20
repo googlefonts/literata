@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ustraitstroke-cy" format="2">
+	<unicode hex="04B1"/>
+	<advance width="528"/>
+	<outline>
+		<contour>
+			<point x="113" y="-216" type="line"/>
+			<point x="349" y="-216" type="line"/>
+			<point x="353" y="-172" type="line"/>
+			<point x="267" y="-157" type="line"/>
+			<point x="276" y="-83" type="line"/>
+			<point x="414" y="-83" type="line"/>
+			<point x="418" y="-28" type="line"/>
+			<point x="281" y="-28" type="line"/>
+			<point x="283" y="-5" type="line"/>
+			<point x="424" y="204"/>
+			<point x="487" y="337"/>
+			<point x="487" y="427" type="curve" smooth="yes"/>
+			<point x="487" y="485"/>
+			<point x="456" y="521"/>
+			<point x="408" y="521" type="curve" smooth="yes"/>
+			<point x="361" y="521"/>
+			<point x="334" y="487"/>
+			<point x="341" y="436" type="curve"/>
+			<point x="378" y="425" type="line" smooth="yes"/>
+			<point x="400" y="419"/>
+			<point x="409" y="405"/>
+			<point x="409" y="378" type="curve" smooth="yes"/>
+			<point x="409" y="352"/>
+			<point x="401" y="317"/>
+			<point x="389" y="290" type="curve" smooth="yes"/>
+			<point x="357" y="217"/>
+			<point x="331" y="169"/>
+			<point x="277" y="80" type="curve"/>
+			<point x="273" y="80" type="line"/>
+			<point x="262" y="130"/>
+			<point x="246" y="189"/>
+			<point x="178" y="435" type="curve" smooth="yes"/>
+			<point x="160" y="502"/>
+			<point x="142" y="521"/>
+			<point x="99" y="521" type="curve" smooth="yes"/>
+			<point x="67" y="521"/>
+			<point x="19" y="507"/>
+			<point x="-19" y="486" type="curve"/>
+			<point x="-3" y="440" type="line"/>
+			<point x="17" y="450"/>
+			<point x="46" y="458"/>
+			<point x="58" y="458" type="curve" smooth="yes"/>
+			<point x="71" y="458"/>
+			<point x="76" y="453"/>
+			<point x="83" y="430" type="curve" smooth="yes"/>
+			<point x="156" y="200"/>
+			<point x="205" y="15"/>
+			<point x="205" y="-28" type="curve"/>
+			<point x="198" y="-28" type="line"/>
+			<point x="82" y="-28" type="line"/>
+			<point x="75" y="-83" type="line"/>
+			<point x="200" y="-83" type="line"/>
+			<point x="190" y="-157" type="line"/>
+			<point x="117" y="-171" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>413</integer>
+						<integer>78</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>-213</integer>
+						<integer>185</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>-83</integer>
+						<integer>55</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>458</integer>
+						<integer>63</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>-219</integer>
+						<integer>21</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>u</string>
+						<string>p</string>
+					</array>
+					<key>type</key>
+					<string>BottomGhost</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0,0.67,0.91,1</string>
+		</dict>
+	</lib>
+</glyph>

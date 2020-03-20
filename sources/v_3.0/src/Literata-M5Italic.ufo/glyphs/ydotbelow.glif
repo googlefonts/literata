@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ydotbelow" format="2">
+	<unicode hex="1EF5"/>
+	<advance width="493"/>
+	<outline>
+		<component base="y"/>
+		<component base="dotbelowcomb" xScale="1.01237" yScale="1.01237" xOffset="357"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>y</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>dotbelowcomb</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

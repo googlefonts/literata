@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Sigma" format="2">
+	<unicode hex="03A3"/>
+	<advance width="737"/>
+	<outline>
+		<contour>
+			<point x="54" y="0" type="line"/>
+			<point x="662" y="0" type="line"/>
+			<point x="692" y="248" type="line"/>
+			<point x="580" y="248" type="line"/>
+			<point x="560" y="192" type="line" smooth="yes"/>
+			<point x="538" y="131"/>
+			<point x="515" y="115"/>
+			<point x="445" y="115" type="curve" smooth="yes"/>
+			<point x="251" y="115" type="line"/>
+			<point x="273" y="80" type="line"/>
+			<point x="473" y="357" type="line"/>
+			<point x="474" y="369" type="line"/>
+			<point x="337" y="593" type="line"/>
+			<point x="459" y="593" type="line" smooth="yes"/>
+			<point x="524" y="593"/>
+			<point x="550" y="572"/>
+			<point x="568" y="503" type="curve" smooth="yes"/>
+			<point x="573" y="484" type="line"/>
+			<point x="679" y="494" type="line"/>
+			<point x="664" y="700" type="line"/>
+			<point x="91" y="700" type="line"/>
+			<point x="72" y="591" type="line"/>
+			<point x="232" y="335" type="line"/>
+			<point x="54" y="90" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=Z</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=Z</string>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>0</integer>
+						<integer>75</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>647</integer>
+						<integer>53</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0.5,0.09,0.79,1</string>
+		</dict>
+	</lib>
+</glyph>

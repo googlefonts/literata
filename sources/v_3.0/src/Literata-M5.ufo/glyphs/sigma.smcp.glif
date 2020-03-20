@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sigma.smcp" format="2">
+	<advance width="497"/>
+	<outline>
+		<contour>
+			<point x="49" y="0" type="line"/>
+			<point x="436" y="0" type="line"/>
+			<point x="458" y="146" type="line"/>
+			<point x="446" y="146" type="line"/>
+			<point x="429" y="59"/>
+			<point x="396" y="28"/>
+			<point x="317" y="28" type="curve" smooth="yes"/>
+			<point x="109" y="28" type="line"/>
+			<point x="273" y="279" type="line"/>
+			<point x="273" y="284" type="line"/>
+			<point x="105" y="542" type="line"/>
+			<point x="322" y="542" type="line" smooth="yes"/>
+			<point x="384" y="542"/>
+			<point x="397" y="525"/>
+			<point x="430" y="403" type="curve"/>
+			<point x="443" y="403" type="line"/>
+			<point x="414" y="557" type="line"/>
+			<point x="42" y="557" type="line"/>
+			<point x="42" y="543" type="line"/>
+			<point x="218" y="273" type="line"/>
+			<point x="49" y="13" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=z.smcp</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=z.smcp</string>
+			<key>public.markColor</key>
+			<string>0.5,0.09,0.79,1</string>
+		</dict>
+	</lib>
+</glyph>

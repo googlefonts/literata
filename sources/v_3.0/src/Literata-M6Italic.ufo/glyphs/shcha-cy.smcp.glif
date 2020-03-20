@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="shcha-cy.smcp" format="2">
+	<advance width="1047"/>
+	<outline>
+		<contour>
+			<point x="271" y="22" type="line"/>
+			<point x="295" y="550" type="line"/>
+			<point x="355" y="561" type="line"/>
+			<point x="358" y="578" type="line"/>
+			<point x="46" y="578" type="line"/>
+			<point x="42" y="561" type="line"/>
+			<point x="105" y="550" type="line"/>
+			<point x="81" y="23" type="line"/>
+			<point x="13" y="16" type="line"/>
+			<point x="11" y="0" type="line"/>
+			<point x="891" y="0" type="line" smooth="yes"/>
+			<point x="958" y="0"/>
+			<point x="985" y="-23"/>
+			<point x="989" y="-101" type="curve" smooth="yes"/>
+			<point x="990" y="-119" type="line"/>
+			<point x="1013" y="-121" type="line"/>
+			<point x="1029" y="22" type="line"/>
+			<point x="946" y="22" type="line"/>
+			<point x="966" y="552" type="line"/>
+			<point x="1027" y="561" type="line"/>
+			<point x="1030" y="578" type="line"/>
+			<point x="722" y="578" type="line"/>
+			<point x="719" y="561" type="line"/>
+			<point x="778" y="552" type="line"/>
+			<point x="754" y="22" type="line"/>
+			<point x="608" y="22" type="line"/>
+			<point x="629" y="552" type="line"/>
+			<point x="690" y="561" type="line"/>
+			<point x="693" y="578" type="line"/>
+			<point x="385" y="578" type="line"/>
+			<point x="382" y="561" type="line"/>
+			<point x="441" y="552" type="line"/>
+			<point x="417" y="22" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=en-cy.smcp</string>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>172.332</real>
+						<integer>87</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>543.332</real>
+						<integer>87</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>914.332</real>
+						<integer>87</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>0</integer>
+						<integer>60</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>700</integer>
+						<integer>-20</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>d</string>
+						<string>o</string>
+						<string>w</string>
+						<string>n</string>
+					</array>
+					<key>type</key>
+					<string>TopGhost</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>-160</integer>
+						<integer>21</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>u</string>
+						<string>p</string>
+					</array>
+					<key>type</key>
+					<string>BottomGhost</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0,0.67,0.91,1</string>
+		</dict>
+	</lib>
+</glyph>

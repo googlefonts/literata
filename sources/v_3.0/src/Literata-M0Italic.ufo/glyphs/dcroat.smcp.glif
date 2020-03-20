@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dcroat.smcp" format="2">
+	<advance width="648"/>
+	<outline>
+		<component base="eth.smcp"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=eth.sc</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=eth.sc</string>
+		</dict>
+	</lib>
+</glyph>

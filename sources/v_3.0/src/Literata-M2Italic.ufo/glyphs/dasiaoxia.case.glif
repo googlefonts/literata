@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dasiaoxia.case" format="2">
+	<advance width="612"/>
+	<outline>
+		<component base="dasiaoxia" xOffset="-1" yOffset="-38"/>
+	</outline>
+	<anchor name="_topleft" x="503" y="730"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=dasia</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=oxia</string>
+			<key>public.markColor</key>
+			<string>0.5,0.09,0.79,1</string>
+		</dict>
+	</lib>
+</glyph>

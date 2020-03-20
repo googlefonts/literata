@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>axes</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Weight</string>
+			<key>tag</key>
+			<string>wght</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Optical size</string>
+			<key>tag</key>
+			<string>opsz</string>
+		</dict>
+	</array>
+	<key>locations</key>
+	<array>
+		<dict>
+			<key>axis_values</key>
+			<dict>
+				<key>Optical size</key>
+				<real>7.0</real>
+				<key>Weight</key>
+				<real>400.0</real>
+			</dict>
+			<key>name</key>
+			<string>7pt Italic</string>
+		</dict>
+		<dict>
+			<key>axis_values</key>
+			<dict>
+				<key>Optical size</key>
+				<real>7.0</real>
+				<key>Weight</key>
+				<real>600.0</real>
+			</dict>
+			<key>name</key>
+			<string>7pt SemiBold Italic</string>
+		</dict>
+		<dict>
+			<key>axis_values</key>
+			<dict>
+				<key>Optical size</key>
+				<real>7.0</real>
+				<key>Weight</key>
+				<real>700.0</real>
+			</dict>
+			<key>name</key>
+			<string>7pt Bold Italic</string>
+		</dict>
+		<dict>
+			<key>axis_values</key>
+			<dict>
+				<key>Optical size</key>
+				<real>12.0</real>
+				<key>Weight</key>
+				<real>300.0</real>
+			</dict>
+			<key>name</key>
+			<string>12pt Light Italic</string>
+		</dict>
+		<dict>
+			<key>axis_values</key>
+			<dict>
+				<key>Optical size</key>
+				<real>12.0</real>
+				<key>Weight</key>
+				<real>400.0</real>
+			</dict>
+			<key>name</key>
+			<string>12pt Italic</string>
+		</dict>
+		<dict>
+			<key>axis_values</key>
+			<dict>
+				<key>Optical size</key>
+				<real>12.0</real>
+				<key>Weight</key>
+				<real>500.0</real>
+			</dict>
+			<key>name</key>
+			<string>12pt Book Italic</string>
+		</dict>
+		<dict>
+			<key>axis_values</key>
+			<dict>
+				<key>Optical size</key>
+				<real>12.0</real>
+				<key>Weight</key>
+				<real>600.0</real>
+			</dict>
+			<key>name</key>
+			<string>12pt SemiBold Italic</string>
+		</dict>
+		<dict>
+			<key>axis_values</key>
+			<dict>
+				<key>Optical size</key>
+				<real>12.0</real>
+				<key>Weight</key>
+				<real>700.0</real>
+			</dict>
+			<key>name</key>
+			<string>12pt Bold Italic</string>
+		</dict>
+		<dict>
+			<key>axis_values</key>
+			<dict>
+				<key>Optical size</key>
+				<real>12.0</real>
+				<key>Weight</key>
+				<real>800.0</real>
+			</dict>
+			<key>name</key>
+			<string>12pt ExtraBold Italic</string>
+		</dict>
+		<dict>
+			<key>axis_values</key>
+			<dict>
+				<key>Optical size</key>
+				<real>36.0</real>
+				<key>Weight</key>
+				<real>300.0</real>
+			</dict>
+			<key>name</key>
+			<string>36pt Light Italic</string>
+		</dict>
+		<dict>
+			<key>axis_values</key>
+			<dict>
+				<key>Optical size</key>
+				<real>36.0</real>
+				<key>Weight</key>
+				<real>400.0</real>
+			</dict>
+			<key>name</key>
+			<string>36pt Italic</string>
+		</dict>
+		<dict>
+			<key>axis_values</key>
+			<dict>
+				<key>Optical size</key>
+				<real>36.0</real>
+				<key>Weight</key>
+				<real>600.0</real>
+			</dict>
+			<key>name</key>
+			<string>36pt SemiBold Italic</string>
+		</dict>
+		<dict>
+			<key>axis_values</key>
+			<dict>
+				<key>Optical size</key>
+				<real>36.0</real>
+				<key>Weight</key>
+				<real>700.0</real>
+			</dict>
+			<key>name</key>
+			<string>36pt Bold Italic</string>
+		</dict>
+		<dict>
+			<key>axis_values</key>
+			<dict>
+				<key>Optical size</key>
+				<real>36.0</real>
+				<key>Weight</key>
+				<real>800.0</real>
+			</dict>
+			<key>name</key>
+			<string>36pt ExtraBold Italic</string>
+		</dict>
+		<dict>
+			<key>axis_values</key>
+			<dict>
+				<key>Optical size</key>
+				<real>72.0</real>
+				<key>Weight</key>
+				<real>200.0</real>
+			</dict>
+			<key>name</key>
+			<string>72pt ExtraLight Italic</string>
+		</dict>
+		<dict>
+			<key>axis_values</key>
+			<dict>
+				<key>Optical size</key>
+				<real>72.0</real>
+				<key>Weight</key>
+				<real>300.0</real>
+			</dict>
+			<key>name</key>
+			<string>72pt Light Italic</string>
+		</dict>
+		<dict>
+			<key>axis_values</key>
+			<dict>
+				<key>Optical size</key>
+				<real>72.0</real>
+				<key>Weight</key>
+				<real>400.0</real>
+			</dict>
+			<key>name</key>
+			<string>72pt Italic</string>
+		</dict>
+		<dict>
+			<key>axis_values</key>
+			<dict>
+				<key>Optical size</key>
+				<real>72.0</real>
+				<key>Weight</key>
+				<real>600.0</real>
+			</dict>
+			<key>name</key>
+			<string>72pt SemiBold Italic</string>
+		</dict>
+		<dict>
+			<key>axis_values</key>
+			<dict>
+				<key>Optical size</key>
+				<real>72.0</real>
+				<key>Weight</key>
+				<real>700.0</real>
+			</dict>
+			<key>name</key>
+			<string>72pt Bold Italic</string>
+		</dict>
+		<dict>
+			<key>axis_values</key>
+			<dict>
+				<key>Optical size</key>
+				<real>72.0</real>
+				<key>Weight</key>
+				<real>800.0</real>
+			</dict>
+			<key>name</key>
+			<string>72pt ExtraBold Italic</string>
+		</dict>
+		<dict>
+			<key>axis_values</key>
+			<dict>
+				<key>Optical size</key>
+				<real>72.0</real>
+				<key>Weight</key>
+				<real>900.0</real>
+			</dict>
+			<key>name</key>
+			<string>72pt Black Italic</string>
+		</dict>
+	</array>
+</dict>
+</plist>

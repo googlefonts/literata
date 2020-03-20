@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="omegadasiaypogegrammeni" format="2">
+	<unicode hex="1FA1"/>
+	<advance width="733"/>
+	<outline>
+		<component base="omega"/>
+		<component base="dasia" xOffset="111" yOffset="1"/>
+		<component base="ypogegrammeni" xOffset="286"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.5,0.09,0.79,1</string>
+		</dict>
+	</lib>
+</glyph>

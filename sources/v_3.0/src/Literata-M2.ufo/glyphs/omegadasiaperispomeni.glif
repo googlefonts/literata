@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="omegadasiaperispomeni" format="2">
+	<unicode hex="1F67"/>
+	<advance width="784"/>
+	<outline>
+		<component base="omega"/>
+		<component base="dasiaperispomeni" xOffset="156"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.5,0.09,0.79,1</string>
+		</dict>
+	</lib>
+</glyph>

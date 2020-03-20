@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Theta" format="2">
+	<unicode hex="0398"/>
+	<advance width="695"/>
+	<outline>
+		<contour>
+			<point x="352" y="-14" type="curve" smooth="yes"/>
+			<point x="539" y="-14"/>
+			<point x="645" y="128"/>
+			<point x="645" y="379" type="curve" smooth="yes"/>
+			<point x="645" y="610"/>
+			<point x="538" y="744"/>
+			<point x="353" y="744" type="curve" smooth="yes"/>
+			<point x="162" y="744"/>
+			<point x="55" y="604"/>
+			<point x="55" y="354" type="curve" smooth="yes"/>
+			<point x="55" y="122"/>
+			<point x="165" y="-14"/>
+		</contour>
+		<contour>
+			<point x="357" y="1" type="curve" smooth="yes"/>
+			<point x="198" y="1"/>
+			<point x="108" y="134"/>
+			<point x="108" y="370" type="curve" smooth="yes"/>
+			<point x="108" y="606"/>
+			<point x="190" y="729"/>
+			<point x="346" y="729" type="curve" smooth="yes"/>
+			<point x="505" y="729"/>
+			<point x="592" y="601"/>
+			<point x="592" y="366" type="curve" smooth="yes"/>
+			<point x="592" y="125"/>
+			<point x="512" y="1"/>
+		</contour>
+		<contour>
+			<point x="200" y="264" type="line"/>
+			<point x="212" y="264" type="line"/>
+			<point x="226" y="347"/>
+			<point x="246" y="356"/>
+			<point x="312" y="356" type="curve" smooth="yes"/>
+			<point x="388" y="356" type="line" smooth="yes"/>
+			<point x="463" y="356"/>
+			<point x="479" y="342"/>
+			<point x="488" y="266" type="curve"/>
+			<point x="500" y="265" type="line"/>
+			<point x="500" y="464" type="line"/>
+			<point x="488" y="464" type="line"/>
+			<point x="477" y="383"/>
+			<point x="465" y="372"/>
+			<point x="388" y="372" type="curve" smooth="yes"/>
+			<point x="312" y="372" type="line" smooth="yes"/>
+			<point x="238" y="372"/>
+			<point x="222" y="386"/>
+			<point x="212" y="462" type="curve"/>
+			<point x="200" y="463" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=I</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=O</string>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>-8.493</real>
+						<real>88.667</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>551.52</real>
+						<real>93.4</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>-14</integer>
+						<real>61.107</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>656.587</real>
+						<real>57.413</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0.5,0.09,0.79,1</string>
+		</dict>
+	</lib>
+</glyph>

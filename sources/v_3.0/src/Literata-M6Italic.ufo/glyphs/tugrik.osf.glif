@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tugrik.osf" format="2">
+	<advance width="670"/>
+	<outline>
+		<contour>
+			<point x="114" y="0" type="line"/>
+			<point x="518" y="0" type="line"/>
+			<point x="519" y="17" type="line"/>
+			<point x="426" y="27" type="line"/>
+			<point x="433" y="209" type="line"/>
+			<point x="567" y="224" type="line"/>
+			<point x="571" y="250" type="line"/>
+			<point x="434" y="234" type="line"/>
+			<point x="438" y="321" type="line"/>
+			<point x="567" y="336" type="line"/>
+			<point x="571" y="362" type="line"/>
+			<point x="439" y="347" type="line"/>
+			<point x="447" y="558" type="line"/>
+			<point x="481" y="558" type="line" smooth="yes"/>
+			<point x="550" y="558"/>
+			<point x="572" y="543"/>
+			<point x="595" y="460" type="curve" smooth="yes"/>
+			<point x="610" y="407" type="line"/>
+			<point x="630" y="410" type="line"/>
+			<point x="619" y="579" type="line"/>
+			<point x="62" y="579" type="line"/>
+			<point x="40" y="416" type="line"/>
+			<point x="61" y="411" type="line"/>
+			<point x="86" y="485" type="line" smooth="yes"/>
+			<point x="107" y="548"/>
+			<point x="143" y="558"/>
+			<point x="197" y="558" type="curve" smooth="yes"/>
+			<point x="232" y="558" type="line"/>
+			<point x="221" y="322" type="line"/>
+			<point x="88" y="307" type="line"/>
+			<point x="83" y="281" type="line"/>
+			<point x="220" y="297" type="line"/>
+			<point x="216" y="210" type="line"/>
+			<point x="88" y="195" type="line"/>
+			<point x="83" y="169" type="line"/>
+			<point x="215" y="184" type="line"/>
+			<point x="208" y="25" type="line"/>
+			<point x="115" y="17" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>297</integer>
+						<integer>85</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>643</integer>
+						<integer>57</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>0</integer>
+						<integer>21</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>u</string>
+						<string>p</string>
+					</array>
+					<key>type</key>
+					<string>BottomGhost</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>244.939</real>
+						<real>67.459</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>510.306</real>
+						<real>45.237</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>0</integer>
+						<integer>21</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>u</string>
+						<string>p</string>
+					</array>
+					<key>type</key>
+					<string>BottomGhost</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="U-cy" format="2">
+	<unicode hex="0423"/>
+	<advance width="686"/>
+	<outline>
+		<contour>
+			<point x="234" y="-14" type="curve" smooth="yes"/>
+			<point x="326" y="-14"/>
+			<point x="384" y="147"/>
+			<point x="407" y="202" type="curve" smooth="yes"/>
+			<point x="471" y="353"/>
+			<point x="530" y="504"/>
+			<point x="590" y="655" type="curve" smooth="yes"/>
+			<point x="607" y="698"/>
+			<point x="626" y="707"/>
+			<point x="647" y="710" type="curve" smooth="yes"/>
+			<point x="696" y="718" type="line"/>
+			<point x="696" y="730" type="line"/>
+			<point x="485" y="730" type="line"/>
+			<point x="485" y="719" type="line"/>
+			<point x="549" y="708" type="line" smooth="yes"/>
+			<point x="580" y="703"/>
+			<point x="577" y="687"/>
+			<point x="566" y="657" type="curve" smooth="yes"/>
+			<point x="511" y="507"/>
+			<point x="442" y="333"/>
+			<point x="403" y="243" type="curve"/>
+			<point x="398" y="243" type="line"/>
+			<point x="205" y="661" type="line" smooth="yes"/>
+			<point x="192" y="689"/>
+			<point x="193" y="708"/>
+			<point x="224" y="711" type="curve" smooth="yes"/>
+			<point x="289" y="718" type="line"/>
+			<point x="289" y="730" type="line"/>
+			<point x="0" y="730" type="line"/>
+			<point x="0" y="718" type="line"/>
+			<point x="37" y="711" type="line" smooth="yes"/>
+			<point x="63" y="706"/>
+			<point x="79" y="693"/>
+			<point x="97" y="657" type="curve" smooth="yes"/>
+			<point x="356" y="137" type="line"/>
+			<point x="344" y="108"/>
+			<point x="330" y="79"/>
+			<point x="299" y="46" type="curve"/>
+			<point x="278" y="88"/>
+			<point x="253" y="119"/>
+			<point x="223" y="119" type="curve" smooth="yes"/>
+			<point x="189" y="119"/>
+			<point x="160" y="80"/>
+			<point x="160" y="45" type="curve" smooth="yes"/>
+			<point x="160" y="11"/>
+			<point x="189" y="-14"/>
+		</contour>
+	</outline>
+	<anchor name="top" x="385" y="730"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>-14</integer>
+						<integer>134</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>700</integer>
+						<integer>-20</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>d</string>
+						<string>o</string>
+						<string>w</string>
+						<string>n</string>
+					</array>
+					<key>type</key>
+					<string>TopGhost</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0,0.67,0.91,1</string>
+		</dict>
+	</lib>
+</glyph>

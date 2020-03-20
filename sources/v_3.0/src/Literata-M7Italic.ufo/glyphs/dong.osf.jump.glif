@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dong.osf.jump" format="2">
+	<advance width="747"/>
+	<outline>
+		<contour>
+			<point x="167" y="-209" type="line"/>
+			<point x="501" y="-209" type="line"/>
+			<point x="504" y="-67" type="line"/>
+			<point x="170" y="-67" type="line"/>
+		</contour>
+		<component base="dcroat.jump"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=dcroat</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=dcroat</string>
+			<key>public.markColor</key>
+			<string>0.75,0.75,0.75,1</string>
+		</dict>
+	</lib>
+</glyph>

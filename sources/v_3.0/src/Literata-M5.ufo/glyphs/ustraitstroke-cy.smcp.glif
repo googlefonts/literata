@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ustraitstroke-cy.smcp" format="2">
+	<advance width="457"/>
+	<outline>
+		<contour>
+			<point x="124" y="0" type="line"/>
+			<point x="349" y="0" type="line"/>
+			<point x="349" y="11" type="line"/>
+			<point x="292" y="16" type="line" smooth="yes"/>
+			<point x="265" y="18"/>
+			<point x="261" y="27"/>
+			<point x="261" y="56" type="curve" smooth="yes"/>
+			<point x="261" y="134" type="line"/>
+			<point x="353" y="134" type="line"/>
+			<point x="353" y="150" type="line"/>
+			<point x="261" y="150" type="line"/>
+			<point x="261" y="267" type="line"/>
+			<point x="395" y="496" type="line" smooth="yes"/>
+			<point x="416" y="532"/>
+			<point x="420" y="537"/>
+			<point x="439" y="541" type="curve" smooth="yes"/>
+			<point x="464" y="546" type="line"/>
+			<point x="464" y="557" type="line"/>
+			<point x="320" y="557" type="line"/>
+			<point x="320" y="546" type="line"/>
+			<point x="357" y="542" type="line" smooth="yes"/>
+			<point x="384" y="539"/>
+			<point x="390" y="522"/>
+			<point x="375" y="496" type="curve" smooth="yes"/>
+			<point x="254" y="289" type="line"/>
+			<point x="252" y="289" type="line"/>
+			<point x="132" y="493" type="line" smooth="yes"/>
+			<point x="112" y="527"/>
+			<point x="116" y="537"/>
+			<point x="143" y="541" type="curve" smooth="yes"/>
+			<point x="179" y="546" type="line"/>
+			<point x="179" y="557" type="line"/>
+			<point x="-7" y="557" type="line"/>
+			<point x="-7" y="546" type="line"/>
+			<point x="23" y="541" type="line" smooth="yes"/>
+			<point x="51" y="536"/>
+			<point x="59" y="529"/>
+			<point x="82" y="490" type="curve" smooth="yes"/>
+			<point x="212" y="267" type="line"/>
+			<point x="212" y="150" type="line"/>
+			<point x="124" y="150" type="line"/>
+			<point x="120" y="134" type="line"/>
+			<point x="212" y="134" type="line"/>
+			<point x="212" y="55" type="line" smooth="yes"/>
+			<point x="212" y="25"/>
+			<point x="206" y="18"/>
+			<point x="183" y="16" type="curve" smooth="yes"/>
+			<point x="124" y="11" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>302</integer>
+						<integer>99</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>154</integer>
+						<integer>60</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>0</integer>
+						<integer>21</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>u</string>
+						<string>p</string>
+					</array>
+					<key>type</key>
+					<string>BottomGhost</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>700</integer>
+						<integer>-20</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>d</string>
+						<string>o</string>
+						<string>w</string>
+						<string>n</string>
+					</array>
+					<key>type</key>
+					<string>TopGhost</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0,0.67,0.91,1</string>
+		</dict>
+	</lib>
+</glyph>

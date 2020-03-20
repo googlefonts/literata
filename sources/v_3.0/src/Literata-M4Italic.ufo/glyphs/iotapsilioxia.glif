@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="iotapsilioxia" format="2">
+	<unicode hex="1F34"/>
+	<advance width="394"/>
+	<outline>
+		<component base="iota"/>
+		<component base="psilioxia" xOffset="-167"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.5,0.09,0.79,1</string>
+		</dict>
+	</lib>
+</glyph>

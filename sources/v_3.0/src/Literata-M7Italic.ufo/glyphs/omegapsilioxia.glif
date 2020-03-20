@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="omegapsilioxia" format="2">
+	<unicode hex="1F64"/>
+	<advance width="924"/>
+	<outline>
+		<component base="omega"/>
+		<component base="psilioxia" xOffset="158"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.5,0.09,0.79,1</string>
+		</dict>
+	</lib>
+</glyph>

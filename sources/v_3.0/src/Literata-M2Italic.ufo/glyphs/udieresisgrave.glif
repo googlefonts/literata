@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="udieresisgrave" format="2">
+	<unicode hex="01DC"/>
+	<advance width="592"/>
+	<outline>
+		<component base="u"/>
+		<component base="dieresis" xOffset="29"/>
+		<component base="grave.case" xOffset="41" yOffset="29"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>2</integer>
+					<key>name</key>
+					<string>grave.case</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

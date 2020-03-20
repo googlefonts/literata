@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tcaron" format="2">
+	<unicode hex="0165"/>
+	<advance width="429"/>
+	<outline>
+		<component base="t"/>
+		<component base="caron.alt" xScale="0.97863" yScale="0.97863" xOffset="172" yOffset="94"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>t</string>
+		</dict>
+	</lib>
+</glyph>

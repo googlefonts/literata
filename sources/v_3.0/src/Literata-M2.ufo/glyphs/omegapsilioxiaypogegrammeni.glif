@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="omegapsilioxiaypogegrammeni" format="2">
+	<unicode hex="1FA4"/>
+	<advance width="784"/>
+	<outline>
+		<component base="omega"/>
+		<component base="psilioxia" xOffset="76"/>
+		<component base="ypogegrammeni" xOffset="288" yOffset="-15"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.5,0.09,0.79,1</string>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Odotaccentmacron" format="2">
+	<unicode hex="0230"/>
+	<advance width="693"/>
+	<outline>
+		<component base="O"/>
+		<component base="dotaccent.case" xOffset="97"/>
+		<component base="macron.case" xOffset="108" yOffset="151"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>2</integer>
+					<key>name</key>
+					<string>macron.case</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

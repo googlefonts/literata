@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="wdieresis.smcp" format="2">
+	<advance width="927"/>
+	<outline>
+		<component base="w.smcp"/>
+		<component base="dieresiscomb" xOffset="467" yOffset="33"/>
+	</outline>
+</glyph>

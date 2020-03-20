@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="epsilonvaria" format="2">
+	<unicode hex="1F72"/>
+	<advance width="584"/>
+	<outline>
+		<component base="epsilon"/>
+		<component base="varia" xOffset="52"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.5,0.09,0.79,1</string>
+		</dict>
+	</lib>
+</glyph>

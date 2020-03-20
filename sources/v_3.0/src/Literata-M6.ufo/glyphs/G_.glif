@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="G" format="2">
+	<unicode hex="0047"/>
+	<advance width="763"/>
+	<outline>
+		<contour>
+			<point x="361" y="-14" type="curve" smooth="yes"/>
+			<point x="422" y="-14"/>
+			<point x="463" y="0"/>
+			<point x="516" y="34" type="curve"/>
+			<point x="680" y="-8" type="line"/>
+			<point x="690" y="-8" type="line"/>
+			<point x="690" y="291" type="line" smooth="yes"/>
+			<point x="690" y="331"/>
+			<point x="696" y="340"/>
+			<point x="726" y="341" type="curve" smooth="yes"/>
+			<point x="753" y="342" type="line"/>
+			<point x="753" y="354" type="line"/>
+			<point x="422" y="354" type="line"/>
+			<point x="422" y="342" type="line"/>
+			<point x="453" y="341" type="line" smooth="yes"/>
+			<point x="481" y="340"/>
+			<point x="486" y="332"/>
+			<point x="486" y="291" type="curve" smooth="yes"/>
+			<point x="486" y="39" type="line"/>
+			<point x="465" y="25"/>
+			<point x="439" y="18"/>
+			<point x="415" y="18" type="curve" smooth="yes"/>
+			<point x="346" y="18"/>
+			<point x="279" y="82"/>
+			<point x="279" y="367" type="curve" smooth="yes"/>
+			<point x="279" y="635"/>
+			<point x="320" y="727"/>
+			<point x="407" y="727" type="curve" smooth="yes"/>
+			<point x="522" y="727"/>
+			<point x="591" y="622"/>
+			<point x="645" y="489" type="curve"/>
+			<point x="661" y="494" type="line"/>
+			<point x="618" y="744" type="line"/>
+			<point x="603" y="744" type="line"/>
+			<point x="587" y="673" type="line"/>
+			<point x="553" y="706"/>
+			<point x="489" y="744"/>
+			<point x="406" y="744" type="curve" smooth="yes"/>
+			<point x="192" y="744"/>
+			<point x="32" y="619"/>
+			<point x="32" y="346" type="curve" smooth="yes"/>
+			<point x="32" y="101"/>
+			<point x="173" y="-14"/>
+		</contour>
+	</outline>
+	<anchor name="bottom" x="386" y="-30"/>
+	<anchor name="top" x="375" y="730"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>O</string>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>47.733</real>
+						<real>149.467</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>524.733</real>
+						<real>126.2</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>-14</integer>
+						<real>83.333</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>631.068</real>
+						<real>82.933</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>-3</integer>
+						<integer>21</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>u</string>
+						<string>p</string>
+					</array>
+					<key>type</key>
+					<string>BottomGhost</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>391</integer>
+						<integer>-20</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>d</string>
+						<string>o</string>
+						<string>w</string>
+						<string>n</string>
+					</array>
+					<key>type</key>
+					<string>TopGhost</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

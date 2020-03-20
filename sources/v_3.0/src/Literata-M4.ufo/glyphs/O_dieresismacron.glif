@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Odieresismacron" format="2">
+	<unicode hex="022A"/>
+	<advance width="794"/>
+	<outline>
+		<component base="O"/>
+		<component base="dieresis.case" xOffset="148"/>
+		<component base="macron.case" xOffset="148" yOffset="230"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>2</integer>
+					<key>name</key>
+					<string>macron.case</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

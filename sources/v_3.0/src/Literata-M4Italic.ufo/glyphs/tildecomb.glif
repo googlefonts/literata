@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tildecomb" format="2">
+	<unicode hex="0303"/>
+	<outline>
+		<component base="tilde" xOffset="-258" yOffset="-8"/>
+	</outline>
+	<anchor name="_top" x="10" y="550"/>
+</glyph>

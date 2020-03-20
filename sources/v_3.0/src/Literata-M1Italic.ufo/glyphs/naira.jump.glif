@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="naira.jump" format="2">
+	<advance width="851"/>
+	<outline>
+		<contour>
+			<point x="600" y="-11" type="line"/>
+			<point x="690" y="0" type="line"/>
+			<point x="700" y="267" type="line"/>
+			<point x="808" y="267" type="line"/>
+			<point x="811" y="318" type="line"/>
+			<point x="702" y="318" type="line"/>
+			<point x="705" y="406" type="line"/>
+			<point x="815" y="406" type="line"/>
+			<point x="818" y="457" type="line"/>
+			<point x="707" y="457" type="line"/>
+			<point x="714" y="637" type="line"/>
+			<point x="806" y="654" type="line"/>
+			<point x="812" y="700" type="line"/>
+			<point x="564" y="700" type="line"/>
+			<point x="558" y="654" type="line"/>
+			<point x="651" y="637" type="line"/>
+			<point x="633" y="101" type="line"/>
+			<point x="317" y="700" type="line"/>
+			<point x="109" y="700" type="line"/>
+			<point x="102" y="654" type="line"/>
+			<point x="196" y="637" type="line"/>
+			<point x="189" y="457" type="line"/>
+			<point x="79" y="457" type="line"/>
+			<point x="75" y="406" type="line"/>
+			<point x="187" y="406" type="line"/>
+			<point x="183" y="318" type="line"/>
+			<point x="71" y="318" type="line"/>
+			<point x="67" y="267" type="line"/>
+			<point x="181" y="267" type="line"/>
+			<point x="173" y="59" type="line"/>
+			<point x="84" y="46" type="line"/>
+			<point x="78" y="0" type="line"/>
+			<point x="335" y="0" type="line"/>
+			<point x="341" y="46" type="line"/>
+			<point x="239" y="59" type="line"/>
+			<point x="258" y="621" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>169</integer>
+						<integer>66</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>590</integer>
+						<integer>64</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>0</integer>
+						<integer>59</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>637</integer>
+						<integer>63</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>-11</integer>
+						<integer>21</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>u</string>
+						<string>p</string>
+					</array>
+					<key>type</key>
+					<string>BottomGhost</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

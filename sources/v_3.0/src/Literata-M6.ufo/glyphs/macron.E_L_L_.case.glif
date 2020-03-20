@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="macron.ELL.case" format="2">
+	<advance width="500"/>
+	<outline>
+		<contour>
+			<point x="67" y="823" type="line"/>
+			<point x="433" y="823" type="line"/>
+			<point x="433" y="948" type="line"/>
+			<point x="67" y="948" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="_top" x="250" y="730"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>688.132</real>
+						<real>81.468</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>110.9</real>
+						<real>79.733</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="varia" format="2">
+	<unicode hex="1FEF"/>
+	<advance width="479"/>
+	<outline>
+		<contour>
+			<point x="271" y="573" type="line"/>
+			<point x="306" y="591" type="line"/>
+			<point x="225" y="789" type="line"/>
+			<point x="212" y="795" type="line"/>
+			<point x="207" y="797"/>
+			<point x="203" y="797"/>
+			<point x="191" y="797" type="curve" smooth="yes"/>
+			<point x="158" y="797"/>
+			<point x="136" y="776"/>
+			<point x="136" y="745" type="curve" smooth="yes"/>
+			<point x="136" y="730"/>
+			<point x="142" y="716"/>
+			<point x="154" y="703" type="curve" smooth="yes"/>
+		</contour>
+	</outline>
+	<anchor name="_top" x="292" y="550"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=|oxia</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=|oxia</string>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>573</integer>
+						<integer>21</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>u</string>
+						<string>p</string>
+					</array>
+					<key>type</key>
+					<string>BottomGhost</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>797</integer>
+						<integer>-20</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>d</string>
+						<string>o</string>
+						<string>w</string>
+						<string>n</string>
+					</array>
+					<key>type</key>
+					<string>TopGhost</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0.5,0.09,0.79,1</string>
+		</dict>
+	</lib>
+</glyph>

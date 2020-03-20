@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="x.smcp" format="2">
+	<advance width="731"/>
+	<outline>
+		<contour>
+			<point x="8" y="0" type="line"/>
+			<point x="269" y="0" type="line"/>
+			<point x="279" y="85" type="line"/>
+			<point x="224" y="98" type="line"/>
+			<point x="315" y="190" type="line"/>
+			<point x="392" y="95" type="line"/>
+			<point x="328" y="85" type="line"/>
+			<point x="318" y="0" type="line"/>
+			<point x="710" y="0" type="line"/>
+			<point x="721" y="85" type="line"/>
+			<point x="646" y="97" type="line"/>
+			<point x="465" y="313" type="line"/>
+			<point x="634" y="466" type="line"/>
+			<point x="702" y="480" type="line"/>
+			<point x="711" y="567" type="line"/>
+			<point x="457" y="567" type="line"/>
+			<point x="447" y="481" type="line"/>
+			<point x="505" y="469" type="line"/>
+			<point x="409" y="381" type="line"/>
+			<point x="332" y="471" type="line"/>
+			<point x="400" y="481" type="line"/>
+			<point x="408" y="567" type="line"/>
+			<point x="26" y="567" type="line"/>
+			<point x="17" y="481" type="line"/>
+			<point x="83" y="469" type="line"/>
+			<point x="255" y="265" type="line"/>
+			<point x="87" y="99" type="line"/>
+			<point x="17" y="86" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>RMXScaler</key>
+			<dict>
+				<key>adjustSpace</key>
+				<integer>4</integer>
+				<key>height</key>
+				<integer>80</integer>
+				<key>weight</key>
+				<integer>-25</integer>
+				<key>width</key>
+				<integer>87</integer>
+			</dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>0</integer>
+						<integer>21</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>u</string>
+						<string>p</string>
+					</array>
+					<key>type</key>
+					<string>BottomGhost</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>700</integer>
+						<integer>-20</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>d</string>
+						<string>o</string>
+						<string>w</string>
+						<string>n</string>
+					</array>
+					<key>type</key>
+					<string>TopGhost</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

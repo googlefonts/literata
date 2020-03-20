@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ecaron" format="2">
+	<unicode hex="011A"/>
+	<advance width="583"/>
+	<outline>
+		<component base="E"/>
+		<component base="caron.case" xOffset="47"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=E</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=E</string>
+		</dict>
+	</lib>
+</glyph>

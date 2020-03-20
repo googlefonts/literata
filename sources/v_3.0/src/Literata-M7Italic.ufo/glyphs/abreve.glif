@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="abreve" format="2">
+	<unicode hex="0103"/>
+	<advance width="751"/>
+	<outline>
+		<component base="a"/>
+		<component base="breve" xOffset="111" yOffset="1"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>breve</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

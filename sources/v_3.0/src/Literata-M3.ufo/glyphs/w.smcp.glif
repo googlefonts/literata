@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="w.smcp" format="2">
+	<advance width="845"/>
+	<outline>
+		<contour>
+			<point x="211" y="0" type="line"/>
+			<point x="267" y="0" type="line"/>
+			<point x="415" y="489" type="line"/>
+			<point x="418" y="489" type="line"/>
+			<point x="587" y="0" type="line"/>
+			<point x="641" y="0" type="line"/>
+			<point x="771" y="477" type="line" smooth="yes"/>
+			<point x="781" y="513"/>
+			<point x="789" y="517"/>
+			<point x="811" y="521" type="curve" smooth="yes"/>
+			<point x="845" y="527" type="line"/>
+			<point x="845" y="553" type="line"/>
+			<point x="665" y="553" type="line"/>
+			<point x="665" y="527" type="line"/>
+			<point x="707" y="521" type="line" smooth="yes"/>
+			<point x="735" y="517"/>
+			<point x="736" y="507"/>
+			<point x="729" y="480" type="curve" smooth="yes"/>
+			<point x="618" y="62" type="line"/>
+			<point x="616" y="62" type="line"/>
+			<point x="446" y="553" type="line"/>
+			<point x="391" y="553" type="line"/>
+			<point x="244" y="61" type="line"/>
+			<point x="242" y="61" type="line"/>
+			<point x="122" y="481" type="line" smooth="yes"/>
+			<point x="113" y="514"/>
+			<point x="119" y="519"/>
+			<point x="138" y="521" type="curve" smooth="yes"/>
+			<point x="184" y="527" type="line"/>
+			<point x="184" y="553" type="line"/>
+			<point x="0" y="553" type="line"/>
+			<point x="0" y="526" type="line"/>
+			<point x="34" y="520" type="line" smooth="yes"/>
+			<point x="60" y="515"/>
+			<point x="63" y="503"/>
+			<point x="70" y="478" type="curve" smooth="yes"/>
+		</contour>
+	</outline>
+	<anchor name="top" x="419" y="583"/>
+	<lib>
+		<dict>
+			<key>RMXScaler</key>
+			<dict>
+				<key>height</key>
+				<integer>79</integer>
+				<key>weight</key>
+				<integer>5</integer>
+				<key>width</key>
+				<integer>84</integer>
+			</dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>v.smcp</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>v.smcp</string>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>700</integer>
+						<integer>-20</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>d</string>
+						<string>o</string>
+						<string>w</string>
+						<string>n</string>
+					</array>
+					<key>type</key>
+					<string>TopGhost</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>0</integer>
+						<integer>21</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>u</string>
+						<string>p</string>
+					</array>
+					<key>type</key>
+					<string>BottomGhost</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

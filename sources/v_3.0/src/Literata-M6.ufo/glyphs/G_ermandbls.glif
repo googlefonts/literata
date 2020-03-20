@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Germandbls" format="2">
+	<unicode hex="1E9E"/>
+	<advance width="912"/>
+	<outline>
+		<contour>
+			<point x="619" y="-14" type="curve" smooth="yes"/>
+			<point x="758" y="-14"/>
+			<point x="877" y="58"/>
+			<point x="877" y="220" type="curve" smooth="yes"/>
+			<point x="877" y="334"/>
+			<point x="791" y="404"/>
+			<point x="647" y="412" type="curve"/>
+			<point x="764" y="640" type="line"/>
+			<point x="759" y="659" type="line"/>
+			<point x="681" y="713"/>
+			<point x="565" y="744"/>
+			<point x="451" y="744" type="curve" smooth="yes"/>
+			<point x="175" y="744"/>
+			<point x="95" y="602"/>
+			<point x="95" y="465" type="curve" smooth="yes"/>
+			<point x="95" y="70" type="line" smooth="yes"/>
+			<point x="95" y="26"/>
+			<point x="89" y="15"/>
+			<point x="64" y="14" type="curve" smooth="yes"/>
+			<point x="30" y="12" type="line"/>
+			<point x="30" y="0" type="line"/>
+			<point x="329" y="0" type="line"/>
+			<point x="329" y="559" type="line" smooth="yes"/>
+			<point x="329" y="691"/>
+			<point x="370" y="728"/>
+			<point x="464" y="728" type="curve" smooth="yes"/>
+			<point x="507" y="728"/>
+			<point x="548" y="723"/>
+			<point x="581" y="712" type="curve"/>
+			<point x="424" y="385" type="line"/>
+			<point x="433" y="369" type="line"/>
+			<point x="464" y="378"/>
+			<point x="496" y="383"/>
+			<point x="523" y="383" type="curve" smooth="yes"/>
+			<point x="601" y="383"/>
+			<point x="638" y="324"/>
+			<point x="638" y="209" type="curve" smooth="yes"/>
+			<point x="638" y="97"/>
+			<point x="625" y="10"/>
+			<point x="569" y="10" type="curve" smooth="yes"/>
+			<point x="517" y="10"/>
+			<point x="455" y="47"/>
+			<point x="422" y="221" type="curve"/>
+			<point x="405" y="221" type="line"/>
+			<point x="415" y="-9" type="line"/>
+			<point x="431" y="-9" type="line"/>
+			<point x="452" y="62" type="line"/>
+			<point x="475" y="29"/>
+			<point x="516" y="-14"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>-1.782</real>
+						<real>-1.435</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>-8.565</real>
+						<real>-1.492</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>0.203</real>
+						<real>-0.87</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>0</integer>
+						<real>-0.667</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>-5.058</real>
+						<real>-0.653</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>-9.45</real>
+						<real>-0.897</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>0.088</real>
+						<integer>21</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>u</string>
+						<string>p</string>
+					</array>
+					<key>type</key>
+					<string>BottomGhost</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

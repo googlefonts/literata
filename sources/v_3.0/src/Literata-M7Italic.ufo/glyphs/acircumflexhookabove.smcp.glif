@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="acircumflexhookabove.smcp" format="2">
+	<advance width="749"/>
+	<outline>
+		<component base="a.smcp"/>
+		<component base="circumflexcomb" xScale="0.99603" yScale="0.99603" xOffset="382" yOffset="35"/>
+		<component base="hook.case" xOffset="315" yOffset="56"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>2</integer>
+					<key>name</key>
+					<string>hook.case</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

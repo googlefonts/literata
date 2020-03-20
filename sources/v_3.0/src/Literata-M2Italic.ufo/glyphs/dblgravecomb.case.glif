@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dblgravecomb.case" format="2">
+	<outline>
+		<contour>
+			<point x="-32" y="850" type="curve" smooth="yes"/>
+			<point x="116" y="774" type="line"/>
+			<point x="123" y="784" type="line"/>
+			<point x="-6" y="933" type="line"/>
+			<point x="-41" y="937"/>
+			<point x="-66" y="922"/>
+			<point x="-66" y="893" type="curve" smooth="yes"/>
+			<point x="-66" y="873"/>
+			<point x="-53" y="861"/>
+		</contour>
+		<contour>
+			<point x="-209" y="836" type="curve" smooth="yes"/>
+			<point x="-58" y="774" type="line"/>
+			<point x="-51" y="785" type="line"/>
+			<point x="-190" y="923" type="line"/>
+			<point x="-221" y="923"/>
+			<point x="-245" y="910"/>
+			<point x="-245" y="884" type="curve" smooth="yes"/>
+			<point x="-245" y="863"/>
+			<point x="-236" y="847"/>
+		</contour>
+	</outline>
+	<anchor name="_top" x="15" y="730"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>715</integer>
+						<integer>21</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>u</string>
+						<string>p</string>
+					</array>
+					<key>type</key>
+					<string>BottomGhost</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>889</integer>
+						<integer>-20</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>d</string>
+						<string>o</string>
+						<string>w</string>
+						<string>n</string>
+					</array>
+					<key>type</key>
+					<string>TopGhost</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

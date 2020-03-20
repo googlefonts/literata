@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="scarondotaccent" format="2">
+	<unicode hex="1E67"/>
+	<advance width="500"/>
+	<outline>
+		<component base="s"/>
+		<component base="caroncomb" xOffset="246"/>
+		<component base="dotaccent.case" xOffset="-1" yOffset="28"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>2</integer>
+					<key>name</key>
+					<string>dotaccent.case</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

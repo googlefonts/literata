@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="peseta" format="2">
+	<unicode hex="20A7"/>
+	<advance width="1885"/>
+	<outline>
+		<component base="P"/>
+		<component base="t" xOffset="798"/>
+		<component base="s" xOffset="1291"/>
+	</outline>
+</glyph>

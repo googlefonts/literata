@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="napostrophe.smcp" format="2">
+	<advance width="739"/>
+	<outline>
+		<component base="apostrophemod" xOffset="-49" yOffset="-47"/>
+		<component base="n.smcp" xOffset="118"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=n.smcp</string>
+		</dict>
+	</lib>
+</glyph>

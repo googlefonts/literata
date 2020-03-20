@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Uhorngrave" format="2">
+	<unicode hex="1EEA"/>
+	<advance width="930"/>
+	<outline>
+		<component base="Uhorn"/>
+		<component base="grave.case" xOffset="188"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=Uhorn</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=Uhorn</string>
+		</dict>
+	</lib>
+</glyph>

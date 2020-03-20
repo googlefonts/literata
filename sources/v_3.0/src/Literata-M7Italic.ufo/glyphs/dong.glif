@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dong" format="2">
+	<unicode hex="20AB"/>
+	<advance width="747"/>
+	<outline>
+		<contour>
+			<point x="177" y="-209" type="line"/>
+			<point x="530" y="-209" type="line"/>
+			<point x="533" y="-67" type="line"/>
+			<point x="180" y="-67" type="line"/>
+		</contour>
+		<component base="dcroat"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=dcroat</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=dcroat</string>
+		</dict>
+	</lib>
+</glyph>

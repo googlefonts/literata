@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rupeeIndian.osf" format="2">
+	<advance width="500"/>
+	<outline>
+		<contour>
+			<point x="434" y="-14" type="curve" smooth="yes"/>
+			<point x="462" y="-14"/>
+			<point x="483" y="0"/>
+			<point x="502" y="20" type="curve"/>
+			<point x="496" y="26" type="line"/>
+			<point x="478" y="13"/>
+			<point x="465" y="9"/>
+			<point x="450" y="9" type="curve" smooth="yes"/>
+			<point x="419" y="9"/>
+			<point x="404" y="27"/>
+			<point x="369" y="96" type="curve" smooth="yes"/>
+			<point x="321" y="190" type="line" smooth="yes"/>
+			<point x="293" y="245"/>
+			<point x="271" y="264"/>
+			<point x="231" y="273" type="curve"/>
+			<point x="231" y="274" type="line"/>
+			<point x="313" y="281"/>
+			<point x="382" y="326"/>
+			<point x="397" y="399" type="curve"/>
+			<point x="485" y="399" type="line"/>
+			<point x="488" y="417" type="line"/>
+			<point x="399" y="417" type="line"/>
+			<point x="405" y="468"/>
+			<point x="383" y="515"/>
+			<point x="322" y="539" type="curve"/>
+			<point x="492" y="539" type="line"/>
+			<point x="495" y="557" type="line"/>
+			<point x="77" y="557" type="line"/>
+			<point x="74" y="539" type="line"/>
+			<point x="225" y="539" type="line" smooth="yes"/>
+			<point x="320" y="539"/>
+			<point x="352" y="507"/>
+			<point x="350" y="417" type="curve"/>
+			<point x="69" y="417" type="line"/>
+			<point x="66" y="399" type="line"/>
+			<point x="347" y="399" type="line"/>
+			<point x="334" y="323"/>
+			<point x="270" y="284"/>
+			<point x="194" y="284" type="curve" smooth="yes"/>
+			<point x="56" y="284" type="line"/>
+			<point x="53" y="266" type="line"/>
+			<point x="186" y="266" type="line" smooth="yes"/>
+			<point x="225" y="266"/>
+			<point x="245" y="248"/>
+			<point x="265" y="206" type="curve" smooth="yes"/>
+			<point x="328" y="77" type="line" smooth="yes"/>
+			<point x="361" y="10"/>
+			<point x="393" y="-14"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>-102.333</real>
+						<real>-33.333</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>4.667</real>
+						<real>-18.667</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>-73</integer>
+						<integer>-17</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>-121</integer>
+						<real>-16.667</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>-168.333</real>
+						<real>-16.667</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>156</integer>
+						<integer>88</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>465</integer>
+						<integer>97</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>-14</integer>
+						<integer>59</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>646</integer>
+						<integer>54</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>0</integer>
+						<integer>21</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>u</string>
+						<string>p</string>
+					</array>
+					<key>type</key>
+					<string>BottomGhost</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

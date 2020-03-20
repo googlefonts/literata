@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kgreenlandic" format="2">
+	<unicode hex="0138"/>
+	<advance width="499"/>
+	<outline>
+		<contour>
+			<point x="102" y="0" type="line"/>
+			<point x="151" y="0" type="line"/>
+			<point x="162" y="263" type="line"/>
+			<point x="187" y="270"/>
+			<point x="207" y="277"/>
+			<point x="232" y="286" type="curve"/>
+			<point x="343" y="64" type="line" smooth="yes"/>
+			<point x="372" y="6"/>
+			<point x="396" y="-14"/>
+			<point x="434" y="-14" type="curve" smooth="yes"/>
+			<point x="467" y="-14"/>
+			<point x="499" y="5"/>
+			<point x="521" y="23" type="curve"/>
+			<point x="515" y="31" type="line"/>
+			<point x="493" y="18"/>
+			<point x="474" y="12"/>
+			<point x="458" y="12" type="curve" smooth="yes"/>
+			<point x="428" y="12"/>
+			<point x="416" y="29"/>
+			<point x="384" y="91" type="curve" smooth="yes"/>
+			<point x="275" y="303" type="line"/>
+			<point x="289" y="309"/>
+			<point x="321" y="326"/>
+			<point x="351" y="345" type="curve" smooth="yes"/>
+			<point x="410" y="382"/>
+			<point x="439" y="420"/>
+			<point x="439" y="467" type="curve" smooth="yes"/>
+			<point x="439" y="497"/>
+			<point x="423" y="523"/>
+			<point x="391" y="523" type="curve" smooth="yes"/>
+			<point x="366" y="523"/>
+			<point x="346" y="502"/>
+			<point x="342" y="473" type="curve"/>
+			<point x="367" y="459" type="line" smooth="yes"/>
+			<point x="408" y="436"/>
+			<point x="402" y="397"/>
+			<point x="334" y="354" type="curve" smooth="yes"/>
+			<point x="283" y="322"/>
+			<point x="221" y="297"/>
+			<point x="163" y="282" type="curve"/>
+			<point x="169" y="430" type="line" smooth="yes"/>
+			<point x="172" y="493"/>
+			<point x="161" y="523"/>
+			<point x="115" y="523" type="curve" smooth="yes"/>
+			<point x="79" y="523"/>
+			<point x="48" y="508"/>
+			<point x="21" y="491" type="curve"/>
+			<point x="26" y="481" type="line"/>
+			<point x="55" y="496"/>
+			<point x="76" y="501"/>
+			<point x="92" y="501" type="curve" smooth="yes"/>
+			<point x="112" y="501"/>
+			<point x="124" y="490"/>
+			<point x="123" y="458" type="curve" smooth="yes"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=n</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=k</string>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>183.643</real>
+						<real>97.539</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>-325.27</real>
+						<real>59.017</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>865.313</real>
+						<integer>-20</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>d</string>
+						<string>o</string>
+						<string>w</string>
+						<string>n</string>
+					</array>
+					<key>type</key>
+					<string>TopGhost</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>0</integer>
+						<integer>21</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>u</string>
+						<string>p</string>
+					</array>
+					<key>type</key>
+					<string>BottomGhost</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>1273.887</real>
+						<integer>-20</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>d</string>
+						<string>o</string>
+						<string>w</string>
+						<string>n</string>
+					</array>
+					<key>type</key>
+					<string>TopGhost</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

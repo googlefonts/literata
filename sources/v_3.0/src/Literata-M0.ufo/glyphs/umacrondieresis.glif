@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="umacrondieresis" format="2">
+	<unicode hex="1E7B"/>
+	<advance width="634"/>
+	<outline>
+		<component base="u"/>
+		<component base="macroncomb" xOffset="298"/>
+		<component base="dieresis.case" xOffset="46" yOffset="10"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>2</integer>
+					<key>name</key>
+					<string>dieresis.case</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="M" format="2">
+	<unicode hex="004D"/>
+	<advance width="964"/>
+	<outline>
+		<contour>
+			<point x="20" y="0" type="line"/>
+			<point x="174" y="0" type="line"/>
+			<point x="174" y="12" type="line"/>
+			<point x="144" y="14" type="line" smooth="yes"/>
+			<point x="112" y="16"/>
+			<point x="109" y="30"/>
+			<point x="111" y="69" type="curve" smooth="yes"/>
+			<point x="144" y="671" type="line"/>
+			<point x="145" y="671" type="line"/>
+			<point x="321" y="114" type="line"/>
+			<point x="447" y="114" type="line"/>
+			<point x="622" y="671" type="line"/>
+			<point x="623" y="671" type="line"/>
+			<point x="649" y="63" type="line" smooth="yes"/>
+			<point x="651" y="17"/>
+			<point x="640" y="18"/>
+			<point x="616" y="15" type="curve" smooth="yes"/>
+			<point x="581" y="12" type="line"/>
+			<point x="581" y="0" type="line"/>
+			<point x="939" y="0" type="line"/>
+			<point x="939" y="11" type="line"/>
+			<point x="904" y="15" type="line" smooth="yes"/>
+			<point x="875" y="18"/>
+			<point x="871" y="30"/>
+			<point x="869" y="65" type="curve" smooth="yes"/>
+			<point x="841" y="667" type="line" smooth="yes"/>
+			<point x="839" y="703"/>
+			<point x="847" y="715"/>
+			<point x="876" y="716" type="curve" smooth="yes"/>
+			<point x="906" y="718" type="line"/>
+			<point x="906" y="730" type="line"/>
+			<point x="618" y="730" type="line"/>
+			<point x="482" y="296" type="line"/>
+			<point x="480" y="296" type="line"/>
+			<point x="345" y="730" type="line"/>
+			<point x="55" y="730" type="line"/>
+			<point x="55" y="718" type="line"/>
+			<point x="83" y="716" type="line" smooth="yes"/>
+			<point x="119" y="713"/>
+			<point x="122" y="698"/>
+			<point x="120" y="660" type="curve" smooth="yes"/>
+			<point x="85" y="69" type="line" smooth="yes"/>
+			<point x="83" y="29"/>
+			<point x="74" y="16"/>
+			<point x="50" y="14" type="curve" smooth="yes"/>
+			<point x="20" y="12" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="bottom" x="422" y="-30"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>144.332</real>
+						<real>83.868</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<real>689.668</real>
+						<real>141.467</real>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>0</integer>
+						<integer>21</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>u</string>
+						<string>p</string>
+					</array>
+					<key>type</key>
+					<string>BottomGhost</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>700</integer>
+						<integer>-20</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>d</string>
+						<string>o</string>
+						<string>w</string>
+						<string>n</string>
+					</array>
+					<key>type</key>
+					<string>TopGhost</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

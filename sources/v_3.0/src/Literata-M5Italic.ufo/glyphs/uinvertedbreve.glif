@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uinvertedbreve" format="2">
+	<unicode hex="0217"/>
+	<advance width="554"/>
+	<outline>
+		<component base="u"/>
+		<component base="breveinvertedcomb" xOffset="267"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=u</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=u</string>
+		</dict>
+	</lib>
+</glyph>

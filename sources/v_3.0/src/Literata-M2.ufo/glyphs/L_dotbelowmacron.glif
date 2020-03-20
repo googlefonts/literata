@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ldotbelowmacron" format="2">
+	<unicode hex="1E38"/>
+	<advance width="589"/>
+	<outline>
+		<component base="L"/>
+		<component base="macron.case" xOffset="-52"/>
+		<component base="dotbelowcomb" xOffset="320"/>
+	</outline>
+</glyph>

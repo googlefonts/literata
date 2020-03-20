@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="D" format="2">
+	<unicode hex="0044"/>
+	<advance width="797"/>
+	<outline>
+		<contour>
+			<point x="65" y="0" type="line"/>
+			<point x="289" y="0" type="line" smooth="yes"/>
+			<point x="577" y="0"/>
+			<point x="746" y="143"/>
+			<point x="746" y="390" type="curve" smooth="yes"/>
+			<point x="746" y="587"/>
+			<point x="612" y="700"/>
+			<point x="380" y="700" type="curve" smooth="yes"/>
+			<point x="95" y="700" type="line"/>
+			<point x="88" y="654" type="line"/>
+			<point x="182" y="637" type="line"/>
+			<point x="159" y="59" type="line"/>
+			<point x="70" y="45" type="line"/>
+		</contour>
+		<contour>
+			<point x="249" y="58" type="line"/>
+			<point x="270" y="645" type="line"/>
+			<point x="371" y="645" type="line" smooth="yes"/>
+			<point x="551" y="645"/>
+			<point x="645" y="550"/>
+			<point x="645" y="381" type="curve" smooth="yes"/>
+			<point x="645" y="165"/>
+			<point x="519" y="58"/>
+			<point x="279" y="58" type="curve" smooth="yes"/>
+		</contour>
+	</outline>
+	<anchor name="bottom" x="377" y="-30"/>
+	<anchor name="top" x="389" y="730"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>H</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>O</string>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>156</integer>
+						<integer>87</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>596</integer>
+						<integer>97</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>0</integer>
+						<integer>55</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>646</integer>
+						<integer>54</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

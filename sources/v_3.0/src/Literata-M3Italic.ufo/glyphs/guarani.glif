@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="guarani" format="2">
+	<unicode hex="20B2"/>
+	<advance width="631"/>
+	<outline>
+		<contour>
+			<point x="306" y="-86" type="line"/>
+			<point x="347" y="-86" type="line"/>
+			<point x="349" y="-14" type="line"/>
+			<point x="428" y="-14"/>
+			<point x="503" y="10"/>
+			<point x="564" y="54" type="curve"/>
+			<point x="575" y="330" type="line"/>
+			<point x="442" y="330" type="line"/>
+			<point x="438" y="298" type="line"/>
+			<point x="526" y="285" type="line"/>
+			<point x="518" y="75" type="line"/>
+			<point x="483" y="52"/>
+			<point x="418" y="28"/>
+			<point x="351" y="28" type="curve"/>
+			<point x="371" y="670" type="line"/>
+			<point x="478" y="670"/>
+			<point x="535" y="636"/>
+			<point x="511" y="587" type="curve" smooth="yes"/>
+			<point x="498" y="561" type="line"/>
+			<point x="512" y="545"/>
+			<point x="528" y="536"/>
+			<point x="549" y="536" type="curve" smooth="yes"/>
+			<point x="576" y="536"/>
+			<point x="593" y="554"/>
+			<point x="593" y="584" type="curve" smooth="yes"/>
+			<point x="593" y="653"/>
+			<point x="497" y="717"/>
+			<point x="373" y="715" type="curve"/>
+			<point x="375" y="782" type="line"/>
+			<point x="334" y="782" type="line"/>
+			<point x="332" y="712" type="line"/>
+			<point x="164" y="690"/>
+			<point x="65" y="545"/>
+			<point x="65" y="326" type="curve" smooth="yes"/>
+			<point x="65" y="132"/>
+			<point x="166" y="9"/>
+			<point x="308" y="-11" type="curve"/>
+		</contour>
+		<contour>
+			<point x="310" y="32" type="line"/>
+			<point x="194" y="53"/>
+			<point x="116" y="164"/>
+			<point x="116" y="331" type="curve" smooth="yes"/>
+			<point x="116" y="516"/>
+			<point x="196" y="643"/>
+			<point x="330" y="666" type="curve"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=G</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=G</string>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>51</integer>
+						<integer>94</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>498</integer>
+						<integer>88</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>-14</integer>
+						<integer>65</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>507</integer>
+						<integer>208</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>652</integer>
+						<integer>63</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

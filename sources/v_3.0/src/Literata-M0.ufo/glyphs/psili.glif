@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="psili" format="2">
+	<unicode hex="1FBF"/>
+	<advance width="509"/>
+	<outline>
+		<contour>
+			<point x="218" y="575" type="line"/>
+			<point x="270" y="597"/>
+			<point x="312" y="663"/>
+			<point x="312" y="723" type="curve" smooth="yes"/>
+			<point x="312" y="768"/>
+			<point x="286" y="797"/>
+			<point x="245" y="797" type="curve" smooth="yes"/>
+			<point x="210" y="797"/>
+			<point x="185" y="772"/>
+			<point x="185" y="738" type="curve" smooth="yes"/>
+			<point x="185" y="705"/>
+			<point x="204" y="690"/>
+			<point x="247" y="690" type="curve"/>
+			<point x="247" y="661"/>
+			<point x="232" y="636"/>
+			<point x="196" y="605" type="curve"/>
+		</contour>
+	</outline>
+	<anchor name="_top" x="237" y="550"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=caron.alt</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=caron.alt</string>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>188</integer>
+						<integer>127</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>692</integer>
+						<integer>105</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>580</integer>
+						<integer>21</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>u</string>
+						<string>p</string>
+					</array>
+					<key>type</key>
+					<string>BottomGhost</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0.5,0.09,0.79,1</string>
+		</dict>
+	</lib>
+</glyph>

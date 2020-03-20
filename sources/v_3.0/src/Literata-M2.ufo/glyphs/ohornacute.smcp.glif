@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ohornacute.smcp" format="2">
+	<advance width="717"/>
+	<outline>
+		<component base="ohorn.smcp"/>
+		<component base="acutecomb" xOffset="313" yOffset="33"/>
+	</outline>
+</glyph>

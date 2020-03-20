@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="pi" format="2">
+	<unicode hex="03C0"/>
+	<advance width="777"/>
+	<outline>
+		<contour>
+			<point x="567" y="-14" type="curve" smooth="yes"/>
+			<point x="632" y="-14"/>
+			<point x="693" y="9"/>
+			<point x="742" y="52" type="curve"/>
+			<point x="699" y="142" type="line"/>
+			<point x="679" y="131"/>
+			<point x="664" y="127"/>
+			<point x="646" y="127" type="curve" smooth="yes"/>
+			<point x="610" y="127"/>
+			<point x="593" y="145"/>
+			<point x="593" y="183" type="curve" smooth="yes"/>
+			<point x="593" y="259"/>
+			<point x="595" y="313"/>
+			<point x="595" y="366" type="curve"/>
+			<point x="704" y="366" type="line"/>
+			<point x="725" y="377" type="line"/>
+			<point x="725" y="531" type="line"/>
+			<point x="137" y="523" type="line" smooth="yes"/>
+			<point x="104" y="523"/>
+			<point x="45" y="510"/>
+			<point x="14" y="495" type="curve"/>
+			<point x="-7" y="366" type="line"/>
+			<point x="138" y="366" type="line"/>
+			<point x="33" y="11" type="line"/>
+			<point x="54" y="0" type="line"/>
+			<point x="269" y="0" type="line"/>
+			<point x="308" y="366" type="line"/>
+			<point x="417" y="366" type="line"/>
+			<point x="412" y="301"/>
+			<point x="399" y="194"/>
+			<point x="399" y="142" type="curve" smooth="yes"/>
+			<point x="399" y="35"/>
+			<point x="452" y="-14"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=tau</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=tau+5</string>
+			<key>public.markColor</key>
+			<string>0.5,0.09,0.79,1</string>
+		</dict>
+	</lib>
+</glyph>

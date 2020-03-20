@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rdotbelowmacron" format="2">
+	<unicode hex="1E5D"/>
+	<advance width="417"/>
+	<outline>
+		<component base="r"/>
+		<component base="macron" xOffset="-23"/>
+		<component base="dotbelowcomb" xOffset="140"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>macron</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

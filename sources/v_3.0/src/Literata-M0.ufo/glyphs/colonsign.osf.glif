@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="colonsign.osf" format="2">
+	<advance width="585"/>
+	<outline>
+		<contour>
+			<point x="180" y="-75" type="line"/>
+			<point x="230" y="-75" type="line"/>
+			<point x="244" y="0" type="line"/>
+			<point x="259" y="-5"/>
+			<point x="275" y="-8"/>
+			<point x="291" y="-10" type="curve"/>
+			<point x="279" y="-75" type="line"/>
+			<point x="329" y="-75" type="line"/>
+			<point x="341" y="-14" type="line"/>
+			<point x="398" y="-14"/>
+			<point x="457" y="0"/>
+			<point x="488" y="28" type="curve"/>
+			<point x="500" y="-14" type="line"/>
+			<point x="547" y="-14" type="line"/>
+			<point x="555" y="162" type="line"/>
+			<point x="512" y="166" type="line"/>
+			<point x="472" y="73"/>
+			<point x="438" y="48"/>
+			<point x="352" y="48" type="curve"/>
+			<point x="434" y="481" type="line"/>
+			<point x="461" y="459"/>
+			<point x="483" y="427"/>
+			<point x="500" y="382" type="curve"/>
+			<point x="549" y="391" type="line"/>
+			<point x="535" y="568" type="line"/>
+			<point x="488" y="568" type="line"/>
+			<point x="481" y="522" type="line"/>
+			<point x="469" y="529"/>
+			<point x="458" y="535"/>
+			<point x="446" y="541" type="curve"/>
+			<point x="464" y="638" type="line"/>
+			<point x="415" y="638" type="line"/>
+			<point x="400" y="558" type="line"/>
+			<point x="384" y="562"/>
+			<point x="368" y="566"/>
+			<point x="352" y="567" type="curve"/>
+			<point x="365" y="638" type="line"/>
+			<point x="316" y="638" type="line"/>
+			<point x="302" y="567" type="line"/>
+			<point x="145" y="555"/>
+			<point x="52" y="440"/>
+			<point x="52" y="266" type="curve" smooth="yes"/>
+			<point x="52" y="145"/>
+			<point x="107" y="60"/>
+			<point x="198" y="17" type="curve"/>
+		</contour>
+		<contour>
+			<point x="213" y="99" type="line"/>
+			<point x="175" y="138"/>
+			<point x="154" y="197"/>
+			<point x="154" y="274" type="curve" smooth="yes"/>
+			<point x="154" y="410"/>
+			<point x="193" y="491"/>
+			<point x="291" y="508" type="curve"/>
+		</contour>
+		<contour>
+			<point x="303" y="53" type="line"/>
+			<point x="287" y="56"/>
+			<point x="271" y="61"/>
+			<point x="257" y="68" type="curve"/>
+			<point x="341" y="512" type="line"/>
+			<point x="359" y="511"/>
+			<point x="375" y="509"/>
+			<point x="389" y="504" type="curve"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>52</integer>
+						<integer>102</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>-75</integer>
+						<integer>123</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>-14</integer>
+						<integer>62</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>512</integer>
+						<integer>56</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>512</integer>
+						<integer>126</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

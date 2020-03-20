@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ecircumflextilde" format="2">
+	<unicode hex="1EC5"/>
+	<advance width="612"/>
+	<outline>
+		<component base="e"/>
+		<component base="tilde.case" xOffset="87" yOffset="92"/>
+		<component base="circumflex" xOffset="73"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>tilde.case</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

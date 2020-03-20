@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dasiaperispomeni" format="2">
+	<unicode hex="1FDF"/>
+	<advance width="501"/>
+	<outline>
+		<component base="tilde" xOffset="6" yOffset="188"/>
+		<component base="dasia" xOffset="-26" yOffset="1"/>
+	</outline>
+	<anchor name="_top" x="283" y="550"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>=perispomeni</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>=perispomeni</string>
+			<key>public.markColor</key>
+			<string>0.5,0.09,0.79,1</string>
+		</dict>
+	</lib>
+</glyph>

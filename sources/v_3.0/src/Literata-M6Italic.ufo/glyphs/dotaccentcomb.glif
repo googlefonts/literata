@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dotaccentcomb" format="2">
+	<unicode hex="0307"/>
+	<outline>
+		<component base="dotaccent" xOffset="-250" yOffset="8"/>
+	</outline>
+	<anchor name="_top" x="13" y="550"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>dotaccent</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>
