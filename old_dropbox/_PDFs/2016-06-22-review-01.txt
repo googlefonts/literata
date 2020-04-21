@@ -1,0 +1,30 @@
+The conversion from FontLab Studio 5 ".vfb" to GlyphsApp ".glyphs" format has gone well and is still underway. 
+
+Glyphs are marked with colors:
+
+Green = not converted to small caps
+
+Pink = not interpolating yet
+
+The family's 400 and 700 weights were designed specifically for immersive reading in Google Play Books on mobiles, so they are darker than typical. 
+This is similar to "Gentium Basic" and "Genium Book Basic" (https://fonts.google.com/?query=gentium) where the 'Book' family has a darker color. 
+Therefore we will publish families called "Literata Book" and "Literata Book SC" near the end of the year, and plan to publish "Literata" (and "Literata SC") next year with new ExtraLight (200) master and the current Bold as an ExtraBold (800) and a new set of instances that are more typical for editorial usage. 
+
+This will also mean keeping the default numerals the same old style ones for the Book families, although other numeral styles will be available via OpenType features, but the future "Literata" family will have lining numerals. 
+The future "Literata" family will have numerals at lining (or just below similar to Capitolium (https://www.myfonts.com/fonts/type-together/capitolium-news-2/)
+
+Overall progress is good, faster than expected. 
+
+Action @ Google: Set up next meeting around July 15
+
+Action @ Google: Set up re-sync on internal Drive for Rob + Omer + team to follow progress
+
+Action @ Google: Prepare a "Delicate Weights" collection, with Literata/Book, Gentium Basic/Book, Signika/Negative, etc. 
+
+Action @ TT: Set up Instances metadata so the family name is "Literata Book", so that the 2017 development happens in the same files with additional masters and instances.
+
+Action @ TT: Set up Instances with Custom Parameters for "Replace Glyphs" in order to build "Literata SC" family via Glyphs build process (mentioned in https://glyphsapp.com/blog/new-features-in-glyphs-2-1, should be documented in the Glyphs 2 handbooks)
+
+Action @ TT: "Brace Layers" will be added for some glyphs like $ which are not suitable for linear interpolation (https://www.glyphsapp.com/tutorials/alternating-glyph-shapes)
+
+Action @ TT: Review numeral heights, add small cap numerals. 
