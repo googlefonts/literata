@@ -104,7 +104,7 @@
     </source>
   </sources>
   <instances>
-    <instance name="Literata 7pt Regular" familyname="Literata" stylename="7pt Regular" filename="instance_ufo/Literata-7ptRegular.ufo">
+    <instance name="Literata 7pt Regular" familyname="Literata" stylename="7pt Regular" stylemapfamilyname="7pt Regular" stylemapstylename="regular" filename="instance_ufo/Literata-7ptRegular.ufo">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Optical size" xvalue="6"/>
@@ -129,7 +129,15 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Literata 7pt SemiBold" familyname="Literata" stylename="7pt SemiBold" filename="instance_ufo/Literata-7ptSemiBold.ufo">
+    <instance name="Literata 7pt Medium" familyname="Literata" stylename="7pt Medium" stylemapfamilyname="7pt Medium" stylemapstylename="regular" filename="instance_ufo/Literata-7ptMedium.ufo">
+      <location>
+        <dimension name="Weight" xvalue="480"/>
+        <dimension name="Optical size" xvalue="6"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Literata 7pt SemiBold" familyname="Literata" stylename="7pt SemiBold" stylemapfamilyname="7pt SemiBold" stylemapstylename="regular" filename="instance_ufo/Literata-7ptSemiBold.ufo">
       <location>
         <dimension name="Weight" xvalue="550"/>
         <dimension name="Optical size" xvalue="6"/>
@@ -156,7 +164,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Literata 7pt Bold" familyname="Literata" stylename="7pt Bold" filename="instance_ufo/Literata-7ptBold.ufo">
+    <instance name="Literata 7pt Bold" familyname="Literata" stylename="7pt Bold" stylemapfamilyname="7pt Regular" stylemapstylename="bold" filename="instance_ufo/Literata-7ptBold.ufo">
       <location>
         <dimension name="Weight" xvalue="650"/>
         <dimension name="Optical size" xvalue="6"/>
@@ -183,7 +191,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Literata 12pt Light" familyname="Literata" stylename="12pt Light" filename="instance_ufo/Literata-12ptLight.ufo">
+    <instance name="Literata 12pt Light" familyname="Literata" stylename="12pt Light" stylemapfamilyname="12pt Light" stylemapstylename="regular" filename="instance_ufo/Literata-12ptLight.ufo">
       <location>
         <dimension name="Weight" xvalue="300"/>
         <dimension name="Optical size" xvalue="10"/>
@@ -210,7 +218,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Literata 12pt Regular" familyname="Literata" stylename="12pt Regular" filename="instance_ufo/Literata-12ptRegular.ufo">
+    <instance name="Literata 12pt Regular" familyname="Literata" stylename="12pt Regular" stylemapfamilyname="12pt Regular" stylemapstylename="regular" filename="instance_ufo/Literata-12ptRegular.ufo">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Optical size" xvalue="10"/>
@@ -235,7 +243,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Literata 12pt Medium" familyname="Literata" stylename="12pt Medium" filename="instance_ufo/Literata-12ptMedium.ufo">
+    <instance name="Literata 12pt Medium" familyname="Literata" stylename="12pt Medium" stylemapfamilyname="12pt Medium" stylemapstylename="regular" filename="instance_ufo/Literata-12ptMedium.ufo">
       <location>
         <dimension name="Weight" xvalue="480"/>
         <dimension name="Optical size" xvalue="10"/>
@@ -262,7 +270,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Literata 12pt SemiBold" familyname="Literata" stylename="12pt SemiBold" filename="instance_ufo/Literata-12ptSemiBold.ufo">
+    <instance name="Literata 12pt SemiBold" familyname="Literata" stylename="12pt SemiBold" stylemapfamilyname="12pt SemiBold" stylemapstylename="regular" filename="instance_ufo/Literata-12ptSemiBold.ufo">
       <location>
         <dimension name="Weight" xvalue="550"/>
         <dimension name="Optical size" xvalue="10"/>
@@ -289,7 +297,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Literata 12pt Bold" familyname="Literata" stylename="12pt Bold" filename="instance_ufo/Literata-12ptBold.ufo">
+    <instance name="Literata 12pt Bold" familyname="Literata" stylename="12pt Bold" stylemapfamilyname="12pt Regular" stylemapstylename="bold" filename="instance_ufo/Literata-12ptBold.ufo">
       <location>
         <dimension name="Weight" xvalue="650"/>
         <dimension name="Optical size" xvalue="10"/>
@@ -316,7 +324,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Literata 12pt ExtraBold" familyname="Literata" stylename="12pt ExtraBold" filename="instance_ufo/Literata-12ptExtraBold.ufo">
+    <instance name="Literata 12pt ExtraBold" familyname="Literata" stylename="12pt ExtraBold" stylemapfamilyname="12pt ExtraBold" stylemapstylename="regular" filename="instance_ufo/Literata-12ptExtraBold.ufo">
       <location>
         <dimension name="Weight" xvalue="800"/>
         <dimension name="Optical size" xvalue="10"/>
@@ -343,7 +351,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Literata 36pt Light" familyname="Literata" stylename="36pt Light" filename="instance_ufo/Literata-36ptLight.ufo">
+    <instance name="Literata 36pt Light" familyname="Literata" stylename="36pt Light" stylemapfamilyname="36pt Light" stylemapstylename="regular" filename="instance_ufo/Literata-36ptLight.ufo">
       <location>
         <dimension name="Weight" xvalue="300"/>
         <dimension name="Optical size" xvalue="55"/>
@@ -374,7 +382,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Literata 36pt Regular" familyname="Literata" stylename="36pt Regular" filename="instance_ufo/Literata-36ptRegular.ufo">
+    <instance name="Literata 36pt Regular" familyname="Literata" stylename="36pt Regular" stylemapfamilyname="36pt Regular" stylemapstylename="regular" filename="instance_ufo/Literata-36ptRegular.ufo">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Optical size" xvalue="55"/>
@@ -401,7 +409,15 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Literata 36pt SemiBold" familyname="Literata" stylename="36pt SemiBold" filename="instance_ufo/Literata-36ptSemiBold.ufo">
+    <instance name="Literata 36pt Medium" familyname="Literata" stylename="36pt Medium" stylemapfamilyname="36pt Medium" stylemapstylename="regular" filename="instance_ufo/Literata-36ptMedium.ufo">
+      <location>
+        <dimension name="Weight" xvalue="480"/>
+        <dimension name="Optical size" xvalue="55"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Literata 36pt SemiBold" familyname="Literata" stylename="36pt SemiBold" stylemapfamilyname="36pt SemiBold" stylemapstylename="regular" filename="instance_ufo/Literata-36ptSemiBold.ufo">
       <location>
         <dimension name="Weight" xvalue="550"/>
         <dimension name="Optical size" xvalue="55"/>
@@ -432,7 +448,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Literata 36pt Bold" familyname="Literata" stylename="36pt Bold" filename="instance_ufo/Literata-36ptBold.ufo">
+    <instance name="Literata 36pt Bold" familyname="Literata" stylename="36pt Bold" stylemapfamilyname="36pt Regular" stylemapstylename="bold" filename="instance_ufo/Literata-36ptBold.ufo">
       <location>
         <dimension name="Weight" xvalue="650"/>
         <dimension name="Optical size" xvalue="55"/>
@@ -463,7 +479,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Literata 36pt ExtraBold" familyname="Literata" stylename="36pt ExtraBold" filename="instance_ufo/Literata-36ptExtraBold.ufo">
+    <instance name="Literata 36pt ExtraBold" familyname="Literata" stylename="36pt ExtraBold" stylemapfamilyname="36pt ExtraBold" stylemapstylename="regular" filename="instance_ufo/Literata-36ptExtraBold.ufo">
       <location>
         <dimension name="Weight" xvalue="800"/>
         <dimension name="Optical size" xvalue="55"/>
@@ -494,7 +510,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Literata 72pt ExtraLight" familyname="Literata" stylename="72pt ExtraLight" filename="instance_ufo/Literata-72ptExtraLight.ufo">
+    <instance name="Literata 72pt ExtraLight" familyname="Literata" stylename="72pt ExtraLight" stylemapfamilyname="72pt ExtraLight" stylemapstylename="regular" filename="instance_ufo/Literata-72ptExtraLight.ufo">
       <location>
         <dimension name="Weight" xvalue="200"/>
         <dimension name="Optical size" xvalue="144"/>
@@ -519,7 +535,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Literata 72pt Light" familyname="Literata" stylename="72pt Light" filename="instance_ufo/Literata-72ptLight.ufo">
+    <instance name="Literata 72pt Light" familyname="Literata" stylename="72pt Light" stylemapfamilyname="72pt Light" stylemapstylename="regular" filename="instance_ufo/Literata-72ptLight.ufo">
       <location>
         <dimension name="Weight" xvalue="300"/>
         <dimension name="Optical size" xvalue="144"/>
@@ -546,7 +562,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Literata 72pt Regular" familyname="Literata" stylename="72pt Regular" filename="instance_ufo/Literata-72ptRegular.ufo">
+    <instance name="Literata 72pt Regular" familyname="Literata" stylename="72pt Regular" stylemapfamilyname="72pt Regular" stylemapstylename="regular" filename="instance_ufo/Literata-72ptRegular.ufo">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Optical size" xvalue="144"/>
@@ -571,7 +587,15 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Literata 72pt SemiBold" familyname="Literata" stylename="72pt SemiBold" filename="instance_ufo/Literata-72ptSemiBold.ufo">
+    <instance name="Literata 72pt Medium" familyname="Literata" stylename="72pt Medium" stylemapfamilyname="72pt Medium" stylemapstylename="regular" filename="instance_ufo/Literata-72ptMedium.ufo">
+      <location>
+        <dimension name="Weight" xvalue="480"/>
+        <dimension name="Optical size" xvalue="144"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Literata 72pt SemiBold" familyname="Literata" stylename="72pt SemiBold" stylemapfamilyname="72pt SemiBold" stylemapstylename="regular" filename="instance_ufo/Literata-72ptSemiBold.ufo">
       <location>
         <dimension name="Weight" xvalue="550"/>
         <dimension name="Optical size" xvalue="144"/>
@@ -598,7 +622,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Literata 72pt Bold" familyname="Literata" stylename="72pt Bold" filename="instance_ufo/Literata-72ptBold.ufo">
+    <instance name="Literata 72pt Bold" familyname="Literata" stylename="72pt Bold" stylemapfamilyname="72pt Regular" stylemapstylename="bold" filename="instance_ufo/Literata-72ptBold.ufo">
       <location>
         <dimension name="Weight" xvalue="650"/>
         <dimension name="Optical size" xvalue="144"/>
@@ -625,7 +649,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Literata 72pt ExtraBold" familyname="Literata" stylename="72pt ExtraBold" filename="instance_ufo/Literata-72ptExtraBold.ufo">
+    <instance name="Literata 72pt ExtraBold" familyname="Literata" stylename="72pt ExtraBold" stylemapfamilyname="72pt ExtraBold" stylemapstylename="regular" filename="instance_ufo/Literata-72ptExtraBold.ufo">
       <location>
         <dimension name="Weight" xvalue="800"/>
         <dimension name="Optical size" xvalue="144"/>
@@ -652,7 +676,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Literata 72pt Black" familyname="Literata" stylename="72pt Black" filename="instance_ufo/Literata-72ptBlack.ufo">
+    <instance name="Literata 72pt Black" familyname="Literata" stylename="72pt Black" stylemapfamilyname="72pt Black" stylemapstylename="regular" filename="instance_ufo/Literata-72ptBlack.ufo">
       <location>
         <dimension name="Weight" xvalue="900"/>
         <dimension name="Optical size" xvalue="144"/>
@@ -676,30 +700,6 @@
           <string>Medium (normal)</string>
         </dict>
       </lib>
-    </instance>
-    <instance name="Literata 12pt Medium" familyname="Literata" stylename="7pt Medium" filename="instance_ufo/Literata-7ptMedium.ufo">
-      <location>
-        <dimension name="Weight" xvalue="480"/>
-        <dimension name="Optical size" xvalue="6"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Literata 12pt Medium" familyname="Literata" stylename="36pt Medium" filename="instance_ufo/Literata-36ptMedium.ufo">
-      <location>
-        <dimension name="Weight" xvalue="480"/>
-        <dimension name="Optical size" xvalue="55"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Literata 12pt Medium" familyname="Literata" stylename="72pt Medium" filename="instance_ufo/Literata-72ptMedium.ufo">
-      <location>
-        <dimension name="Weight" xvalue="480"/>
-        <dimension name="Optical size" xvalue="144"/>
-      </location>
-      <kerning/>
-      <info/>
     </instance>
   </instances>
   <lib>
