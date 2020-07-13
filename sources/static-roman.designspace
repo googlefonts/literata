@@ -1,0 +1,719 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.1">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="200" maximum="900" default="400">
+      <map input="200" output="200"/>
+      <map input="300" output="300"/>
+      <map input="400" output="400"/>
+      <map input="500" output="480"/>
+      <map input="600" output="550"/>
+      <map input="700" output="650"/>
+      <map input="800" output="800"/>
+      <map input="900" output="900"/>
+    </axis>
+    <axis tag="opsz" name="Optical size" minimum="7" maximum="72" default="12">
+      <map input="7" output="6"/>
+      <map input="12" output="10"/>
+      <map input="36" output="55"/>
+      <map input="72" output="144"/>
+    </axis>
+  </axes>
+  <rules>
+    <rule name="Jumps">
+      <conditionset>
+        <condition name="Weight" minimum="600" maximum="900"/>
+        <condition name="Optical size" minimum="6" maximum="120"/>
+      </conditionset>
+      <sub name="dcroat" with="dcroat.jump"/>
+      <sub name="hbar" with="hbar.jump"/>
+      <sub name="thorn.smcp" with="thorn.smcp.jump"/>
+      <sub name="dollar" with="dollar.jump"/>
+      <sub name="cent" with="cent.jump"/>
+      <sub name="colonsign" with="colonsign.jump"/>
+      <sub name="naira" with="naira.jump"/>
+      <sub name="won" with="won.jump"/>
+      <sub name="dong" with="dong.jump"/>
+      <sub name="peso" with="peso.jump"/>
+      <sub name="guarani" with="guarani.jump"/>
+      <sub name="hryvnia" with="hryvnia.jump"/>
+      <sub name="cedi" with="cedi.jump"/>
+      <sub name="dollar.osf" with="dollar.osf.jump"/>
+      <sub name="cent.osf" with="cent.osf.jump"/>
+      <sub name="colonsign.osf" with="colonsign.osf.jump"/>
+      <sub name="naira.osf" with="naira.osf.jump"/>
+      <sub name="won.osf" with="won.osf.jump"/>
+      <sub name="dong.osf" with="dong.osf.jump"/>
+      <sub name="peso.osf" with="peso.osf.jump"/>
+      <sub name="guarani.osf" with="guarani.osf.jump"/>
+      <sub name="hryvnia.osf" with="hryvnia.osf.jump"/>
+      <sub name="cedi.osf" with="cedi.osf.jump"/>
+    </rule>
+  </rules>
+  <sources>
+    <source filename="Literata-M0.ufo">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Optical size" xvalue="10"/>
+      </location>
+    </source>
+    <source filename="Literata-M1.ufo">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Optical size" xvalue="6"/>
+      </location>
+    </source>
+    <source filename="Literata-M2.ufo">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Optical size" xvalue="144"/>
+      </location>
+    </source>
+    <source filename="Literata-M3.ufo">
+      <location>
+        <dimension name="Weight" xvalue="200"/>
+        <dimension name="Optical size" xvalue="10"/>
+      </location>
+    </source>
+    <source filename="Literata-M4.ufo">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Optical size" xvalue="10"/>
+      </location>
+    </source>
+    <source filename="Literata-M5.ufo">
+      <location>
+        <dimension name="Weight" xvalue="200"/>
+        <dimension name="Optical size" xvalue="144"/>
+      </location>
+    </source>
+    <source filename="Literata-M6.ufo">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Optical size" xvalue="144"/>
+      </location>
+    </source>
+    <source filename="Literata-M7.ufo">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Optical size" xvalue="6"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Literata 7pt Regular" familyname="Literata 7pt" stylename="Regular" filename="instance_ufo/Literata7pt-Regular.ufo">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Optical size" xvalue="6"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>D666A065-31E2-40D8-BE19-B3556ED1E29D</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Regular</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Literata 7pt SemiBold" familyname="Literata 7pt" stylename="SemiBold" filename="instance_ufo/Literata7pt-SemiBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="550"/>
+        <dimension name="Optical size" xvalue="6"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>8E9C8889-CC0A-453A-B6EF-694123E374A9</key>
+            <real>0.26</real>
+            <key>D666A065-31E2-40D8-BE19-B3556ED1E29D</key>
+            <real>0.74</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>SemiBold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Literata 7pt Bold" familyname="Literata 7pt" stylename="Bold" filename="instance_ufo/Literata7pt-Bold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="650"/>
+        <dimension name="Optical size" xvalue="6"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>8E9C8889-CC0A-453A-B6EF-694123E374A9</key>
+            <real>0.5</real>
+            <key>D666A065-31E2-40D8-BE19-B3556ED1E29D</key>
+            <real>0.5</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Bold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Literata 12pt Light" familyname="Literata 12pt" stylename="Light" filename="instance_ufo/Literata12pt-Light.ufo">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Optical size" xvalue="10"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>51A3A961-7A3D-4D9D-A8A6-EF0E27CBF030</key>
+            <real>0.5</real>
+            <key>UUID0</key>
+            <real>0.5</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Light</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Literata 12pt Regular" familyname="Literata 12pt" stylename="Regular" filename="instance_ufo/Literata12pt-Regular.ufo">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Optical size" xvalue="10"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>UUID0</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Regular</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Literata 12pt Medium" familyname="Literata 12pt" stylename="Medium" filename="instance_ufo/Literata12pt-Medium.ufo">
+      <location>
+        <dimension name="Weight" xvalue="480"/>
+        <dimension name="Optical size" xvalue="10"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>183D4CB5-BDC3-4BCB-9164-6C94CC175920</key>
+            <real>0.06</real>
+            <key>UUID0</key>
+            <real>0.94</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Medium</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Literata 12pt SemiBold" familyname="Literata 12pt" stylename="SemiBold" filename="instance_ufo/Literata12pt-SemiBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="550"/>
+        <dimension name="Optical size" xvalue="10"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>183D4CB5-BDC3-4BCB-9164-6C94CC175920</key>
+            <real>0.26</real>
+            <key>UUID0</key>
+            <real>0.74</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>SemiBold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Literata 12pt Bold" familyname="Literata 12pt" stylename="Bold" filename="instance_ufo/Literata12pt-Bold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="650"/>
+        <dimension name="Optical size" xvalue="10"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>183D4CB5-BDC3-4BCB-9164-6C94CC175920</key>
+            <real>0.5</real>
+            <key>UUID0</key>
+            <real>0.5</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Bold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Literata 12pt ExtraBold" familyname="Literata 12pt" stylename="ExtraBold" filename="instance_ufo/Literata12pt-ExtraBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Optical size" xvalue="10"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>183D4CB5-BDC3-4BCB-9164-6C94CC175920</key>
+            <real>0.8</real>
+            <key>UUID0</key>
+            <real>0.2</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>ExtraBold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Literata 36pt Light" familyname="Literata 36pt" stylename="Light" filename="instance_ufo/Literata36pt-Light.ufo">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Optical size" xvalue="55"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>2CA9DA29-4EAC-422B-B0CF-390581E55656</key>
+            <real>0.16791</real>
+            <key>51A3A961-7A3D-4D9D-A8A6-EF0E27CBF030</key>
+            <real>0.33209</real>
+            <key>703BE3CC-3FB5-4948-8633-0DF44FA889B7</key>
+            <real>0.16791</real>
+            <key>UUID0</key>
+            <real>0.33209</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Light</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Literata 36pt Regular" familyname="Literata 36pt" stylename="Regular" filename="instance_ufo/Literata36pt-Regular.ufo">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Optical size" xvalue="55"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>703BE3CC-3FB5-4948-8633-0DF44FA889B7</key>
+            <real>0.33582</real>
+            <key>UUID0</key>
+            <real>0.66418</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Regular</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Literata 36pt SemiBold" familyname="Literata 36pt" stylename="SemiBold" filename="instance_ufo/Literata36pt-SemiBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="550"/>
+        <dimension name="Optical size" xvalue="55"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>183D4CB5-BDC3-4BCB-9164-6C94CC175920</key>
+            <real>0.17269</real>
+            <key>509D45BE-5473-47F6-A4E1-9F4E0E761C98</key>
+            <real>0.08731</real>
+            <key>703BE3CC-3FB5-4948-8633-0DF44FA889B7</key>
+            <real>0.24851</real>
+            <key>UUID0</key>
+            <real>0.49149</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>SemiBold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Literata 36pt Bold" familyname="Literata 36pt" stylename="Bold" filename="instance_ufo/Literata36pt-Bold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="650"/>
+        <dimension name="Optical size" xvalue="55"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>183D4CB5-BDC3-4BCB-9164-6C94CC175920</key>
+            <real>0.33209</real>
+            <key>509D45BE-5473-47F6-A4E1-9F4E0E761C98</key>
+            <real>0.16791</real>
+            <key>703BE3CC-3FB5-4948-8633-0DF44FA889B7</key>
+            <real>0.16791</real>
+            <key>UUID0</key>
+            <real>0.33209</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Bold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Literata 36pt ExtraBold" familyname="Literata 36pt" stylename="ExtraBold" filename="instance_ufo/Literata36pt-ExtraBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Optical size" xvalue="55"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>183D4CB5-BDC3-4BCB-9164-6C94CC175920</key>
+            <real>0.53134</real>
+            <key>509D45BE-5473-47F6-A4E1-9F4E0E761C98</key>
+            <real>0.26866</real>
+            <key>703BE3CC-3FB5-4948-8633-0DF44FA889B7</key>
+            <real>0.06716</real>
+            <key>UUID0</key>
+            <real>0.13284</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>ExtraBold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Literata 72pt ExtraLight" familyname="Literata 72pt" stylename="ExtraLight" filename="instance_ufo/Literata72pt-ExtraLight.ufo">
+      <location>
+        <dimension name="Weight" xvalue="200"/>
+        <dimension name="Optical size" xvalue="144"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>2CA9DA29-4EAC-422B-B0CF-390581E55656</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>ExtraLight</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Literata 72pt Light" familyname="Literata 72pt" stylename="Light" filename="instance_ufo/Literata72pt-Light.ufo">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Optical size" xvalue="144"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>2CA9DA29-4EAC-422B-B0CF-390581E55656</key>
+            <real>0.5</real>
+            <key>703BE3CC-3FB5-4948-8633-0DF44FA889B7</key>
+            <real>0.5</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Light</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Literata 72pt Regular" familyname="Literata 72pt" stylename="Regular" filename="instance_ufo/Literata72pt-Regular.ufo">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Optical size" xvalue="144"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>703BE3CC-3FB5-4948-8633-0DF44FA889B7</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Regular</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Literata 72pt SemiBold" familyname="Literata 72pt" stylename="SemiBold" filename="instance_ufo/Literata72pt-SemiBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="550"/>
+        <dimension name="Optical size" xvalue="144"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>509D45BE-5473-47F6-A4E1-9F4E0E761C98</key>
+            <real>0.26</real>
+            <key>703BE3CC-3FB5-4948-8633-0DF44FA889B7</key>
+            <real>0.74</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>SemiBold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Literata 72pt Bold" familyname="Literata 72pt" stylename="Bold" filename="instance_ufo/Literata72pt-Bold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="650"/>
+        <dimension name="Optical size" xvalue="144"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>509D45BE-5473-47F6-A4E1-9F4E0E761C98</key>
+            <real>0.5</real>
+            <key>703BE3CC-3FB5-4948-8633-0DF44FA889B7</key>
+            <real>0.5</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Regular</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Literata 72pt ExtraBold" familyname="Literata 72pt" stylename="ExtraBold" filename="instance_ufo/Literata72pt-ExtraBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Optical size" xvalue="144"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>509D45BE-5473-47F6-A4E1-9F4E0E761C98</key>
+            <real>0.8</real>
+            <key>703BE3CC-3FB5-4948-8633-0DF44FA889B7</key>
+            <real>0.2</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>ExtraBold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Literata 72pt Black" familyname="Literata 72pt" stylename="Black" filename="instance_ufo/Literata72pt-Black.ufo">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Optical size" xvalue="144"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>509D45BE-5473-47F6-A4E1-9F4E0E761C98</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Black</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Literata 7pt Medium" familyname="Literata 7pt" stylename="Medium" filename="instance_ufo/Literata7pt-Medium.ufo">
+      <location>
+        <dimension name="Weight" xvalue="480"/>
+        <dimension name="Optical size" xvalue="6"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Literata 36pt Medium" familyname="Literata 36pt" stylename="Medium" filename="instance_ufo/Literata36pt-Medium.ufo">
+      <location>
+        <dimension name="Weight" xvalue="480"/>
+        <dimension name="Optical size" xvalue="55"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Literata 72pt Medium" familyname="Literata 72pt" stylename="Medium" filename="instance_ufo/Literata72pt-Medium.ufo">
+      <location>
+        <dimension name="Weight" xvalue="480"/>
+        <dimension name="Optical size" xvalue="144"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>GSDimensionPlugin.Dimensions</key>
+      <dict>
+        <key>UUID0</key>
+        <dict>
+          <key>OV</key>
+          <string>x</string>
+        </dict>
+      </dict>
+      <key>com.letterror.mathModelPref</key>
+      <string>previewVarLib</string>
+    </dict>
+  </lib>
+</designspace>

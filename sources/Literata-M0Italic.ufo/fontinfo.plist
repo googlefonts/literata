@@ -95,7 +95,7 @@
 		<key>postscriptUnderlineThickness</key>
 		<integer>50</integer>
 		<key>styleName</key>
-		<string>12pt Italic</string>
+		<string>Italic</string>
 		<key>trademark</key>
 		<string>Literata is a trademark of Google Inc.</string>
 		<key>unitsPerEm</key>

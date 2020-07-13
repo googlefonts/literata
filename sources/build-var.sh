@@ -7,8 +7,8 @@
 echo "Generating VFs"
 #
 mkdir -p ../fonts/variable
-fontmake -m _Literata-Upright.designspace -o variable --output-path ../fonts/variable/Literata[opsz,wght].ttf 
-fontmake -m _Literata-Italic.designspace -o variable --output-path ../fonts/variable/Literata-Italic[opsz,wght].ttf 
+fontmake -m vf-roman.designspace -o variable --output-path ../fonts/variable/Literata[opsz,wght].ttf 
+fontmake -m vf-italic.designspace -o variable --output-path ../fonts/variable/Literata-Italic[opsz,wght].ttf 
 #
 # rm -rf master_ufo/ instance_ufo/
 rm -rf instance_ufo/
