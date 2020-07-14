@@ -29,12 +29,7 @@ do
 	ttx $new_file
 	rm ../fonts/variable/*.ttx
 done
+python gen_stat.py
 
 rm ../fonts/variable/*backup*.ttf
 
-# # This not working for two axis variable fonts
-# gftools fix-vf-meta $vfs;
-# for vf in $vfs
-# do
-# 	mv "$vf.fix" $vf;
-# done

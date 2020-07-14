@@ -69,21 +69,20 @@ ITALIC_AXES = [
     ),
 ]
 
-VARIABLE_DIR = "../build/GoogleSans/variable/expert"
-GS_UPRIGHT = f"{VARIABLE_DIR}/GoogleSans[opsz,wght].ttf"
-GS_ITALIC = f"{VARIABLE_DIR}/GoogleSans-Italic[opsz,wght].ttf"
+UPRIGHT_SRC = f"../fonts/variable/Literata[opsz,wght].ttf"
+ITALIC_SRC = f"../fonts/variable/Literata-Italic[opsz,wght].ttf"
 
 
 def main():
     # process upright files
-    filepath = GS_UPRIGHT
+    filepath = UPRIGHT_SRC
     tt = TTFont(filepath)
     buildStatTable(tt, UPRIGHT_AXES)
     tt.save(filepath)
     print(f"[STAT TABLE] Added STAT table to {filepath}")
 
     # process italics files
-    filepath = GS_ITALIC
+    filepath = ITALIC_SRC
     tt = TTFont(filepath)
     buildStatTable(tt, ITALIC_AXES)
     tt.save(filepath)
