@@ -7,8 +7,8 @@
 echo "Generating Static fonts"
 #
 mkdir -p ../fonts/static/ttf
-fontmake -m _Literata-Upright.designspace -i -o ttf --output-dir ../fonts/static/ttf/
-fontmake -m _Literata-Italic.designspace -i -o ttf --output-dir ../fonts/static/ttf/
+fontmake -m static-roman.designspace -i -o ttf --output-dir ../fonts/static/ttf/
+fontmake -m static-italic.designspace -i -o ttf --output-dir ../fonts/static/ttf/
 #
 # rm -rf master_ufo/ instance_ufo/
 rm -rf instance_ufo/
