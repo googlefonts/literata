@@ -31,7 +31,7 @@ UPRIGHT_AXES = [
         tag="ital",
         name="Italic",
         ordering=2,
-        values=[dict(value=0, name="Regular", flags=0x2, linkedValue=1)],  # Regular
+        values=[dict(value=0, name="Roman", flags=0x2, linkedValue=1)],  # Regular
     ),
 ]
 
