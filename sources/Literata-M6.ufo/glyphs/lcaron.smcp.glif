@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="lcaron.smcp" format="2">
-	<advance width="600"/>
-	<outline>
-		<component base="l.smcp"/>
-		<component base="caron.alt" xScale="0.96825" yScale="0.96825" xOffset="261" yOffset="-184"/>
-	</outline>
-</glyph>

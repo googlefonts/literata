@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="obreve.smcp" format="2">
-	<advance width="590"/>
-	<outline>
-		<component base="o.smcp"/>
-		<component base="brevecomb" xOffset="295" yOffset="33"/>
-	</outline>
-</glyph>

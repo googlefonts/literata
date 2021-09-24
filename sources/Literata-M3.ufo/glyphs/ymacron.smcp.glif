@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ymacron.smcp" format="2">
-	<advance width="509"/>
-	<outline>
-		<component base="y.smcp"/>
-		<component base="macroncomb" xOffset="259" yOffset="33"/>
-	</outline>
-</glyph>

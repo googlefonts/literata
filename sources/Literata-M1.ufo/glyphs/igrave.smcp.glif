@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="igrave.smcp" format="2">
-	<advance width="384"/>
-	<outline>
-		<component base="i.smcp"/>
-		<component base="gravecomb" xOffset="190" yOffset="33"/>
-	</outline>
-</glyph>

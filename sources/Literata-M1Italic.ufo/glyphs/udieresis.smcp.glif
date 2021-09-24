@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="udieresis.smcp" format="2">
-	<advance width="696"/>
-	<outline>
-		<component base="u.smcp"/>
-		<component base="dieresiscomb" xOffset="359" yOffset="33"/>
-	</outline>
-</glyph>

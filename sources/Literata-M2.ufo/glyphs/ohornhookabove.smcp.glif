@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ohornhookabove.smcp" format="2">
-	<advance width="717"/>
-	<outline>
-		<component base="ohorn.smcp"/>
-		<component base="hookabovecomb" xOffset="315" yOffset="33"/>
-	</outline>
-</glyph>
