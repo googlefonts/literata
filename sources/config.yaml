@@ -1,6 +1,6 @@
 sources:
-  - Literata.glyphs
-  - Literata-Italic.glyphs
+  - designspace/Literata.designspace
+  - designspace/Literata-Italic.designspace
 axisOrder:
   - wght
 familyName: "Literata"

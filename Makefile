@@ -16,7 +16,7 @@ build: build.stamp sources/config.yaml $(SOURCES)
 venv: venv/touchfile
 
 build.stamp: venv
-	. venv/bin/activate; gftools builder sources/config.yaml; python3 sources/postprocessing.py && touch build.stamp
+	. venv/bin/activate; python3 sources/preprocess.py; gftools builder sources/config.yaml; python3 sources/postprocessing.py && touch build.stamp
 	mv fonts/variable/Literata[opsz,wght].ttf.fix fonts/variable/Literata[opsz,wght].ttf
 	mv fonts/variable/Literata-Italic[opsz,wght].ttf.fix fonts/variable/Literata-Italic[opsz,wght].ttf
 
@@ -33,4 +33,5 @@ proof: venv build.stamp
 
 clean:
 	rm -rf venv
+	rm -rf sources/master_ufo
 	find -iname "*.pyc" -delete
