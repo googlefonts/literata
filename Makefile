@@ -34,4 +34,5 @@ proof: venv build.stamp
 clean:
 	rm -rf venv
 	rm -rf sources/master_ufo
+	rm -rf sources/designspace/instance_UFO
 	find -iname "*.pyc" -delete
