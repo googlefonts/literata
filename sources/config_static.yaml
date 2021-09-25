@@ -1,0 +1,4 @@
+sources:
+  - designspace/LiterataStatic.designspace
+  - designspace/LiterataStatic-Italic.designspace
+buildVariable: False
