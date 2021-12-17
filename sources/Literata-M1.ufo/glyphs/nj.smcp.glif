@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="nj.smcp" format="2">
-	<advance width="1194"/>
-	<outline>
-		<component base="n.smcp"/>
-		<component base="j.smcp" xOffset="706"/>
-	</outline>
-</glyph>

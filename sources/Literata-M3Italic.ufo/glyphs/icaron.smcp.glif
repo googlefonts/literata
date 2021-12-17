@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="icaron.smcp" format="2">
-	<advance width="290"/>
-	<outline>
-		<component base="i.smcp"/>
-		<component base="caroncomb" xOffset="155" yOffset="33"/>
-	</outline>
-</glyph>

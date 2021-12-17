@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="bullet" format="2">
-	<unicode hex="2022"/>
-	<advance width="343"/>
-	<outline>
-		<component base="period" xScale="1.4" yScale="1.4" xOffset="-56" yOffset="225"/>
-	</outline>
-</glyph>

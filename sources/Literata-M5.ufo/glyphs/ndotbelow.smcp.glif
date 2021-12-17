@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ndotbelow.smcp" format="2">
-	<advance width="645"/>
-	<outline>
-		<component base="n.smcp"/>
-		<component base="dotbelowcomb" xOffset="315"/>
-	</outline>
-</glyph>

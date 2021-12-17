@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="odblgrave.smcp" format="2">
-	<advance width="599"/>
-	<outline>
-		<component base="o.smcp"/>
-		<component base="dblgravecomb" xOffset="294" yOffset="33"/>
-	</outline>
-</glyph>

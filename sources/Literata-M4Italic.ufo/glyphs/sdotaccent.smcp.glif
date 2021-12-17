@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="sdotaccent.smcp" format="2">
-	<advance width="611"/>
-	<outline>
-		<component base="s.smcp"/>
-		<component base="dotaccentcomb" xOffset="316" yOffset="33"/>
-	</outline>
-</glyph>

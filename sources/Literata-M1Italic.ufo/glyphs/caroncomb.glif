@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="caroncomb" format="2">
-	<unicode hex="030C"/>
-	<outline>
-		<component base="caron" xOffset="-260"/>
-	</outline>
-	<anchor name="_top" x="10" y="550"/>
-</glyph>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="oinvertedbreve.smcp" format="2">
-	<advance width="697"/>
-	<outline>
-		<component base="o.smcp"/>
-		<component base="breveinvertedcomb" xOffset="349" yOffset="33"/>
-	</outline>
-</glyph>

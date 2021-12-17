@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="rdotbelowmacron.smcp" format="2">
-	<advance width="561"/>
-	<outline>
-		<component base="r.smcp"/>
-		<component base="dotbelowcomb" xOffset="284"/>
-		<component base="macroncomb" xOffset="258" yOffset="33"/>
-	</outline>
-</glyph>

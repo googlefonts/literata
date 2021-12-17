@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="gtilde" format="2">
-	<advance width="672"/>
-	<outline>
-		<component base="g"/>
-		<component base="tilde" xOffset="47" yOffset="5"/>
-	</outline>
-</glyph>

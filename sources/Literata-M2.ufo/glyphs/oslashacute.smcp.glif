@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="oslashacute.smcp" format="2">
-	<advance width="634"/>
-	<outline>
-		<component base="oslash.smcp"/>
-		<component base="acutecomb" xOffset="313" yOffset="33"/>
-	</outline>
-</glyph>
