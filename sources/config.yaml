@@ -3,6 +3,7 @@ sources:
   - Literata-Italic.glyphs
 buildOTF: False
 axisOrder:
+  - opsz
   - wght
   - ital
 familyName: "Literata"
