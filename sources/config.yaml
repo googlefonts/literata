@@ -1,6 +1,7 @@
 sources:
   - Literata.glyphs
   - Literata-Italic.glyphs
+buildOTF: False
 axisOrder:
   - wght
   - ital
