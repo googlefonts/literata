@@ -1,8 +1,8 @@
 sources:
   - Literata.glyphs
   - Literata-Italic.glyphs
-buildOTF: False
-buildStatic: False
+buildOTF: false
+buildStatic: true
 axisOrder:
   - opsz
   - wght
