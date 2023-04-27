@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="otilde.smcp" format="2">
-	<advance width="702"/>
-	<outline>
-		<component base="o.smcp"/>
-		<component base="tildecomb" xOffset="352" yOffset="33"/>
-	</outline>
-</glyph>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="IJacute" format="2">
-	<advance width="864"/>
-	<outline>
-		<component base="Iacute"/>
-		<component base="J" xOffset="360"/>
-		<component base="acute.case" xOffset="469" yOffset="-8"/>
-	</outline>
-</glyph>

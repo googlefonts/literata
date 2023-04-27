@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="tlinebelow.smcp" format="2">
-	<advance width="588"/>
-	<outline>
-		<component base="t.smcp"/>
-		<component base="macronbelowcomb" xOffset="296"/>
-	</outline>
-</glyph>
