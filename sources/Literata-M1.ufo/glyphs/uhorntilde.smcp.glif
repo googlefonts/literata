@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uhorntilde.smcp" format="2">
-	<advance width="811"/>
-	<outline>
-		<component base="uhorn.smcp"/>
-		<component base="tildecomb" xOffset="383" yOffset="45"/>
-	</outline>
-</glyph>

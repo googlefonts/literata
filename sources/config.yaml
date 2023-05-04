@@ -1,0 +1,89 @@
+sources:
+  - Literata.glyphs
+  - Literata-Italic.glyphs
+buildOTF: false
+buildStatic: true
+axisOrder:
+  - opsz
+  - wght
+  - ital
+familyName: "Literata"
+stat:
+    Literata[opsz,wght].ttf:
+    - name: Optical Size
+      tag: opsz
+      values:
+      - name: 7pt
+        value: 7
+      - name: 12pt
+        value: 12
+      - name: 36pt
+        value: 36
+      - name: 72pt
+        value: 72
+    - name: Weight
+      tag: wght
+      values:
+      - name: ExtraLight
+        value: 200
+      - name: Light
+        value: 300
+      - name: Regular
+        value: 400
+        linkedValue: 700
+        flags: 2
+      - name: Medium
+        value: 500
+      - name: SemiBold
+        value: 600
+      - name: Bold
+        value: 700
+      - name: ExtraBold
+        value: 800
+      - name: Black
+        value: 900
+    - name: Italic
+      tag: ital
+      values:
+      - name: Roman
+        value: 0
+        linkedValue: 1
+        flags: 2
+    Literata-Italic[opsz,wght].ttf:
+    - name: Optical Size
+      tag: opsz
+      values:
+      - name: 7pt
+        value: 7
+      - name: 12pt
+        value: 12
+      - name: 36pt
+        value: 36
+      - name: 72pt
+        value: 72
+    - name: Weight
+      tag: wght
+      values:
+      - name: ExtraLight
+        value: 200
+      - name: Light
+        value: 300
+      - name: Regular
+        value: 400
+        linkedValue: 700
+        flags: 2
+      - name: Medium
+        value: 500
+      - name: SemiBold
+        value: 600
+      - name: Bold
+        value: 700
+      - name: ExtraBold
+        value: 800
+      - name: Black
+        value: 900
+    - name: Italic
+      tag: ital
+      values:
+      - name: Italic
+        value: 1

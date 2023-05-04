@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uhorndotbelow.smcp" format="2">
-	<advance width="736"/>
-	<outline>
-		<component base="uhorn.smcp"/>
-		<component base="dotbelowcomb" xOffset="349"/>
-	</outline>
-</glyph>

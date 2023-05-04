@@ -1,0 +1,405 @@
+# Literata3 features
+
+# -------------
+# CLASSES
+# -------------
+
+# LETTERS
+@Letters_UPPERCASE = [ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z ] ;
+@Letters_UPPERCASE_ADD = [ AE Eth IJ Eng OE Thorn Germandbls ] ;
+@Letters_UPPERCASE_ACCENTED = [ Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde Cacute Ccaron Ccedilla Ccircumflex Cdotaccent Dcaron Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek Gbreve Gcircumflex Gcommaaccent Gdotaccent Hcircumflex Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde IJacute Jcircumflex Kcommaaccent Lacute Lcaron Lcommaaccent Ldot Nacute Ncaron Ncommaaccent Ntilde Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Otilde Racute Rcaron Rcommaaccent Sacute Scaron Scedilla Scircumflex Scommaaccent Tcaron Tcedilla Tcommaaccent Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde Wacute Wcircumflex Wdieresis Wgrave Yacute Ycircumflex Ydieresis Ygrave Zacute Zcaron Zdotaccent ] ;
+@Letters_UPPERCASE_ACCENTED_ADD = [ AEacute Dcroat Hbar Lslash Oslash Tbar ] ;
+@Letters_UPPERCASE_EXTRA = [ Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adblgrave Adotbelow Ahookabove Ainvertedbreve Aringacute Ccedillaacute Ddotbelow Dlinebelow Dzcaron Ecedillabreve Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edblgrave Edotbelow Ehookabove Einvertedbreve Emacronacute Emacrongrave Etilde Gcaron Gmacron Gtilde Hbrevebelow Hdotbelow Icaron Idblgrave Idieresisacute Idotbelow Ihookabove Iinvertedbreve Ldotbelow Ldotbelowmacron Llinebelow Mdotbelow Ndotaccent Ndotbelow Nlinebelow Nj Ocaron Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odblgrave Odieresismacron Odotaccentmacron Odotbelow Ohookabove Oinvertedbreve Omacronacute Omacrongrave Oogonek Oslashacute Otildeacute Otildedieresis Otildemacron Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Rdblgrave Rdotbelow Rdotbelowmacron Rinvertedbreve Rlinebelow Sacutedotaccent Scarondotaccent Sdotaccent Sdotbelow Sdotbelowdotaccent Tdotbelow Tlinebelow Ucaron Udblgrave Udieresisacute Udieresiscaron Udieresisgrave Udieresismacron Udotbelow Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uinvertedbreve Umacrondieresis Utildeacute Ydotaccent Ydotbelow Yhookabove Ymacron Ytilde Zdotbelow Schwa ] ;
+@Letters_UPPERCASE_CYR = [ A-cy Be-cy Ve-cy Ge-cy De-cy Ie-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Ka-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ef-cy Ha-cy Tse-cy Che-cy Sha-cy Shcha-cy Hardsign-cy Yeru-cy Softsign-cy Ereversed-cy Iu-cy Ia-cy A_acute-cy A_grave-cy Gje-cy Gheupturn-cy Ghestroke-cy Ie_acute-cy Ie_grave-cy Io-cy E-cy E_acute-cy Zhedescender-cy Ii_acute-cy Iigrave-cy Kje-cy Kadescender-cy Lje-cy Endescender-cy Nje-cy Yat-cy Yusbig-cy O_acute-cy O_grave-cy Obarred-cy U_acute-cy U_grave-cy Ustraight-cy Ushort-cy Ustraitstroke-cy Yeru_acute-cy Dze-cy Dzhe-cy I-cy I_acute-cy Yi-cy Yi_acute-cy Je-cy Dje-cy Tshe-cy Shha-cy Hardsign_grave-cy Ereversed_acute-cy Iu_acute-cy Iu_grave-cy Ia_acute-cy Ia_grave-cy Schwa-cy ] ;
+@Letters_UPPERCASE_GRK = [ Alpha Beta Gamma Delta Epsilon Zeta Eta Theta Iota Kappa Lambda Mu Nu Xi Omicron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omega Alphatonos Epsilontonos Etatonos Iotatonos Iotadieresis Omicrontonos Upsilontonos Upsilondieresis Omegatonos ] ;
+@Letters_UPPERCASE_ALL = [ @Letters_UPPERCASE @Letters_UPPERCASE_ADD @Letters_UPPERCASE_ACCENTED @Letters_UPPERCASE_ACCENTED_ADD @Letters_UPPERCASE_EXTRA @Letters_UPPERCASE_CYR @Letters_UPPERCASE_GRK ] ;
+
+@Letters_LOWERCASE = [ a b c d e f g h i j k l m n o p q r s t u v w x y z ] ;
+@Letters_LOWERCASE_ADD = [ ae eth ij eng oe thorn germandbls ] ;
+@Letters_LOWERCASE_ACCENTED = [ aacute abreve acircumflex adieresis agrave amacron aogonek aring atilde cacute ccaron ccedilla ccircumflex cdotaccent dcaron eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eogonek gbreve gcircumflex gcommaaccent gdotaccent hcircumflex iacute ibreve icircumflex idieresis idotaccent igrave imacron iogonek itilde ijacute jcircumflex kcommaaccent lacute lcaron lcommaaccent ldot nacute ncaron ncommaaccent ntilde oacute obreve ocircumflex odieresis ograve ohungarumlaut omacron otilde racute rcaron rcommaaccent sacute scaron scedilla scircumflex scommaaccent tcaron tcedilla tcommaaccent uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde wacute wcircumflex wdieresis wgrave yacute ycircumflex ydieresis ygrave zacute zcaron zdotaccent ] ;
+@Letters_LOWERCASE_ACCENTED_ADD = [ aeacute dcroat hbar lslash oslash tbar ] ;
+@Letters_LOWERCASE_EXTRA = [ abreveacute abrevedotbelow abrevegrave abrevehookabove abrevetilde acaron acircumflexacute acircumflexdotbelow acircumflexgrave acircumflexhookabove acircumflextilde adblgrave adotbelow ahookabove ainvertedbreve aringacute ccedillaacute ddotbelow dlinebelow dzcaron ecedillabreve ecircumflexacute ecircumflexdotbelow ecircumflexgrave ecircumflexhookabove ecircumflextilde edblgrave edotbelow ehookabove einvertedbreve emacronacute emacrongrave etilde gcaron gmacron gtilde hbrevebelow hdotbelow icaron idblgrave idieresisacute idotbelow ihookabove iinvertedbreve ldotbelow ldotbelowmacron llinebelow mdotbelow ndotaccent ndotbelow nlinebelow nj ocaron ocircumflexacute ocircumflexdotbelow ocircumflexgrave ocircumflexhookabove ocircumflextilde odblgrave odieresismacron odotaccentmacron odotbelow ohookabove oinvertedbreve omacronacute omacrongrave oogonek oslashacute otildeacute otildedieresis otildemacron ohorn ohornacute ohorndotbelow ohorngrave ohornhookabove ohorntilde rdblgrave rdotbelow rdotbelowmacron rinvertedbreve rlinebelow sacutedotaccent scarondotaccent sdotaccent sdotbelow sdotbelowdotaccent tdotbelow tlinebelow ucaron udblgrave udieresisacute udieresiscaron udieresisgrave udieresismacron udotbelow uhookabove uhorn uhornacute uhorndotbelow uhorngrave uhornhookabove uhorntilde uinvertedbreve umacrondieresis utildeacute ydotaccent ydotbelow yhookabove ymacron ytilde zdotbelow schwa ] ;
+@Letters_LOWERCASE_CYR = [ a-cy be-cy ve-cy ge-cy de-cy ie-cy zhe-cy ze-cy ii-cy iishort-cy ka-cy el-cy em-cy en-cy o-cy pe-cy er-cy es-cy te-cy u-cy ef-cy ha-cy tse-cy che-cy sha-cy shcha-cy hardsign-cy yeru-cy softsign-cy ereversed-cy iu-cy ia-cy a_acute-cy a_grave-cy gje-cy gheupturn-cy ghestroke-cy ie_acute-cy ie_grave-cy io-cy e-cy e_acute-cy zhedescender-cy ii_acute-cy iigrave-cy kje-cy kadescender-cy lje-cy endescender-cy nje-cy yat-cy yusbig-cy o_acute-cy o_grave-cy obarred-cy u_acute-cy u_grave-cy ustraight-cy ushort-cy ustraitstroke-cy yeru_acute-cy dze-cy dzhe-cy i-cy i_acute-cy yi-cy yi_acute-cy je-cy dje-cy tshe-cy shha-cy hardsign_grave-cy ereversed_acute-cy iu_acute-cy iu_grave-cy ia_acute-cy ia_grave-cy schwa-cy ] ;
+@Letters_LOWERCASE_GRK = [ alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega alphatonos epsilontonos etatonos iotatonos iotadieresis omicrontonos upsilontonos upsilondieresis omegatonos ] ;
+
+@Letters_SMALLCAPS = [ a.smcp b.smcp c.smcp d.smcp e.smcp f.smcp g.smcp h.smcp i.smcp j.smcp k.smcp l.smcp m.smcp n.smcp o.smcp p.smcp q.smcp r.smcp s.smcp t.smcp u.smcp v.smcp w.smcp x.smcp y.smcp z.smcp ] ;
+@Letters_SMALLCAPS_ADD = [ ae.smcp eth.smcp ij.smcp eng.smcp oe.smcp thorn.smcp germandbls.smcp ] ;
+@Letters_SMALLCAPS_ACCENTED = [ aacute.smcp abreve.smcp acircumflex.smcp adieresis.smcp agrave.smcp amacron.smcp aogonek.smcp aring.smcp atilde.smcp cacute.smcp ccaron.smcp ccedilla.smcp ccircumflex.smcp cdotaccent.smcp dcaron.smcp eacute.smcp ebreve.smcp ecaron.smcp ecircumflex.smcp edieresis.smcp edotaccent.smcp egrave.smcp emacron.smcp eogonek.smcp gbreve.smcp gcircumflex.smcp gcommaaccent.smcp gdotaccent.smcp hcircumflex.smcp iacute.smcp ibreve.smcp icircumflex.smcp idieresis.smcp idotaccent.smcp igrave.smcp imacron.smcp iogonek.smcp itilde.smcp ijacute.smcp jcircumflex.smcp kcommaaccent.smcp lacute.smcp lcaron.smcp lcommaaccent.smcp ldot.smcp nacute.smcp ncaron.smcp ncommaaccent.smcp ntilde.smcp oacute.smcp obreve.smcp ocircumflex.smcp odieresis.smcp ograve.smcp ohungarumlaut.smcp omacron.smcp otilde.smcp racute.smcp rcaron.smcp rcommaaccent.smcp sacute.smcp scaron.smcp scedilla.smcp scircumflex.smcp scommaaccent.smcp tcaron.smcp tcedilla.smcp tcommaaccent.smcp uacute.smcp ubreve.smcp ucircumflex.smcp udieresis.smcp ugrave.smcp uhungarumlaut.smcp umacron.smcp uogonek.smcp uring.smcp utilde.smcp wacute.smcp wcircumflex.smcp wdieresis.smcp wgrave.smcp yacute.smcp ycircumflex.smcp ydieresis.smcp ygrave.smcp zacute.smcp zcaron.smcp zdotaccent.smcp ] ;
+@Letters_SMALLCAPS_ACCENTED_ADD = [ aeacute.smcp dcroat.smcp hbar.smcp lslash.smcp oslash.smcp tbar.smcp ] ;
+@Letters_SMALLCAPS_ACCENTED_EXTRA = [ abreveacute.smcp abrevedotbelow.smcp abrevegrave.smcp abrevehookabove.smcp abrevetilde.smcp acaron.smcp acircumflexacute.smcp acircumflexdotbelow.smcp acircumflexgrave.smcp acircumflexhookabove.smcp acircumflextilde.smcp adblgrave.smcp adotbelow.smcp ahookabove.smcp ainvertedbreve.smcp aringacute.smcp ccedillaacute.smcp ddotbelow.smcp dlinebelow.smcp dzcaron.smcp ecedillabreve.smcp ecircumflexacute.smcp ecircumflexdotbelow.smcp ecircumflexgrave.smcp ecircumflexhookabove.smcp ecircumflextilde.smcp edblgrave.smcp edotbelow.smcp ehookabove.smcp einvertedbreve.smcp emacronacute.smcp emacrongrave.smcp etilde.smcp gcaron.smcp gmacron.smcp gtilde.smcp hbrevebelow.smcp hdotbelow.smcp icaron.smcp idblgrave.smcp idieresisacute.smcp idotbelow.smcp ihookabove.smcp iinvertedbreve.smcp ldotbelow.smcp ldotbelowmacron.smcp llinebelow.smcp mdotbelow.smcp ndotaccent.smcp ndotbelow.smcp nlinebelow.smcp nj.smcp ocaron.smcp ocircumflexacute.smcp ocircumflexdotbelow.smcp ocircumflexgrave.smcp ocircumflexhookabove.smcp ocircumflextilde.smcp odblgrave.smcp odieresismacron.smcp odotaccentmacron.smcp odotbelow.smcp ohookabove.smcp oinvertedbreve.smcp omacronacute.smcp omacrongrave.smcp oogonek.smcp oslashacute.smcp otildeacute.smcp otildedieresis.smcp otildemacron.smcp ohorn.smcp ohornacute.smcp ohorndotbelow.smcp ohorngrave.smcp ohornhookabove.smcp ohorntilde.smcp rdblgrave.smcp rdotbelow.smcp rdotbelowmacron.smcp rinvertedbreve.smcp rlinebelow.smcp sacutedotaccent.smcp scarondotaccent.smcp sdotaccent.smcp sdotbelow.smcp sdotbelowdotaccent.smcp tdotbelow.smcp tlinebelow.smcp ucaron.smcp udblgrave.smcp udieresisacute.smcp udieresiscaron.smcp udieresisgrave.smcp udieresismacron.smcp udotbelow.smcp uhookabove.smcp uhorn.smcp uhornacute.smcp uhorndotbelow.smcp uhorngrave.smcp uhornhookabove.smcp uhorntilde.smcp uinvertedbreve.smcp umacrondieresis.smcp utildeacute.smcp ydotaccent.smcp ydotbelow.smcp yhookabove.smcp ymacron.smcp ytilde.smcp zdotbelow.smcp schwa.smcp ] ;
+@Letters_SMALLCAPS_CYR = [ a-cy.smcp be-cy.smcp ve-cy.smcp ge-cy.smcp de-cy.smcp ie-cy.smcp zhe-cy.smcp ze-cy.smcp ii-cy.smcp iishort-cy.smcp ka-cy.smcp el-cy.smcp em-cy.smcp en-cy.smcp o-cy.smcp pe-cy.smcp er-cy.smcp es-cy.smcp te-cy.smcp u-cy.smcp ef-cy.smcp ha-cy.smcp tse-cy.smcp che-cy.smcp sha-cy.smcp shcha-cy.smcp hardsign-cy.smcp yeru-cy.smcp softsign-cy.smcp ereversed-cy.smcp iu-cy.smcp ia-cy.smcp a_acute-cy.smcp a_grave-cy.smcp gje-cy.smcp gheupturn-cy.smcp ghestroke-cy.smcp ie_acute-cy.smcp ie_grave-cy.smcp io-cy.smcp e-cy.smcp e_acute-cy.smcp zhedescender-cy.smcp ii_acute-cy.smcp iigrave-cy.smcp kje-cy.smcp kadescender-cy.smcp lje-cy.smcp endescender-cy.smcp nje-cy.smcp yat-cy.smcp yusbig-cy.smcp o_acute-cy.smcp o_grave-cy.smcp obarred-cy.smcp u_acute-cy.smcp u_grave-cy.smcp ustraight-cy.smcp ushort-cy.smcp ustraitstroke-cy.smcp yeru_acute-cy.smcp dze-cy.smcp dzhe-cy.smcp i-cy.smcp i_acute-cy.smcp yi-cy.smcp yi_acute-cy.smcp je-cy.smcp dje-cy.smcp tshe-cy.smcp shha-cy.smcp hardsign_grave-cy.smcp ereversed_acute-cy.smcp iu_acute-cy.smcp iu_grave-cy.smcp ia_acute-cy.smcp ia_grave-cy.smcp schwa-cy.smcp ] ;
+@Letters_SMALLCAPS_GRK = [ alpha.smcp beta.smcp gamma.smcp delta.smcp epsilon.smcp zeta.smcp eta.smcp theta.smcp iota.smcp kappa.smcp lambda.smcp mu.smcp nu.smcp xi.smcp omicron.smcp pi.smcp rho.smcp sigma.smcp tau.smcp upsilon.smcp phi.smcp chi.smcp psi.smcp omega.smcp alphatonos.smcp epsilontonos.smcp etatonos.smcp iotatonos.smcp iotadieresis.smcp omicrontonos.smcp upsilontonos.smcp upsilondieresis.smcp omegatonos.smcp ] ;
+
+# DIGITS
+@Figures = [ zero one two three four five six seven eight nine ] ;
+@Figures_OLDSTYLE = [ zero.osf one.osf two.osf three.osf four.osf five.osf six.osf seven.osf eight.osf nine.osf ] ;
+@Figures_TABULAR = [ zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf ] ;
+
+@Figures_NUMERATORS = [ zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr ] ;
+@Figures_DENOMINATORS = [ zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom ] ;
+@Figures_SUPERIORS = [ zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior ] ;
+@Figures_INFERIORS = [ zeroinferior oneinferior twoinferior threeinferior fourinferior fiveinferior sixinferior seveninferior eightinferior nineinferior ] ;
+
+# CURRENCY
+@Currency = [ dollar euro cent sterling yen florin liraTurkish ] ;
+@Currency_OLDSTYLE = [ dollar.osf euro.osf cent.osf sterling.osf yen.osf florin.osf liraTurkish.osf ] ;
+
+# PUNCTUATION
+@Punctuation_CASE_source = [ hyphen at exclamdown questiondown ] ;
+@Punctuation_CASE = [ hyphen.case at.case exclamdown.case questiondown.case  ] ;
+@Punctuation_CASE_GPOS = [ parenleft parenright braceleft braceright bracketleft bracketright guillemetleft guillemetright guilsinglleft guilsinglright endash emdash ] ;
+
+@Punctuation_SMALLCAPS_source = [ exclam exclamdown question questiondown quotesingle quotedbl ampersand at periodcentered quoteleft quoteright quotedblleft quotedblright asterisk ] ;
+@Punctuation_SMALLCAPS = [ exclam.smcp exclamdown.smcp question.smcp questiondown.smcp quotesingle.smcp quotedbl.smcp ampersand.smcp at.smcp periodcentered.smcp quoteleft.smcp quoteright.smcp quotedblleft.smcp quotedblright.smcp asterisk.smcp ] ;
+
+@Punctuation_SMALLFIGURES_source = [ plus minus equal parenleft parenright hyphen comma period ] ;
+
+
+# Stylistic CLASSES
+@ss01_source = [ Alphaprosgegrammeni Alphapsiliprosgegrammeni Alphadasiaprosgegrammeni Alphapsilivariaprosgegrammeni Alphadasiavariaprosgegrammeni Alphapsilioxiaprosgegrammeni Alphadasiaoxiaprosgegrammeni Alphapsiliperispomeniprosgegrammeni Alphadasiaperispomeniprosgegrammeni Etaprosgegrammeni Etapsiliprosgegrammeni Etadasiaprosgegrammeni Etapsilivariaprosgegrammeni Etadasiavariaprosgegrammeni Etapsilioxiaprosgegrammeni Etadasiaoxiaprosgegrammeni Etapsiliperispomeniprosgegrammeni Etadasiaperispomeniprosgegrammeni Omegaprosgegrammeni Omegapsiliprosgegrammeni Omegadasiaprosgegrammeni Omegapsilivariaprosgegrammeni Omegadasiavariaprosgegrammeni Omegapsilioxiaprosgegrammeni Omegadasiaoxiaprosgegrammeni Omegapsiliperispomeniprosgegrammeni Omegadasiaperispomeniprosgegrammeni ] ;
+@ss01_target = [ Alphaprosgegrammeni.ad Alphapsiliprosgegrammeni.ad Alphadasiaprosgegrammeni.ad Alphapsilivariaprosgegrammeni.ad Alphadasiavariaprosgegrammeni.ad Alphapsilioxiaprosgegrammeni.ad Alphadasiaoxiaprosgegrammeni.ad Alphapsiliperispomeniprosgegrammeni.ad Alphadasiaperispomeniprosgegrammeni.ad Etaprosgegrammeni.ad Etapsiliprosgegrammeni.ad Etadasiaprosgegrammeni.ad Etapsilivariaprosgegrammeni.ad Etadasiavariaprosgegrammeni.ad Etapsilioxiaprosgegrammeni.ad Etadasiaoxiaprosgegrammeni.ad Etapsiliperispomeniprosgegrammeni.ad Etadasiaperispomeniprosgegrammeni.ad Omegaprosgegrammeni.ad Omegapsiliprosgegrammeni.ad Omegadasiaprosgegrammeni.ad Omegapsilivariaprosgegrammeni.ad Omegadasiavariaprosgegrammeni.ad Omegapsilioxiaprosgegrammeni.ad Omegadasiaoxiaprosgegrammeni.ad Omegapsiliperispomeniprosgegrammeni.ad Omegadasiaperispomeniprosgegrammeni.ad ] ;
+
+@ss02_source = [ a b c d e f g h i j k l m n o p ] ;
+@ss02_target = [ leftArrow upArrow rightArrow downArrow blackSquare whiteSquare leftBlackTriangle upBlackTriangle rightBlackTriangle downBlackTriangle leftWhiteTriangle upWhiteTriangle rightWhiteTriangle downWhiteTriangle blackDiamond whiteDiamond ] ;
+
+
+# # -------------
+# # FEATURES
+# # -------------
+
+# Manual Alternates
+feature aalt {
+	feature locl ;
+	feature numr ;
+	feature dnom ;
+	feature sups ;
+	feature subs ;
+	feature sinf ;
+	feature ordn ;
+	feature lnum ;
+	feature onum ;
+	feature pnum ;
+	feature tnum ;
+	feature ss01 ;
+} aalt;
+
+
+# --------------------------------------------------------------
+# NOTE: This feature is generated in Glyphs.app
+# --------------------------------------------------------------
+feature ccmp {
+	@Uppercase = [ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z AE Eth IJ LJ Eng OE Thorn Germandbls Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adblgrave Adotbelow Ahookabove Ainvertedbreve Aringacute AEacute Cacute Ccaron Ccedilla Ccircumflex Cdotaccent Ccedillaacute Dcaron Dcroat Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek Ddotbelow Dlinebelow DZcaron Dzcaron Ecedillabreve Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edblgrave Edotbelow Ehookabove Einvertedbreve Emacronacute Emacrongrave Etilde Gbreve Gcircumflex Gcommaaccent Gdotaccent Gcaron Gmacron Hbar Hcircumflex Hbrevebelow Hdotbelow Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde Icaron Idblgrave Idieresisacute Idotbelow Ihookabove Iinvertedbreve Jcircumflex Kcommaaccent Lacute Lcaron Lcommaaccent Ldot Lslash Ldotbelow Ldotbelowmacron Llinebelow Lj Mdotbelow Nacute Ncaron Ncommaaccent Ntilde Ndotaccent Ndotbelow Nlinebelow NJ Nj Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde Ocaron Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odblgrave Odieresismacron Odotaccentmacron Odotbelow Ohookabove Oinvertedbreve Omacronacute Omacrongrave Oogonek Oslashacute Otildeacute Otildedieresis Otildemacron Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Racute Rcaron Rcommaaccent Rdblgrave Rdotbelow Rdotbelowmacron Rinvertedbreve Rlinebelow Sacute Scaron Scedilla Scircumflex Scommaaccent Sacutedotaccent Scarondotaccent Schwa Sdotaccent Sdotbelow Sdotbelowdotaccent Tbar Tcaron Tcedilla Tcommaaccent Tdotbelow Tlinebelow Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde Ucaron Udblgrave Udieresisacute Udieresiscaron Udieresisgrave Udieresismacron Udotbelow Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uinvertedbreve Umacrondieresis Utildeacute Wacute Wcircumflex Wdieresis Wgrave Yacute Ycircumflex Ydieresis Ygrave Ydotaccent Ydotbelow Yhookabove Ymacron Ytilde Zacute Zcaron Zdotaccent Zdotbelow ] ;
+	lookup ccmp_Other_1 {
+		@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+		@CombiningNonTopAccents = [brevebelowcomb cedillacomb dieresisbelowcomb dotbelowcomb macronbelowcomb ogonekcomb horncomb];
+		sub [i j]' @CombiningTopAccents by [idotless jdotless];
+		sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
+		@Markscomb = [tilde ring circumflex acute grave dieresis caron macron dotaccent hungarumlaut breve dblgravecomb breveinvertedcomb];
+		@MarkscombCase = [tilde.case ring.case circumflex.case acute.case grave.case dieresis.case caron.case macron.case dotaccent.case hungarumlaut.case breve.case dblgravecomb.case breveinvertedcomb.case];
+		sub @Markscomb @Markscomb' by @MarkscombCase;
+		sub @Uppercase @Markscomb' by @MarkscombCase;
+	} ccmp_Other_1;
+
+	lookup ccmp_Other_2 {
+		sub @Markscomb' @MarkscombCase by @MarkscombCase;
+		sub @MarkscombCase @Markscomb' by @MarkscombCase;
+	} ccmp_Other_2;
+} ccmp;
+
+
+# Localized Forms
+feature locl {
+	script latn ;
+	# Latin
+	language AZE exclude_dflt ; # Azeri
+		lookup I_TRK {
+			sub [ i i.smcp] by [ idotaccent idotaccent.smcp ] ;
+		} I_TRK ;
+	language CAT exclude_dflt ; # Catalan
+		sub L' periodcentered' by Ldot ;
+		sub l' periodcentered' by ldot ;
+	language CRT  exclude_dflt ; # Crimean Tatar
+		lookup I_TRK ;
+	language MOL  exclude_dflt ; # Moldavian
+		lookup ST_CEDILLA {
+					sub [ Scedilla scedilla ] by [ Scommaaccent scommaaccent ] ;
+		sub [ Tcedilla tcedilla ] by [ Tcommaaccent tcommaaccent ] ;
+		} ST_CEDILLA ;
+	language NLD exclude_dflt ; # Dutch
+		sub i j by ij ;
+		sub I J by IJ ;
+		sub iacute j by ijacute ;
+		sub Iacute J by IJacute ;
+		sub Iacute J acutecomb by IJacute ;
+ 		sub iacute j acutecomb by ijacute ;
+	language ROM exclude_dflt ; # Romanian
+		lookup ST_CEDILLA ;
+	language TRK exclude_dflt ; # Turkish
+		lookup I_TRK ;
+} locl ;
+
+
+# Fractions
+feature frac {
+
+	lookup FractionBar {
+		ignore sub slash @Figures @Figures @Figures @Figures @Figures @Figures @Figures @Figures @Figures @Figures slash' ;
+		ignore sub slash' @Figures @Figures @Figures @Figures @Figures @Figures @Figures @Figures @Figures @Figures slash ;
+		ignore sub slash @Figures @Figures @Figures @Figures @Figures @Figures @Figures @Figures @Figures slash' ;
+		ignore sub slash' @Figures @Figures @Figures @Figures @Figures @Figures @Figures @Figures @Figures slash ;
+		ignore sub slash @Figures @Figures @Figures @Figures @Figures @Figures @Figures @Figures slash' ;
+		ignore sub slash' @Figures @Figures @Figures @Figures @Figures @Figures @Figures @Figures slash ;
+		ignore sub slash @Figures @Figures @Figures @Figures @Figures @Figures @Figures slash' ;
+		ignore sub slash' @Figures @Figures @Figures @Figures @Figures @Figures @Figures slash ;
+		ignore sub slash @Figures @Figures @Figures @Figures @Figures @Figures slash' ;
+		ignore sub slash' @Figures @Figures @Figures @Figures @Figures @Figures slash ;
+		ignore sub slash @Figures @Figures @Figures @Figures @Figures slash' ;
+		ignore sub slash' @Figures @Figures @Figures @Figures @Figures slash ;
+		ignore sub slash @Figures @Figures @Figures @Figures slash' ;
+		ignore sub slash' @Figures @Figures @Figures @Figures slash ;
+		ignore sub slash @Figures @Figures @Figures slash' ;
+		ignore sub slash' @Figures @Figures @Figures slash ;
+		ignore sub slash @Figures @Figures slash' ;
+		ignore sub slash' @Figures @Figures slash ;
+		ignore sub slash @Figures slash' ;
+		ignore sub slash' @Figures slash ;
+		ignore sub slash slash' ;
+		ignore sub slash' slash ;
+		sub @Figures slash' @Figures by fraction ;
+	} FractionBar ;
+
+	lookup Numerator1 {
+		sub @Figures' fraction by @Figures_NUMERATORS ;
+	} Numerator1 ;
+
+	lookup Numerator2 {
+		sub @Figures' @Figures_NUMERATORS fraction by @Figures_NUMERATORS ;
+	} Numerator2 ;
+
+	lookup Numerator3 {
+		sub @Figures' @Figures_NUMERATORS @Figures_NUMERATORS fraction by @Figures_NUMERATORS ;
+	} Numerator3 ;
+
+	lookup Numerator4 {
+		sub @Figures' @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS fraction by @Figures_NUMERATORS ;
+	} Numerator4 ;
+
+	lookup Numerator5 {
+		sub @Figures' @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS fraction by @Figures_NUMERATORS ;
+	} Numerator5 ;
+
+	lookup Numerator6 {
+		sub @Figures' @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS fraction by @Figures_NUMERATORS ;
+	} Numerator6 ;
+
+	lookup Numerator7 {
+		sub @Figures' @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS fraction by @Figures_NUMERATORS ;
+	} Numerator7 ;
+
+	lookup Numerator8 {
+		sub @Figures' @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS fraction by @Figures_NUMERATORS ;
+	} Numerator8 ;
+
+	lookup Numerator9 {
+		sub @Figures' @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS fraction by @Figures_NUMERATORS ;
+	} Numerator9 ;
+
+	lookup Numerator10 {
+		sub @Figures' @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS @Figures_NUMERATORS fraction by @Figures_NUMERATORS ;
+	} Numerator10 ;
+
+	lookup Denominator {
+		sub [fraction @Figures_DENOMINATORS] @Figures' by @Figures_DENOMINATORS ;
+	} Denominator ;
+
+	lookup PREBUILT {
+		sub one.numr fraction two.dnom by onehalf ;
+		sub one.numr fraction three.dnom by onethird ;
+		sub two.numr fraction three.dnom by twothirds ;
+		sub one.numr fraction four.dnom by onequarter ;
+		sub three.numr fraction four.dnom by threequarters ;
+		sub one.numr fraction eight.dnom by oneeighth ;
+		sub three.numr fraction eight.dnom by threeeighths ;
+		sub five.numr fraction eight.dnom by fiveeighths ;
+		sub seven.numr fraction eight.dnom by seveneighths ;
+	} PREBUILT ;
+	# thinspace
+	sub @Figures space' @Figures_NUMERATORS by thinspace ;
+} frac ;
+
+
+# NUMERATORS
+feature numr {
+	sub @Figures by @Figures_NUMERATORS ;
+} numr ;
+
+
+# DENOMINATORS
+feature dnom {
+	sub @Figures by @Figures_DENOMINATORS ;
+} dnom ;
+
+
+# Superscripts
+feature sups {
+	sub @Figures by @Figures_SUPERIORS ;
+	sub [parenleft parenright ] by [ parenleftsuperior parenrightsuperior ];
+} sups ;
+
+
+# Subscripts
+feature subs {
+	lookup INFERIORS {
+		sub @Figures by @Figures_INFERIORS ;
+		sub [parenleft parenright ] by [ parenleftinferior parenrightinferior ];
+	} INFERIORS;
+} subs ;
+
+
+# Scientific Inferiors
+feature sinf {
+	lookup INFERIORS ;
+} sinf ;
+
+
+# Lining Figures
+feature lnum {
+	sub @Figures_OLDSTYLE by @Figures ;
+	sub @Currency_OLDSTYLE by @Currency ;
+} lnum ;
+
+
+# Proportional figures
+feature pnum {
+	sub @Figures_TABULAR by @Figures ;
+} pnum;
+
+
+# Old Style figures
+feature onum {
+	sub @Figures by @Figures_OLDSTYLE ;
+	sub @Currency by @Currency_OLDSTYLE ;
+} onum ;
+
+
+# Tabular figures
+feature tnum {
+	sub @Figures by @Figures_TABULAR ;
+} tnum ;
+
+
+# Ordinals
+feature ordn {
+	sub N o period by numero ;
+	sub [ a o n ] by [ ordfeminine ordmasculine nmod ] ;
+} ordn ;
+
+
+# Small Caps
+feature smcp {
+	sub @Letters_LOWERCASE by @Letters_SMALLCAPS ;
+	sub @Letters_LOWERCASE_ADD by @Letters_SMALLCAPS_ADD ;
+	sub @Letters_LOWERCASE_ACCENTED by @Letters_SMALLCAPS_ACCENTED ;
+	sub @Letters_LOWERCASE_ACCENTED_ADD by @Letters_SMALLCAPS_ACCENTED_ADD ;
+	sub @Letters_LOWERCASE_EXTRA by @Letters_SMALLCAPS_ACCENTED_EXTRA ;
+	sub @Letters_LOWERCASE_CYR by @Letters_SMALLCAPS_CYR ;
+	sub @Letters_LOWERCASE_GRK by @Letters_SMALLCAPS_GRK ;
+	# not in uppercase
+	sub napostrophe by napostrophe.smcp ;
+	sub tdieresis by tdieresis.smcp ;
+
+	sub @Punctuation_SMALLCAPS_source  by @Punctuation_SMALLCAPS ;
+} smcp ;
+
+
+# Capitals to Small Caps
+feature c2sc {
+	sub @Letters_UPPERCASE by @Letters_SMALLCAPS ;
+	sub @Letters_UPPERCASE_ADD by @Letters_SMALLCAPS_ADD ;
+	sub @Letters_UPPERCASE_ACCENTED by @Letters_SMALLCAPS_ACCENTED ;
+	sub @Letters_UPPERCASE_ACCENTED_ADD by @Letters_SMALLCAPS_ACCENTED_ADD ;
+	sub @Letters_UPPERCASE_EXTRA by @Letters_SMALLCAPS_ACCENTED_EXTRA ;
+	sub @Letters_UPPERCASE_CYR by @Letters_SMALLCAPS_CYR ;
+	sub @Letters_UPPERCASE_GRK by @Letters_SMALLCAPS_GRK ;
+	sub @Punctuation_SMALLCAPS_source  by @Punctuation_SMALLCAPS ;
+} c2sc ;
+
+
+# Zero slash
+feature zero {
+	sub [ zero zero.tf ] by zeroslash.tf ;
+} zero ;
+
+
+# Case
+feature case {
+	sub @Letters_LOWERCASE by @Letters_UPPERCASE ;
+	sub @Letters_LOWERCASE_ADD by @Letters_UPPERCASE_ADD ;
+	sub @Letters_LOWERCASE_ACCENTED by @Letters_UPPERCASE_ACCENTED ;
+	sub @Letters_LOWERCASE_ACCENTED_ADD by @Letters_UPPERCASE_ACCENTED_ADD ;
+	sub @Letters_LOWERCASE_EXTRA by @Letters_UPPERCASE_EXTRA ;
+	sub @Letters_LOWERCASE_CYR by @Letters_UPPERCASE_CYR ;
+	sub @Letters_LOWERCASE_GRK by @Letters_UPPERCASE_GRK ;
+	sub @Figures_OLDSTYLE by @Figures ;
+	sub @Punctuation_CASE_source by @Punctuation_CASE ;
+
+	# positioning case punctuation
+	pos @Punctuation_CASE_GPOS <0 50 0 0> ;
+} case ;
+
+
+# Stylistic alternates
+feature salt {
+  sub @ss02_source by @ss02_target ;
+} salt ;
+
+
+# Stylistic alternates
+feature ss01 {
+	featureNames {
+		name "Adscript alternates" ; # Windows English
+		name 1 0 0 "Adscript alternates" ; # Mac English
+	};
+	sub @ss01_source by @ss01_target ;
+} ss01 ;
+
+feature ss02 {
+    featureNames {
+        name "Arrows and Geometric"; # Windows English
+        name 1 0 0 "Arrows and Geometric"; # Mac English
+    };
+    sub @ss02_source by @ss02_target ;
+} ss02 ;
+
+
+# Discretionary Ligatures
+feature dlig {
+	sub c h by c_h;
+	sub c t by c_t;
+	sub s t by s_t;
+} dlig ;
+
+
+# Standard Ligatures
+feature liga {
+	sub f f b by f_f_b ;
+	sub f f i by f_f_i ;
+	sub f f k by f_f_k ;
+	sub f f l by f_f_l ;
+	sub f f t by f_f_t ;
+	sub f b by f_b ;
+	sub f f by f_f ;
+	sub f h by f_h ;
+	sub f i by fi ;
+	sub f k by f_k ;
+	sub f l by fl ;
+	sub f t by f_t ;
+	sub f iacute by f_iacute ;
+	sub T h by T_h ;
+} liga ;
+
+
+# Capital spacing
+feature cpsp {
+	pos @Letters_UPPERCASE_ALL <10 0 10 0> ;
+} cpsp;

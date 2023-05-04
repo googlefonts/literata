@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="quotesingle.smcp" format="2">
-	<advance width="271"/>
-	<outline>
-		<component base="quotesingle" xOffset="-19" yOffset="-70"/>
-	</outline>
-</glyph>
