@@ -760311,7 +760311,6 @@ periodcentered.sc = -55;
 "@MMK_R_i" = 0;
 "@MMK_R_n" = 0;
 "@MMK_R_o" = -10;
-"@MMK_R_period" = -90;
 "@MMK_R_quoteleft" = -80;
 "@MMK_R_quoteright" = -66;
 "@MMK_R_quotesingle" = -30;
